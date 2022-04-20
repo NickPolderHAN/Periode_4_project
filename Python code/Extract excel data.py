@@ -33,7 +33,36 @@ def filter_file_data(file_contents):
 
 
 def store_file_data(lines_2d_list):
-    pass
+    """
+    Processes the given 2d_list and appends
+    these to a dictionary with he first item
+    from these lists as it's key.
+
+    :param lines_2d_list: List:
+                contains lists with file values
+                from the filter_file function.
+
+    :return: dataset_dictionary -> Dict:
+                a dictionary containing the 2d list it's contents
+                with the first item from these lists as it's key.
+    """
+
+    dataset_dictionary = {}
+
+    # loops through the lists in the 2d list
+    for list_item in lines_2d_list:
+        # takes the first item as a header and makes it
+        # into a dictionary key containing an empty list.
+        header = list_item[0]
+        dataset_dictionary[header] = []
+
+        # loops through the items in the given list and
+        # appends them to the dictionary of the given dictionary key.
+        for item in list_item:
+            if item != header:
+                dataset_dictionary[header].append(item)
+
+    return dataset_dictionary
 
 
 def main():
@@ -48,7 +77,10 @@ def main():
     # from the given file contents.
     lines_2d_list = filter_file_data(file_contents)
 
-    store_file_data(lines_2d_list)
+    # calls the function to process the given 2d_list and appends
+    # these to a dictionary with he first item from these lists as
+    # it's key.
+    dataset_dict = store_file_data(lines_2d_list)
 
 
 main()
