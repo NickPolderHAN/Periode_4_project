@@ -16,22 +16,23 @@ def filter_file_data(file_contents):
     Filters and appends the given file's data to a list and then
     appends these lists to a 2D list.
 
-    :param file_contents:
-    :return:
+    :param file_contents: contains file contents
+            from the open_file function.
+    :return: lines_2d_list -> list -> contains lists with file values.
     """
     # loops over through the lines of the given files,
     # splits them on ";" and appends these lists to a 2D list.
-    lines_list = []
+    lines_2d_list = []
 
     for line in file_contents:
         line = line.strip()
         splitted_value_list = line.split(";")
-        lines_list.append(splitted_value_list)
+        lines_2d_list.append(splitted_value_list)
 
-    return lines_list
+    return lines_2d_list
 
 
-def store_file_data():
+def store_file_data(lines_2d_list):
     pass
 
 
@@ -45,7 +46,9 @@ def main():
 
     # calls the function to filter all the data
     # from the given file contents.
-    lines_list = filter_file_data(file_contents)
+    lines_2d_list = filter_file_data(file_contents)
+
+    store_file_data(lines_2d_list)
 
 
 main()
