@@ -82,5 +82,8 @@ def main():
     # it's key.
     dataset_dict = store_file_data(lines_2d_list)
 
+    # closes the returned file from the open function.
+    file_contents.close()
+
 
 main()
