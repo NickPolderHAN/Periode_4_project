@@ -1,1 +1,0 @@
-Directory to store images and other media files.
