@@ -4,8 +4,8 @@ app = Flask(__name__)
 
 
 @app.route('/')
-def temp():
-    pass
+def temp(name=None):
+    render_template("html files/placeholder.html", name=name)
 
 
 if __name__ == '__main__':
