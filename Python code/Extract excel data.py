@@ -1,13 +1,51 @@
-
 def open_file(given_file):
-    with open(given_file, "r") as file:
-        file_contents = file.read()
+    """
+    Opens the given file in read-only and returns it. The file
+    gets closed in the main function.
+
+    :param given_file: String -> contains the file_path.
+    :return: file_contents -> String -> contains the file contents.
+    """
+    file_contents = open(given_file)
 
     return file_contents
 
+
+def filter_file_data(file_contents):
+    """
+    Filters and appends the given file's data to a list and then
+    appends these lists to a 2D list.
+
+    :param file_contents:
+    :return:
+    """
+    # loops over through the lines of the given files,
+    # splits them on ";" and appends these lists to a 2D list.
+    lines_list = []
+
+    for line in file_contents:
+        line = line.strip()
+        splitted_value_list = line.split(";")
+        lines_list.append(splitted_value_list)
+
+    return lines_list
+
+
+def store_file_data():
+    pass
+
+
 def main():
+    # path to the dataset file.
     file_path = "Dataset periode 4 project.csv"
-    file_content = open_file(file_path)
-    print(file_content)
+
+    # calls the function to open the file and return it's
+    # contents as a String.
+    file_contents = open_file(file_path)
+
+    # calls the function to filter all the data
+    # from the given file contents.
+    lines_list = filter_file_data(file_contents)
+
 
 main()
