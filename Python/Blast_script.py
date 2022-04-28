@@ -2,9 +2,9 @@ from Bio.Blast import NCBIWWW, NCBIXML
 import time
 
 
-def blast_dictionary(key, sequence):
-    print("Start BLAST on: " + key)
-    result_handle = NCBIWWW.qblast("blastx", "nr", sequence)
+def blast_dictionary(sequence):
+    print("Start BLAST on: ")
+    result_handle = NCBIWWW.qblast("blastx", "nr", sequence, matrix_name="BLOSUM62", )
 
     with open("my_blastx.xml", "w") as out_handle:
         out_handle.write(result_handle.read())
@@ -24,7 +24,6 @@ def blast_dictionary(key, sequence):
 
 
 def main(sequence_dictionary):
-    for key in sequence_dictionary:
-        sequence = str(sequence_dictionary[key][0])
-        blast_dictionary(key, sequence)
-        time.sleep(5.0)
+    sequence = "CTTCTGGTTCCCTCAAAAAATTTCGCATGCCACTCTACAAAATTTATGTAGAGTGATATACACTATTGGTAGTGCAGAAAGGAGCCGCCATGATCCGCATCCACCCCGCCAGCCGCGACCCCCAGACCCTCCTCGACCCAGAGAACTGGCGATCCGCCGCCTGGAACGGCGCCCCCATCCGCGACTGCCGCGGCTGCATCGACTGCTGCGACGACGACTGGAACCGCAGCGAACCCGAATGGCGGCGCTGCTACGGCGAACACCTGGCCGAGGACGTGCGCCACGGCGTCGCGGTCTGCCG"
+    blast_dictionary(sequence)
+    time.sleep(5.0)
