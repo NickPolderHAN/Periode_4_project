@@ -1,3 +1,6 @@
+import Blast_script
+
+
 def open_file(given_file):
     """
     Opens the given file in read-only and returns it. The file
@@ -85,5 +88,5 @@ def main():
     # closes the returned file from the open function.
     file_contents.close()
 
-
-main()
+    # passes the dictionary to the main script.
+    return dataset_dict
