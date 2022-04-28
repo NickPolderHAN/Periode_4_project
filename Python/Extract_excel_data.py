@@ -1,4 +1,3 @@
-import Blast_script
 
 
 def open_file(given_file):
