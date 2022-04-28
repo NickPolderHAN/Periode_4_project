@@ -5,5 +5,12 @@ FILES:
 -> Dataset periode 4 project (CSV)
 Bevat de groep 3 tab uit het volledige excel bestand afkomstig van het HAN biocentre.
 
+-> main (.py)
+Python script waaruit gecalled word naar de andere scripts.
+
 -> Extract excel data (.py)
 Een python script om de gegevens uit het excel bestand te filteren. 
+
+-> Blast_script (.py)
+Neemt een dictionary en blast de sequences in deze dictionary.
+Returned de blast resultaten.
