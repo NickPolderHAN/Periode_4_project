@@ -17,3 +17,6 @@ Een python script om de gegevens uit het excel bestand te filteren.
 -> Blast_script (.py)
 Neemt een dictionary en blast de sequences uit deze dictionary.
 Returned hiervan de blast resultaten.
+
+IDEAS:
+- Store every BLAST result to a different xml file using a loop.
