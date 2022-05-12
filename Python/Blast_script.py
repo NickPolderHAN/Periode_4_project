@@ -1,13 +1,25 @@
-from Bio.Blast import NCBIWWW, NCBIXML
+from Bio.Blast import NCBIWWW
 import time
 
 
 def blast_dictionary(key, sequence, name_counter):
+    """
+    Takes a sequence as input, runs this sequence through the Blast
+    and then stores the Blast results in a .xml file.
+
+    :param key: String ->
+    :param sequence: String -> contains a sequence.
+    :param name_counter: Int -> counter to skip-
+                                already aligned sequences.
+    :output .xml file -> writes the alignment results to a file.
+    """
+    # runs Blast on the given sequence.
     print("Started BLAST on: " + key)
     result_handle = NCBIWWW.qblast("blastx", "nr", sequence,
                                    hitlist_size=10,
                                    matrix_name="BLOSUM62")
 
+    # stores the Blast results in an .xml file.
     with open("my_blastx" + str(name_counter) + ".xml", "w") \
             as out_handle:
         out_handle.write(result_handle.read())
