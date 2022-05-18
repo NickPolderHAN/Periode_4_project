@@ -73,7 +73,16 @@ body {
   border-bottom-color: #fff;
 }
 
-.tekstinvulveld {
-  width: 30%;
+.tekstinvulveldlinks {
+  width: 45%;
   float: left;
+  white-space: nowrap;
+  display: inline;
+}
+
+.tekstinvulveldrechts {
+  width: 45%;
+  float: right;
+  white-space: nowrap;
+  display: inline;
 }
