@@ -2,6 +2,13 @@ from Bio.Blast import NCBIXML
 
 
 def blast_inlezen(counter, organisme):
+    """Leest de blast bestanden in en haalt het organisme die in het
+    bestand zit eruit en voegt die toe aan een lijst.
+
+    :param counter: int -> Is een nummer om bij de juiste blast file te komen.
+    :param organisme: list-> Staan de organismen van de blast files in.
+    :return:
+    """
     organis = ""
     test = False
     with open("my_blastx" + str(counter) + ".xml", "r") as out_handle:
@@ -29,6 +36,7 @@ def main():
     organisme = []
     for n in range(50):
         counter, organisme = blast_inlezen(counter, organisme)
+    #Voegt alle organismen van de bestanden toe aan een bestand
     with open("organsime", "w") as out_handle:
         for org in organisme:
             out_handle.write(org)
