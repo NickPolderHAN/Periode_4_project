@@ -1,5 +1,6 @@
 from Bio.Blast import NCBIXML
 
+
 def blast_inlezen(counter, organisme):
     organis = ""
     test = False
@@ -8,21 +9,19 @@ def blast_inlezen(counter, organisme):
         blast_record = next(blast_record)
         eval_thresh = 0.04
         for alignment in blast_record.alignments:
-            for hsp in alignment.hsps:
-                 org = alignment.hit_def
-                 for letter in org:
-                     if letter == "[":
-                         test = True
-                     elif letter == "]":
-                         test = False
-                         organisme.append(organis)
-                         organis = ""
-                     elif test == True:
-                         organis += letter
+            org = alignment.hit_def
+            for letter in org:
+                if letter == "[":
+                    test = True
+                elif letter == "]":
+                    test = False
+                    organisme.append(organis)
+                    organis = ""
+                elif test:
+                    organis += letter
 
     counter += 1
     return counter, organisme
-
 
 
 def main():
@@ -34,7 +33,6 @@ def main():
         for org in organisme:
             out_handle.write(org)
             out_handle.write("\n")
-
 
 
 main()
