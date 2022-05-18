@@ -1,5 +1,5 @@
 from Bio import Entrez
-
+import time
 
 def inlezen(file):
     """Leest het organisme bestand in en voegt deze toe aan een lijst
@@ -24,6 +24,7 @@ def taxonomy(organismen):
     """
     lineage = []
     for n in organismen:
+        print(n)
         Entrez.email = "E.Wissink1@student.han.nl"
         handle = Entrez.esearch(db="Taxonomy", term=n)
         record = Entrez.read(handle)
@@ -31,6 +32,7 @@ def taxonomy(organismen):
         handle = Entrez.efetch(db="Taxonomy", id=term_id, retmode="xml")
         records = Entrez.read(handle)
         lineage.append(records[0]["Lineage"])
+        print("Klaar", n)
     return lineage
 
 
