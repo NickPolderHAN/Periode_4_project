@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_25119</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_25119</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|NMA34972.1|</Hit_id>
+  <Hit_def>1-deoxy-D-xylulose-5-phosphate synthase [Clostridiaceae bacterium]</Hit_def>
+  <Hit_accession>NMA34972</Hit_accession>
+  <Hit_len>556</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.147</Hsp_bit-score>
+      <Hsp_score>396</Hsp_score>
+      <Hsp_evalue>9.21092e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>415</Hsp_hit-from>
+      <Hsp_hit-to>514</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>LAQAADVEPGKGVRILEGEDVTIVAVGRMTETALKVAGSLSERGIRAEVINARFVKPLDEQLIADSVLKTGALVTLEDNCIRGGFGSSVLEMLNTKGILV</Hsp_qseq>
+      <Hsp_hseq>LAQPVDVEPGKGVKLLEGKDVTITAVGKMTETAIRVAELLSEKGIRAEVINARFIKPLDEQLILDSVSKTQALVTLEDNCIRGGFGSSVLELITAKGLVI</Hsp_hseq>
+      <Hsp_midline>LAQ  DVEPGKGV++LEG+DVTI AVG+MTETA++VA  LSE+GIRAEVINARF+KPLDEQLI DSV KT ALVTLEDNCIRGGFGSSVLE++  KG+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|NLP06807.1|</Hit_id>
+  <Hit_def>1-deoxy-D-xylulose-5-phosphate synthase [Clostridiaceae bacterium]</Hit_def>
+  <Hit_accession>NLP06807</Hit_accession>
+  <Hit_len>628</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.05</Hsp_bit-score>
+      <Hsp_score>362</Hsp_score>
+      <Hsp_evalue>1.42813e-37</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>487</Hsp_hit-from>
+      <Hsp_hit-to>586</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>LAQAADVEPGKGVRILEGEDVTIVAVGRMTETALKVAGSLSERGIRAEVINARFVKPLDEQLIADSVLKTGALVTLEDNCIRGGFGSSVLEMLNTKGILV</Hsp_qseq>
+      <Hsp_hseq>LGQPVDVEHGRGVRILEGEDVTIAAIGKMVETAMQAAELLAEKGIHAEVINARFAKPLDEQLILDSAAKTRALVTLEDNCIRGGFGSSILELLNANSLLI</Hsp_hseq>
+      <Hsp_midline>L Q  DVE G+GVRILEGEDVTI A+G+M ETA++ A  L+E+GI AEVINARF KPLDEQLI DS  KT ALVTLEDNCIRGGFGSS+LE+LN   +L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|NLV37156.1|</Hit_id>
+  <Hit_def>1-deoxy-D-xylulose-5-phosphate synthase [Clostridiaceae bacterium]</Hit_def>
+  <Hit_accession>NLV37156</Hit_accession>
+  <Hit_len>635</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.028</Hsp_bit-score>
+      <Hsp_score>323</Hsp_score>
+      <Hsp_evalue>4.35347e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>494</Hsp_hit-from>
+      <Hsp_hit-to>593</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>LAQAADVEPGKGVRILEGEDVTIVAVGRMTETALKVAGSLSERGIRAEVINARFVKPLDEQLIADSVLKTGALVTLEDNCIRGGFGSSVLEMLNTKGILV</Hsp_qseq>
+      <Hsp_hseq>LAQSAPINRGTGVKLLRGDDVTIVAVGKMVETALTVADLLAQKGVNADVINGRFVKPLDAKMILESVVKTGALATIEDNCIKGGFGSSILELISKNNIKV</Hsp_hseq>
+      <Hsp_midline>LAQ+A +  G GV++L G+DVTIVAVG+M ETAL VA  L+++G+ A+VIN RFVKPLD ++I +SV+KTGAL T+EDNCI+GGFGSS+LE+++   I V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|NLK87414.1|</Hit_id>
+  <Hit_def>1-deoxy-D-xylulose-5-phosphate synthase [Clostridiaceae bacterium]</Hit_def>
+  <Hit_accession>NLK87414</Hit_accession>
+  <Hit_len>634</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.079</Hsp_bit-score>
+      <Hsp_score>279</Hsp_score>
+      <Hsp_evalue>4.99456e-26</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>487</Hsp_hit-from>
+      <Hsp_hit-to>575</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>LAQAADVEPGKGVRILEGEDVTIVAVGRMTETALKVAGSLSERGIRAEVINARFVKPLDEQLIADSVLKTGALVTLEDNCIRGGFGSSV</Hsp_qseq>
+      <Hsp_hseq>LTQPAAVGYGKGVRLTTGSDITIVAVGKMVETALEAAELLNKKDIRAEVINARFIKPLDSKLILESASKTRAVAVIEDNCIKGGFGSSV</Hsp_hseq>
+      <Hsp_midline>L Q A V  GKGVR+  G D+TIVAVG+M ETAL+ A  L+++ IRAEVINARF+KPLD +LI +S  KT A+  +EDNCI+GGFGSSV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_201781952.1|</Hit_id>
+  <Hit_def>1-deoxy-D-xylulose-5-phosphate synthase [Pseudobacteroides cellulosolvens] &gt;gb|KNY26765.1| 1-deoxy-D-xylulose-5-phosphate synthase [Pseudobacteroides cellulosolvens ATCC 35603 = DSM 2933]</Hit_def>
+  <Hit_accession>WP_201781952</Hit_accession>
+  <Hit_len>622</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.309</Hsp_bit-score>
+      <Hsp_score>277</Hsp_score>
+      <Hsp_evalue>9.09202e-26</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>481</Hsp_hit-from>
+      <Hsp_hit-to>580</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>LAQAADVEPGKGVRILEGEDVTIVAVGRMTETALKVAGSLSERGIRAEVINARFVKPLDEQLIADSVLKTGALVTLEDNCIRGGFGSSVLEMLNTKGILV</Hsp_qseq>
+      <Hsp_hseq>LIDSSEIKLGQGVLYKEGSDLTFLSIGTMFETALKVTEELTKLGVSVELINARFVKPLDVKLIVNSVMKTKKMITLEDNTITGGFGSSVLEMINQRGINV</Hsp_hseq>
+      <Hsp_midline>L  +++++ G+GV   EG D+T +++G M ETALKV   L++ G+  E+INARFVKPLD +LI +SV+KT  ++TLEDN I GGFGSSVLEM+N +GI V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>tpg|HHW48583.1|</Hit_id>
+  <Hit_def>1-deoxy-D-xylulose-5-phosphate synthase [Clostridiaceae bacterium]</Hit_def>
+  <Hit_accession>HHW48583</Hit_accession>
+  <Hit_len>619</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.383</Hsp_bit-score>
+      <Hsp_score>272</Hsp_score>
+      <Hsp_evalue>4.26663e-25</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>481</Hsp_hit-from>
+      <Hsp_hit-to>578</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>LAQAADVEPGKGVRILEGEDVTIVAVGRMTETALKVAGSLSERGIRAEVINARFVKPLDEQLIADSVLKTGALVTLEDNCIRGGFGSSVLEMLNTKGI</Hsp_qseq>
+      <Hsp_hseq>LFETDPVKYGKGLLLREGKDLTIAAVGIMVETALEVAEMLDGLGYSAEVINPRFVKPIDEKLILDSVSKTGKLIAIEDNSIKGGFGSSILEIVNRHDI</Hsp_hseq>
+      <Hsp_midline>L +   V+ GKG+ + EG+D+TI AVG M ETAL+VA  L   G  AEVIN RFVKP+DE+LI DSV KTG L+ +EDN I+GGFGSS+LE++N   I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>tpg|HHV98060.1|</Hit_id>
+  <Hit_def>1-deoxy-D-xylulose-5-phosphate synthase [Clostridiaceae bacterium]</Hit_def>
+  <Hit_accession>HHV98060</Hit_accession>
+  <Hit_len>621</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.612</Hsp_bit-score>
+      <Hsp_score>270</Hsp_score>
+      <Hsp_evalue>7.55787e-25</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>478</Hsp_hit-from>
+      <Hsp_hit-to>575</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>LAQAADVEPGKGVRILEGEDVTIVAVGRMTETALKVAGSLSERGIRAEVINARFVKPLDEQLIADSVLKTGALVTLEDNCIRGGFGSSVLEMLNTKGI</Hsp_qseq>
+      <Hsp_hseq>LFEPGQLKLGKGVMVRSGKDITIAAVGSMVKTALEVAEILESAGIDAEVINARFVKPLDSSLLINSVMATKKLVTLEDNVIKGGFGSGVLELLSQNGI</Hsp_hseq>
+      <Hsp_midline>L +   ++ GKGV +  G+D+TI AVG M +TAL+VA  L   GI AEVINARFVKPLD  L+ +SV+ T  LVTLEDN I+GGFGS VLE+L+  GI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|NLC69139.1|</Hit_id>
+  <Hit_def>1-deoxy-D-xylulose-5-phosphate synthase [Clostridiaceae bacterium]</Hit_def>
+  <Hit_accession>NLC69139</Hit_accession>
+  <Hit_len>689</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.612</Hsp_bit-score>
+      <Hsp_score>270</Hsp_score>
+      <Hsp_evalue>8.84054e-25</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>282</Hsp_query-to>
+      <Hsp_hit-from>526</Hsp_hit-from>
+      <Hsp_hit-to>619</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>VEPGKGVRILEGEDVTIVAVGRMTETALKVAGSLSERGIRAEVINARFVKPLDEQLIADSVLKTGALVTLEDNCIRGGFGSSVLEMLNTKGILV</Hsp_qseq>
+      <Hsp_hseq>VEYGKGVLLKEGKDLTMLSVGNMAGVSLKAAKKLETMGISVEVINPRFIKPMDEGLILDSCIKTGRIVTIEDGVVDGGFGSSILEMLNRKGITI</Hsp_hseq>
+      <Hsp_midline>VE GKGV + EG+D+T+++VG M   +LK A  L   GI  EVIN RF+KP+DE LI DS +KTG +VT+ED  + GGFGSS+LEMLN KGI +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|NSW91360.1|</Hit_id>
+  <Hit_def>1-deoxy-D-xylulose-5-phosphate synthase [Firmicutes bacterium]</Hit_def>
+  <Hit_accession>NSW91360</Hit_accession>
+  <Hit_len>641</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.842</Hsp_bit-score>
+      <Hsp_score>268</Hsp_score>
+      <Hsp_evalue>1.2878e-24</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>282</Hsp_query-to>
+      <Hsp_hit-from>497</Hsp_hit-from>
+      <Hsp_hit-to>590</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>VEPGKGVRILEGEDVTIVAVGRMTETALKVAGSLSERGIRAEVINARFVKPLDEQLIADSVLKTGALVTLEDNCIRGGFGSSVLEMLNTKGILV</Hsp_qseq>
+      <Hsp_hseq>VEYGKGVLLKEGGDLTILPVGNMVGISLEVARKLEERGISAEVINPRFIKPLDENLILASGVKTGRIVTIEDGIVDGGFGSSILELVNRKGFLM</Hsp_hseq>
+      <Hsp_midline>VE GKGV + EG D+TI+ VG M   +L+VA  L ERGI AEVIN RF+KPLDE LI  S +KTG +VT+ED  + GGFGSS+LE++N KG L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|PKM81365.1|</Hit_id>
+  <Hit_def>1-deoxy-D-xylulose-5-phosphate synthase [Firmicutes bacterium HGW-Firmicutes-14]</Hit_def>
+  <Hit_accession>PKM81365</Hit_accession>
+  <Hit_len>644</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.76</Hsp_bit-score>
+      <Hsp_score>260</Hsp_score>
+      <Hsp_evalue>1.83928e-23</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>252</Hsp_query-to>
+      <Hsp_hit-from>501</Hsp_hit-from>
+      <Hsp_hit-to>582</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>EGEDVTIVAVGRMTETALKVAGSLSERGIRAEVINARFVKPLDEQLIADSVLKTGALVTLEDNCIRGGFGSSVLEMLNTKGI</Hsp_qseq>
+      <Hsp_hseq>EGSDITIAAIGPLVYTALEAAESLHEEGICAAVINARYIKPLDEECLIENILKTGSLLTVEENVLQGGFGSAVLEMLNRKGI</Hsp_hseq>
+      <Hsp_midline>EG D+TI A+G +  TAL+ A SL E GI A VINAR++KPLDE+ + +++LKTG+L+T+E+N ++GGFGS+VLEMLN KGI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469534606</Statistics_db-num>
+      <Statistics_db-len>1070605227</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

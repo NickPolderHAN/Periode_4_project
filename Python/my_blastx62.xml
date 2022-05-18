@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_42531</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_42531</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|PZM92087.1|</Hit_id>
+  <Hit_def>hypothetical protein DIU72_07625 [Proteobacteria bacterium]</Hit_def>
+  <Hit_accession>PZM92087</Hit_accession>
+  <Hit_len>1014</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.897</Hsp_bit-score>
+      <Hsp_score>494</Hsp_score>
+      <Hsp_evalue>4.801e-55</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>627</Hsp_hit-from>
+      <Hsp_hit-to>726</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>HARSLEVGGGISIADGPRAFAEYRDRNILGRNLQLVLRGRVNHQIFREDVREMPIEDGIERDLQAGLRFPRIWGIGLPIGWHFDLTHQRDIRISYNLYRN</Hsp_qseq>
+      <Hsp_hseq>NSRSLEVGGGISVADGPRAFAEYRDRNILGRNLQLVLRGRVNHQIFREDVREMPLEDGIEREIQAGLRFPRIWGVGLPIGWHFDLTHQRDIRLAYNLFRN</Hsp_hseq>
+      <Hsp_midline>++RSLEVGGGIS+ADGPRAFAEYRDRNILGRNLQLVLRGRVNHQIFREDVREMP+EDGIER++QAGLRFPRIWG+GLPIGWHFDLTHQRDIR++YNL+RN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_157370448.1|</Hit_id>
+  <Hit_def>BamA/TamA family outer membrane protein [Vulgatibacter incomptus]</Hit_def>
+  <Hit_accession>WP_157370448</Hit_accession>
+  <Hit_len>1021</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.405</Hsp_bit-score>
+      <Hsp_score>311</Hsp_score>
+      <Hsp_evalue>2.53137e-30</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>636</Hsp_hit-from>
+      <Hsp_hit-to>733</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>ARSLEVGGGISIADGPRAFAEYRDRNILGRNLQLVLRGRVNHQIFREDVREMPIEDGIERDLQAGLRFPRIWGIGLPIGWHFDLTHQRDIRISYNLYR</Hsp_qseq>
+      <Hsp_hseq>SKALEVGGGLSIADGPRAFAEYTQRNVFGRNLLLSLRGRVNYQVFRDEVLEMPADQGIERFVDLGLGYPRIYGLPFELGARLDLIHERDIRPAYGVTR</Hsp_hseq>
+      <Hsp_midline>+++LEVGGG+SIADGPRAFAEY  RN+ GRNL L LRGRVN+Q+FR++V EMP + GIER +  GL +PRI+G+   +G   DL H+RDIR +Y + R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|AKU90332.1|</Hit_id>
+  <Hit_def>Outer membrane protein assembly factor YaeT precursor [Vulgatibacter incomptus]</Hit_def>
+  <Hit_accession>AKU90332</Hit_accession>
+  <Hit_len>1014</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.405</Hsp_bit-score>
+      <Hsp_score>311</Hsp_score>
+      <Hsp_evalue>2.63084e-30</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>629</Hsp_hit-from>
+      <Hsp_hit-to>726</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>ARSLEVGGGISIADGPRAFAEYRDRNILGRNLQLVLRGRVNHQIFREDVREMPIEDGIERDLQAGLRFPRIWGIGLPIGWHFDLTHQRDIRISYNLYR</Hsp_qseq>
+      <Hsp_hseq>SKALEVGGGLSIADGPRAFAEYTQRNVFGRNLLLSLRGRVNYQVFRDEVLEMPADQGIERFVDLGLGYPRIYGLPFELGARLDLIHERDIRPAYGVTR</Hsp_hseq>
+      <Hsp_midline>+++LEVGGG+SIADGPRAFAEY  RN+ GRNL L LRGRVN+Q+FR++V EMP + GIER +  GL +PRI+G+   +G   DL H+RDIR +Y + R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_235969404.1|</Hit_id>
+  <Hit_def>outer membrane protein assembly factor [Anaeromyxobacter sp. Red267] &gt;dbj|GEJ55625.1| hypothetical protein AMYX_03660 [Anaeromyxobacter sp. Red267]</Hit_def>
+  <Hit_accession>WP_235969404</Hit_accession>
+  <Hit_len>990</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.485</Hsp_bit-score>
+      <Hsp_score>184</Hsp_score>
+      <Hsp_evalue>3.45322e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>600</Hsp_hit-from>
+      <Hsp_hit-to>699</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>RSLEVGGGISIADGPRAFAEYRDRNILGRNLQLVLRGRVNH--QIFREDVREMPIEDGIERDLQAGLRFPRIWGIGLPIGWHFDLTHQRDIRISYNLYRN</Hsp_qseq>
+      <Hsp_hseq>RTLSPGAGFSLANGPRAFVELTEPNLLGRALELSARAKVNYPLTVFRRDLEQTPPADRFEGRLDVGLHDPRVHLLGLPAGGRVDGILERLHRPAYDLARG</Hsp_hseq>
+      <Hsp_midline>R+L  G G S+A+GPRAF E  + N+LGR L+L  R +VN+   +FR D+ + P  D  E  L  GL  PR+  +GLP G   D   +R  R +Y+L R </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|MBI5068484.1|</Hit_id>
+  <Hit_def>BamA/TamA family outer membrane protein [Deltaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>MBI5068484</Hit_accession>
+  <Hit_len>1009</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.3958</Hsp_bit-score>
+      <Hsp_score>163</Hsp_score>
+      <Hsp_evalue>2.43872e-10</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>606</Hsp_hit-from>
+      <Hsp_hit-to>706</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>RSLEVGGGISIADGPRAFAEYRDRNILGRNLQLVLRGRVNHQI----FREDVREMPIEDGIERDLQAGLRFPRIWGIGLPIGWHFDLTHQRDIRISYNLYR</Hsp_qseq>
+      <Hsp_hseq>RTLAPGVGFSLANGPRAFVEYSQPNLLGQALELAGRAKVNYPINVFKLRPELDQQKPAERVEGYANVGLHYPRLFFLPVPVAAHLDAIAEQAHRKAYDLTR</Hsp_hseq>
+      <Hsp_midline>R+L  G G S+A+GPRAF EY   N+LG+ L+L  R +VN+ I     R ++ +    + +E     GL +PR++ + +P+  H D   ++  R +Y+L R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|MBK9516539.1|</Hit_id>
+  <Hit_def>BamA/TamA family outer membrane protein [Anaeromyxobacter sp.]</Hit_def>
+  <Hit_accession>MBK9516539</Hit_accession>
+  <Hit_len>1071</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.3958</Hsp_bit-score>
+      <Hsp_score>163</Hsp_score>
+      <Hsp_evalue>2.64355e-10</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>680</Hsp_hit-from>
+      <Hsp_hit-to>776</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>LEVGGGISIADGPRAFAEYRDRNILGRNLQLVLRGRVNHQI--FREDVREMPIEDGIERDLQAGLRFPRIWGIGLPIGWHFDLTHQRDIRISYNLYR</Hsp_qseq>
+      <Hsp_hseq>LAPGAGFSIADGPRLFLEYGRPNLLGRALELTGRAKVNYPLSTFRPDLAGVSPKNTYEGRADVGLRIPRLDPLPLPVTGRADLIAERLRRRSYDLAR</Hsp_hseq>
+      <Hsp_midline>L  G G SIADGPR F EY   N+LGR L+L  R +VN+ +  FR D+  +  ++  E     GLR PR+  + LP+    DL  +R  R SY+L R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|MBL0275770.1|</Hit_id>
+  <Hit_def>BamA/TamA family outer membrane protein [Anaeromyxobacter sp.]</Hit_def>
+  <Hit_accession>MBL0275770</Hit_accession>
+  <Hit_len>1073</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.3958</Hsp_bit-score>
+      <Hsp_score>163</Hsp_score>
+      <Hsp_evalue>2.72211e-10</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>682</Hsp_hit-from>
+      <Hsp_hit-to>778</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>LEVGGGISIADGPRAFAEYRDRNILGRNLQLVLRGRVNHQI--FREDVREMPIEDGIERDLQAGLRFPRIWGIGLPIGWHFDLTHQRDIRISYNLYR</Hsp_qseq>
+      <Hsp_hseq>LAPGAGFSIADGPRLFLEYGRPNLLGRALELTGRAKVNYPLSTFRPDLAGVSPKNTYEGRADVGLRIPRLDPLPLPVTGRADLIAERLRRRSYDLAR</Hsp_hseq>
+      <Hsp_midline>L  G G SIADGPR F EY   N+LGR L+L  R +VN+ +  FR D+  +  ++  E     GLR PR+  + LP+    DL  +R  R SY+L R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|OFX26365.1|</Hit_id>
+  <Hit_def>hypothetical protein A2V77_12755 [Anaeromyxobacter sp. RBG_16_69_14]</Hit_def>
+  <Hit_accession>OFX26365</Hit_accession>
+  <Hit_len>1023</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.003</Hsp_bit-score>
+      <Hsp_score>149</Hsp_score>
+      <Hsp_evalue>1.66866e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>620</Hsp_hit-from>
+      <Hsp_hit-to>727</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>RSLEVGGGISIADGPRAFAEYRDRNILGRNLQLVLRGRVNHQI-------FREDVREMPIEDGIER---DLQAGLRFPRIWGIGLPIGWHFDLTHQRDIRISYNLYRN</Hsp_qseq>
+      <Hsp_hseq>RTLAPGIGFSLANGPRAFVELVQPNLFGRALELASRVKVNYPIATLFGKEIRPDAKELDRKDGFDRVEGRAEVGLHYPRVRFLGLGLEARADAVAERLHRLAYDLSRG</Hsp_hseq>
+      <Hsp_midline>R+L  G G S+A+GPRAF E    N+ GR L+L  R +VN+ I        R D +E+  +DG +R     + GL +PR+  +GL +    D   +R  R++Y+L R </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_248340594.1|</Hit_id>
+  <Hit_def>BamA/TamA family outer membrane protein [Anaeromyxobacter sp. Red630] &gt;dbj|BDG09015.1| hypothetical protein AMPC_21280 [Anaeromyxobacter sp. Red630]</Hit_def>
+  <Hit_accession>WP_248340594</Hit_accession>
+  <Hit_len>1019</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.003</Hsp_bit-score>
+      <Hsp_score>149</Hsp_score>
+      <Hsp_evalue>2.00738e-08</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>636</Hsp_hit-from>
+      <Hsp_hit-to>732</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>SLEVGGGISIADGPRAFAEYRDRNILGRNLQLVLRGRVNHQI--FREDVREMPIEDGIERDLQAGLRFPRIWGIGLPIGWHFDLTHQRDIRISYNLYR</Hsp_qseq>
+      <Hsp_hseq>TLAPGVGFSLADGPRAFLEWNQPNLLGRALDFTARGKVNYPLPEFRKNLSSDPAER-IEGRGDVGLHYPRVHFLPFAAAARFDAIVERLHRSAYDLAR</Hsp_hseq>
+      <Hsp_midline>+L  G G S+ADGPRAF E+   N+LGR L    RG+VN+ +  FR+++   P E  IE     GL +PR+  +       FD   +R  R +Y+L R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|MBS2023036.1|</Hit_id>
+  <Hit_def>BamA/TamA family outer membrane protein [Deltaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>MBS2023036</Hit_accession>
+  <Hit_len>1113</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>2.40159e-08</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>707</Hsp_hit-from>
+      <Hsp_hit-to>823</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>LEVGGGISIADGPRAFAEYRDRNILGRNLQLVLRGRVNHQIFREDVREM--------PI--------------EDGIERDLQAGLRFPRIWGIGLPIGWHFDLTHQRDIRISYNLYR</Hsp_qseq>
+      <Hsp_hseq>FQSSTGFSLADGPRATAQVSLGNLGGRNLTLSLLGKVNFPIFRYVVNTCLSTRPDGTPLLAGESICSNSFDIPDDPVERVVDLGLHVPRMWPFTNDVSTNVDLIHVREVRDSYKLTK</Hsp_hseq>
+      <Hsp_midline> +   G S+ADGPRA A+    N+ GRNL L L G+VN  IFR  V           P+              +D +ER +  GL  PR+W     +  + DL H R++R SY L +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469534606</Statistics_db-num>
+      <Statistics_db-len>1070605227</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

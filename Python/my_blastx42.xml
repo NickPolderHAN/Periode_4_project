@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_10703</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_10703</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|QQS08353.1|</Hit_id>
+  <Hit_def>hypothetical protein IPK69_10160 [Phycisphaerales bacterium]</Hit_def>
+  <Hit_accession>QQS08353</Hit_accession>
+  <Hit_len>643</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.4698</Hsp_bit-score>
+      <Hsp_score>158</Hsp_score>
+      <Hsp_evalue>1.13687e-09</Hsp_evalue>
+      <Hsp_query-from>65</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>326</Hsp_hit-from>
+      <Hsp_hit-to>396</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>SPDYFRIQTAAAPRAIYRHQMTLTSPTPGHFPTIRLRLQQNNPGSWPCELGQEVFQGFDFIGQEP-VAGPQGLVNTWYGF</Hsp_qseq>
+      <Hsp_hseq>SVDYYRIKTAAAPAGIYKHTLTLTSPTPGHTATIRGLSQS---------LSGIVNANTDVTAQNALVGGDESRTNSWYGF</Hsp_hseq>
+      <Hsp_midline>S DY+RI+TAAAP  IY+H +TLTSPTPGH  TIR   Q          L   V    D   Q   V G +   N+WYGF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>emb|CAG0983471.1|</Hit_id>
+  <Hit_def>hypothetical protein PHYC_01893 [Phycisphaerales bacterium]</Hit_def>
+  <Hit_accession>CAG0983471</Hit_accession>
+  <Hit_len>825</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.3066</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>1.88183e-07</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>491</Hsp_hit-from>
+      <Hsp_hit-to>588</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>SGDVITGVSTAADGVGDPDSPDYFRIQTAAAPRAIYRHQMTLTSPTPGHFPTIRLRLQQN--NPGSWPCELGQEVFQGFDFIGQEPVAGPQGLVNTWYGF</Hsp_qseq>
+      <Hsp_hseq>SGRTIVGVSTAATGSGSPDSPDYFLIRTPPAPLGIYRHRITLHNDATPSMTTSLPGLTQTPVAGGPWPGSVGFATTT--ESGGQAHQLSGTDRVNYWFGF</Hsp_hseq>
+      <Hsp_midline>SG  I GVSTAA G G PDSPDYF I+T  AP  IYRH++TL +       T    L Q     G WP  +G       +  GQ         VN W+GF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|MCA3004639.1|</Hit_id>
+  <Hit_def>hypothetical protein [Phycisphaerales bacterium] &gt;gb|MCE2654338.1| hypothetical protein [Planctomycetaceae bacterium]</Hit_def>
+  <Hit_accession>MCA3004639</Hit_accession>
+  <Hit_len>350</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1358</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>0.0013982</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>38</Hsp_align-len>
+      <Hsp_qseq>PDYFRIQTAAAPRAIYRHQMTLTSPTPGHFPTIRLRLQ</Hsp_qseq>
+      <Hsp_hseq>PDFFFVYPAPAPAAIYRHRLTLTSTTPGHIMNLRGRAQ</Hsp_hseq>
+      <Hsp_midline>PD+F +  A AP AIYRH++TLTS TPGH   +R R Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|MBL9001954.1|</Hit_id>
+  <Hit_def>hypothetical protein [Phycisphaerae bacterium]</Hit_def>
+  <Hit_accession>MBL9001954</Hit_accession>
+  <Hit_len>808</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>0.00286887</Hsp_evalue>
+      <Hsp_query-from>71</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>DYFRIQTAAAPRAIYRHQMTLTSPTPGHFPTIRLRLQQNNPGSWPCELGQEVFQGFDFIGQEPVAG-----PQGLVNTWYGF</Hsp_qseq>
+      <Hsp_hseq>DYFIITTAPTTNGFYRHELALTSPTPGHTVTIRGLSQTNG----------VINAGTDVTLQTGVLGYPGQSPDARTVVWFGF</Hsp_hseq>
+      <Hsp_midline>DYF I TA      YRH++ LTSPTPGH  TIR   Q N            +  G D   Q  V G     P      W+GF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469534606</Statistics_db-num>
+      <Statistics_db-len>1070605227</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

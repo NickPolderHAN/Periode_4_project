@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_278727</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_278727</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_168700642.1|</Hit_id>
+  <Hit_def>LLM class F420-dependent oxidoreductase [Gordonia paraffinivorans]</Hit_def>
+  <Hit_accession>WP_168700642</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.407</Hsp_bit-score>
+      <Hsp_score>446</Hsp_score>
+      <Hsp_evalue>1.45048e-52</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>253</Hsp_query-to>
+      <Hsp_hit-from>205</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>GYLAMPNYANNLRRLGFTDDDLSSVSDRLFDALIAWGDEQAILSRIDEHRSAGADHVCVQVLQADFKGFPREQWRRLAAALGQN</Hsp_qseq>
+      <Hsp_hseq>GYLAMPNYANNLRRLGFTDDDLSSVSDRLFDALIAWGDEQAILSRIDEHRSAGADHVCVQVLQADFKGFPREQWRRLAAALGQN</Hsp_hseq>
+      <Hsp_midline>GYLAMPNYANNLRRLGFTDDDLSSVSDRLFDALIAWGDEQAILSRIDEHRSAGADHVCVQVLQADFKGFPREQWRRLAAALGQN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_006901746.1|</Hit_id>
+  <Hit_def>LLM class F420-dependent oxidoreductase [Gordonia paraffinivorans] &gt;gb|MBY4574932.1| LLM class F420-dependent oxidoreductase [Gordonia paraffinivorans] &gt;gb|MCD2144578.1| LLM class F420-dependent oxidoreductase [Gordonia paraffinivorans] &gt;gb|PWD44997.1| LLM class F420-dependent oxidoreductase [Gordonia paraffinivorans] &gt;emb|VFA81669.1| probable F420-dependent oxidoreductase, MSMEG_4141 family [Gordonia paraffinivorans] &gt;dbj|GAC85526.1| hypothetical protein GP2_036_00270 [Gordonia paraffinivorans NBRC 108238]</Hit_def>
+  <Hit_accession>WP_006901746</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.407</Hsp_bit-score>
+      <Hsp_score>446</Hsp_score>
+      <Hsp_evalue>1.56509e-52</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>253</Hsp_query-to>
+      <Hsp_hit-from>205</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>GYLAMPNYANNLRRLGFTDDDLSSVSDRLFDALIAWGDEQAILSRIDEHRSAGADHVCVQVLQADFKGFPREQWRRLAAALGQN</Hsp_qseq>
+      <Hsp_hseq>GYLAMPNYANNLRRLGFTDDDLSSVSDRLFDALIAWGDEQAILSRIDEHRSAGADHVCVQVLQADFKGFPREQWRRLAAALGQN</Hsp_hseq>
+      <Hsp_midline>GYLAMPNYANNLRRLGFTDDDLSSVSDRLFDALIAWGDEQAILSRIDEHRSAGADHVCVQVLQADFKGFPREQWRRLAAALGQN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_168704941.1|</Hit_id>
+  <Hit_def>LLM class F420-dependent oxidoreductase [Gordonia paraffinivorans]</Hit_def>
+  <Hit_accession>WP_168704941</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.407</Hsp_bit-score>
+      <Hsp_score>446</Hsp_score>
+      <Hsp_evalue>1.58219e-52</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>253</Hsp_query-to>
+      <Hsp_hit-from>205</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>GYLAMPNYANNLRRLGFTDDDLSSVSDRLFDALIAWGDEQAILSRIDEHRSAGADHVCVQVLQADFKGFPREQWRRLAAALGQN</Hsp_qseq>
+      <Hsp_hseq>GYLAMPNYANNLRRLGFTDDDLSSVSDRLFDALIAWGDEQAILSRIDEHRSAGADHVCVQVLQADFKGFPREQWRRLAAALGQN</Hsp_hseq>
+      <Hsp_midline>GYLAMPNYANNLRRLGFTDDDLSSVSDRLFDALIAWGDEQAILSRIDEHRSAGADHVCVQVLQADFKGFPREQWRRLAAALGQN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_042376984.1|</Hit_id>
+  <Hit_def>MULTISPECIES: LLM class F420-dependent oxidoreductase [Gordonia] &gt;gb|AZZ82336.1| TIGR03620 family F420-dependent LLM class oxidoreductase [Gordonia alkanivorans] &gt;gb|QGP88158.1| TIGR03620 family F420-dependent LLM class oxidoreductase [Gordonia sp. 135]</Hit_def>
+  <Hit_accession>WP_042376984</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.696</Hsp_bit-score>
+      <Hsp_score>413</Hsp_score>
+      <Hsp_evalue>1.56992e-47</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>253</Hsp_query-to>
+      <Hsp_hit-from>205</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>GYLAMPNYANNLRRLGFTDDDLSSVSDRLFDALIAWGDEQAILSRIDEHRSAGADHVCVQVLQADFKGFPREQWRRLAAALGQN</Hsp_qseq>
+      <Hsp_hseq>GYLAMPNYANNLRRLGFTDEDLTTVSDRLFDALIVWGDESAILSRIDEHRSAGADHVCVQVLQKDHRGFPREQWRRLAAALGQN</Hsp_hseq>
+      <Hsp_midline>GYLAMPNYANNLRRLGFTD+DL++VSDRLFDALI WGDE AILSRIDEHRSAGADHVCVQVLQ D +GFPREQWRRLAAALGQN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_006359112.1|</Hit_id>
+  <Hit_def>LLM class F420-dependent oxidoreductase [Gordonia alkanivorans] &gt;dbj|GAA12989.1| hypothetical protein GOALK_061_00450 [Gordonia alkanivorans NBRC 16433]</Hit_def>
+  <Hit_accession>WP_006359112</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.696</Hsp_bit-score>
+      <Hsp_score>413</Hsp_score>
+      <Hsp_evalue>1.65738e-47</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>253</Hsp_query-to>
+      <Hsp_hit-from>205</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>GYLAMPNYANNLRRLGFTDDDLSSVSDRLFDALIAWGDEQAILSRIDEHRSAGADHVCVQVLQADFKGFPREQWRRLAAALGQN</Hsp_qseq>
+      <Hsp_hseq>GYLAMPNYANNLRRLGFTDEDLTTVSDRLFDALIVWGDESAILSRIDEHRSAGADHVCVQVLQKDHRGFPREQWRRLAAALGQN</Hsp_hseq>
+      <Hsp_midline>GYLAMPNYANNLRRLGFTD+DL++VSDRLFDALI WGDE AILSRIDEHRSAGADHVCVQVLQ D +GFPREQWRRLAAALGQN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_182372271.1|</Hit_id>
+  <Hit_def>LLM class F420-dependent oxidoreductase [Gordonia rubripertincta] &gt;gb|QMU19845.1| LLM class F420-dependent oxidoreductase [Gordonia rubripertincta]</Hit_def>
+  <Hit_accession>WP_182372271</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.155</Hsp_bit-score>
+      <Hsp_score>409</Hsp_score>
+      <Hsp_evalue>7.56099e-47</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>253</Hsp_query-to>
+      <Hsp_hit-from>205</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>GYLAMPNYANNLRRLGFTDDDLSSVSDRLFDALIAWGDEQAILSRIDEHRSAGADHVCVQVLQADFKGFPREQWRRLAAALGQN</Hsp_qseq>
+      <Hsp_hseq>GYLAMPNYANNLRRLGFTDEDLTTVSDRLFDALIVWGDESAILGRIDEHRSAGADHVCVQVLQKDHRGFPREQWRRLAAALGQN</Hsp_hseq>
+      <Hsp_midline>GYLAMPNYANNLRRLGFTD+DL++VSDRLFDALI WGDE AIL RIDEHRSAGADHVCVQVLQ D +GFPREQWRRLAAALGQN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_075863086.1|</Hit_id>
+  <Hit_def>LLM class F420-dependent oxidoreductase [Gordonia sp. CNJ-863] &gt;gb|OLT48298.1| LLM class F420-dependent oxidoreductase [Gordonia sp. CNJ-863]</Hit_def>
+  <Hit_accession>WP_075863086</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>161.77</Hsp_bit-score>
+      <Hsp_score>408</Hsp_score>
+      <Hsp_evalue>8.24591e-47</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>253</Hsp_query-to>
+      <Hsp_hit-from>205</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>GYLAMPNYANNLRRLGFTDDDLSSVSDRLFDALIAWGDEQAILSRIDEHRSAGADHVCVQVLQADFKGFPREQWRRLAAALGQN</Hsp_qseq>
+      <Hsp_hseq>GYLAMPNYANNLRRLGFTDEDLTTVSDRLFDALIVWGDESAILSRIDEHRSAGADHVCVQVLQKDHCGFPREQWRRLAAALGQN</Hsp_hseq>
+      <Hsp_midline>GYLAMPNYANNLRRLGFTD+DL++VSDRLFDALI WGDE AILSRIDEHRSAGADHVCVQVLQ D  GFPREQWRRLAAALGQN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_035752450.1|</Hit_id>
+  <Hit_def>LLM class F420-dependent oxidoreductase [Gordonia alkanivorans] &gt;gb|ETA05542.1| F420-dependent oxidoreductase [Gordonia alkanivorans CGMCC 6845]</Hit_def>
+  <Hit_accession>WP_035752450</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>161.77</Hsp_bit-score>
+      <Hsp_score>408</Hsp_score>
+      <Hsp_evalue>9.18994e-47</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>253</Hsp_query-to>
+      <Hsp_hit-from>205</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>GYLAMPNYANNLRRLGFTDDDLSSVSDRLFDALIAWGDEQAILSRIDEHRSAGADHVCVQVLQADFKGFPREQWRRLAAALGQN</Hsp_qseq>
+      <Hsp_hseq>GYLAMPNYANNLRRLGFTDEDLTTVSDRLFDALIVWGDESAILSRIDEHRSAGADHVCVQVLQKDHCGFPREQWRRLAAALGQN</Hsp_hseq>
+      <Hsp_midline>GYLAMPNYANNLRRLGFTD+DL++VSDRLFDALI WGDE AILSRIDEHRSAGADHVCVQVLQ D  GFPREQWRRLAAALGQN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_119032245.1|</Hit_id>
+  <Hit_def>LLM class F420-dependent oxidoreductase [Gordonia rubripertincta] &gt;gb|ASR03297.1| Luciferase-like monooxygenase [Gordonia rubripertincta]</Hit_def>
+  <Hit_accession>WP_119032245</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>161.384</Hsp_bit-score>
+      <Hsp_score>407</Hsp_score>
+      <Hsp_evalue>1.14145e-46</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>253</Hsp_query-to>
+      <Hsp_hit-from>205</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>GYLAMPNYANNLRRLGFTDDDLSSVSDRLFDALIAWGDEQAILSRIDEHRSAGADHVCVQVLQADFKGFPREQWRRLAAALGQN</Hsp_qseq>
+      <Hsp_hseq>GYLAMPNYANNLRRLGFTDEDLTTVSDRLFDALIVWGDEAAILGRIDEHRSAGADHVCVQVLQKDHRGFPREQWRRLAAALGQN</Hsp_hseq>
+      <Hsp_midline>GYLAMPNYANNLRRLGFTD+DL++VSDRLFDALI WGDE AIL RIDEHRSAGADHVCVQVLQ D +GFPREQWRRLAAALGQN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_005195057.1|</Hit_id>
+  <Hit_def>LLM class F420-dependent oxidoreductase [Gordonia rubripertincta] &gt;gb|NKY61494.1| LLM class F420-dependent oxidoreductase [Gordonia rubripertincta] &gt;gb|NKY61605.1| LLM class F420-dependent oxidoreductase [Gordonia rubripertincta] &gt;dbj|GAB84004.1| hypothetical protein GORBP_028_00080 [Gordonia rubripertincta NBRC 101908]</Hit_def>
+  <Hit_accession>WP_005195057</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>161.384</Hsp_bit-score>
+      <Hsp_score>407</Hsp_score>
+      <Hsp_evalue>1.4332e-46</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>253</Hsp_query-to>
+      <Hsp_hit-from>205</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>GYLAMPNYANNLRRLGFTDDDLSSVSDRLFDALIAWGDEQAILSRIDEHRSAGADHVCVQVLQADFKGFPREQWRRLAAALGQN</Hsp_qseq>
+      <Hsp_hseq>GYLAMPNYANNLRRLGFTDEDLTTVSDRLFDALIVWGDESAVLGRIDEHRSAGADHVCVQVLQKDHRGFPREQWRRLAAALGQN</Hsp_hseq>
+      <Hsp_midline>GYLAMPNYANNLRRLGFTD+DL++VSDRLFDALI WGDE A+L RIDEHRSAGADHVCVQVLQ D +GFPREQWRRLAAALGQN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469982569</Statistics_db-num>
+      <Statistics_db-len>1180272553</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_20605</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_20605</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|NBQ54124.1|</Hit_id>
+  <Hit_def>FAD-dependent oxidoreductase [Proteobacteria bacterium]</Hit_def>
+  <Hit_accession>NBQ54124</Hit_accession>
+  <Hit_len>479</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>169.474</Hsp_bit-score>
+      <Hsp_score>428</Hsp_score>
+      <Hsp_evalue>7.17231e-48</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>305</Hsp_hit-from>
+      <Hsp_hit-to>403</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>LRPGVGEAPELRNFFVAAGLNSIGVLTGGGVGRLLAHWILTGRPDMDVTGLALDRLHPFQATPAYRRARTVETLGLVYQCHYPLRSPQSARGAKRSPLH</Hsp_qseq>
+      <Hsp_hseq>LRPIVGEAPELQNYFVAAGLNSIGILTGGGMGRVLAHWIINGSPDVDVTGMNIDRLHPYQSTPQYRRERTVESLGMVYRCHYPTMSPETARGAKRSPFH</Hsp_hseq>
+      <Hsp_midline>LRP VGEAPEL+N+FVAAGLNSIG+LTGGG+GR+LAHWI+ G PD+DVTG+ +DRLHP+Q+TP YRR RTVE+LG+VY+CHYP  SP++ARGAKRSP H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|MCC6770750.1|</Hit_id>
+  <Hit_def>GcvT family protein [Gemmatimonadaceae bacterium]</Hit_def>
+  <Hit_accession>MCC6770750</Hit_accession>
+  <Hit_len>820</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>168.318</Hsp_bit-score>
+      <Hsp_score>425</Hsp_score>
+      <Hsp_evalue>7.22071e-46</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>331</Hsp_hit-from>
+      <Hsp_hit-to>429</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>LRPGVGEAPELRNFFVAAGLNSIGVLTGGGVGRLLAHWILTGRPDMDVTGLALDRLHPFQATPAYRRARTVETLGLVYQCHYPLRSPQSARGAKRSPLH</Hsp_qseq>
+      <Hsp_hseq>LRPILGEAPELRNFFVAAGLNSIGILTGGGVGRALAHWIVEGRPDFDVTGMHIDRLHPYQATPDYRRSRTVESLGMVYKCHYPFHTMQTARGAKLSPLH</Hsp_hseq>
+      <Hsp_midline>LRP +GEAPELRNFFVAAGLNSIG+LTGGGVGR LAHWI+ GRPD DVTG+ +DRLHP+QATP YRR+RTVE+LG+VY+CHYP  + Q+ARGAK SPLH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|MBK6489180.1|</Hit_id>
+  <Hit_def>GcvT family protein [Gemmatimonadetes bacterium]</Hit_def>
+  <Hit_accession>MBK6489180</Hit_accession>
+  <Hit_len>820</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>168.318</Hsp_bit-score>
+      <Hsp_score>425</Hsp_score>
+      <Hsp_evalue>7.43932e-46</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>331</Hsp_hit-from>
+      <Hsp_hit-to>429</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>LRPGVGEAPELRNFFVAAGLNSIGVLTGGGVGRLLAHWILTGRPDMDVTGLALDRLHPFQATPAYRRARTVETLGLVYQCHYPLRSPQSARGAKRSPLH</Hsp_qseq>
+      <Hsp_hseq>LRPILGEAPELRNFFVAAGLNSIGILTGGGVGRALAHWIVEGRPDFDVTGMHIDRLHPYQATPDYRRSRTVESLGMVYKCHYPFHTMQTARGAKLSPLH</Hsp_hseq>
+      <Hsp_midline>LRP +GEAPELRNFFVAAGLNSIG+LTGGGVGR LAHWI+ GRPD DVTG+ +DRLHP+QATP YRR+RTVE+LG+VY+CHYP  + Q+ARGAK SPLH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|MCA9999114.1|</Hit_id>
+  <Hit_def>FAD-dependent oxidoreductase [Anaerolineales bacterium]</Hit_def>
+  <Hit_accession>MCA9999114</Hit_accession>
+  <Hit_len>431</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.925</Hsp_bit-score>
+      <Hsp_score>411</Hsp_score>
+      <Hsp_evalue>9.68611e-46</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>331</Hsp_hit-from>
+      <Hsp_hit-to>429</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>LRPGVGEAPELRNFFVAAGLNSIGVLTGGGVGRLLAHWILTGRPDMDVTGLALDRLHPFQATPAYRRARTVETLGLVYQCHYPLRSPQSARGAKRSPLH</Hsp_qseq>
+      <Hsp_hseq>LKPIIGEAPELRNYFVAAGLNSIGILTGGGVGRMMAHWIINGTPDVDVTGFNIDRLHVYQNTPEYRRHRTVESLGMVYRCHYPNMSYQTARGAKRSPLH</Hsp_hseq>
+      <Hsp_midline>L+P +GEAPELRN+FVAAGLNSIG+LTGGGVGR++AHWI+ G PD+DVTG  +DRLH +Q TP YRR RTVE+LG+VY+CHYP  S Q+ARGAKRSPLH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|MBU6375899.1|</Hit_id>
+  <Hit_def>FAD-dependent oxidoreductase [Bdellovibrionales bacterium]</Hit_def>
+  <Hit_accession>MBU6375899</Hit_accession>
+  <Hit_len>821</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>167.162</Hsp_bit-score>
+      <Hsp_score>422</Hsp_score>
+      <Hsp_evalue>1.80844e-45</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>335</Hsp_hit-from>
+      <Hsp_hit-to>433</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>LRPGVGEAPELRNFFVAAGLNSIGVLTGGGVGRLLAHWILTGRPDMDVTGLALDRLHPFQATPAYRRARTVETLGLVYQCHYPLRSPQSARGAKRSPLH</Hsp_qseq>
+      <Hsp_hseq>LRPIVGEAPEVKNYFVAAGLNSIGILTGGGMGRLVAGWIVNGRPDMDVTGMNVDRLLPYQSNPAYRRERTVEMLGMVYKCHYPTKSPETARGAKRSPLH</Hsp_hseq>
+      <Hsp_midline>LRP VGEAPE++N+FVAAGLNSIG+LTGGG+GRL+A WI+ GRPDMDVTG+ +DRL P+Q+ PAYRR RTVE LG+VY+CHYP +SP++ARGAKRSPLH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|APR83940.1|</Hit_id>
+  <Hit_def>Sarcosine dehydrogenase [Minicystis rosea]</Hit_def>
+  <Hit_accession>APR83940</Hit_accession>
+  <Hit_len>818</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.517</Hsp_bit-score>
+      <Hsp_score>371</Hsp_score>
+      <Hsp_evalue>1.74221e-38</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>331</Hsp_hit-from>
+      <Hsp_hit-to>429</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>LRPGVGEAPELRNFFVAAGLNSIGVLTGGGVGRLLAHWILTGRPDMDVTGLALDRLHPFQATPAYRRARTVETLGLVYQCHYPLRSPQSARGAKRSPLH</Hsp_qseq>
+      <Hsp_hseq>LRPVVGEAPELKNCFVAAGLNSIGILTGGGLGRMLAHWIITGRPDMDVTGMNIDRLHTYQSNPEYRRTRTVESLGMVYQCHYPTRSMQTARGAKKSALH</Hsp_hseq>
+      <Hsp_midline>LRP VGEAPEL+N FVAAGLNSIG+LTGGG+GR+LAHWI+TGRPDMDVTG+ +DRLH +Q+ P YRR RTVE+LG+VYQCHYP RS Q+ARGAK+S LH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|MBL8970991.1|</Hit_id>
+  <Hit_def>GcvT family protein [Myxococcales bacterium]</Hit_def>
+  <Hit_accession>MBL8970991</Hit_accession>
+  <Hit_len>582</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.206</Hsp_bit-score>
+      <Hsp_score>365</Hsp_score>
+      <Hsp_evalue>3.74145e-38</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>331</Hsp_hit-from>
+      <Hsp_hit-to>429</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>LRPGVGEAPELRNFFVAAGLNSIGVLTGGGVGRLLAHWILTGRPDMDVTGLALDRLHPFQATPAYRRARTVETLGLVYQCHYPLRSPQSARGAKRSPLH</Hsp_qseq>
+      <Hsp_hseq>LAPVVGEAPELRNYFVAAGLNSIGILTGGGLGRVLAHWIVTGRPDVDITGFNIDRLHTYQCNPEYRRTRTVESLGMVYQCHYPTRSMQTARGAKTSPLH</Hsp_hseq>
+      <Hsp_midline>L P VGEAPELRN+FVAAGLNSIG+LTGGG+GR+LAHWI+TGRPD+D+TG  +DRLH +Q  P YRR RTVE+LG+VYQCHYP RS Q+ARGAK SPLH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|NUP06507.1|</Hit_id>
+  <Hit_def>GcvT family protein [Polyangiaceae bacterium]</Hit_def>
+  <Hit_accession>NUP06507</Hit_accession>
+  <Hit_len>816</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.976</Hsp_bit-score>
+      <Hsp_score>367</Hsp_score>
+      <Hsp_evalue>5.91254e-38</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>330</Hsp_hit-from>
+      <Hsp_hit-to>428</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>LRPGVGEAPELRNFFVAAGLNSIGVLTGGGVGRLLAHWILTGRPDMDVTGLALDRLHPFQATPAYRRARTVETLGLVYQCHYPLRSPQSARGAKRSPLH</Hsp_qseq>
+      <Hsp_hseq>LQPIVGEAPELKNYFVAAGLNSIGILTGGGLGRVLAHWIVNGRPDVDVTGFNIDRLHTYQANPEYRRTRTVESLGMVYQCHYPYRSMQTARGAKRSALH</Hsp_hseq>
+      <Hsp_midline>L+P VGEAPEL+N+FVAAGLNSIG+LTGGG+GR+LAHWI+ GRPD+DVTG  +DRLH +QA P YRR RTVE+LG+VYQCHYP RS Q+ARGAKRS LH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|MBK9034021.1|</Hit_id>
+  <Hit_def>GcvT family protein [Myxococcales bacterium]</Hit_def>
+  <Hit_accession>MBK9034021</Hit_accession>
+  <Hit_len>819</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.976</Hsp_bit-score>
+      <Hsp_score>367</Hsp_score>
+      <Hsp_evalue>5.99618e-38</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>331</Hsp_hit-from>
+      <Hsp_hit-to>429</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>LRPGVGEAPELRNFFVAAGLNSIGVLTGGGVGRLLAHWILTGRPDMDVTGLALDRLHPFQATPAYRRARTVETLGLVYQCHYPLRSPQSARGAKRSPLH</Hsp_qseq>
+      <Hsp_hseq>LRPCVGEAPELRGYFVAAGLNSIGILTGGGLGRVLAHWIMTGRPDVDVTGMHVDRLQPYQSNPEYRRVRTVESLGMVYQCHYPTRSMQTARGAKRSALH</Hsp_hseq>
+      <Hsp_midline>LRP VGEAPELR +FVAAGLNSIG+LTGGG+GR+LAHWI+TGRPD+DVTG+ +DRL P+Q+ P YRR RTVE+LG+VYQCHYP RS Q+ARGAKRS LH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|UCC24413.1|</Hit_id>
+  <Hit_def>MAG: GcvT family protein [Gemmatimonadales bacterium]</Hit_def>
+  <Hit_accession>UCC24413</Hit_accession>
+  <Hit_len>819</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.976</Hsp_bit-score>
+      <Hsp_score>367</Hsp_score>
+      <Hsp_evalue>6.87724e-38</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>331</Hsp_hit-from>
+      <Hsp_hit-to>429</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>LRPGVGEAPELRNFFVAAGLNSIGVLTGGGVGRLLAHWILTGRPDMDVTGLALDRLHPFQATPAYRRARTVETLGLVYQCHYPLRSPQSARGAKRSPLH</Hsp_qseq>
+      <Hsp_hseq>LSPIVGEAPELDNYFVAAGLNSIGILTGGGIGRLVANWIITGRPDMDVTGIHIDRLHPYQSNPEYRAERTVESLGMVYQCHYPTRSLQTARGAKKSPLH</Hsp_hseq>
+      <Hsp_midline>L P VGEAPEL N+FVAAGLNSIG+LTGGG+GRL+A+WI+TGRPDMDVTG+ +DRLHP+Q+ P YR  RTVE+LG+VYQCHYP RS Q+ARGAK+SPLH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469534606</Statistics_db-num>
+      <Statistics_db-len>1070605227</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_13961</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_13961</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|PZM93737.1|</Hit_id>
+  <Hit_def>GMC family oxidoreductase [Proteobacteria bacterium]</Hit_def>
+  <Hit_accession>PZM93737</Hit_accession>
+  <Hit_len>512</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.948</Hsp_bit-score>
+      <Hsp_score>450</Hsp_score>
+      <Hsp_evalue>7.17893e-51</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>111</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>HWAREFGVRGLSPEVLAPHFDAVEERLSIAEWPEAMANANNRVLLDGCRRLGYSVNPLRRNVRHCANSGYCGMGCPVDAKQAMHLTYLPD</Hsp_qseq>
+      <Hsp_hseq>HWAREFGVRGWTPEALAPHFEAVEQRLSIAEWPEALANANNRVLLDGCRRLGYSVGPLRRNVRRCANTGYCGMGCPVDAKQAMHLTYVPD</Hsp_hseq>
+      <Hsp_midline>HWAREFGVRG +PE LAPHF+AVE+RLSIAEWPEA+ANANNRVLLDGCRRLGYSV PLRRNVR CAN+GYCGMGCPVDAKQAMHLTY+PD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|MCB9763263.1|</Hit_id>
+  <Hit_def>GMC family oxidoreductase [Alphaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>MCB9763263</Hit_accession>
+  <Hit_len>507</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>141.739</Hsp_bit-score>
+      <Hsp_score>356</Hsp_score>
+      <Hsp_evalue>3.46892e-37</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>112</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>HWAREFGVRGLSPEVLAPHFDAVEERLSIAEWPEAMANANNRVLLDGCRRLGYSVNPLRRNVRHCANSGYCGMGCPVDAKQAMHLTYLPD</Hsp_qseq>
+      <Hsp_hseq>HWARQYGLEGLSPEALAPHFEAVEERLRIGQWPEALVNANNRVLMDGCRALGWHAEILRRNVFGCRNSGLCGLGCPYDAKQGMLLTYVPD</Hsp_hseq>
+      <Hsp_midline>HWAR++G+ GLSPE LAPHF+AVEERL I +WPEA+ NANNRVL+DGCR LG+    LRRNV  C NSG CG+GCP DAKQ M LTY+PD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|MBX2803906.1|</Hit_id>
+  <Hit_def>GMC family oxidoreductase [Myxococcales bacterium]</Hit_def>
+  <Hit_accession>MBX2803906</Hit_accession>
+  <Hit_len>513</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.576</Hsp_bit-score>
+      <Hsp_score>340</Hsp_score>
+      <Hsp_evalue>6.66708e-35</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>111</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>RHWAREFGVRGLSPEVLAPHFDAVEERLSIAEWPEAMANANNRVLLDGCRRLGYSVNPLRRNVRHCANSGYCGMGCPVDAKQAMHLTYLPD</Hsp_qseq>
+      <Hsp_hseq>EHWRSVHGLEGLDPDTLAPHFDAIEERLHIAAWPERTANENNRALLRGARALGMEAEALKRNVRGCANSGYCGVGCPVDAKQAMHVTYIPD</Hsp_hseq>
+      <Hsp_midline> HW    G+ GL P+ LAPHFDA+EERL IA WPE  AN NNR LL G R LG     L+RNVR CANSGYCG+GCPVDAKQAMH+TY+PD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|MBM4378445.1|</Hit_id>
+  <Hit_def>GMC family oxidoreductase [Deltaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>MBM4378445</Hit_accession>
+  <Hit_len>517</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>133.65</Hsp_bit-score>
+      <Hsp_score>335</Hsp_score>
+      <Hsp_evalue>3.87746e-34</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>113</Hsp_hit-from>
+      <Hsp_hit-to>202</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>HWAREFGVRGLSPEVLAPHFDAVEERLSIAEWPEAMANANNRVLLDGCRRLGYSVNPLRRNVRHCANSGYCGMGCPVDAKQAMHLTYLPD</Hsp_qseq>
+      <Hsp_hseq>HWRDAHGVEGLTPEALAPHFEAVEKRLNIAEWPLALMNANNRALWDGCGKLGYERALIRRNVNGCANLGSCGMGCPVDAKQAMHVTYLKD</Hsp_hseq>
+      <Hsp_midline>HW    GV GL+PE LAPHF+AVE+RL+IAEWP A+ NANNR L DGC +LGY    +RRNV  CAN G CGMGCPVDAKQAMH+TYL D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|MBL8618635.1|</Hit_id>
+  <Hit_def>GMC family oxidoreductase [Deltaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>MBL8618635</Hit_accession>
+  <Hit_len>514</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.494</Hsp_bit-score>
+      <Hsp_score>332</Hsp_score>
+      <Hsp_evalue>1.07231e-33</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>111</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>RHWAREFGVRGLSPEVLAPHFDAVEERLSIAEWPEAMANANNRVLLDGCRRLGYSVNPLRRNVRHCANSGYCGMGCPVDAKQAMHLTYLPD</Hsp_qseq>
+      <Hsp_hseq>RHWAEVHGIEGLDEESLRPHFEAIEQRLGIATWPEERANENNRALLRGARALGWEASPLRRNVRGCANSGLCGVGCPVDGKQGMHVTFLPD</Hsp_hseq>
+      <Hsp_midline>RHWA   G+ GL  E L PHF+A+E+RL IA WPE  AN NNR LL G R LG+  +PLRRNVR CANSG CG+GCPVD KQ MH+T+LPD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|TNE86696.1|</Hit_id>
+  <Hit_def>GMC family oxidoreductase [Deltaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>TNE86696</Hit_accession>
+  <Hit_len>506</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.339</Hsp_bit-score>
+      <Hsp_score>329</Hsp_score>
+      <Hsp_evalue>2.20148e-33</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>111</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>HWAREFGVRGLSPEVLAPHFDAVEERLSIAEWPEAMANANNRVLLDGCRRLGYSVNPLRRNVRHCANSGYCGMGCPVDAKQAMHLTYLPD</Hsp_qseq>
+      <Hsp_hseq>HWQKTHGLDQLTAEVLNPHWDAVEERLHITEWPEAMVNANNETILRGGRKLGWDVHTLKRNVNGCANSGYCGVGCPVNGKQAMHRTYIPD</Hsp_hseq>
+      <Hsp_midline>HW +  G+  L+ EVL PH+DAVEERL I EWPEAM NANN  +L G R+LG+ V+ L+RNV  CANSGYCG+GCPV+ KQAMH TY+PD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|MCB9778758.1|</Hit_id>
+  <Hit_def>GMC family oxidoreductase [Alphaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>MCB9778758</Hit_accession>
+  <Hit_len>512</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.183</Hsp_bit-score>
+      <Hsp_score>326</Hsp_score>
+      <Hsp_evalue>7.16387e-33</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>112</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>HWAREFGVRGLSPEVLAPHFDAVEERLSIAEWPEAMANANNRVLLDGCRRLGYSVNPLRRNVRHCANSGYCGMGCPVDAKQAMHLTYLPD</Hsp_qseq>
+      <Hsp_hseq>HWGEHHGI-ALSADELAPHFEAVEQRLSIHPWPEALANENNRKLLVGARALGWEAAPLRRNVKGCANSGYCGLGCPVNGKQAMHITYLPD</Hsp_hseq>
+      <Hsp_midline>HW    G+  LS + LAPHF+AVE+RLSI  WPEA+AN NNR LL G R LG+   PLRRNV+ CANSGYCG+GCPV+ KQAMH+TYLPD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_050727305.1|</Hit_id>
+  <Hit_def>GMC family oxidoreductase [Vulgatibacter incomptus] &gt;gb|AKU93259.1| Oxidoreductase, GMC family [Vulgatibacter incomptus]</Hit_def>
+  <Hit_accession>WP_050727305</Hit_accession>
+  <Hit_len>510</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.413</Hsp_bit-score>
+      <Hsp_score>324</Hsp_score>
+      <Hsp_evalue>1.13751e-32</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>112</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>HWAREFGVRGLSPEVLAPHFDAVEERLSIAEWPEAMANANNRVLLDGCRRLGYSVNPLRRNVRHCANSGYCGMGCPVDAKQAMHLTYLPD</Hsp_qseq>
+      <Hsp_hseq>HWREHHGVDGID---LGPHFDAVEERLSIHEWPIERANANNRVLWDGCRKLGWEARPLRRNVRGCASTGFCGMGCPLDAKQSMLVTYVPD</Hsp_hseq>
+      <Hsp_midline>HW    GV G+    L PHFDAVEERLSI EWP   ANANNRVL DGCR+LG+   PLRRNVR CA++G+CGMGCP+DAKQ+M +TY+PD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|MBA2322125.1|</Hit_id>
+  <Hit_def>GMC family oxidoreductase N-terminal domain-containing protein [Deltaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>MBA2322125</Hit_accession>
+  <Hit_len>426</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.257</Hsp_bit-score>
+      <Hsp_score>321</Hsp_score>
+      <Hsp_evalue>1.14496e-32</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>109</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>HWAREFGVRGLSPEVLAPHFDAVEERLSIAEWPEAMANANNRVLLDGCRRLGYSVNPLRRNVRHCANSGYCGMGCPVDAKQAMHLTYLPD</Hsp_qseq>
+      <Hsp_hseq>HWREVHGLEGIDSEAMRPHFEAVEARLNIGPWSEALVNRNNRVLLDGARKLGWQADILRRNVKGCGNTGYCGLGCPLDAKQGMHLTYIPD</Hsp_hseq>
+      <Hsp_midline>HW    G+ G+  E + PHF+AVE RL+I  W EA+ N NNRVLLDG R+LG+  + LRRNV+ C N+GYCG+GCP+DAKQ MHLTY+PD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>tpg|HHO53689.1|</Hit_id>
+  <Hit_def>GMC family oxidoreductase [Deltaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>HHO53689</Hit_accession>
+  <Hit_len>515</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.413</Hsp_bit-score>
+      <Hsp_score>324</Hsp_score>
+      <Hsp_evalue>1.24373e-32</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>111</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>RHWAREFGVRGLSPEVLAPHFDAVEERLSIAEWPEAMANANNRVLLDGCRRLGYSVNPLRRNVRHCANSGYCGMGCPVDAKQAMHLTYLPD</Hsp_qseq>
+      <Hsp_hseq>RIWRERHGLEGLGVEALEPHFEAVEARLGIGTWPESLANENNRALLRGARALGLRAAPLRRNVRGCASSGYCGLGCPVDAKQAMHVTYLPD</Hsp_hseq>
+      <Hsp_midline>R W    G+ GL  E L PHF+AVE RL I  WPE++AN NNR LL G R LG    PLRRNVR CA+SGYCG+GCPVDAKQAMH+TYLPD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469982569</Statistics_db-num>
+      <Statistics_db-len>1180272553</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

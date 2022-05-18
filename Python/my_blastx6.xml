@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_42777</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_42777</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|MBO2487682.1|</Hit_id>
+  <Hit_def>HIT family protein [Gammaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>MBO2487682</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.732</Hsp_bit-score>
+      <Hsp_score>343</Hsp_score>
+      <Hsp_evalue>1.02689e-38</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>195</Hsp_query-to>
+      <Hsp_hit-from>77</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>AFNPDGIRIAQFNDPAAGQTVFHLHFHIIPCYENQALRAHSREMADPAVLKAHAERIKAALESGA</Hsp_qseq>
+      <Hsp_hseq>AFNPDGIRIAQFNDPAAGQTVFHLHFHIIPCYENQALRAHSREMADPAVLKAHAERIKAALESGA</Hsp_hseq>
+      <Hsp_midline>AFNPDGIRIAQFNDPAAGQTVFHLHFHIIPCYENQALRAHSREMADPAVLKAHAERIKAALESGA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|NLG76089.1|</Hit_id>
+  <Hit_def>HIT family protein [Xanthomonadaceae bacterium]</Hit_def>
+  <Hit_accession>NLG76089</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.472</Hsp_bit-score>
+      <Hsp_score>293</Hsp_score>
+      <Hsp_evalue>3.19577e-31</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>195</Hsp_query-to>
+      <Hsp_hit-from>77</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>AFNPDGIRIAQFNDPAAGQTVFHLHFHIIPCYENQALRAHSREMADPAVLKAHAERIKAALESGA</Hsp_qseq>
+      <Hsp_hseq>AFKPDGIRIAQFNEPAAGQTVFHLHFHIIPCYEGKALRAHSREMADPALLAQHAERIKAALQTTS</Hsp_hseq>
+      <Hsp_midline>AF PDGIRIAQFN+PAAGQTVFHLHFHIIPCYE +ALRAHSREMADPA+L  HAERIKAAL++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_184333915.1|</Hit_id>
+  <Hit_def>HIT family protein [Povalibacter uvarum] &gt;gb|MBB6094496.1| histidine triad (HIT) family protein [Povalibacter uvarum]</Hit_def>
+  <Hit_accession>WP_184333915</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.449</Hsp_bit-score>
+      <Hsp_score>254</Hsp_score>
+      <Hsp_evalue>3.02701e-25</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>77</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>AFNPDGIRIAQFNDPAAGQTVFHLHFHIIPCYENQALRAHSREMADPAVLKAHAERIKAALESG</Hsp_qseq>
+      <Hsp_hseq>AFNPDGMRIIQFNEPAAGQTVFHIHFHIVPCYEGRELKGHSRDMADKVMLAQHAERVRKALEAS</Hsp_hseq>
+      <Hsp_midline>AFNPDG+RI QFN+PAAGQTVFH+HFHI+PCYE + L+ HSR+MAD  +L  HAER++ ALE+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_203165581.1|</Hit_id>
+  <Hit_def>HIT family protein [Steroidobacter gossypii] &gt;gb|MBM0103620.1| HIT family protein [Steroidobacter gossypii]</Hit_def>
+  <Hit_accession>WP_203165581</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.138</Hsp_bit-score>
+      <Hsp_score>248</Hsp_score>
+      <Hsp_evalue>2.24872e-24</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>77</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>AFNPDGIRIAQFNDPAAGQTVFHLHFHIIPCYENQALRAHSREMADPAVLKAHAERIKAALES</Hsp_qseq>
+      <Hsp_hseq>AFKPDGMRIIQFNEPAAGQTVFHIHFHIVPCYEGQSIRGHGRDWADKAVLAEHAEKIRAALAT</Hsp_hseq>
+      <Hsp_midline>AF PDG+RI QFN+PAAGQTVFH+HFHI+PCYE Q++R H R+ AD AVL  HAE+I+AAL +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_161810758.1|</Hit_id>
+  <Hit_def>HIT family protein [Steroidobacter agaridevorans] &gt;dbj|GFE78919.1| hydrolase [Steroidobacter agaridevorans] &gt;dbj|GFE88072.1| hydrolase [Steroidobacter agaridevorans]</Hit_def>
+  <Hit_accession>WP_161810758</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.2857</Hsp_bit-score>
+      <Hsp_score>238</Hsp_score>
+      <Hsp_evalue>7.86719e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>77</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>AFNPDGIRIAQFNDPAAGQTVFHLHFHIIPCYENQALRAHSREMADPAVLKAHAERIKAALES</Hsp_qseq>
+      <Hsp_hseq>AFDPDGMRIIQFNEPAAGQTVFHIHFHIIPCYEGAKLRGHGRDWADKEVLAQHAEKVRAAIAS</Hsp_hseq>
+      <Hsp_midline>AF+PDG+RI QFN+PAAGQTVFH+HFHIIPCYE   LR H R+ AD  VL  HAE+++AA+ S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_129641018.1|</Hit_id>
+  <Hit_def>HIT family protein [Steroidobacter agariperforans]</Hit_def>
+  <Hit_accession>WP_129641018</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.1301</Hsp_bit-score>
+      <Hsp_score>235</Hsp_score>
+      <Hsp_evalue>2.52057e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>77</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>AFNPDGIRIAQFNDPAAGQTVFHLHFHIIPCYENQALRAHSREMADPAVLKAHAERIKAALESGA*ARTSALPP</Hsp_qseq>
+      <Hsp_hseq>AFAPDGMRIIQFNEPAAGQTVFHIHFHIVPCYEGAKLRGHGRDWADKEVLAQHAEKIRAAL--------AGLPP</Hsp_hseq>
+      <Hsp_midline>AF PDG+RI QFN+PAAGQTVFH+HFHI+PCYE   LR H R+ AD  VL  HAE+I+AAL        + LPP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_129781400.1|</Hit_id>
+  <Hit_def>HIT family protein [Steroidobacter soli]</Hit_def>
+  <Hit_accession>WP_129781400</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.3597</Hsp_bit-score>
+      <Hsp_score>233</Hsp_score>
+      <Hsp_evalue>5.82515e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>77</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>AFNPDGIRIAQFNDPAAGQTVFHLHFHIIPCYENQALRAHSREMADPAVLKAHAERIKAAL</Hsp_qseq>
+      <Hsp_hseq>AFQPDGMRIIQFNEPAAGQTVFHIHFHILPCYDGKEIRGHNRDWADQGVLAQHAEKIRAAL</Hsp_hseq>
+      <Hsp_midline>AF PDG+RI QFN+PAAGQTVFH+HFHI+PCY+ + +R H+R+ AD  VL  HAE+I+AAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_003512824.1|</Hit_id>
+  <Hit_def>HIT family protein [Agrobacterium tumefaciens] &gt;gb|EHJ99703.1| HIT family protein [Agrobacterium tumefaciens 5A]</Hit_def>
+  <Hit_accession>WP_003512824</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.5893</Hsp_bit-score>
+      <Hsp_score>231</Hsp_score>
+      <Hsp_evalue>9.1556e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>81</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>AFNPDGIRIAQFNDPAAGQTVFHLHFHIIPCYENQALRAHSREMADPAVLKAHAERIKAALES</Hsp_qseq>
+      <Hsp_hseq>AFDADGVFIAQFNEPAAGQTVFHLHFHVIPRKEGEPLKPHSRAMADGEVLKAHAEKIKAALAS</Hsp_hseq>
+      <Hsp_midline>AF+ DG+ IAQFN+PAAGQTVFHLHFH+IP  E + L+ HSR MAD  VLKAHAE+IKAAL S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>tpg|HCV71028.1|</Hit_id>
+  <Hit_def>HIT family protein [Agrobacterium sp.]</Hit_def>
+  <Hit_accession>HCV71028</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.2041</Hsp_bit-score>
+      <Hsp_score>230</Hsp_score>
+      <Hsp_evalue>1.54326e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>81</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>AFNPDGIRIAQFNDPAAGQTVFHLHFHIIPCYENQALRAHSREMADPAVLKAHAERIKAALES</Hsp_qseq>
+      <Hsp_hseq>AFDADGVFIAQFNEPAAGQTVFHLHFHVIPRKEGEALKPHSGAMADGEVLKAHAEKIKAALAS</Hsp_hseq>
+      <Hsp_midline>AF+ DG+ IAQFN+PAAGQTVFHLHFH+IP  E +AL+ HS  MAD  VLKAHAE+IKAAL S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_116807082.1|</Hit_id>
+  <Hit_def>HIT family protein [Steroidobacter cummioxidans]</Hit_def>
+  <Hit_accession>WP_116807082</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.2041</Hsp_bit-score>
+      <Hsp_score>230</Hsp_score>
+      <Hsp_evalue>1.55037e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>77</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>AFNPDGIRIAQFNDPAAGQTVFHLHFHIIPCYENQALRAHSREMADPAVLKAHAERIKAAL</Hsp_qseq>
+      <Hsp_hseq>AFQPDGMRIIQFNEPAAGQTVFHIHFHILPCYTGKEIRVHNRDWADKGVLAEHAEKVRAAL</Hsp_hseq>
+      <Hsp_midline>AF PDG+RI QFN+PAAGQTVFH+HFHI+PCY  + +R H+R+ AD  VL  HAE+++AAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469534606</Statistics_db-num>
+      <Statistics_db-len>1070605227</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

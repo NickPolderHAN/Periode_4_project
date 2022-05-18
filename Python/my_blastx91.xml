@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_50647</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_50647</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_147653337.1|</Hit_id>
+  <Hit_def>30S ribosomal protein S21 [Vulcaniibacterium gelatinicum]</Hit_def>
+  <Hit_accession>WP_147653337</Hit_accession>
+  <Hit_len>71</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>133.265</Hsp_bit-score>
+      <Hsp_score>334</Hsp_score>
+      <Hsp_evalue>2.39862e-38</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>71</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MPSVKVRENEPFEFALRRFKRTCEKAGILAEIRKREYYEKPTQERKRKAAAAVKRQARRLARDAAKRQRLY</Hsp_qseq>
+      <Hsp_hseq>MPSVKVRENEPFEFALRRFKRTCEKAGILAETRKREYYEKPTQERKRKAAAAVKRQARRVARDATKRQRLY</Hsp_hseq>
+      <Hsp_midline>MPSVKVRENEPFEFALRRFKRTCEKAGILAE RKREYYEKPTQERKRKAAAAVKRQARR+ARDA KRQRLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>dbj|GGK15484.1|</Hit_id>
+  <Hit_def>hypothetical protein GCM10011394_25750 [Luteimonas terricola]</Hit_def>
+  <Hit_accession>GGK15484</Hit_accession>
+  <Hit_len>155</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.576</Hsp_bit-score>
+      <Hsp_score>340</Hsp_score>
+      <Hsp_evalue>4.27297e-38</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>81</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>PENPMPSVKVRENEPFEFALRRFKRTCEKAGILAEIRKREYYEKPTQERKRKAAAAVKRQARRLARDAAKRQRLY</Hsp_qseq>
+      <Hsp_hseq>PEIPMPSVKVRENEPFEFALRRFKRTCEKAGVLAETRKREYYEKPTQERKRKAAAAVKRQARRTSRDVTKRQRMY</Hsp_hseq>
+      <Hsp_midline>PE PMPSVKVRENEPFEFALRRFKRTCEKAG+LAE RKREYYEKPTQERKRKAAAAVKRQARR +RD  KRQR+Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_027070884.1|</Hit_id>
+  <Hit_def>MULTISPECIES: 30S ribosomal protein S21 [Luteimonas] &gt;gb|AOH35600.1| 30S ribosomal protein S21 [Luteimonas sp. JM171] &gt;gb|NLW97767.1| 30S ribosomal protein S21 [Xanthomonadaceae bacterium] &gt;gb|TWG86595.1| SSU ribosomal protein S21P [Luteimonas sp. J16] &gt;gb|TWT18430.1| 30S ribosomal protein S21 [Luteimonas wenzhouensis]</Hit_def>
+  <Hit_accession>WP_027070884</Hit_accession>
+  <Hit_len>71</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.724</Hsp_bit-score>
+      <Hsp_score>330</Hsp_score>
+      <Hsp_evalue>1.16464e-37</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>71</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MPSVKVRENEPFEFALRRFKRTCEKAGILAEIRKREYYEKPTQERKRKAAAAVKRQARRLARDAAKRQRLY</Hsp_qseq>
+      <Hsp_hseq>MPSVKVRENEPFEFALRRFKRTCEKAGVLAETRKREYYEKPTQERKRKAAAAVKRQARRVARDVTKRQRLY</Hsp_hseq>
+      <Hsp_midline>MPSVKVRENEPFEFALRRFKRTCEKAG+LAE RKREYYEKPTQERKRKAAAAVKRQARR+ARD  KRQRLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|MBP6750994.1|</Hit_id>
+  <Hit_def>30S ribosomal protein S21 [Xanthomonadaceae bacterium] &gt;gb|MBW8850727.1| 30S ribosomal protein S21 [Xanthomonadales bacterium] &gt;gb|MCC7248099.1| 30S ribosomal protein S21 [Lysobacter sp.] &gt;gb|TXI47867.1| 30S ribosomal protein S21 [Lysobacter sp.]</Hit_def>
+  <Hit_accession>MBP6750994</Hit_accession>
+  <Hit_len>71</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.339</Hsp_bit-score>
+      <Hsp_score>329</Hsp_score>
+      <Hsp_evalue>1.6365e-37</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>71</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MPSVKVRENEPFEFALRRFKRTCEKAGILAEIRKREYYEKPTQERKRKAAAAVKRQARRLARDAAKRQRLY</Hsp_qseq>
+      <Hsp_hseq>MPSVKVRENEPFEFALRRFKRTCEKAGVLAEVRKREFYEKPTQERKRKAAAAVKRQARRTSRDATKRQRLY</Hsp_hseq>
+      <Hsp_midline>MPSVKVRENEPFEFALRRFKRTCEKAG+LAE+RKRE+YEKPTQERKRKAAAAVKRQARR +RDA KRQRLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_162123562.1|</Hit_id>
+  <Hit_def>30S ribosomal protein S21 [Pseudoxanthomonas taiwanensis] &gt;gb|KAF1690260.1| 30S ribosomal protein S21 [Pseudoxanthomonas taiwanensis] &gt;gb|MBO2466614.1| 30S ribosomal protein S21 [Xanthomonadaceae bacterium]</Hit_def>
+  <Hit_accession>WP_162123562</Hit_accession>
+  <Hit_len>71</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.954</Hsp_bit-score>
+      <Hsp_score>328</Hsp_score>
+      <Hsp_evalue>2.35056e-37</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>71</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MPSVKVRENEPFEFALRRFKRTCEKAGILAEIRKREYYEKPTQERKRKAAAAVKRQARRLARDAAKRQRLY</Hsp_qseq>
+      <Hsp_hseq>MPSVKVRENEPFEFALRRFKRTCEKAGILAETRKREYYEKPTQERKRKAAAAVKRQLRRMARDVTKRQRLY</Hsp_hseq>
+      <Hsp_midline>MPSVKVRENEPFEFALRRFKRTCEKAGILAE RKREYYEKPTQERKRKAAAAVKRQ RR+ARD  KRQRLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_024889019.1|</Hit_id>
+  <Hit_def>MULTISPECIES: 30S ribosomal protein S21 [Luteimonas] &gt;gb|PJJ97492.1| 30S ribosomal protein S21 [Xanthomonadaceae bacterium NML91-0213] &gt;gb|MCD9033194.1| 30S ribosomal protein S21 [Luteimonas sp. Y-2-2-4F] &gt;gb|MCD9045297.1| 30S ribosomal protein S21 [Luteimonas sp. MHLX1A] &gt;gb|QCU72341.1| 30S ribosomal protein S21 [Luteimonas yindakuii] &gt;gb|TKS53098.1| 30S ribosomal protein S21 [Luteimonas yindakuii]</Hit_def>
+  <Hit_accession>WP_024889019</Hit_accession>
+  <Hit_len>71</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.954</Hsp_bit-score>
+      <Hsp_score>328</Hsp_score>
+      <Hsp_evalue>2.56622e-37</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>71</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MPSVKVRENEPFEFALRRFKRTCEKAGILAEIRKREYYEKPTQERKRKAAAAVKRQARRLARDAAKRQRLY</Hsp_qseq>
+      <Hsp_hseq>MPSVKVRENEPFEFALRRFKRTCEKAGVLAETRKREYYEKPTQERKRKAAAAVKRQARRVSRDVTKRQRLY</Hsp_hseq>
+      <Hsp_midline>MPSVKVRENEPFEFALRRFKRTCEKAG+LAE RKREYYEKPTQERKRKAAAAVKRQARR++RD  KRQRLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|TXH75161.1|</Hit_id>
+  <Hit_def>30S ribosomal protein S21 [Xanthomonadaceae bacterium]</Hit_def>
+  <Hit_accession>TXH75161</Hit_accession>
+  <Hit_len>71</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.568</Hsp_bit-score>
+      <Hsp_score>327</Hsp_score>
+      <Hsp_evalue>2.86382e-37</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>71</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MPSVKVRENEPFEFALRRFKRTCEKAGILAEIRKREYYEKPTQERKRKAAAAVKRQARRLARDAAKRQRLY</Hsp_qseq>
+      <Hsp_hseq>MPSVKVRENEPFEFALRRFKRTCEKAGVLAEVRKREFYEKPTQERKRKAAAAVKRQARRSSRDATKRQRLY</Hsp_hseq>
+      <Hsp_midline>MPSVKVRENEPFEFALRRFKRTCEKAG+LAE+RKRE+YEKPTQERKRKAAAAVKRQARR +RDA KRQRLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|MBN8212465.1|</Hit_id>
+  <Hit_def>30S ribosomal protein S21 [Xanthomonadales bacterium] &gt;gb|NOT87098.1| 30S ribosomal protein S21 [Lysobacter sp.]</Hit_def>
+  <Hit_accession>MBN8212465</Hit_accession>
+  <Hit_len>71</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.568</Hsp_bit-score>
+      <Hsp_score>327</Hsp_score>
+      <Hsp_evalue>3.26685e-37</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>71</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MPSVKVRENEPFEFALRRFKRTCEKAGILAEIRKREYYEKPTQERKRKAAAAVKRQARRLARDAAKRQRLY</Hsp_qseq>
+      <Hsp_hseq>MPSVKVRENEPFEFALRRFKRTCEKAGVLAEVRKREFYEKPTQERKRKAAAAVKRQARRTSRDATKRQRMY</Hsp_hseq>
+      <Hsp_midline>MPSVKVRENEPFEFALRRFKRTCEKAG+LAE+RKRE+YEKPTQERKRKAAAAVKRQARR +RDA KRQR+Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|NLG59971.1|</Hit_id>
+  <Hit_def>30S ribosomal protein S21 [Gammaproteobacteria bacterium] &gt;tpg|HIY71353.1| 30S ribosomal protein S21 [Candidatus Luteimonas excrementigallinarum]</Hit_def>
+  <Hit_accession>NLG59971</Hit_accession>
+  <Hit_len>71</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.183</Hsp_bit-score>
+      <Hsp_score>326</Hsp_score>
+      <Hsp_evalue>4.34534e-37</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>71</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MPSVKVRENEPFEFALRRFKRTCEKAGILAEIRKREYYEKPTQERKRKAAAAVKRQARRLARDAAKRQRLY</Hsp_qseq>
+      <Hsp_hseq>MPSVKVRENEPFEFALRRFKRTCEKAGVLAETRKREYYEKPTQERKRKAAAAVKRQARRAARDVTKRQRLY</Hsp_hseq>
+      <Hsp_midline>MPSVKVRENEPFEFALRRFKRTCEKAG+LAE RKREYYEKPTQERKRKAAAAVKRQARR ARD  KRQRLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_240126476.1|</Hit_id>
+  <Hit_def>30S ribosomal protein S21 [Thermomonas sp. SYSU G04536]</Hit_def>
+  <Hit_accession>WP_240126476</Hit_accession>
+  <Hit_len>71</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.183</Hsp_bit-score>
+      <Hsp_score>326</Hsp_score>
+      <Hsp_evalue>4.84926e-37</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>71</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MPSVKVRENEPFEFALRRFKRTCEKAGILAEIRKREYYEKPTQERKRKAAAAVKRQARRLARDAAKRQRLY</Hsp_qseq>
+      <Hsp_hseq>MPSVKVRENEPFEFALRRFKRTCEKAGILAEVRKREFYEKPTQERKRKAAAAVKRQARRASRDVTKRQRLY</Hsp_hseq>
+      <Hsp_midline>MPSVKVRENEPFEFALRRFKRTCEKAGILAE+RKRE+YEKPTQERKRKAAAAVKRQARR +RD  KRQRLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469534606</Statistics_db-num>
+      <Statistics_db-len>1070605227</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

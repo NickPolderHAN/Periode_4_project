@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_19809</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_19809</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_055939014.1|</Hit_id>
+  <Hit_def>Sec-independent protein translocase subunit TatA [Pseudoxanthomonas sp. Root65] &gt;gb|KRA54261.1| preprotein translocase subunit SecA [Pseudoxanthomonas sp. Root65]</Hit_def>
+  <Hit_accession>WP_055939014</Hit_accession>
+  <Hit_len>73</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.5666</Hsp_bit-score>
+      <Hsp_score>192</Hsp_score>
+      <Hsp_evalue>1.36051e-16</Hsp_evalue>
+      <Hsp_query-from>145</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>50</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>MGSFSIWHWIIVLVVVLLVFGTGRLRNAGRDLGEAVKGFKKGLSDDDKPP</Hsp_qseq>
+      <Hsp_hseq>MGSLSIWHWIIVLVVVLLVFGTKRLRNAGQDLGEAVKGFKKGMKDDDKPA</Hsp_hseq>
+      <Hsp_midline>MGS SIWHWIIVLVVVLLVFGT RLRNAG+DLGEAVKGFKKG+ DDDKP </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_202843716.1|</Hit_id>
+  <Hit_def>Sec-independent protein translocase subunit TatA [Luteimonas sp. SJ-9]</Hit_def>
+  <Hit_accession>WP_202843716</Hit_accession>
+  <Hit_len>79</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.411</Hsp_bit-score>
+      <Hsp_score>189</Hsp_score>
+      <Hsp_evalue>4.3536e-16</Hsp_evalue>
+      <Hsp_query-from>145</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>49</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>MGSFSIWHWIIVLVVVLLVFGTGRLRNAGRDLGEAVKGFKKGLSDDDKP</Hsp_qseq>
+      <Hsp_hseq>MGSFSIWHWLIVLVVVLLVFGTKRLRGAGRDLGEAVKGFKKGIADDDKP</Hsp_hseq>
+      <Hsp_midline>MGSFSIWHW+IVLVVVLLVFGT RLR AGRDLGEAVKGFKKG++DDDKP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_149102778.1|</Hit_id>
+  <Hit_def>Sec-independent protein translocase subunit TatA [Luteimonas sp. XBU10] &gt;gb|TYT26229.1| Sec-independent protein translocase subunit TatA [Luteimonas sp. XBU10]</Hit_def>
+  <Hit_accession>WP_149102778</Hit_accession>
+  <Hit_len>80</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.411</Hsp_bit-score>
+      <Hsp_score>189</Hsp_score>
+      <Hsp_evalue>4.47002e-16</Hsp_evalue>
+      <Hsp_query-from>145</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>49</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>MGSFSIWHWIIVLVVVLLVFGTGRLRNAGRDLGEAVKGFKKGLSDDDKP</Hsp_qseq>
+      <Hsp_hseq>MGSFSIWHWLIVLVVVLLVFGTKRLRGAGRDLGEAVKGFKKGISDEDKP</Hsp_hseq>
+      <Hsp_midline>MGSFSIWHW+IVLVVVLLVFGT RLR AGRDLGEAVKGFKKG+SD+DKP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|KPN16766.1|</Hit_id>
+  <Hit_def>preprotein translocase subunit SecA [Xanthomonas sp. Mitacek01]</Hit_def>
+  <Hit_accession>KPN16766</Hit_accession>
+  <Hit_len>75</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.0258</Hsp_bit-score>
+      <Hsp_score>188</Hsp_score>
+      <Hsp_evalue>5.094e-16</Hsp_evalue>
+      <Hsp_query-from>145</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>51</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>MGSFSIWHWIIVLVVVLLVFGTGRLRNAGRDLGEAVKGFKKGLSDDDKPPR</Hsp_qseq>
+      <Hsp_hseq>MGSFSIWHWLIVLVVVLLVFGTKRLRGAGRDLGEAVKGFKKGMHDDDAPER</Hsp_hseq>
+      <Hsp_midline>MGSFSIWHW+IVLVVVLLVFGT RLR AGRDLGEAVKGFKKG+ DDD P R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_241944589.1|</Hit_id>
+  <Hit_def>Sec-independent protein translocase subunit TatA [Luteimonas sp. S4-F44] &gt;gb|UNK42336.1| Sec-independent protein translocase subunit TatA [Luteimonas sp. S4-F44]</Hit_def>
+  <Hit_accession>WP_241944589</Hit_accession>
+  <Hit_len>75</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.0258</Hsp_bit-score>
+      <Hsp_score>188</Hsp_score>
+      <Hsp_evalue>6.00128e-16</Hsp_evalue>
+      <Hsp_query-from>145</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>50</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>MGSFSIWHWIIVLVVVLLVFGTGRLRNAGRDLGEAVKGFKKGLSDDDKPP</Hsp_qseq>
+      <Hsp_hseq>MGSFSIWHWLIVLLVVLLVFGTKRLRGAGRDLGEAVKGFKKGMHDDDVPP</Hsp_hseq>
+      <Hsp_midline>MGSFSIWHW+IVL+VVLLVFGT RLR AGRDLGEAVKGFKKG+ DDD PP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_183425263.1|</Hit_id>
+  <Hit_def>Sec-independent protein translocase subunit TatA [Luteimonas sp. RC10] &gt;gb|ASR42938.1| preprotein translocase subunit SecA [Xanthomonas citri pv. mangiferaeindicae] &gt;gb|MBB3342808.1| sec-independent protein translocase protein TatA [Luteimonas sp. RC10]</Hit_def>
+  <Hit_accession>WP_183425263</Hit_accession>
+  <Hit_len>75</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.0258</Hsp_bit-score>
+      <Hsp_score>188</Hsp_score>
+      <Hsp_evalue>6.06722e-16</Hsp_evalue>
+      <Hsp_query-from>145</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>50</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>MGSFSIWHWIIVLVVVLLVFGTGRLRNAGRDLGEAVKGFKKGLSDDDKPP</Hsp_qseq>
+      <Hsp_hseq>MGSFSIWHWLIVLLVVLLVFGTKRLRGAGRDLGEAVKGFKKGMHDDDVPP</Hsp_hseq>
+      <Hsp_midline>MGSFSIWHW+IVL+VVLLVFGT RLR AGRDLGEAVKGFKKG+ DDD PP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_146312606.1|</Hit_id>
+  <Hit_def>Sec-independent protein translocase subunit TatA [Luteimonas wenzhouensis] &gt;gb|NLW95675.1| Sec-independent protein translocase subunit TatA [Xanthomonadaceae bacterium] &gt;gb|TWT18786.1| Sec-independent protein translocase subunit TatA [Luteimonas wenzhouensis]</Hit_def>
+  <Hit_accession>WP_146312606</Hit_accession>
+  <Hit_len>78</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.0258</Hsp_bit-score>
+      <Hsp_score>188</Hsp_score>
+      <Hsp_evalue>6.56424e-16</Hsp_evalue>
+      <Hsp_query-from>145</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>49</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>MGSFSIWHWIIVLVVVLLVFGTGRLRNAGRDLGEAVKGFKKGLSDDDKP</Hsp_qseq>
+      <Hsp_hseq>MGSFSIWHWLIVLVVVLLVFGTKRLRGAGRDLGEAVKGFKKGMADDDRP</Hsp_hseq>
+      <Hsp_midline>MGSFSIWHW+IVLVVVLLVFGT RLR AGRDLGEAVKGFKKG++DDD+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_096296667.1|</Hit_id>
+  <Hit_def>MULTISPECIES: Sec-independent protein translocase subunit TatA [Luteimonas] &gt;gb|ATD66337.1| twin-arginine translocase subunit TatA [Luteimonas chenhongjianii] &gt;gb|RPD85423.1| Sec-independent protein translocase subunit TatA [Luteimonas sp. 100069]</Hit_def>
+  <Hit_accession>WP_096296667</Hit_accession>
+  <Hit_len>74</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.6406</Hsp_bit-score>
+      <Hsp_score>187</Hsp_score>
+      <Hsp_evalue>6.88766e-16</Hsp_evalue>
+      <Hsp_query-from>145</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>51</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>MGSFSIWHWIIVLVVVLLVFGTGRLRNAGRDLGEAVKGFKKGLSDDDKPPR</Hsp_qseq>
+      <Hsp_hseq>MGSFSIWHWLIVLVVVLLVFGTKRLRGAGRDLGEAVKGFKKGMHDDDTPER</Hsp_hseq>
+      <Hsp_midline>MGSFSIWHW+IVLVVVLLVFGT RLR AGRDLGEAVKGFKKG+ DDD P R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_027072099.1|</Hit_id>
+  <Hit_def>MULTISPECIES: Sec-independent protein translocase subunit TatA [unclassified Luteimonas] &gt;gb|TWG92167.1| sec-independent protein translocase protein TatA [Luteimonas sp. J16]</Hit_def>
+  <Hit_accession>WP_027072099</Hit_accession>
+  <Hit_len>78</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.6406</Hsp_bit-score>
+      <Hsp_score>187</Hsp_score>
+      <Hsp_evalue>8.72036e-16</Hsp_evalue>
+      <Hsp_query-from>145</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>49</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>MGSFSIWHWIIVLVVVLLVFGTGRLRNAGRDLGEAVKGFKKGLSDDDKP</Hsp_qseq>
+      <Hsp_hseq>MGSFSIWHWLIVLVVVLLVFGTKRLRGAGRDLGEAVKGFKKGMADDDRP</Hsp_hseq>
+      <Hsp_midline>MGSFSIWHW+IVLVVVLLVFGT RLR AGRDLGEAVKGFKKG++DDD+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_232118342.1|</Hit_id>
+  <Hit_def>Sec-independent protein translocase subunit TatA [Luteimonas sp. XNQY3] &gt;gb|MCD9007970.1| Sec-independent protein translocase subunit TatA [Luteimonas sp. XNQY3]</Hit_def>
+  <Hit_accession>WP_232118342</Hit_accession>
+  <Hit_len>76</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.2554</Hsp_bit-score>
+      <Hsp_score>186</Hsp_score>
+      <Hsp_evalue>9.85503e-16</Hsp_evalue>
+      <Hsp_query-from>145</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>51</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>MGSFSIWHWIIVLVVVLLVFGTGRLRNAGRDLGEAVKGFKKGLSDDDKPPR</Hsp_qseq>
+      <Hsp_hseq>MGSFSIWHWIIVLVVVLLVFGTKRLRGAGRDLGEAVKGFKKGMHDDETPER</Hsp_hseq>
+      <Hsp_midline>MGSFSIWHWIIVLVVVLLVFGT RLR AGRDLGEAVKGFKKG+ DD+ P R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469534606</Statistics_db-num>
+      <Statistics_db-len>1070605227</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

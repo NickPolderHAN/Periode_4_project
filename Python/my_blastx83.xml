@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_24111</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_24111</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_201314223.1|</Hit_id>
+  <Hit_def>peptidylprolyl isomerase [Dyella sp. EPa41]</Hit_def>
+  <Hit_accession>WP_201314223</Hit_accession>
+  <Hit_len>168</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.844</Hsp_bit-score>
+      <Hsp_score>403</Hsp_score>
+      <Hsp_evalue>1.49814e-47</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>PHGTGTGGPGYEFEDEVETGLRHDRPGVLSMANRGPGTNGSQFFITHVPTPWLDGRHTVFGKVVGPEDQAVVDAVRQGDSMESVTREGDVDAVLAAQGD</Hsp_qseq>
+      <Hsp_hseq>PEGSGRGGPGYRFEDEFDASLRHDKPGVLSMANAGPRTNGSQFFITHGATPWLDGKHSVFGEVVGPEDQAVVDAIRQGDTIEKVTVEGDVDALLAAKAD</Hsp_hseq>
+      <Hsp_midline>P G+G GGPGY FEDE +  LRHD+PGVLSMAN GP TNGSQFFITH  TPWLDG+H+VFG+VVGPEDQAVVDA+RQGD++E VT EGDVDA+LAA+ D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|AHX13926.1|</Hit_id>
+  <Hit_def>peptidylprolyl isomerase [Dyella jiangningensis]</Hit_def>
+  <Hit_accession>AHX13926</Hit_accession>
+  <Hit_len>168</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.844</Hsp_bit-score>
+      <Hsp_score>403</Hsp_score>
+      <Hsp_evalue>1.63519e-47</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>PHGTGTGGPGYEFEDEVETGLRHDRPGVLSMANRGPGTNGSQFFITHVPTPWLDGRHTVFGKVVGPEDQAVVDAVRQGDSMESVTREGDVDAVLAAQGD</Hsp_qseq>
+      <Hsp_hseq>PEGSGRGGPGYRFEDEFDASLRHDKPGVLSMANAGPRTNGSQFFITHGATPWLDGKHSVFGEVVGPEDQAVVDAIRQGDTIEKVTVEGDVDALLAAKAD</Hsp_hseq>
+      <Hsp_midline>P G+G GGPGY FEDE +  LRHD+PGVLSMAN GP TNGSQFFITH  TPWLDG+H+VFG+VVGPEDQAVVDA+RQGD++E VT EGDVDA+LAA+ D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_243050134.1|</Hit_id>
+  <Hit_def>peptidylprolyl isomerase [Dyella sp. RRB7]</Hit_def>
+  <Hit_accession>WP_243050134</Hit_accession>
+  <Hit_len>169</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.458</Hsp_bit-score>
+      <Hsp_score>402</Hsp_score>
+      <Hsp_evalue>2.55566e-47</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>PHGTGTGGPGYEFEDEVETGLRHDRPGVLSMANRGPGTNGSQFFITHVPTPWLDGRHTVFGKVVGPEDQAVVDAVRQGDSMESVTREGDVDAVLAAQGD</Hsp_qseq>
+      <Hsp_hseq>PEGSGRGGPGYRFEDEFDPSLRHDKPGVLSMANAGPRTNGSQFFITHGATPWLDGKHSVFGEVVGPEDQAVVDAIRQGDIIEKVTLEGDVDALLAAQAD</Hsp_hseq>
+      <Hsp_midline>P G+G GGPGY FEDE +  LRHD+PGVLSMAN GP TNGSQFFITH  TPWLDG+H+VFG+VVGPEDQAVVDA+RQGD +E VT EGDVDA+LAAQ D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_046972581.1|</Hit_id>
+  <Hit_def>peptidylprolyl isomerase [Dyella japonica] &gt;gb|KLD62879.1| peptidylprolyl isomerase [Dyella japonica DSM 16301]</Hit_def>
+  <Hit_accession>WP_046972581</Hit_accession>
+  <Hit_len>169</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.458</Hsp_bit-score>
+      <Hsp_score>402</Hsp_score>
+      <Hsp_evalue>2.55566e-47</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>PHGTGTGGPGYEFEDEVETGLRHDRPGVLSMANRGPGTNGSQFFITHVPTPWLDGRHTVFGKVVGPEDQAVVDAVRQGDSMESVTREGDVDAVLAAQGD</Hsp_qseq>
+      <Hsp_hseq>PEGSGRGGPGYRFEDEFDASLRHDKPGVLSMANAGPRTNGSQFFITHGATPWLDGKHSVFGEIVGPEDQAVVDAIRQGDIVEKVTVEGDVDALLAAQAD</Hsp_hseq>
+      <Hsp_midline>P G+G GGPGY FEDE +  LRHD+PGVLSMAN GP TNGSQFFITH  TPWLDG+H+VFG++VGPEDQAVVDA+RQGD +E VT EGDVDA+LAAQ D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_114825586.1|</Hit_id>
+  <Hit_def>peptidylprolyl isomerase [Dyella solisilvae] &gt;gb|RDI98068.1| peptidylprolyl isomerase [Dyella solisilvae]</Hit_def>
+  <Hit_accession>WP_114825586</Hit_accession>
+  <Hit_len>169</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.073</Hsp_bit-score>
+      <Hsp_score>401</Hsp_score>
+      <Hsp_evalue>2.72905e-47</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>PHGTGTGGPGYEFEDEVETGLRHDRPGVLSMANRGPGTNGSQFFITHVPTPWLDGRHTVFGKVVGPEDQAVVDAVRQGDSMESVTREGDVDAVLAAQGD</Hsp_qseq>
+      <Hsp_hseq>PEGSGRGGPGYRFEDEFDASLRHDKPGVLSMANAGPRTNGSQFFITHGATPWLDGKHSVFGEVVGPEDQAVVDAIRQGDVIEKLTIEGDVDALLAAQAD</Hsp_hseq>
+      <Hsp_midline>P G+G GGPGY FEDE +  LRHD+PGVLSMAN GP TNGSQFFITH  TPWLDG+H+VFG+VVGPEDQAVVDA+RQGD +E +T EGDVDA+LAAQ D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_123521536.1|</Hit_id>
+  <Hit_def>peptidylprolyl isomerase [Pseudofulvimonas gallinarii] &gt;gb|TCS97731.1| peptidyl-prolyl cis-trans isomerase B (cyclophilin B) [Pseudofulvimonas gallinarii] &gt;gb|THD13364.1| peptidylprolyl isomerase [Pseudofulvimonas gallinarii]</Hit_def>
+  <Hit_accession>WP_123521536</Hit_accession>
+  <Hit_len>170</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.073</Hsp_bit-score>
+      <Hsp_score>401</Hsp_score>
+      <Hsp_evalue>3.35263e-47</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>PGYEFEDEVETGLRHDRPGVLSMANRGPGTNGSQFFITHVPTPWLDGRHTVFGKVVGPEDQAVVDAVRQGDSMESVTREGDVDAVLAAQGD</Hsp_qseq>
+      <Hsp_hseq>PGYEFEDEVNTGLRHDKPGVLSMANRGPRTNGSQFFITHVATPWLDGKHTVFGEVLGAEDQAVVDAVRQGDGLESITLEGDADAVLAAQAD</Hsp_hseq>
+      <Hsp_midline>PGYEFEDEV TGLRHD+PGVLSMANRGP TNGSQFFITHV TPWLDG+HTVFG+V+G EDQAVVDAVRQGD +ES+T EGD DAVLAAQ D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_111981935.1|</Hit_id>
+  <Hit_def>peptidylprolyl isomerase [Dyella jiangningensis] &gt;gb|RAO77678.1| peptidylprolyl isomerase [Dyella jiangningensis]</Hit_def>
+  <Hit_accession>WP_111981935</Hit_accession>
+  <Hit_len>168</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>158.688</Hsp_bit-score>
+      <Hsp_score>400</Hsp_score>
+      <Hsp_evalue>4.83037e-47</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>PHGTGTGGPGYEFEDEVETGLRHDRPGVLSMANRGPGTNGSQFFITHVPTPWLDGRHTVFGKVVGPEDQAVVDAVRQGDSMESVTREGDVDAVLAAQGD</Hsp_qseq>
+      <Hsp_hseq>PEGSGRGGPGYRFEDEFDPSLRHDKPGVLSMANAGPRTNGSQFFITHGATPWLDGKHSVFGEVVGPEDQAVVDAIRQGDTIEKVTVEGDVDALLAAKAD</Hsp_hseq>
+      <Hsp_midline>P G+G GGPGY FEDE +  LRHD+PGVLSMAN GP TNGSQFFITH  TPWLDG+H+VFG+VVGPEDQAVVDA+RQGD++E VT EGDVDA+LAA+ D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|NCT67396.1|</Hit_id>
+  <Hit_def>peptidylprolyl isomerase [Rhodanobacteraceae bacterium]</Hit_def>
+  <Hit_accession>NCT67396</Hit_accession>
+  <Hit_len>169</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.532</Hsp_bit-score>
+      <Hsp_score>397</Hsp_score>
+      <Hsp_evalue>1.31879e-46</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>PHGTGTGGPGYEFEDEVETGLRHDRPGVLSMANRGPGTNGSQFFITHVPTPWLDGRHTVFGKVVGPEDQAVVDAVRQGDSMESVTREGDVDAVLAAQ</Hsp_qseq>
+      <Hsp_hseq>PHGSGTGGPGYRFEDEIVAGLKHDRPGILSMANAGPGTNGSQFFITHVPTPWLDGKHTVFGEVVGAEDQKVVDSIRGGDTIESIRIEGDVAPLFAKQ</Hsp_hseq>
+      <Hsp_midline>PHG+GTGGPGY FEDE+  GL+HDRPG+LSMAN GPGTNGSQFFITHVPTPWLDG+HTVFG+VVG EDQ VVD++R GD++ES+  EGDV  + A Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_131150684.1|</Hit_id>
+  <Hit_def>MULTISPECIES: peptidylprolyl isomerase [Dyella] &gt;gb|TBR39882.1| peptidylprolyl isomerase [Dyella terrae] &gt;gb|TCI12538.1| peptidylprolyl isomerase [Dyella soli]</Hit_def>
+  <Hit_accession>WP_131150684</Hit_accession>
+  <Hit_len>169</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.532</Hsp_bit-score>
+      <Hsp_score>397</Hsp_score>
+      <Hsp_evalue>1.4394e-46</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>PHGTGTGGPGYEFEDEVETGLRHDRPGVLSMANRGPGTNGSQFFITHVPTPWLDGRHTVFGKVVGPEDQAVVDAVRQGDSMESVTREGDVDAVLAAQGD</Hsp_qseq>
+      <Hsp_hseq>PEGSGRGGPGYRFEDEFHPSLRHDKPGVLSMANAGPRTNGSQFFITHGPTPWLDGKHSVFGEVLGAEDQAVVDAIRQGDVIEKVTVEGDVDALLAAQAD</Hsp_hseq>
+      <Hsp_midline>P G+G GGPGY FEDE    LRHD+PGVLSMAN GP TNGSQFFITH PTPWLDG+H+VFG+V+G EDQAVVDA+RQGD +E VT EGDVDA+LAAQ D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_204634448.1|</Hit_id>
+  <Hit_def>peptidylprolyl isomerase [Dyella kyungheensis] &gt;gb|MBM7119990.1| peptidylprolyl isomerase [Dyella kyungheensis]</Hit_def>
+  <Hit_accession>WP_204634448</Hit_accession>
+  <Hit_len>169</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.147</Hsp_bit-score>
+      <Hsp_score>396</Hsp_score>
+      <Hsp_evalue>1.77194e-46</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>PHGTGTGGPGYEFEDEVETGLRHDRPGVLSMANRGPGTNGSQFFITHVPTPWLDGRHTVFGKVVGPEDQAVVDAVRQGDSMESVTREGDVDAVLAAQGD</Hsp_qseq>
+      <Hsp_hseq>PEGSGRGGPGYRFEDEFDASLRHDKPGVLSMANAGPRTNGSQFFITHGATPWLDGKHSVFGEIVGAEDQAVVDAIRQGDVIEKVTVEGDVDALLAAQAD</Hsp_hseq>
+      <Hsp_midline>P G+G GGPGY FEDE +  LRHD+PGVLSMAN GP TNGSQFFITH  TPWLDG+H+VFG++VG EDQAVVDA+RQGD +E VT EGDVDA+LAAQ D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469534606</Statistics_db-num>
+      <Statistics_db-len>1070605227</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

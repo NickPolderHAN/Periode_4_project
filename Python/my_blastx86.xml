@@ -1,0 +1,312 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_31571</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_31571</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>emb|SOR32679.1|</Hit_id>
+  <Hit_def>protein of unknown function [Methylorubrum extorquens]</Hit_def>
+  <Hit_accession>SOR32679</Hit_accession>
+  <Hit_len>96</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.5741</Hsp_bit-score>
+      <Hsp_score>205</Hsp_score>
+      <Hsp_evalue>2.31875e-18</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>283</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>82</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>RRVGV-LRAQVRLHKGHARRWRWSPLCHWPESIADLRQAVSAYTLGGSCRSAFQSVVHQAVRLPESFRGGCAFGGR</Hsp_qseq>
+      <Hsp_hseq>RRVGLWGRHRAGLQGCSARRMRASPLCHRPESFNAASGEATPYTIGGSCRSAFQSVERRAVRVPESFRGGCSFGGR</Hsp_hseq>
+      <Hsp_midline>RRVG+  R +  L    ARR R SPLCH PES        + YT+GGSCRSAFQSV  +AVR+PESFRGGC+FGGR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|PYG31049.1|</Hit_id>
+  <Hit_def>hypothetical protein C8N36_105105 [Pelagimonas varians] &gt;emb|SMX39531.1| hypothetical protein PEV8663_01746 [Pelagimonas varians]</Hit_def>
+  <Hit_accession>PYG31049</Hit_accession>
+  <Hit_len>53</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.743</Hsp_bit-score>
+      <Hsp_score>99</Hsp_score>
+      <Hsp_evalue>0.0104405</Hsp_evalue>
+      <Hsp_query-from>179</Hsp_query-from>
+      <Hsp_query-to>280</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>44</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>TAEGATAPETLRQPDRLMDNTLKSGAAAPAQGVS</Hsp_qseq>
+      <Hsp_hseq>SAEGATAPETLRLQDRHGPNTLERGANAPAEGIA</Hsp_hseq>
+      <Hsp_midline>+AEGATAPETLR  DR   NTL+ GA APA+G++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|ESR25980.1|</Hit_id>
+  <Hit_def>hypothetical protein N177_1315 [Lutibaculum baratangense AMV1]</Hit_def>
+  <Hit_accession>ESR25980</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.0248283</Hsp_evalue>
+      <Hsp_query-from>128</Hsp_query-from>
+      <Hsp_query-to>226</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>PLCHWPESIADLRQAVSAYTLGGSCRSAFQSVV</Hsp_qseq>
+      <Hsp_hseq>PLCHWPESFAGPPAGSAAYTVGGGSRPTFQSVV</Hsp_hseq>
+      <Hsp_midline>PLCHWPES A      +AYT+GG  R  FQSVV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|APE27874.1|</Hit_id>
+  <Hit_def>hypothetical protein BMF35_a1045 [Aurantiacibacter gangjinensis]</Hit_def>
+  <Hit_accession>APE27874</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.76383</Hsp_evalue>
+      <Hsp_query-from>161</Hsp_query-from>
+      <Hsp_query-to>280</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>56</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>LRQAVSAYTLGGSC-RSAFQSV-VHQAVRLPESFRGGCAFGG</Hsp_qseq>
+      <Hsp_hseq>LRKATLTPSVARICIQGAFQSAWPGRAVRLPESFRGGCSFGG</Hsp_hseq>
+      <Hsp_midline>LR+A    ++   C + AFQS    +AVRLPESFRGGC+FGG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|KNY34489.1|</Hit_id>
+  <Hit_def>hypothetical protein AKG12_07950 [Agrobacterium sp. SUL3]</Hit_def>
+  <Hit_accession>KNY34489</Hit_accession>
+  <Hit_len>104</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>1.30723</Hsp_evalue>
+      <Hsp_query-from>179</Hsp_query-from>
+      <Hsp_query-to>277</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>AEGATAPETLRQPDRL-MDNTLKSGAAAPAQGVS</Hsp_qseq>
+      <Hsp_hseq>ADGATTPETLRQMDRCKIIQTLKSGLIARADGVS</Hsp_hseq>
+      <Hsp_midline>A+GAT PETLRQ DR  +  TLKSG  A A GVS</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>23.0978</Hsp_bit-score>
+      <Hsp_score>48</Hsp_score>
+      <Hsp_evalue>1.30723</Hsp_evalue>
+      <Hsp_query-from>123</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>71</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>10</Hsp_identity>
+      <Hsp_positive>11</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>16</Hsp_align-len>
+      <Hsp_qseq>PDADRRCSQANDRGGS</Hsp_qseq>
+      <Hsp_hseq>PKHGERISQANDRGGA</Hsp_hseq>
+      <Hsp_midline>P    R SQANDRGG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>emb|CUX20975.1|</Hit_id>
+  <Hit_def>hypothetical protein AGR3A_Cc260011 [Agrobacterium tomkonis CFBP 6623]</Hit_def>
+  <Hit_accession>CUX20975</Hit_accession>
+  <Hit_len>95</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>2.33563</Hsp_evalue>
+      <Hsp_query-from>179</Hsp_query-from>
+      <Hsp_query-to>277</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>AEGATAPETLRQPDRL-MDNTLKSGAAAPAQGVS</Hsp_qseq>
+      <Hsp_hseq>ADGATTPETLRQMDRCKIIQTLKSGLIARADGVS</Hsp_hseq>
+      <Hsp_midline>A+GAT PETLRQ DR  +  TLKSG  A A GVS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|OYW49722.1|</Hit_id>
+  <Hit_def>nucleoside-diphosphate sugar epimerase [Novosphingobium sp. 12-62-10] &gt;gb|OYZ12322.1| nucleoside-diphosphate sugar epimerase [Novosphingobium sp. 28-62-57] &gt;gb|OZA36193.1| nucleoside-diphosphate sugar epimerase [Novosphingobium sp. 17-62-9]</Hit_def>
+  <Hit_accession>OYW49722</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>5.59397</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>96</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>RPDLSKGVGFSALRRVGVLRAQVRLHKGHARRWRWSPLCHWPESIADLRQAVSAYTLG------GSCRSAFQSVVHQAV</Hsp_qseq>
+      <Hsp_hseq>RAVMEQAVNHSDIHLVAIARREVPLPKGARMEMLLSDTGHWPDAIAAARPDTAVITLGTTIKTVGGDKAAFRAVDHDLV</Hsp_hseq>
+      <Hsp_midline>R  + + V  S +  V + R +V L KG       S   HWP++IA  R   +  TLG      G  ++AF++V H  V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|AXV07703.1|</Hit_id>
+  <Hit_def>hypothetical protein DVS28_a3024 [Euzebya pacifica]</Hit_def>
+  <Hit_accession>AXV07703</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>7.66549</Hsp_evalue>
+      <Hsp_query-from>209</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>AFQSVVHQAVRLPESFRGGCAFGGRRADPP</Hsp_qseq>
+      <Hsp_hseq>ALQRAPDRAVRVPESFRGGCSFGAGRGGCP</Hsp_hseq>
+      <Hsp_midline>A Q    +AVR+PESFRGGC+FG  R   P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|OZA65929.1|</Hit_id>
+  <Hit_def>nucleoside-diphosphate sugar epimerase [Sphingomonadales bacterium 39-62-4]</Hit_def>
+  <Hit_accession>OZA65929</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>8.53959</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>LSKGVGFSALRRVGVLRAQVRLHKGHARRWRWSPLCHWPESIADLRQAVSAYTLGGSCR------SAFQSVVHQAV</Hsp_qseq>
+      <Hsp_hseq>MAEAVGRPDIHLVAIARREVPLPKGARMEMLLSDTGHWPDAIADGRPHTAVIALGTTIKAVGGDNAAFRAVDHDLV</Hsp_hseq>
+      <Hsp_midline>+++ VG   +  V + R +V L KG       S   HWP++IAD R   +   LG + +      +AF++V H  V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469534606</Statistics_db-num>
+      <Statistics_db-len>1070605227</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_44387</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_44387</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_119360664.1|</Hit_id>
+  <Hit_def>TldD/PmbA family protein [Meiothermus luteus] &gt;gb|RIH83685.1| Metalloprotease PmbA [Meiothermus luteus] &gt;gb|RMH56329.1| TldD/PmbA family protein [Deinococcus-Thermus bacterium]</Hit_def>
+  <Hit_accession>WP_119360664</Hit_accession>
+  <Hit_len>438</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.3673</Hsp_bit-score>
+      <Hsp_score>246</Hsp_score>
+      <Hsp_evalue>8.418e-22</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>EAIENASLQKPAGVTLPAGRALGRHDLLDEGLSGTVAEKRDMALALEADLKRDPRVQSVQYALYAETQAETHVGSTKGVDGSYRSGGAVMVPGMVMRGG</Hsp_qseq>
+      <Hsp_hseq>EARENALLQSETGGFLPAGGALGQHDLLGEGLSAPLEQKRQKALALEAGLRADPRVQQVQMTRYAEYETQATLGSTRGVFGAFRNGYALLLTSAVMAQG</Hsp_hseq>
+      <Hsp_midline>EA ENA LQ   G  LPAG ALG+HDLL EGLS  + +KR  ALALEA L+ DPRVQ VQ   YAE + +  +GST+GV G++R+G A+++   VM  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_119342436.1|</Hit_id>
+  <Hit_def>TldD/PmbA family protein [Meiothermus hypogaeus] &gt;gb|RIH74372.1| Metalloprotease PmbA [Meiothermus hypogaeus] &gt;dbj|GEM84373.1| peptidase C69 [Meiothermus hypogaeus NBRC 106114]</Hit_def>
+  <Hit_accession>WP_119342436</Hit_accession>
+  <Hit_len>438</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.9821</Hsp_bit-score>
+      <Hsp_score>245</Hsp_score>
+      <Hsp_evalue>1.08402e-21</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>EAIENASLQKPAGVTLPAGRALGRHDLLDEGLSGTVAEKRDMALALEADLKRDPRVQSVQYALYAETQAETHVGSTKGVDGSYRSGGAVMVPGMVM</Hsp_qseq>
+      <Hsp_hseq>EAHENALLQSETGGFLPAGSELGRHDLLGEGLSAPLEQKRQAALELEADLRADPRVKQVQMTRYSESETQATLGSTRGVAGAFRNGYALLLTSAIM</Hsp_hseq>
+      <Hsp_midline>EA ENA LQ   G  LPAG  LGRHDLL EGLS  + +KR  AL LEADL+ DPRV+ VQ   Y+E++ +  +GST+GV G++R+G A+++   +M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>tpg|HGY09770.1|</Hit_id>
+  <Hit_def>TldD/PmbA family protein [Oceanithermus profundus]</Hit_def>
+  <Hit_accession>HGY09770</Hit_accession>
+  <Hit_len>437</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.6709</Hsp_bit-score>
+      <Hsp_score>239</Hsp_score>
+      <Hsp_evalue>6.63525e-21</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>79</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>SEAIENASLQKPAGVTLPAGRALGRHDLLDEGLSGTVAEKRDMALALEADLKRDPRVQSVQYALYAETQAETHVGSTKGVDGSYRSGGAVMVPGMVMRGG</Hsp_qseq>
+      <Hsp_hseq>AEAIENAELQSETGGFLPEGRPLGKSDLLGEGLSAPVEEKKRMALELEEGVLRDPRVQQVGAAIYSEREFQTELASTRGAEGGYRSGYAYQMVSAVMAEG</Hsp_hseq>
+      <Hsp_midline>+EAIENA LQ   G  LP GR LG+ DLL EGLS  V EK+ MAL LE  + RDPRVQ V  A+Y+E + +T + ST+G +G YRSG A  +   VM  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_024050455.1|</Hit_id>
+  <Hit_def>TldD/PmbA family protein [Meiothermus ruber] &gt;dbj|GAO76054.1| peptidase U62 modulator of DNA gyrase [Meiothermus ruber H328] &gt;tpg|HEI24960.1| TldD/PmbA family protein [Meiothermus ruber]</Hit_def>
+  <Hit_accession>WP_024050455</Hit_accession>
+  <Hit_len>438</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.2857</Hsp_bit-score>
+      <Hsp_score>238</Hsp_score>
+      <Hsp_evalue>9.31223e-21</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>EAIENASLQKPAGVTLPAGRALGRHDLLDEGLSGTVAEKRDMALALEADLKRDPRVQSVQYALYAETQAETHVGSTKGVDGSYRSGGAVMVPGMVM</Hsp_qseq>
+      <Hsp_hseq>EAHENALLQSEAGGFLPAGGTLGQHDLLGEGLSAPLEQKRQAALSLEATLRADPRVRQVQMTRYSENETQATLGSTQGVSGAFRNGYALLLTSAVM</Hsp_hseq>
+      <Hsp_midline>EA ENA LQ  AG  LPAG  LG+HDLL EGLS  + +KR  AL+LEA L+ DPRV+ VQ   Y+E + +  +GST+GV G++R+G A+++   VM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_013014631.1|</Hit_id>
+  <Hit_def>TldD/PmbA family protein [Meiothermus ruber] &gt;gb|ADD29133.1| peptidase U62 modulator of DNA gyrase [Meiothermus ruber DSM 1279] &gt;gb|AGK05416.1| peptidase U62 modulator of DNA gyrase [Meiothermus ruber DSM 1279]</Hit_def>
+  <Hit_accession>WP_013014631</Hit_accession>
+  <Hit_len>438</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.9005</Hsp_bit-score>
+      <Hsp_score>237</Hsp_score>
+      <Hsp_evalue>1.6705e-20</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>EAIENASLQKPAGVTLPAGRALGRHDLLDEGLSGTVAEKRDMALALEADLKRDPRVQSVQYALYAETQAETHVGSTKGVDGSYRSGGAVMVPGMVM</Hsp_qseq>
+      <Hsp_hseq>EAHENALLQSETGGFLPAGGALGQHDLLGEGLSAPLEQKRQAALNLEATLRADPRVRQVQMTRYSENETQATLGSTQGVSGAFRNGYALLLTSAVM</Hsp_hseq>
+      <Hsp_midline>EA ENA LQ   G  LPAG ALG+HDLL EGLS  + +KR  AL LEA L+ DPRV+ VQ   Y+E + +  +GST+GV G++R+G A+++   VM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_013458080.1|</Hit_id>
+  <Hit_def>TldD/PmbA family protein [Oceanithermus profundus] &gt;gb|ADR36910.1| peptidase U62 modulator of DNA gyrase [Oceanithermus profundus DSM 14977]</Hit_def>
+  <Hit_accession>WP_013458080</Hit_accession>
+  <Hit_len>437</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.5153</Hsp_bit-score>
+      <Hsp_score>236</Hsp_score>
+      <Hsp_evalue>1.89298e-20</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>79</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>SEAIENASLQKPAGVTLPAGRALGRHDLLDEGLSGTVAEKRDMALALEADLKRDPRVQSVQYALYAETQAETHVGSTKGVDGSYRSGGAVMVPGMVMRGG</Hsp_qseq>
+      <Hsp_hseq>AEAVENAELQADTEGFLPPGRPLGRHDLLGEGLSAPVDEKKRLALALEREVQKDPRVRQVGAASYSEREFQTELASTKGAQGGYRSGYAYQMVNAVMGAG</Hsp_hseq>
+      <Hsp_midline>+EA+ENA LQ      LP GR LGRHDLL EGLS  V EK+ +ALALE ++++DPRV+ V  A Y+E + +T + STKG  G YRSG A  +   VM  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_147145142.1|</Hit_id>
+  <Hit_def>TldD/PmbA family protein [Oceanithermus desulfurans] &gt;gb|MBB6028824.1| PmbA protein [Oceanithermus desulfurans] &gt;dbj|GEM88883.1| peptidase U62 [Oceanithermus desulfurans NBRC 100063]</Hit_def>
+  <Hit_accession>WP_147145142</Hit_accession>
+  <Hit_len>437</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.3597</Hsp_bit-score>
+      <Hsp_score>233</Hsp_score>
+      <Hsp_evalue>4.63631e-20</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>79</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>SEAIENASLQKPAGVTLPAGRALGRHDLLDEGLSGTVAEKRDMALALEADLKRDPRVQSVQYALYAETQAETHVGSTKGVDGSYRSGGAVMVPGMVM</Hsp_qseq>
+      <Hsp_hseq>AEAVENAELQADTDGFLPQGRSLGRHDLLGEGLSAPVDEKKQVALALEREVQKDPRVRQVGAATYAEREHQTELASTRGAAGGFRSGYAYQMVNAVM</Hsp_hseq>
+      <Hsp_midline>+EA+ENA LQ      LP GR+LGRHDLL EGLS  V EK+ +ALALE ++++DPRV+ V  A YAE + +T + ST+G  G +RSG A  +   VM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>tpg|HFG19379.1|</Hit_id>
+  <Hit_def>TldD/PmbA family protein [Meiothermus ruber]</Hit_def>
+  <Hit_accession>HFG19379</Hit_accession>
+  <Hit_len>438</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.3597</Hsp_bit-score>
+      <Hsp_score>233</Hsp_score>
+      <Hsp_evalue>6.24044e-20</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>EAIENASLQKPAGVTLPAGRALGRHDLLDEGLSGTVAEKRDMALALEADLKRDPRVQSVQYALYAETQAETHVGSTKGVDGSYRSGGAVMVPGMVM</Hsp_qseq>
+      <Hsp_hseq>EAHENALLQSETGGFLPAGGTLGQHDLLGEGLSAPLEQKRQAALNLEATLRADPRVRQVQMTRYSENETQATLGSTQGVSGAFRNGYALLLTSAVM</Hsp_hseq>
+      <Hsp_midline>EA ENA LQ   G  LPAG  LG+HDLL EGLS  + +KR  AL LEA L+ DPRV+ VQ   Y+E + +  +GST+GV G++R+G A+++   VM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|MBX3140387.1|</Hit_id>
+  <Hit_def>TldD/PmbA family protein [Trueperaceae bacterium]</Hit_def>
+  <Hit_accession>MBX3140387</Hit_accession>
+  <Hit_len>437</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.5893</Hsp_bit-score>
+      <Hsp_score>231</Hsp_score>
+      <Hsp_evalue>1.1571e-19</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>EAIENASLQKPAGVTLPAGRALGRHDLLDEGLSGTVAEKRDMALALEADLKRDPRVQSVQYALYAETQAETHVGSTKGVDGSYRSGGAVMVPGMVMRGG</Hsp_qseq>
+      <Hsp_hseq>EAVANAAITPAAGGALPRGRALGRTDLLGEGLSAPLTDKIATSVSFEQAVTADPRVQAMQFGRYMEAEQQVEIGSTAGVDGGYRAGIALLLGGIVMREG</Hsp_hseq>
+      <Hsp_midline>EA+ NA++   AG  LP GRALGR DLL EGLS  + +K   +++ E  +  DPRVQ++Q+  Y E + +  +GST GVDG YR+G A+++ G+VMR G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_027887521.1|</Hit_id>
+  <Hit_def>TldD/PmbA family protein [Meiothermus taiwanensis] &gt;gb|AWR87238.1| peptidase U62 modulator of DNA gyrase [Meiothermus taiwanensis WR-220] &gt;gb|KIQ53592.1| PmbA protein [Meiothermus taiwanensis] &gt;gb|KZK16824.1| PmbA protein [Meiothermus taiwanensis] &gt;gb|RIH74269.1| Metalloprotease PmbA [Meiothermus taiwanensis]</Hit_def>
+  <Hit_accession>WP_027887521</Hit_accession>
+  <Hit_len>438</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.2041</Hsp_bit-score>
+      <Hsp_score>230</Hsp_score>
+      <Hsp_evalue>1.31223e-19</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>EAIENASLQKPAGVTLPAGRALGRHDLLDEGLSGTVAEKRDMALALEADLKRDPRVQSVQYALYAETQAETHVGSTKGVDGSYRSGGAVMVPGMVM</Hsp_qseq>
+      <Hsp_hseq>EAHENALLQSETGGFLPAGGGLGQHDLLGEGLSAPLEQKRQAALNLEASLRADPRVRQVQMTRYSEKETQATLGSTQGVAGAFRNGYALLLANAVM</Hsp_hseq>
+      <Hsp_midline>EA ENA LQ   G  LPAG  LG+HDLL EGLS  + +KR  AL LEA L+ DPRV+ VQ   Y+E + +  +GST+GV G++R+G A+++   VM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469534606</Statistics_db-num>
+      <Statistics_db-len>1070605227</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

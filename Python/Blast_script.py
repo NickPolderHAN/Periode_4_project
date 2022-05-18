@@ -14,7 +14,7 @@ def blast_dictionary(key, sequence, name_counter):
     :output .xml file -> writes the alignment results to a file.
     """
     # runs Blast on the given sequence.
-    print("Started BLAST on: " + key)
+    print("Started BLAST on: " + key + " " + str(name_counter))
     result_handle = NCBIWWW.qblast("blastx", "nr", sequence,
                                    hitlist_size=10,
                                    matrix_name="BLOSUM62")
@@ -40,7 +40,7 @@ def main(sequence_dictionary):
 
         # checks if a key is in the check_file contents so that it
         # may skip sequences that have already been aligned.
-        if key not in file_contents and alignment_counter <= 20:
+        if key not in file_contents and alignment_counter <= 3:
             sequence = sequence_dictionary[key][0]
             blast_dictionary(key, sequence, seq_counter)
             time.sleep(10.0)

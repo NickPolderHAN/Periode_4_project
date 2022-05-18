@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_24791</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_24791</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_091146733.1|</Hit_id>
+  <Hit_def>OsmC family protein [Flavobacterium caeni] &gt;emb|SCY96959.1| Organic hydroperoxide reductase OsmC/OhrA [Flavobacterium caeni]</Hit_def>
+  <Hit_accession>WP_091146733</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.976</Hsp_bit-score>
+      <Hsp_score>367</Hsp_score>
+      <Hsp_evalue>3.7255e-42</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>GTSSYSSYSRNHFVQVEKKPELLLSSDPSFRGDPRRYNPEEMLLISLSSCHMLWYLHLCADAGIVVKDYEDHAEGKMELNADGSGKFTEVFLRPVV</Hsp_qseq>
+      <Hsp_hseq>GTSAYRAYSRNHTITFADKPEMMVSADPTFRGDPTRYNPEELLLAALSGCHMMSFLHVCVNAGIVVTAYEDHADGTMVLNSDGSGHFTEVTLRPIV</Hsp_hseq>
+      <Hsp_midline>GTS+Y +YSRNH +    KPE+++S+DP+FRGDP RYNPEE+LL +LS CHM+ +LH+C +AGIVV  YEDHA+G M LN+DGSG FTEV LRP+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|OYW80105.1|</Hit_id>
+  <Hit_def>peroxiredoxin [Sphingobacteriia bacterium 32-37-4] &gt;gb|OYZ01349.1| peroxiredoxin [Sphingobacteriia bacterium 28-36-52]</Hit_def>
+  <Hit_accession>OYW80105</Hit_accession>
+  <Hit_len>156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.206</Hsp_bit-score>
+      <Hsp_score>365</Hsp_score>
+      <Hsp_evalue>6.54784e-42</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>GTSSYSSYSRNHFVQVEKKPELLLSSDPSFRGDPRRYNPEEMLLISLSSCHMLWYLHLCADAGIVVKDYEDHAEGKMELNADGSGKFTEVFLRPVV</Hsp_qseq>
+      <Hsp_hseq>GTSNYRSYSRNHLIQVEGKPPIESSSDPAFRGDSNRYNPEEMLVAALSSCHMLWYLHFCAEAGIIVTSYNDHAEGTMVEDLSGSGRFTEVILKPSI</Hsp_hseq>
+      <Hsp_midline>GTS+Y SYSRNH +QVE KP +  SSDP+FRGD  RYNPEEML+ +LSSCHMLWYLH CA+AGI+V  Y DHAEG M  +  GSG+FTEV L+P +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|OHC85724.1|</Hit_id>
+  <Hit_def>peroxiredoxin [Sphingobacteriia bacterium RIFOXYC2_FULL_35_18] &gt;gb|OHC87260.1| peroxiredoxin [Sphingobacteriia bacterium RIFOXYD2_FULL_35_12]</Hit_def>
+  <Hit_accession>OHC85724</Hit_accession>
+  <Hit_len>156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.206</Hsp_bit-score>
+      <Hsp_score>365</Hsp_score>
+      <Hsp_evalue>7.80022e-42</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>GTSSYSSYSRNHFVQVEKKPELLLSSDPSFRGDPRRYNPEEMLLISLSSCHMLWYLHLCADAGIVVKDYEDHAEGKMELNADGSGKFTEVFLRPVV</Hsp_qseq>
+      <Hsp_hseq>GTSNYKSYSRNHLIQVEGKPPIESSSDPAFRGDPNRYNPEEMMVAALSSCHMLWYLHFCAEAGIIVTSYIDYAEGTMVEDQSGSGRFTEVILKPSI</Hsp_hseq>
+      <Hsp_midline>GTS+Y SYSRNH +QVE KP +  SSDP+FRGDP RYNPEEM++ +LSSCHMLWYLH CA+AGI+V  Y D+AEG M  +  GSG+FTEV L+P +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_151999731.1|</Hit_id>
+  <Hit_def>MULTISPECIES: OsmC family protein [unclassified Imperialibacter] &gt;emb|CAD5295469.1| OsmC family peroxiredoxin [Imperialibacter sp. 75] &gt;emb|CAD5296210.1| OsmC family peroxiredoxin [Imperialibacter sp. 89] &gt;emb|VVT14982.1| Peroxiredoxin [Imperialibacter sp. EC-SDR9]</Hit_def>
+  <Hit_accession>WP_151999731</Hit_accession>
+  <Hit_len>156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.821</Hsp_bit-score>
+      <Hsp_score>364</Hsp_score>
+      <Hsp_evalue>9.9224e-42</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>NRG-GTSSYSSYSRNHFVQVEKKPELLLSSDPSFRGDPRRYNPEEMLLISLSSCHMLWYLHLCADAGIVVKDYEDHAEGKMELNADGSGKFTEVFLRPVV</Hsp_qseq>
+      <Hsp_hseq>NKGTGTSGYRDYERSHTVSIDGKPDILTSSDPSFRGDKRRHNPEELFLSSISSCHMLWFLHLCSDAGIVVTDYADNAEGTMVENPDGSGQFSEVVLRPAV</Hsp_hseq>
+      <Hsp_midline>N+G GTS Y  Y R+H V ++ KP++L SSDPSFRGD RR+NPEE+ L S+SSCHMLW+LHLC+DAGIVV DY D+AEG M  N DGSG+F+EV LRP V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_026763089.1|</Hit_id>
+  <Hit_def>OsmC family protein [Sediminibacterium salmoneum]</Hit_def>
+  <Hit_accession>WP_026763089</Hit_accession>
+  <Hit_len>156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.821</Hsp_bit-score>
+      <Hsp_score>364</Hsp_score>
+      <Hsp_evalue>1.02534e-41</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>GTSSYSSYSRNHFVQVEKKPELLLSSDPSFRGDPRRYNPEEMLLISLSSCHMLWYLHLCADAGIVVKDYEDHAEGKMELNADGSGKFTEVFLRPVV</Hsp_qseq>
+      <Hsp_hseq>GTSNYKAYSRNHLVQVEGKVPVESSSDPLFRGDPNRYNPEEMLVASLSSCHMLWYLHLCADAGIIVTSYQDDAEGIMTVETSGAGQFTEVTLRPRI</Hsp_hseq>
+      <Hsp_midline>GTS+Y +YSRNH VQVE K  +  SSDP FRGDP RYNPEEML+ SLSSCHMLWYLHLCADAGI+V  Y+D AEG M +   G+G+FTEV LRP +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_223710904.1|</Hit_id>
+  <Hit_def>OsmC family protein [Niabella beijingensis] &gt;gb|MBZ4190183.1| OsmC family protein [Niabella beijingensis]</Hit_def>
+  <Hit_accession>WP_223710904</Hit_accession>
+  <Hit_len>157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.821</Hsp_bit-score>
+      <Hsp_score>364</Hsp_score>
+      <Hsp_evalue>1.06848e-41</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>NRG-GTSSYSSYSRNHFVQVEKKPELLLSSDPSFRGDPRRYNPEEMLLISLSSCHMLWYLHLCADAGIVVKDYEDHAEGKMELNADGSGKFTEVFLRPVV</Hsp_qseq>
+      <Hsp_hseq>NRGTGTASYEAYSRDYTIHITGKPELYGSSDPAFRGDAQRYNPEELLLASLASCHMLWYLHLCAAAGIVVTEYEDRSSGRMKINKDGGGRFEEVVLHPVV</Hsp_hseq>
+      <Hsp_midline>NRG GT+SY +YSR++ + +  KPEL  SSDP+FRGD +RYNPEE+LL SL+SCHMLWYLHLCA AGIVV +YED + G+M++N DG G+F EV L PVV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|MBP7346577.1|</Hit_id>
+  <Hit_def>OsmC family protein [Sediminibacterium sp.]</Hit_def>
+  <Hit_accession>MBP7346577</Hit_accession>
+  <Hit_len>156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.05</Hsp_bit-score>
+      <Hsp_score>362</Hsp_score>
+      <Hsp_evalue>2.06483e-41</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>GTSSYSSYSRNHFVQVEKKPELLLSSDPSFRGDPRRYNPEEMLLISLSSCHMLWYLHLCADAGIVVKDYEDHAEGKMELNADGSGKFTEVFLRPVV</Hsp_qseq>
+      <Hsp_hseq>GTSEYKGYSRSHLIQVDGKPPIESSSDPAFRGDPNRYNPEEMLLAALSSCHMLWYLHFCAEAGIIVTSYVDHAEGTMVEDQTGSGRFTEVILKPSI</Hsp_hseq>
+      <Hsp_midline>GTS Y  YSR+H +QV+ KP +  SSDP+FRGDP RYNPEEMLL +LSSCHMLWYLH CA+AGI+V  Y DHAEG M  +  GSG+FTEV L+P +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|MBT9483615.1|</Hit_id>
+  <Hit_def>OsmC family protein [Sediminibacterium sp.] &gt;gb|OYY10242.1| peroxiredoxin [Sphingobacteriia bacterium 35-36-14] &gt;gb|OYZ52890.1| peroxiredoxin [Sphingobacteriia bacterium 24-36-13] &gt;gb|OZA64533.1| peroxiredoxin [Sphingobacteriia bacterium 39-36-14]</Hit_def>
+  <Hit_accession>MBT9483615</Hit_accession>
+  <Hit_len>156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>143.665</Hsp_bit-score>
+      <Hsp_score>361</Hsp_score>
+      <Hsp_evalue>2.83555e-41</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>GTSSYSSYSRNHFVQVEKKPELLLSSDPSFRGDPRRYNPEEMLLISLSSCHMLWYLHLCADAGIVVKDYEDHAEGKMELNADGSGKFTEVFLRPVV</Hsp_qseq>
+      <Hsp_hseq>GTSNYKSYSRNHLIQVEGKPPIESSSDPAFRGDPNRYNPEEMMVAALSSCHMLWYLHFCSEAGIIVTSYIDYAEGTMVEDQSGSGRFTEVILKPSI</Hsp_hseq>
+      <Hsp_midline>GTS+Y SYSRNH +QVE KP +  SSDP+FRGDP RYNPEEM++ +LSSCHMLWYLH C++AGI+V  Y D+AEG M  +  GSG+FTEV L+P +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|NRB49030.1|</Hit_id>
+  <Hit_def>OsmC family protein [Saprospiraceae bacterium]</Hit_def>
+  <Hit_accession>NRB49030</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>143.28</Hsp_bit-score>
+      <Hsp_score>360</Hsp_score>
+      <Hsp_evalue>4.39311e-41</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>GTSSYSSYSRNHFVQVEKKPELLLSSDPSFRGDPRRYNPEEMLLISLSSCHMLWYLHLCADAGIVVKDYEDHAEGKMELNADGSGKFTEVFLRPVV</Hsp_qseq>
+      <Hsp_hseq>GTKGYRAYSRDHIVEAKGKPIIPASSDPSFRGDPTRYNPEEQLVASLSSCHMLWYLHLCSEAGITVVSYQDQAEGQMQETADGGGRFTEVTLRPTI</Hsp_hseq>
+      <Hsp_midline>GT  Y +YSR+H V+ + KP +  SSDPSFRGDP RYNPEE L+ SLSSCHMLWYLHLC++AGI V  Y+D AEG+M+  ADG G+FTEV LRP +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_035131398.1|</Hit_id>
+  <Hit_def>OsmC family protein [Flavobacterium beibuense] &gt;gb|KGO83161.1| peroxiredoxin [Flavobacterium beibuense F44-8]</Hit_def>
+  <Hit_accession>WP_035131398</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.895</Hsp_bit-score>
+      <Hsp_score>359</Hsp_score>
+      <Hsp_evalue>4.92479e-41</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>NRG-GTSSYSSYSRNHFVQVEKKPELLLSSDPSFRGDPRRYNPEEMLLISLSSCHMLWYLHLCADAGIVVKDYEDHAEGKMELNADGSGKFTEVFLRPVV</Hsp_qseq>
+      <Hsp_hseq>NRGSGTKSYTSYTRDYNIQTEGKPFVLGSSDPAFRGDSSRYNPEEMLLASLSSCHMLWYLHLCSEAGVIVTAYKDNAIGEMEETPNGSGRFTKVILRPVV</Hsp_hseq>
+      <Hsp_midline>NRG GT SY+SY+R++ +Q E KP +L SSDP+FRGD  RYNPEEMLL SLSSCHMLWYLHLC++AG++V  Y+D+A G+ME   +GSG+FT+V LRPVV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469534606</Statistics_db-num>
+      <Statistics_db-len>1070605227</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

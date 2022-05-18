@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_24485</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_24485</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|NLN19074.1|</Hit_id>
+  <Hit_def>DNA integrity scanning protein DisA [Firmicutes bacterium]</Hit_def>
+  <Hit_accession>NLN19074</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.599</Hsp_bit-score>
+      <Hsp_score>379</Hsp_score>
+      <Hsp_evalue>1.194e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>285</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>VQGDSVEVLKTGNSGFRIDSNATPADMYELAKMDGAMILSRDGRRILYANAHLTPDPSIATVETGTRHRTAERVAKQTGEIVIAISQRRSVVTLY</Hsp_qseq>
+      <Hsp_hseq>VVGDSPEVLALVNGGFHIDAEITPAALYELAKMDGALILSRDAKRILYANTHLTPDPSIPTRETGTRHRTAERIARQTGELVISISQRRNVITLY</Hsp_hseq>
+      <Hsp_midline>V GDS EVL   N GF ID+  TPA +YELAKMDGA+ILSRD +RILYAN HLTPDPSI T ETGTRHRTAER+A+QTGE+VI+ISQRR+V+TLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|MBO2484156.1|</Hit_id>
+  <Hit_def>DNA integrity scanning protein DisA [Firmicutes bacterium] &gt;gb|MBO2522017.1| DNA integrity scanning protein DisA [Firmicutes bacterium]</Hit_def>
+  <Hit_accession>MBO2484156</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.673</Hsp_bit-score>
+      <Hsp_score>374</Hsp_score>
+      <Hsp_evalue>6.90987e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>285</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>VQGDSVEVLKTGNSGFRIDSNATPADMYELAKMDGAMILSRDGRRILYANAHLTPDPSIATVETGTRHRTAERVAKQTGEIVIAISQRRSVVTLY</Hsp_qseq>
+      <Hsp_hseq>VVGDSEEVLSLVNGGFRIDTEVNPAALYELAKMDGALILSRDAKRILYANAHLTPDPMIPTVETGSRHRTAEQVARQTGALVISISQRRNIITLY</Hsp_hseq>
+      <Hsp_midline>V GDS EVL   N GFRID+   PA +YELAKMDGA+ILSRD +RILYANAHLTPDP I TVETG+RHRTAE+VA+QTG +VI+ISQRR+++TLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>tpg|HHW15061.1|</Hit_id>
+  <Hit_def>DNA integrity scanning protein DisA [Firmicutes bacterium]</Hit_def>
+  <Hit_accession>HHW15061</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>143.665</Hsp_bit-score>
+      <Hsp_score>361</Hsp_score>
+      <Hsp_evalue>4.76978e-39</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>285</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>VQGDSVEVLKTGNSGFRIDSNATPADMYELAKMDGAMILSRDGRRILYANAHLTPDPSIATVETGTRHRTAERVAKQTGEIVIAISQRRSVVTLY</Hsp_qseq>
+      <Hsp_hseq>VVGDSEEVLKLCDGGFRIDGELNPANLYELAKMDGAIIVSRDARRILLANTHLAPDPLIPSLETGTRHRTAQRVAIQTGELVIAISQRRNVITLY</Hsp_hseq>
+      <Hsp_midline>V GDS EVLK  + GFRID    PA++YELAKMDGA+I+SRD RRIL AN HL PDP I ++ETGTRHRTA+RVA QTGE+VIAISQRR+V+TLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|NLJ26220.1|</Hit_id>
+  <Hit_def>DNA integrity scanning protein DisA [Firmicutes bacterium]</Hit_def>
+  <Hit_accession>NLJ26220</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.51</Hsp_bit-score>
+      <Hsp_score>358</Hsp_score>
+      <Hsp_evalue>1.61168e-38</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>285</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>VQGDSVEVLKTGNSGFRIDSNATPADMYELAKMDGAMILSRDGRRILYANAHLTPDPSIATVETGTRHRTAERVAKQTGEIVIAISQRRSVVTLY</Hsp_qseq>
+      <Hsp_hseq>VVGDSEQVLDLVDGGFRIDSEMRPTSLYELAKMDGAIVLSTDGKRILFANAQLNPDPLIPTFETGTRHRTAERVAKQTGELVISISQRRNVITLY</Hsp_hseq>
+      <Hsp_midline>V GDS +VL   + GFRIDS   P  +YELAKMDGA++LS DG+RIL+ANA L PDP I T ETGTRHRTAERVAKQTGE+VI+ISQRR+V+TLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_013074196.1|</Hit_id>
+  <Hit_def>DNA integrity scanning diadenylate cyclase DisA [Kyrpidia tusciae] &gt;gb|ADG04902.1| DNA integrity scanning, DisA, linker region [Kyrpidia tusciae DSM 2912]</Hit_def>
+  <Hit_accession>WP_013074196</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.124</Hsp_bit-score>
+      <Hsp_score>357</Hsp_score>
+      <Hsp_evalue>2.21818e-38</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>285</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>VQGDSVEVLKTGNSGFRIDSNATPADMYELAKMDGAMILSRDGRRILYANAHLTPDPSIATVETGTRHRTAERVAKQTGEIVIAISQRRSVVTLY</Hsp_qseq>
+      <Hsp_hseq>VVGNTPEVLQLVDGGFQINSEFTPASLYELAKMDGAIILSEDGKRILYANAQLNPDPSIPSSETGTRHRTAERVAKQTGQLVVSISQRRGVITLY</Hsp_hseq>
+      <Hsp_midline>V G++ EVL+  + GF+I+S  TPA +YELAKMDGA+ILS DG+RILYANA L PDPSI + ETGTRHRTAERVAKQTG++V++ISQRR V+TLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|NLV91587.1|</Hit_id>
+  <Hit_def>DNA integrity scanning protein DisA [Firmicutes bacterium]</Hit_def>
+  <Hit_accession>NLV91587</Hit_accession>
+  <Hit_len>357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.124</Hsp_bit-score>
+      <Hsp_score>357</Hsp_score>
+      <Hsp_evalue>2.22542e-38</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>285</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>VQGDSVEVLKTGNSGFRIDSNATPADMYELAKMDGAMILSRDGRRILYANAHLTPDPSIATVETGTRHRTAERVAKQTGEIVIAISQRRSVVTLY</Hsp_qseq>
+      <Hsp_hseq>VVGDSEETLSLVNGGFRIDAEMNPTALYELAKMDGAIILSFDAKRILYANCQLTPDPMIPTFETGTRHRTAERVAKQTGELVISISQRRNVISLY</Hsp_hseq>
+      <Hsp_midline>V GDS E L   N GFRID+   P  +YELAKMDGA+ILS D +RILYAN  LTPDP I T ETGTRHRTAERVAKQTGE+VI+ISQRR+V++LY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_100666527.1|</Hit_id>
+  <Hit_def>DNA integrity scanning diadenylate cyclase DisA [Kyrpidia spormannii] &gt;gb|ATY83669.1| DNA integrity scanning protein DisA [Kyrpidia spormannii] &gt;emb|CAB3389306.1| diadenylate cyclase; DNA integrity scanning protein; cell cycle checkpoint DNA scanning protein [Kyrpidia spormannii] &gt;emb|CAB3389874.1| diadenylate cyclase; DNA integrity scanning protein; cell cycle checkpoint DNA scanning protein [Kyrpidia spormannii] &gt;tpg|HHY67573.1| DNA integrity scanning protein DisA [Alicyclobacillus sp.]</Hit_def>
+  <Hit_accession>WP_100666527</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.124</Hsp_bit-score>
+      <Hsp_score>357</Hsp_score>
+      <Hsp_evalue>2.24198e-38</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>285</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>VQGDSVEVLKTGNSGFRIDSNATPADMYELAKMDGAMILSRDGRRILYANAHLTPDPSIATVETGTRHRTAERVAKQTGEIVIAISQRRSVVTLY</Hsp_qseq>
+      <Hsp_hseq>VVGNTPEVLQLVDGGFQINSEFTPASLYELAKMDGAIILSEDGKRILYANAQLNPDPSIPSSETGTRHRTAERVAKQTGQLVVSISQRRGVITLY</Hsp_hseq>
+      <Hsp_midline>V G++ EVL+  + GF+I+S  TPA +YELAKMDGA+ILS DG+RILYANA L PDPSI + ETGTRHRTAERVAKQTG++V++ISQRR V+TLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_011197240.1|</Hit_id>
+  <Hit_def>DNA integrity scanning diadenylate cyclase DisA [Symbiobacterium thermophilum] &gt;sp|Q67JP1.1| RecName: Full=DNA integrity scanning protein DisA; AltName: Full=Cyclic di-AMP synthase; Short=c-di-AMP synthase; AltName: Full=Diadenylate cyclase [Symbiobacterium thermophilum IAM 14863] &gt;gb|MBY6276544.1| DNA integrity scanning protein DisA [Symbiobacterium thermophilum] &gt;dbj|BAD42109.1| putative nucleic-acid-binding protein [Symbiobacterium thermophilum IAM 14863]</Hit_def>
+  <Hit_accession>WP_011197240</Hit_accession>
+  <Hit_len>351</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>141.739</Hsp_bit-score>
+      <Hsp_score>356</Hsp_score>
+      <Hsp_evalue>2.25708e-38</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>285</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>VQGDSVEVLKTGNSGFRIDSNATPADMYELAKMDGAMILSRDGRRILYANAHLTPDPSIATVETGTRHRTAERVAKQTGEIVIAISQRRSVVTLY</Hsp_qseq>
+      <Hsp_hseq>VVGDSPEVLALVDGGFRLDCEFTPTRLYELAKMDGAIILTRDAQRILYANAMLVPDPSIPTSETGTRHRTAERVARQTGELVISISQRRDLITLY</Hsp_hseq>
+      <Hsp_midline>V GDS EVL   + GFR+D   TP  +YELAKMDGA+IL+RD +RILYANA L PDPSI T ETGTRHRTAERVA+QTGE+VI+ISQRR ++TLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|MBE3552662.1|</Hit_id>
+  <Hit_def>DNA integrity scanning protein DisA [Kyrpidia tusciae]</Hit_def>
+  <Hit_accession>MBE3552662</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.124</Hsp_bit-score>
+      <Hsp_score>357</Hsp_score>
+      <Hsp_evalue>2.31493e-38</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>285</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>VQGDSVEVLKTGNSGFRIDSNATPADMYELAKMDGAMILSRDGRRILYANAHLTPDPSIATVETGTRHRTAERVAKQTGEIVIAISQRRSVVTLY</Hsp_qseq>
+      <Hsp_hseq>VVGNTPEVLQLVDGGFQINSEFTPASLYELAKMDGAIILSEDGKRILYANAQLNPDPSIPSSETGTRHRTAERVAKQTGQLVVSISQRRGVITLY</Hsp_hseq>
+      <Hsp_midline>V G++ EVL+  + GF+I+S  TPA +YELAKMDGA+ILS DG+RILYANA L PDPSI + ETGTRHRTAERVAKQTG++V++ISQRR V+TLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|PZN74249.1|</Hit_id>
+  <Hit_def>DNA integrity scanning protein DisA [Firmicutes bacterium]</Hit_def>
+  <Hit_accession>PZN74249</Hit_accession>
+  <Hit_len>351</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>141.739</Hsp_bit-score>
+      <Hsp_score>356</Hsp_score>
+      <Hsp_evalue>2.85553e-38</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>285</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>VQGDSVEVLKTGNSGFRIDSNATPADMYELAKMDGAMILSRDGRRILYANAHLTPDPSIATVETGTRHRTAERVAKQTGEIVIAISQRRSVVTLY</Hsp_qseq>
+      <Hsp_hseq>VVGDSPEVLALVDGGFRLDCEFTPERLYELAKLDGAIVLTRDARRILYANAMLVPDPSIPTSETGTRHRTAERVARQTGELVISISQRRNLITLY</Hsp_hseq>
+      <Hsp_midline>V GDS EVL   + GFR+D   TP  +YELAK+DGA++L+RD RRILYANA L PDPSI T ETGTRHRTAERVA+QTGE+VI+ISQRR+++TLY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469534606</Statistics_db-num>
+      <Statistics_db-len>1070605227</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

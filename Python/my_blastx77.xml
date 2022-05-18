@@ -1,0 +1,682 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_62739</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_62739</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|MBO2468594.1|</Hit_id>
+  <Hit_def>hypothetical protein [Xanthomonadaceae bacterium]</Hit_def>
+  <Hit_accession>MBO2468594</Hit_accession>
+  <Hit_len>1562</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.309</Hsp_bit-score>
+      <Hsp_score>277</Hsp_score>
+      <Hsp_evalue>1.0756e-25</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>APSSALPSAGGMLHVTGTEFGATTRAITLGEGGGGFDIADAGHRFTLAQDITGDGALVKHGAG</Hsp_qseq>
+      <Hsp_hseq>APSSALHFDGGTLQVTGTEFGATTRAITLGEGGGGFDIADAGHRFTLAQDITGDGALVKHGAG</Hsp_hseq>
+      <Hsp_midline>APSSAL   GG L VTGTEFGATTRAITLGEGGGGFDIADAGHRFTLAQDITGDGALVKHGAG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>95.1301</Hsp_bit-score>
+      <Hsp_score>235</Hsp_score>
+      <Hsp_evalue>5.00509e-20</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>832</Hsp_hit-from>
+      <Hsp_hit-to>885</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>GGMLHVTGTEFGATTRAITLGEGGGGFDIADAGHRFTLAQDITGDGALVKHGAG</Hsp_qseq>
+      <Hsp_hseq>GGMLQVTGRDFDATTRAITLGDGGGGFDIADAGHRFTLAQDITGSGALVKHGAG</Hsp_hseq>
+      <Hsp_midline>GGML VTG +F ATTRAITLG+GGGGFDIADAGHRFTLAQDITG GALVKHGAG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>75.485</Hsp_bit-score>
+      <Hsp_score>184</Hsp_score>
+      <Hsp_evalue>3.95145e-13</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>82</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>TGDGALVKHGAGTLVLTGSNDHAGGTRIEGGRLVGHAGTV</Hsp_qseq>
+      <Hsp_hseq>TGDGALVKHGAGTLVLTGSNDHAGGTRIEGGRLVGHAGSF</Hsp_hseq>
+      <Hsp_midline>TGDGALVKHGAGTLVLTGSNDHAGGTRIEGGRLVGHAG+ </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>53.9138</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>1.11569e-05</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>874</Hsp_hit-from>
+      <Hsp_hit-to>921</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>TGDGALVKHGAGTLVLTGSNDHAGGTRIEGGRLVGHAGTVLDQGAVSGDV</Hsp_qseq>
+      <Hsp_hseq>TGSGALVKHGAGTLVLEGDNAYTGGTRIEGGTLSVSSDSAL--GATSGDI</Hsp_hseq>
+      <Hsp_midline>TG GALVKHGAGTLVL G N + GGTRIEGG L   + + L  GA SGD+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>5</Hsp_num>
+      <Hsp_bit-score>52.7582</Hsp_bit-score>
+      <Hsp_score>125</Hsp_score>
+      <Hsp_evalue>3.35483e-05</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>964</Hsp_hit-from>
+      <Hsp_hit-to>999</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>36</Hsp_align-len>
+      <Hsp_qseq>GDGALVKHGAGTLVLTGSNDHAGGTRIEGGRLVGHA</Hsp_qseq>
+      <Hsp_hseq>GDGVLVKDGAGTLVLTGTNRYRGGTRVEAGALVGHA</Hsp_hseq>
+      <Hsp_midline>GDG LVK GAGTLVLTG+N + GGTR+E G LVGHA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|TWT16803.1|</Hit_id>
+  <Hit_def>hypothetical protein FQY79_15230 [Luteimonas wenzhouensis]</Hit_def>
+  <Hit_accession>TWT16803</Hit_accession>
+  <Hit_len>2264</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.145</Hsp_bit-score>
+      <Hsp_score>261</Hsp_score>
+      <Hsp_evalue>1.50947e-23</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>308</Hsp_hit-from>
+      <Hsp_hit-to>370</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>APSSALPSAGGMLHVTGTEFGATTRAITLGEGGGGFDIADAGHRFTLAQDITGDGALVKHGAG</Hsp_qseq>
+      <Hsp_hseq>APSSALHFDGGTLQVTGRDFGATTRAITLGEGGGGFDIADASHRFTLAQDITGDGALVKHGAG</Hsp_hseq>
+      <Hsp_midline>APSSAL   GG L VTG +FGATTRAITLGEGGGGFDIADA HRFTLAQDITGDGALVKHGAG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>90.1225</Hsp_bit-score>
+      <Hsp_score>222</Hsp_score>
+      <Hsp_evalue>2.32697e-18</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>1109</Hsp_hit-from>
+      <Hsp_hit-to>1162</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>GGMLHVTGTEFGATTRAITLGEGGGGFDIADAGHRFTLAQDITGDGALVKHGAG</Hsp_qseq>
+      <Hsp_hseq>GGMLQVTGRVFDATTRAITLGDGGGGFDIADAGHRFTLAQDIAGDGALVKDGAG</Hsp_hseq>
+      <Hsp_midline>GGML VTG  F ATTRAITLG+GGGGFDIADAGHRFTLAQDI GDGALVK GAG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>75.485</Hsp_bit-score>
+      <Hsp_score>184</Hsp_score>
+      <Hsp_evalue>3.873e-13</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>359</Hsp_hit-from>
+      <Hsp_hit-to>398</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>TGDGALVKHGAGTLVLTGSNDHAGGTRIEGGRLVGHAGTV</Hsp_qseq>
+      <Hsp_hseq>TGDGALVKHGAGTLVLTGSNDHAGGTRIEGGRLVGHAGSF</Hsp_hseq>
+      <Hsp_midline>TGDGALVKHGAGTLVLTGSNDHAGGTRIEGGRLVGHAG+ </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>52.7582</Hsp_bit-score>
+      <Hsp_score>125</Hsp_score>
+      <Hsp_evalue>3.32102e-05</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>1666</Hsp_hit-from>
+      <Hsp_hit-to>1701</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>36</Hsp_align-len>
+      <Hsp_qseq>GDGALVKHGAGTLVLTGSNDHAGGTRIEGGRLVGHA</Hsp_qseq>
+      <Hsp_hseq>GDGVLVKDGAGTLVLTGTNRYRGGTRVEAGALVGHA</Hsp_hseq>
+      <Hsp_midline>GDG LVK GAGTLVLTG+N + GGTR+E G LVGHA</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>5</Hsp_num>
+      <Hsp_bit-score>51.9878</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>7.17053e-05</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>1152</Hsp_hit-from>
+      <Hsp_hit-to>1220</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>GDGALVKHGAGTLVLTGSNDHAGGTRIEGGRLVGHAGTVLDQGAVSGDVLRQRE-------AVAGIGDV</Hsp_qseq>
+      <Hsp_hseq>GDGALVKDGAGTLVLEGDNAYTGGTRVLAGTLVGSAGAIAGDLHNGGTVVFEQEDDAVFAGAIAGLGDT</Hsp_hseq>
+      <Hsp_midline>GDGALVK GAGTLVL G N + GGTR+  G LVG AG +       G V+ ++E       A+AG+GD </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>6</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.0316492</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>155</Hsp_query-to>
+      <Hsp_hit-from>1577</Hsp_hit-from>
+      <Hsp_hit-to>1624</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>GDGALVKHGAGTLVLTGSNDHAGGTRIEGGRLVGHAGTVLDQGAVSGDVL</Hsp_qseq>
+      <Hsp_hseq>GDATLVKTDLGTLVLEGDNAYTGGTRIEGGTLSVSSDSAL--GATSGDIV</Hsp_hseq>
+      <Hsp_midline>GD  LVK   GTLVL G N + GGTRIEGG L   + + L  GA SGD++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_198012698.1|</Hit_id>
+  <Hit_def>autotransporter-associated beta strand repeat-containing protein, partial [Luteimonas sp. J29]</Hit_def>
+  <Hit_accession>WP_198012698</Hit_accession>
+  <Hit_len>1108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.4337</Hsp_bit-score>
+      <Hsp_score>228</Hsp_score>
+      <Hsp_evalue>3.55902e-19</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>316</Hsp_hit-from>
+      <Hsp_hit-to>369</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>GGMLHVTGTEFGATTRAITLGEGGGGFDIADAGHRFTLAQDITGDGALVKHGAG</Hsp_qseq>
+      <Hsp_hseq>GGMLQVTGRXFDATTRAITLGXGGGGFDIADAGHRFTLAQDITGSGALVKHGAG</Hsp_hseq>
+      <Hsp_midline>GGML VTG  F ATTRAITLG GGGGFDIADAGHRFTLAQDITG GALVKHGAG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>72.4034</Hsp_bit-score>
+      <Hsp_score>176</Hsp_score>
+      <Hsp_evalue>3.58944e-12</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>358</Hsp_hit-from>
+      <Hsp_hit-to>397</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>TGDGALVKHGAGTLVLTGSNDHAGGTRIEGGRLVGHAGTV</Hsp_qseq>
+      <Hsp_hseq>TGSGALVKHGAGTLVLTGSNDHAGGTRIEGGRLVGHAGSF</Hsp_hseq>
+      <Hsp_midline>TG GALVKHGAGTLVLTGSNDHAGGTRIEGGRLVGHAG+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_231168949.1|</Hit_id>
+  <Hit_def>autotransporter domain-containing protein [Bradyrhizobium sp. 41S5] &gt;gb|UFX48869.1| autotransporter domain-containing protein [Bradyrhizobium sp. 41S5]</Hit_def>
+  <Hit_accession>WP_231168949</Hit_accession>
+  <Hit_len>1213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.1738</Hsp_bit-score>
+      <Hsp_score>178</Hsp_score>
+      <Hsp_evalue>1.87692e-12</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>522</Hsp_hit-from>
+      <Hsp_hit-to>582</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>SSALPSAGGMLHVTGTEFGATTRAITLGEGGGGFDIADAGHRFTLAQDITGDGALVKHGAG</Hsp_qseq>
+      <Hsp_hseq>SGALTFTGGMLQVTGTSFTTTSRAVTLAAGGGGFDIADAANTFTLNQAVTGAGGLTKSGAG</Hsp_hseq>
+      <Hsp_midline>S AL   GGML VTGT F  T+RA+TL  GGGGFDIADA + FTL Q +TG G L K GAG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>1.59172</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>571</Hsp_hit-from>
+      <Hsp_hit-to>603</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>TGDGALVKHGAGTLVLTGSNDHAGGTRIEGGRL</Hsp_qseq>
+      <Hsp_hseq>TGAGGLTKSGAGTLVLAGANTYQGGTTISGGVL</Hsp_hseq>
+      <Hsp_midline>TG G L K GAGTLVL G+N + GGT I GG L</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>4.55674</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>482</Hsp_hit-from>
+      <Hsp_hit-to>510</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>ALVKHGAGTLVLTGSNDHAGGTRIEGGRL</Hsp_qseq>
+      <Hsp_hseq>ALAKAGGGTLVLTGSNSYSGGTILAGGTL</Hsp_hseq>
+      <Hsp_midline>AL K G GTLVLTGSN ++GGT + GG L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>emb|SDR27395.1|</Hit_id>
+  <Hit_def>outer membrane autotransporter barrel domain-containing protein [Rhizobiales bacterium GAS113]</Hit_def>
+  <Hit_accession>SDR27395</Hit_accession>
+  <Hit_len>1499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.1738</Hsp_bit-score>
+      <Hsp_score>178</Hsp_score>
+      <Hsp_evalue>2.55654e-12</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>673</Hsp_hit-from>
+      <Hsp_hit-to>734</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>PSSALPSAGGMLHVTGTEFGATTRAITLGEGGGGFDIADAGHRFTLAQDITGDGALVKHGAG</Hsp_qseq>
+      <Hsp_hseq>PAGALTFNGGTLQVTGTSFTATTRSITWGAGGGGFDIADPGNVFTVGQTLTGGGPLAKLGAG</Hsp_hseq>
+      <Hsp_midline>P+ AL   GG L VTGT F ATTR+IT G GGGGFDIAD G+ FT+ Q +TG G L K GAG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.46995</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>723</Hsp_hit-from>
+      <Hsp_hit-to>755</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>TGDGALVKHGAGTLVLTGSNDHAGGTRIEGGRL</Hsp_qseq>
+      <Hsp_hseq>TGGGPLAKLGAGTLVLGGSNSYSGGTTVSGGTL</Hsp_hseq>
+      <Hsp_midline>TG G L K GAGTLVL GSN ++GGT + GG L</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>7.25419</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>631</Hsp_hit-from>
+      <Hsp_hit-to>662</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>GDGALVKHGAGTLVLTGSNDHAGGTRIEGGRL</Hsp_qseq>
+      <Hsp_hseq>GPGALVKIGTGTMILSGVNTYSGGTTFAGGTV</Hsp_hseq>
+      <Hsp_midline>G GALVK G GT++L+G N ++GGT   GG +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>emb|SED11360.1|</Hit_id>
+  <Hit_def>outer membrane autotransporter barrel domain-containing protein [Rhizobiales bacterium GAS191]</Hit_def>
+  <Hit_accession>SED11360</Hit_accession>
+  <Hit_len>1502</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.1738</Hsp_bit-score>
+      <Hsp_score>178</Hsp_score>
+      <Hsp_evalue>2.5567e-12</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>676</Hsp_hit-from>
+      <Hsp_hit-to>737</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>PSSALPSAGGMLHVTGTEFGATTRAITLGEGGGGFDIADAGHRFTLAQDITGDGALVKHGAG</Hsp_qseq>
+      <Hsp_hseq>PAGALTFNGGTLQVTGTSFTATTRSITWGAGGGGFDIADPGNVFTVGQTLTGGGPLAKLGAG</Hsp_hseq>
+      <Hsp_midline>P+ AL   GG L VTGT F ATTR+IT G GGGGFDIAD G+ FT+ Q +TG G L K GAG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.47458</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>726</Hsp_hit-from>
+      <Hsp_hit-to>758</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>TGDGALVKHGAGTLVLTGSNDHAGGTRIEGGRL</Hsp_qseq>
+      <Hsp_hseq>TGGGPLAKLGAGTLVLGGSNSYSGGTTVSGGTL</Hsp_hseq>
+      <Hsp_midline>TG G L K GAGTLVL GSN ++GGT + GG L</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>7.11474</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>634</Hsp_hit-from>
+      <Hsp_hit-to>665</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>GDGALVKHGAGTLVLTGSNDHAGGTRIEGGRL</Hsp_qseq>
+      <Hsp_hseq>GPGALVKIGTGTMILSGVNTYSGGTTFAGGTV</Hsp_hseq>
+      <Hsp_midline>G GALVK G GT++L+G N ++GGT   GG +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|PMR76007.1|</Hit_id>
+  <Hit_def>hypothetical protein C1H69_07920, partial [Halomonas endophytica]</Hit_def>
+  <Hit_accession>PMR76007</Hit_accession>
+  <Hit_len>2248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.4034</Hsp_bit-score>
+      <Hsp_score>176</Hsp_score>
+      <Hsp_evalue>4.76868e-12</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>477</Hsp_hit-from>
+      <Hsp_hit-to>539</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>APSSALPSAGGMLHVTGTEFGATTRAITLGEGGGGFDIADAGHRFTLAQDITGDGALVKHGAG</Hsp_qseq>
+      <Hsp_hseq>ATSGSLTFDGGTLRVTGTDFASTDRNIVWGNDGGGFDIAEAGHTFTLYQEIDGDGGLTKRGAG</Hsp_hseq>
+      <Hsp_midline>A S +L   GG L VTGT+F +T R I  G  GGGFDIA+AGH FTL Q+I GDG L K GAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_162941273.1|</Hit_id>
+  <Hit_def>autotransporter domain-containing protein [Achromobacter sp. B7]</Hit_def>
+  <Hit_accession>WP_162941273</Hit_accession>
+  <Hit_len>1791</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.633</Hsp_bit-score>
+      <Hsp_score>174</Hsp_score>
+      <Hsp_evalue>6.80006e-12</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>1026</Hsp_hit-from>
+      <Hsp_hit-to>1088</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>APSSALPSAGGMLHVTGTEFGATTRAITLGEGGGGFDIADAGHRFTLAQDITGDGALVKHGAG</Hsp_qseq>
+      <Hsp_hseq>APGAGLDFLGGTLRVTGTAFQNTARNITLGTAGGGFDIADAGNTYTLSQALTGNGSLAKLGAG</Hsp_hseq>
+      <Hsp_midline>AP + L   GG L VTGT F  T R ITLG  GGGFDIADAG+ +TL+Q +TG+G+L K GAG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.432698</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>1077</Hsp_hit-from>
+      <Hsp_hit-to>1149</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>TGDGALVKHGAGTLVLTGSNDHAGGTRIEGGRL-VGH---AGTVLDQGAVSGD---VLRQREAVAGIGDVEAA</Hsp_qseq>
+      <Hsp_hseq>TGNGSLAKLGAGTLVLGGSNTYVGGTSVQAGTLQVGDGAVAGSIAGNVAVASGATLVFKRSDRVAFNGDITGA</Hsp_hseq>
+      <Hsp_midline>TG+G+L K GAGTLVL GSN + GGT ++ G L VG    AG++    AV+     V ++ + VA  GD+  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|AYD66454.1|</Hit_id>
+  <Hit_def>autotransporter domain-containing protein [Achromobacter sp. B7]</Hit_def>
+  <Hit_accession>AYD66454</Hit_accession>
+  <Hit_len>1802</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.633</Hsp_bit-score>
+      <Hsp_score>174</Hsp_score>
+      <Hsp_evalue>7.21013e-12</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>1037</Hsp_hit-from>
+      <Hsp_hit-to>1099</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>APSSALPSAGGMLHVTGTEFGATTRAITLGEGGGGFDIADAGHRFTLAQDITGDGALVKHGAG</Hsp_qseq>
+      <Hsp_hseq>APGAGLDFLGGTLRVTGTAFQNTARNITLGTAGGGFDIADAGNTYTLSQALTGNGSLAKLGAG</Hsp_hseq>
+      <Hsp_midline>AP + L   GG L VTGT F  T R ITLG  GGGFDIADAG+ +TL+Q +TG+G+L K GAG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.441281</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>1088</Hsp_hit-from>
+      <Hsp_hit-to>1160</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>TGDGALVKHGAGTLVLTGSNDHAGGTRIEGGRL-VGH---AGTVLDQGAVSGD---VLRQREAVAGIGDVEAA</Hsp_qseq>
+      <Hsp_hseq>TGNGSLAKLGAGTLVLGGSNTYVGGTSVQAGTLQVGDGAVAGSIAGNVAVASGATLVFKRSDRVAFNGDITGA</Hsp_hseq>
+      <Hsp_midline>TG+G+L K GAGTLVL GSN + GGT ++ G L VG    AG++    AV+     V ++ + VA  GD+  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_207833386.1|</Hit_id>
+  <Hit_def>autotransporter domain-containing protein [Bradyrhizobium quebecense] &gt;gb|UGY05899.1| autotransporter domain-containing protein [Bradyrhizobium quebecense]</Hit_def>
+  <Hit_accession>WP_207833386</Hit_accession>
+  <Hit_len>1529</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.2478</Hsp_bit-score>
+      <Hsp_score>173</Hsp_score>
+      <Hsp_evalue>1.00899e-11</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>838</Hsp_hit-from>
+      <Hsp_hit-to>898</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>SSALPSAGGMLHVTGTEFGATTRAITLGEGGGGFDIADAGHRFTLAQDITGDGALVKHGAG</Hsp_qseq>
+      <Hsp_hseq>SGALTFTGGMLQVTGTSFTTTSRAVTLAAGGGGFDIADAANTFRLNQAVTGAGGLTKSGAG</Hsp_hseq>
+      <Hsp_midline>S AL   GGML VTGT F  T+RA+TL  GGGGFDIADA + F L Q +TG G L K GAG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>1.71768</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>887</Hsp_hit-from>
+      <Hsp_hit-to>919</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>TGDGALVKHGAGTLVLTGSNDHAGGTRIEGGRL</Hsp_qseq>
+      <Hsp_hseq>TGAGGLTKSGAGTLVLAGANTYQGGTTISGGVL</Hsp_hseq>
+      <Hsp_midline>TG G L K GAGTLVL G+N + GGT I GG L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469534606</Statistics_db-num>
+      <Statistics_db-len>1070605227</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

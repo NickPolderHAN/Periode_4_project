@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_64825</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_64825</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|MBO2488737.1|</Hit_id>
+  <Hit_def>adenylosuccinate lyase [Gammaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>MBO2488737</Hit_accession>
+  <Hit_len>477</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>206.838</Hsp_bit-score>
+      <Hsp_score>525</Hsp_score>
+      <Hsp_evalue>2.64003e-62</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>286</Hsp_hit-from>
+      <Hsp_hit-to>384</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>INTVLIDLCRDMWGYISLGYFRQRAVAGEVGSSTMPHKVNPIDFENAEGNLGVANALLRFLADKLPVSRWQRDLTDSTVLRNIGVAVSHGLIAWRSIDR</Hsp_qseq>
+      <Hsp_hseq>INTVLIDLCRDMWGYISLGYFRQRAVAGEVGSSTMPHKVNPIDFENAEGNLGVANALLRFLADKLPVSRWQRDLTDSTVLRNIGVAVSHGLIAWRSIER</Hsp_hseq>
+      <Hsp_midline>INTVLIDLCRDMWGYISLGYFRQRAVAGEVGSSTMPHKVNPIDFENAEGNLGVANALLRFLADKLPVSRWQRDLTDSTVLRNIGVAVSHGLIAWRSI+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|NLG75320.1|</Hit_id>
+  <Hit_def>adenylosuccinate lyase [Xanthomonadaceae bacterium]</Hit_def>
+  <Hit_accession>NLG75320</Hit_accession>
+  <Hit_len>454</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.445</Hsp_bit-score>
+      <Hsp_score>511</Hsp_score>
+      <Hsp_evalue>2.01318e-60</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>263</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>INTVLIDLCRDMWGYISLGYFRQRAVAGEVGSSTMPHKVNPIDFENAEGNLGVANALLRFLADKLPVSRWQRDLTDSTVLRNIGVAVSHGLIAWRSIDR</Hsp_qseq>
+      <Hsp_hseq>INTVLIDLCRDMWGYISLGYFRQRTVAGEVGSSTMPHKVNPIDFENAEGNLGLANAILRFLADKLPISRWQRDLTDSTVLRNVGVAVSHGLIAWRSIER</Hsp_hseq>
+      <Hsp_midline>INTVLIDLCRDMWGYISLGYFRQR VAGEVGSSTMPHKVNPIDFENAEGNLG+ANA+LRFLADKLP+SRWQRDLTDSTVLRN+GVAVSHGLIAWRSI+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_184329934.1|</Hit_id>
+  <Hit_def>adenylosuccinate lyase [Povalibacter uvarum] &gt;gb|MBB6092191.1| adenylosuccinate lyase [Povalibacter uvarum]</Hit_def>
+  <Hit_accession>WP_184329934</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.126</Hsp_bit-score>
+      <Hsp_score>492</Hsp_score>
+      <Hsp_evalue>1.56016e-57</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>264</Hsp_hit-from>
+      <Hsp_hit-to>362</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>INTVLIDLCRDMWGYISLGYFRQRAVAGEVGSSTMPHKVNPIDFENAEGNLGVANALLRFLADKLPVSRWQRDLTDSTVLRNIGVAVSHGLIAWRSIDR</Hsp_qseq>
+      <Hsp_hseq>INTILVDLCRDFWGYISLGYFRQRVVAGEVGSSTMPHKVNPIDFENGEGNLGLANAMLRFLADKLPVSRWQRDLTDSTVLRNVGVAVSHSLIAWRSIER</Hsp_hseq>
+      <Hsp_midline>INT+L+DLCRD WGYISLGYFRQR VAGEVGSSTMPHKVNPIDFEN EGNLG+ANA+LRFLADKLPVSRWQRDLTDSTVLRN+GVAVSH LIAWRSI+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|PZN31026.1|</Hit_id>
+  <Hit_def>adenylosuccinate lyase [Proteobacteria bacterium]</Hit_def>
+  <Hit_accession>PZN31026</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.815</Hsp_bit-score>
+      <Hsp_score>486</Hsp_score>
+      <Hsp_evalue>1.15694e-56</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>264</Hsp_hit-from>
+      <Hsp_hit-to>362</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>INTVLIDLCRDMWGYISLGYFRQRAVAGEVGSSTMPHKVNPIDFENAEGNLGVANALLRFLADKLPVSRWQRDLTDSTVLRNIGVAVSHGLIAWRSIDR</Hsp_qseq>
+      <Hsp_hseq>INTVLIDLCRDVWGYISLGYFRQRVVAGEVGSSTMPHKVNPIDFENGEGNLGLANALLRFLADKLPVSRWQRDLTDSTVQRNVGVAAAHSLIAWRSIER</Hsp_hseq>
+      <Hsp_midline>INTVLIDLCRD+WGYISLGYFRQR VAGEVGSSTMPHKVNPIDFEN EGNLG+ANALLRFLADKLPVSRWQRDLTDSTV RN+GVA +H LIAWRSI+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_203167572.1|</Hit_id>
+  <Hit_def>adenylosuccinate lyase [Steroidobacter gossypii] &gt;gb|MBM0105533.1| adenylosuccinate lyase [Steroidobacter gossypii]</Hit_def>
+  <Hit_accession>WP_203167572</Hit_accession>
+  <Hit_len>459</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.045</Hsp_bit-score>
+      <Hsp_score>484</Hsp_score>
+      <Hsp_evalue>2.53385e-56</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>268</Hsp_hit-from>
+      <Hsp_hit-to>366</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>INTVLIDLCRDMWGYISLGYFRQRAVAGEVGSSTMPHKVNPIDFENAEGNLGVANALLRFLADKLPVSRWQRDLTDSTVLRNIGVAVSHGLIAWRSIDR</Hsp_qseq>
+      <Hsp_hseq>INTVLVDLCRDMWGYISIGYFRQRVVAGETGSSTMPHKVNPIDFENAEGNLTLSNSMLRYLADKLPVSRWQRDLTDSTVLRNVGVAVSHALIAWRSIER</Hsp_hseq>
+      <Hsp_midline>INTVL+DLCRDMWGYIS+GYFRQR VAGE GSSTMPHKVNPIDFENAEGNL ++N++LR+LADKLPVSRWQRDLTDSTVLRN+GVAVSH LIAWRSI+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_066920260.1|</Hit_id>
+  <Hit_def>adenylosuccinate lyase [Steroidobacter denitrificans] &gt;gb|AMN47075.1| adenylosuccinate lyase [Steroidobacter denitrificans]</Hit_def>
+  <Hit_accession>WP_066920260</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.274</Hsp_bit-score>
+      <Hsp_score>482</Hsp_score>
+      <Hsp_evalue>4.9637e-56</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>264</Hsp_hit-from>
+      <Hsp_hit-to>362</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>INTVLIDLCRDMWGYISLGYFRQRAVAGEVGSSTMPHKVNPIDFENAEGNLGVANALLRFLADKLPVSRWQRDLTDSTVLRNIGVAVSHGLIAWRSIDR</Hsp_qseq>
+      <Hsp_hseq>INTVMIDMCRDLWSYISLGYFRQRTLAGEVGSSTMPHKVNPIDFENGEGNLGLSNALLRFLADKLPVSRWQRDLTDSTVLRNVGVAVSHALIAWRSIER</Hsp_hseq>
+      <Hsp_midline>INTV+ID+CRD+W YISLGYFRQR +AGEVGSSTMPHKVNPIDFEN EGNLG++NALLRFLADKLPVSRWQRDLTDSTVLRN+GVAVSH LIAWRSI+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|MBC7983205.1|</Hit_id>
+  <Hit_def>adenylosuccinate lyase [Candidatus Obscuribacterales bacterium]</Hit_def>
+  <Hit_accession>MBC7983205</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.193</Hsp_bit-score>
+      <Hsp_score>474</Hsp_score>
+      <Hsp_evalue>5.88095e-55</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>265</Hsp_hit-from>
+      <Hsp_hit-to>362</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>NTVLIDLCRDMWGYISLGYFRQRAVAGEVGSSTMPHKVNPIDFENAEGNLGVANALLRFLADKLPVSRWQRDLTDSTVLRNIGVAVSHGLIAWRSIDR</Hsp_qseq>
+      <Hsp_hseq>NSVLIDMCRDFWGYVSLGYFKQRIVAGEIGSSTMPHKVNPIDFENAEGNLGVANALLRFFADKLPISRWQRDLTDSTVLRNLGVGVSHAYVAWRSIER</Hsp_hseq>
+      <Hsp_midline>N+VLID+CRD WGY+SLGYF+QR VAGE+GSSTMPHKVNPIDFENAEGNLGVANALLRF ADKLP+SRWQRDLTDSTVLRN+GV VSH  +AWRSI+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|MBL8271101.1|</Hit_id>
+  <Hit_def>adenylosuccinate lyase [Steroidobacter sp.]</Hit_def>
+  <Hit_accession>MBL8271101</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.111</Hsp_bit-score>
+      <Hsp_score>466</Hsp_score>
+      <Hsp_evalue>9.27994e-54</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>264</Hsp_hit-from>
+      <Hsp_hit-to>362</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>INTVLIDLCRDMWGYISLGYFRQRAVAGEVGSSTMPHKVNPIDFENAEGNLGVANALLRFLADKLPVSRWQRDLTDSTVLRNIGVAVSHGLIAWRSIDR</Hsp_qseq>
+      <Hsp_hseq>LNTVLVAMCRDMWGYISLGYFRQRVVAGETGSSTMPHKVNPIDFENGEGNLTLSNSMLRYLSDKLPVSRWQRDLTDSTVLRNVGVAVSHALIAWRSIER</Hsp_hseq>
+      <Hsp_midline>+NTVL+ +CRDMWGYISLGYFRQR VAGE GSSTMPHKVNPIDFEN EGNL ++N++LR+L+DKLPVSRWQRDLTDSTVLRN+GVAVSH LIAWRSI+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|MBV8851986.1|</Hit_id>
+  <Hit_def>adenylosuccinate lyase [Sinobacteraceae bacterium]</Hit_def>
+  <Hit_accession>MBV8851986</Hit_accession>
+  <Hit_len>462</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>183.341</Hsp_bit-score>
+      <Hsp_score>464</Hsp_score>
+      <Hsp_evalue>2.50106e-53</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>269</Hsp_hit-from>
+      <Hsp_hit-to>367</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>INTVLIDLCRDMWGYISLGYFRQRAVAGEVGSSTMPHKVNPIDFENAEGNLGVANALLRFLADKLPVSRWQRDLTDSTVLRNIGVAVSHGLIAWRSIDR</Hsp_qseq>
+      <Hsp_hseq>INVILIDLCRDCWGYISLGYLRQRAVAGEVGSSTMPHKINPIDFENAEGNLGVANALLRHFSDKLPISRWQRDLTDSTVLRNVGVALGHSLIAWRALGR</Hsp_hseq>
+      <Hsp_midline>IN +LIDLCRD WGYISLGY RQRAVAGEVGSSTMPHK+NPIDFENAEGNLGVANALLR  +DKLP+SRWQRDLTDSTVLRN+GVA+ H LIAWR++ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_161815123.1|</Hit_id>
+  <Hit_def>adenylosuccinate lyase [Steroidobacter agaridevorans] &gt;dbj|GFE83512.1| adenylosuccinate lyase [Steroidobacter agaridevorans] &gt;dbj|GFE86606.1| adenylosuccinate lyase [Steroidobacter agaridevorans]</Hit_def>
+  <Hit_accession>WP_161815123</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.57</Hsp_bit-score>
+      <Hsp_score>462</Hsp_score>
+      <Hsp_evalue>3.88476e-53</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>264</Hsp_hit-from>
+      <Hsp_hit-to>362</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>INTVLIDLCRDMWGYISLGYFRQRAVAGEVGSSTMPHKVNPIDFENAEGNLGVANALLRFLADKLPVSRWQRDLTDSTVLRNIGVAVSHGLIAWRSIDR</Hsp_qseq>
+      <Hsp_hseq>LNTVLVALCRDMWGYISLGYFRQRVVAGETGSSTMPHKVNPIDFENGEGNLTLSISMLRYLADKLPVSRWQRDLTDSTVLRNVGVAVSHALIAWRSIER</Hsp_hseq>
+      <Hsp_midline>+NTVL+ LCRDMWGYISLGYFRQR VAGE GSSTMPHKVNPIDFEN EGNL ++ ++LR+LADKLPVSRWQRDLTDSTVLRN+GVAVSH LIAWRSI+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469534606</Statistics_db-num>
+      <Statistics_db-len>1070605227</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_17795</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_17795</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|MBX3139945.1|</Hit_id>
+  <Hit_def>phenylalanine--tRNA ligase subunit beta [Trueperaceae bacterium]</Hit_def>
+  <Hit_accession>MBX3139945</Hit_accession>
+  <Hit_len>793</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.1662</Hsp_bit-score>
+      <Hsp_score>165</Hsp_score>
+      <Hsp_evalue>1.19421e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>748</Hsp_hit-from>
+      <Hsp_hit-to>793</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>VPEGMRSVALRFRFRHGSRALTDAEVDAAMEKVISAVREAGYAIRA</Hsp_qseq>
+      <Hsp_hseq>LPSGSRSLALRFRFRDATRALTDAEVDALMENVIQAVRSAGYDIRA</Hsp_hseq>
+      <Hsp_midline>+P G RS+ALRFRFR  +RALTDAEVDA ME VI AVR AGY IRA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|MCC6311397.1|</Hit_id>
+  <Hit_def>phenylalanine--tRNA ligase subunit beta [Trueperaceae bacterium]</Hit_def>
+  <Hit_accession>MCC6311397</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>7.45178e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>185</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>VPEGMRSVALRFRFRHGSRALTDAEVDAAMEKVISAVREAGYAIRA</Hsp_qseq>
+      <Hsp_hseq>LPSGSRSLALRFRVRDATRALTDAEVDALMENVIQAVRSAGYDIRA</Hsp_hseq>
+      <Hsp_midline>+P G RS+ALRFR R  +RALTDAEVDA ME VI AVR AGY IRA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|NLG07880.1|</Hit_id>
+  <Hit_def>phenylalanine--tRNA ligase subunit beta [Deinococcales bacterium]</Hit_def>
+  <Hit_accession>NLG07880</Hit_accession>
+  <Hit_len>782</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>3.96837e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>737</Hsp_hit-from>
+      <Hsp_hit-to>782</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>VPEGMRSVALRFRFRHGSRALTDAEVDAAMEKVISAVREAGYAIRA</Hsp_qseq>
+      <Hsp_hseq>LPTGQRSLALRFRFRAESRALTDGEVDGLMQNVIRAVRDAGYDVRA</Hsp_hseq>
+      <Hsp_midline>+P G RS+ALRFRFR  SRALTD EVD  M+ VI AVR+AGY +RA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|UCH25092.1|</Hit_id>
+  <Hit_def>MAG: phenylalanine--tRNA ligase subunit beta [Trueperaceae bacterium]</Hit_def>
+  <Hit_accession>UCH25092</Hit_accession>
+  <Hit_len>779</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>3.44513e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>734</Hsp_hit-from>
+      <Hsp_hit-to>779</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>VPEGMRSVALRFRFRHGSRALTDAEVDAAMEKVISAVREAGYAIRA</Hsp_qseq>
+      <Hsp_hseq>IPKGQRSVALRFTFRHPERALNDPEVDSYMGNVMSGLRKAGYDIRG</Hsp_hseq>
+      <Hsp_midline>+P+G RSVALRF FRH  RAL D EVD+ M  V+S +R+AGY IR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|MBW6455090.1|</Hit_id>
+  <Hit_def>phenylalanine--tRNA ligase subunit beta [Trueperaceae bacterium]</Hit_def>
+  <Hit_accession>MBW6455090</Hit_accession>
+  <Hit_len>781</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.8474</Hsp_bit-score>
+      <Hsp_score>146</Hsp_score>
+      <Hsp_evalue>4.79792e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>736</Hsp_hit-from>
+      <Hsp_hit-to>780</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>VPEGMRSVALRFRFRHGSRALTDAEVDAAMEKVISAVREAGYAIR</Hsp_qseq>
+      <Hsp_hseq>VQPGHKSVALRFRFRHPDRALTDAEVDADMGAIMAALRDAGYAWR</Hsp_hseq>
+      <Hsp_midline>V  G +SVALRFRFRH  RALTDAEVDA M  +++A+R+AGYA R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|MBW7916631.1|</Hit_id>
+  <Hit_def>phenylalanine--tRNA ligase subunit beta [Trueperaceae bacterium]</Hit_def>
+  <Hit_accession>MBW7916631</Hit_accession>
+  <Hit_len>780</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.6918</Hsp_bit-score>
+      <Hsp_score>143</Hsp_score>
+      <Hsp_evalue>1.14128e-07</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>735</Hsp_hit-from>
+      <Hsp_hit-to>780</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>VPEGMRSVALRFRFRHGSRALTDAEVDAAMEKVISAVREAGYAIRA</Hsp_qseq>
+      <Hsp_hseq>LPSGARSVAVRFRFQDARRALTDEAVDALMENVIRAVRSAGYDIRA</Hsp_hseq>
+      <Hsp_midline>+P G RSVA+RFRF+   RALTD  VDA ME VI AVR AGY IRA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|MBS3933555.1|</Hit_id>
+  <Hit_def>phenylalanine--tRNA ligase subunit beta [Truepera sp.]</Hit_def>
+  <Hit_accession>MBS3933555</Hit_accession>
+  <Hit_len>375</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.3066</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>1.37175e-07</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>330</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>VPEGMRSVALRFRFRHGSRALTDAEVDAAMEKVISAVREAGYAIRA</Hsp_qseq>
+      <Hsp_hseq>LPAGQRSLALRLKFRHPERALRDEEVDATMTDIISTLRQSGYDIRS</Hsp_hseq>
+      <Hsp_midline>+P G RS+ALR +FRH  RAL D EVDA M  +IS +R++GY IR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|MBX3142958.1|</Hit_id>
+  <Hit_def>hypothetical protein [Trueperaceae bacterium]</Hit_def>
+  <Hit_accession>MBX3142958</Hit_accession>
+  <Hit_len>379</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.3066</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>1.57886e-07</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>334</Hsp_hit-from>
+      <Hsp_hit-to>379</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>VPEGMRSVALRFRFRHGSRALTDAEVDAAMEKVISAVREAGYAIRA</Hsp_qseq>
+      <Hsp_hseq>LPAGKRSVAVRLRFRDAARSLTDAEVDDAMANVIDAVKGAGYDIRA</Hsp_hseq>
+      <Hsp_midline>+P G RSVA+R RFR  +R+LTDAEVD AM  VI AV+ AGY IRA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|NBC96851.1|</Hit_id>
+  <Hit_def>phenylalanine--tRNA ligase subunit beta [Deinococcus-Thermus bacterium]</Hit_def>
+  <Hit_accession>NBC96851</Hit_accession>
+  <Hit_len>416</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.151</Hsp_bit-score>
+      <Hsp_score>139</Hsp_score>
+      <Hsp_evalue>4.45502e-07</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>373</Hsp_hit-from>
+      <Hsp_hit-to>416</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>44</Hsp_align-len>
+      <Hsp_qseq>EGMRSVALRFRFRHGSRALTDAEVDAAMEKVISAVREAGYAIRA</Hsp_qseq>
+      <Hsp_hseq>DDQRSVAIRLRFRHPARALRDEEVDAWLDEVIEAVREAGYDIRS</Hsp_hseq>
+      <Hsp_midline>+  RSVA+R RFRH +RAL D EVDA +++VI AVREAGY IR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_161881617.1|</Hit_id>
+  <Hit_def>phenylalanine--tRNA ligase subunit beta [Deinococcus alpinitundrae]</Hit_def>
+  <Hit_accession>WP_161881617</Hit_accession>
+  <Hit_len>819</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.3806</Hsp_bit-score>
+      <Hsp_score>137</Hsp_score>
+      <Hsp_evalue>8.59355e-07</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>774</Hsp_hit-from>
+      <Hsp_hit-to>817</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>VPEGMRSVALRFRFRHGSRALTDAEVDAAMEKVISAVREAGYAIR</Hsp_qseq>
+      <Hsp_hseq>IPEGQRSVAVRLTFR-GEKTLSDSEVDPVMERLIGAVRAAGWAIR</Hsp_hseq>
+      <Hsp_midline>+PEG RSVA+R  FR G + L+D+EVD  ME++I AVR AG+AIR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469534606</Statistics_db-num>
+      <Statistics_db-len>1070605227</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

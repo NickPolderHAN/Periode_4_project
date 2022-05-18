@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_3995</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_3995</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|MBX5484937.1|</Hit_id>
+  <Hit_def>IS3 family transposase [Myxococcaceae bacterium]</Hit_def>
+  <Hit_accession>MBX5484937</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>158.688</Hsp_bit-score>
+      <Hsp_score>400</Hsp_score>
+      <Hsp_evalue>1.8279e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>90</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>SKRRVLRIMRENGLLAPARPSRVLGPRVHDGTIITDAPDQMWGTDATSVQTLEEGTVSVFAAVDHCTAECVGIHAARRATRFEALEPIRQGVRERFGAYA</Hsp_qseq>
+      <Hsp_hseq>SMRRVLRLMREADLLAPNRPRRELGPRVHDGTLITERPNQMWGTDATTTLTLEEGQATVFIAVDHCTAECVGIHAAKVGTRFEALEPIRQAVKARYGAYA</Hsp_hseq>
+      <Hsp_midline>S RRVLR+MRE  LLAP RP R LGPRVHDGT+IT+ P+QMWGTDAT+  TLEEG  +VF AVDHCTAECVGIHAA+  TRFEALEPIRQ V+ R+GAYA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|MBI5855986.1|</Hit_id>
+  <Hit_def>IS3 family transposase [Nitrospirae bacterium]</Hit_def>
+  <Hit_accession>MBI5855986</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>158.688</Hsp_bit-score>
+      <Hsp_score>400</Hsp_score>
+      <Hsp_evalue>2.05896e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>90</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>SKRRVLRIMRENGLLAPARPSRVLGPRVHDGTIITDAPDQMWGTDATSVQTLEEGTVSVFAAVDHCTAECVGIHAARRATRFEALEPIRQGVRERFGAY</Hsp_qseq>
+      <Hsp_hseq>SKPRVLRLMRQAGLLAPSRAQRVLGPQTHDGTIITDQPNQMWGTDATSTVTLEDGYVTVFVAIDHCTLEGVGIHAATRATRFEALEPLRQGVRQQFGAF</Hsp_hseq>
+      <Hsp_midline>SK RVLR+MR+ GLLAP+R  RVLGP+ HDGTIITD P+QMWGTDATS  TLE+G V+VF A+DHCT E VGIHAA RATRFEALEP+RQGVR++FGA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|MBK8276251.1|</Hit_id>
+  <Hit_def>DDE-type integrase/transposase/recombinase [Nitrospira sp.]</Hit_def>
+  <Hit_accession>MBK8276251</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.295</Hsp_bit-score>
+      <Hsp_score>386</Hsp_score>
+      <Hsp_evalue>2.50638e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>90</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>SKRRVLRIMRENGLLAPARPSRVLGPRVHDGTIITDAPDQMWGTDATSVQTLEEGTVSVFAAVDHCTAECVGIHAARRATRFEALEPIRQGVRERFG</Hsp_qseq>
+      <Hsp_hseq>SKRRVLRLMRQADLLAPSRAPRVVGPRVHDGTITTERPNQMWGTDATSTVTVEDGVVTVFVAIDHCTLEGIGIHAARRATRFEALEPIRQGVRLQFG</Hsp_hseq>
+      <Hsp_midline>SKRRVLR+MR+  LLAP+R  RV+GPRVHDGTI T+ P+QMWGTDATS  T+E+G V+VF A+DHCT E +GIHAARRATRFEALEPIRQGVR +FG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|QPD02612.1|</Hit_id>
+  <Hit_def>HTH-like domain-containing protein (modular protein) [Candidatus Nitrospira kreftii] &gt;gb|QPD03618.1| HTH-like domain-containing protein (modular protein) [Candidatus Nitrospira kreftii] &gt;gb|QPD03629.1| HTH-like domain-containing protein (modular protein) [Candidatus Nitrospira kreftii] &gt;gb|QPD03664.1| HTH-like domain-containing protein (modular protein) [Candidatus Nitrospira kreftii] &gt;gb|QPD04973.1| HTH-like domain-containing protein (modular protein) [Candidatus Nitrospira kreftii]</Hit_def>
+  <Hit_accession>QPD02612</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.443</Hsp_bit-score>
+      <Hsp_score>376</Hsp_score>
+      <Hsp_evalue>7.29407e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>90</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>SKRRVLRIMRENGLLAPARPSRVLGPRVHDGTIITDAPDQMWGTDATSVQTLEEGTVSVFAAVDHCTAECVGIHAARRATRFEALEPIRQGVRERFGAYA</Hsp_qseq>
+      <Hsp_hseq>SKPRVLRLMRQAHLLAPTRVARVVGPRVHDGTITTERPNQMWGTDATSTVTQQDGLVTVFVGIDHCTLEGIGIHAARRATRFEALEPIRQGVRQQFGTFA</Hsp_hseq>
+      <Hsp_midline>SK RVLR+MR+  LLAP R +RV+GPRVHDGTI T+ P+QMWGTDATS  T ++G V+VF  +DHCT E +GIHAARRATRFEALEPIRQGVR++FG +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_234072452.1|</Hit_id>
+  <Hit_def>IS3 family transposase [Myxococcus stipitatus] &gt;gb|MCE9674048.1| IS3 family transposase [Myxococcus stipitatus]</Hit_def>
+  <Hit_accession>WP_234072452</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.902</Hsp_bit-score>
+      <Hsp_score>372</Hsp_score>
+      <Hsp_evalue>1.29322e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>90</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>SKRRVLRIMRENGLLAPARPSRVLGPRVHDGTIITDAPDQMWGTDATSVQTLEEGTVSVFAAVDHCTAECVGIHAARRATRFEALEPIRQGVRERFGAY</Hsp_qseq>
+      <Hsp_hseq>SKARCLRLMREAGLLAPGRARRVLGPRHHDGTIITDMPDVMWGTDATCTVTTLEGQATVFIAVDHATAECVGIHAAKVGNRFEALEPIRQGVKARFGAY</Hsp_hseq>
+      <Hsp_midline>SK R LR+MRE GLLAP R  RVLGPR HDGTIITD PD MWGTDAT   T  EG  +VF AVDH TAECVGIHAA+   RFEALEPIRQGV+ RFGAY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|NRD59793.1|</Hit_id>
+  <Hit_def>DDE-type integrase/transposase/recombinase [Corallococcus exiguus]</Hit_def>
+  <Hit_accession>NRD59793</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.288</Hsp_bit-score>
+      <Hsp_score>373</Hsp_score>
+      <Hsp_evalue>2.05656e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>90</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>SKRRVLRIMRENGLLAPARPSRVLGPRVHDGTIITDAPDQMWGTDATSVQTLEEGTVSVFAAVDHCTAECVGIHAARRATRFEALEPIRQGVRERFGAY</Hsp_qseq>
+      <Hsp_hseq>SKARCLRLMREAGLLAPGRARRVLGPRNHDGTITTDKPDVMWGTDATCTVTTREGQATVFIAIDHGTAECVGIHAAKVGTRFEALEPIRQGVKARFGAY</Hsp_hseq>
+      <Hsp_midline>SK R LR+MRE GLLAP R  RVLGPR HDGTI TD PD MWGTDAT   T  EG  +VF A+DH TAECVGIHAA+  TRFEALEPIRQGV+ RFGAY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|NDF15773.1|</Hit_id>
+  <Hit_def>IS3 family transposase [bacterium]</Hit_def>
+  <Hit_accession>NDF15773</Hit_accession>
+  <Hit_len>302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.517</Hsp_bit-score>
+      <Hsp_score>371</Hsp_score>
+      <Hsp_evalue>4.38076e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>94</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>SKRRVLRIMRENGLLAPARPSRVLGPRVHDGTIITDAPDQMWGTDATSVQTLEEGTVSVFAAVDHCTAECVGIHAARRATRFEALEPIRQGVRERFGAY</Hsp_qseq>
+      <Hsp_hseq>SMKRTLDLMRAANLLAPSRAVRVLGPRNHDGKITTDKPDEMWGTDFTSTQTIEDGQVAVFIAIDHCTSEGVGIHASKRANRFEALEPLRQGVRARFGSY</Hsp_hseq>
+      <Hsp_midline>S +R L +MR   LLAP+R  RVLGPR HDG I TD PD+MWGTD TS QT+E+G V+VF A+DHCT+E VGIHA++RA RFEALEP+RQGVR RFG+Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|RKG66067.1|</Hit_id>
+  <Hit_def>IS3 family transposase, partial [Corallococcus terminator]</Hit_def>
+  <Hit_accession>RKG66067</Hit_accession>
+  <Hit_len>273</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.591</Hsp_bit-score>
+      <Hsp_score>366</Hsp_score>
+      <Hsp_evalue>1.21027e-40</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>90</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>SKRRVLRIMRENGLLAPARPSRVLGPRVHDGTIITDAPDQMWGTDATSVQTLEEGTVSVFAAVDHCTAECVGIHAARRATRFEALEPIRQGVRERFGAY</Hsp_qseq>
+      <Hsp_hseq>SKARCLRLMREAGLLAPGRARRVLGPRNHDGTITTDKPDVMWGTDATCTVTTLEGQATVFIAVDHGTSECVGIHASKVGTRFEALEPIRQGVKARFGAY</Hsp_hseq>
+      <Hsp_midline>SK R LR+MRE GLLAP R  RVLGPR HDGTI TD PD MWGTDAT   T  EG  +VF AVDH T+ECVGIHA++  TRFEALEPIRQGV+ RFGAY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|NOJ99082.1|</Hit_id>
+  <Hit_def>DDE-type integrase/transposase/recombinase [Corallococcus coralloides]</Hit_def>
+  <Hit_accession>NOJ99082</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.591</Hsp_bit-score>
+      <Hsp_score>366</Hsp_score>
+      <Hsp_evalue>2.04877e-40</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>90</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>SKRRVLRIMRENGLLAPARPSRVLGPRVHDGTIITDAPDQMWGTDATSVQTLEEGTVSVFAAVDHCTAECVGIHAARRATRFEALEPIRQGVRERFGAY</Hsp_qseq>
+      <Hsp_hseq>SKARCLRLMRQAGLLAPGRARRVLGPRNHDGTITTDRPDVMWGTDATCTVTTLEGQATVFIAIDHGTAECVGIHAAKVGTRFEALEPIRQGVKARFGAY</Hsp_hseq>
+      <Hsp_midline>SK R LR+MR+ GLLAP R  RVLGPR HDGTI TD PD MWGTDAT   T  EG  +VF A+DH TAECVGIHAA+  TRFEALEPIRQGV+ RFGAY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_236069536.1|</Hit_id>
+  <Hit_def>integrase core domain-containing protein, partial [Citreicoccus inhibens]</Hit_def>
+  <Hit_accession>WP_236069536</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.895</Hsp_bit-score>
+      <Hsp_score>359</Hsp_score>
+      <Hsp_evalue>2.33602e-40</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>102</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>SKRRVLRIMRENGLLAPARPSRVLGPRVHDGTIITDAPDQMWGTDATSVQTLEEGTVSVFAAVDHCTAECVGIHAARRATRFEALEPIRQGVRERFGAYA</Hsp_qseq>
+      <Hsp_hseq>SKARCLRLMRQAGLLAPGRPRRVLGPRHHDGTIATDRPDVMWGTDATCTLTDAEGQATVFIAVDPGTSECVGIHAAKVGTRFEALEPIRQGVKARFGAYG</Hsp_hseq>
+      <Hsp_midline>SK R LR+MR+ GLLAP RP RVLGPR HDGTI TD PD MWGTDAT   T  EG  +VF AVD  T+ECVGIHAA+  TRFEALEPIRQGV+ RFGAY </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469982569</Statistics_db-num>
+      <Statistics_db-len>1180272553</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

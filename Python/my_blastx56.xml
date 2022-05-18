@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_137623</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_137623</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|TXI31389.1|</Hit_id>
+  <Hit_def>SusC/RagA family TonB-linked outer membrane protein [Niabella sp.]</Hit_def>
+  <Hit_accession>TXI31389</Hit_accession>
+  <Hit_len>1044</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>167.162</Hsp_bit-score>
+      <Hsp_score>422</Hsp_score>
+      <Hsp_evalue>2.59958e-45</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>638</Hsp_hit-from>
+      <Hsp_hit-to>736</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>VRGSYAEIGKDTDPYRNNTYYGSYVLTSTSQVLWTRSASSGDRMLKPERTYTFEVGTELRFLQDRLTLDVTYYKLNSKDQIIPVLVSPATGFTSYVTNA</Hsp_qseq>
+      <Hsp_hseq>LRGSVAEIGKDTDPYRNNTYYGSYVLSSTSQVLWTRSNSSGDPKLKPERTKTLELGTELRFIKDRLGLDFTWYKLNSRDQIIPVNISPATGFTSLITNA</Hsp_hseq>
+      <Hsp_midline>+RGS AEIGKDTDPYRNNTYYGSYVL+STSQVLWTRS SSGD  LKPERT T E+GTELRF++DRL LD T+YKLNS+DQIIPV +SPATGFTS +TNA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|MCB0740899.1|</Hit_id>
+  <Hit_def>SusC/RagA family TonB-linked outer membrane protein [Chitinophagaceae bacterium]</Hit_def>
+  <Hit_accession>MCB0740899</Hit_accession>
+  <Hit_len>1034</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>138.658</Hsp_bit-score>
+      <Hsp_score>348</Hsp_score>
+      <Hsp_evalue>2.73315e-35</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>630</Hsp_hit-from>
+      <Hsp_hit-to>728</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>VRGSYAEIGKDTDPYRNNTYYGSYVLTSTSQVLWTRSASSGDRMLKPERTYTFEVGTELRFLQDRLTLDVTYYKLNSKDQIIPVLVSPATGFTSYVTNA</Hsp_qseq>
+      <Hsp_hseq>LRASWAQIGKDYDPYSLNTYYGSYVLSSTGQVLWTRSDQKGDKSLRPERTTTLEIGTELGFLKNRINFDFTWYKLNSRDQIIPVAISPTAGYTTTVINA</Hsp_hseq>
+      <Hsp_midline>+R S+A+IGKD DPY  NTYYGSYVL+ST QVLWTRS   GD+ L+PERT T E+GTEL FL++R+  D T+YKLNS+DQIIPV +SP  G+T+ V NA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|MCB0714604.1|</Hit_id>
+  <Hit_def>SusC/RagA family TonB-linked outer membrane protein [Chitinophagaceae bacterium]</Hit_def>
+  <Hit_accession>MCB0714604</Hit_accession>
+  <Hit_len>1024</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>138.658</Hsp_bit-score>
+      <Hsp_score>348</Hsp_score>
+      <Hsp_evalue>2.78546e-35</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>620</Hsp_hit-from>
+      <Hsp_hit-to>718</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>VRGSYAEIGKDTDPYRNNTYYGSYVLTSTSQVLWTRSASSGDRMLKPERTYTFEVGTELRFLQDRLTLDVTYYKLNSKDQIIPVLVSPATGFTSYVTNA</Hsp_qseq>
+      <Hsp_hseq>LRASWAQIGKDYDPYSLNTYYGSYVLSSTGQVLWTRSDQKGDKSLRPERTTTLEIGTELGFLKNRINFDFTWYKLNSRDQIIPVAISPTAGYTTTVINA</Hsp_hseq>
+      <Hsp_midline>+R S+A+IGKD DPY  NTYYGSYVL+ST QVLWTRS   GD+ L+PERT T E+GTEL FL++R+  D T+YKLNS+DQIIPV +SP  G+T+ V NA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|MBP9104591.1|</Hit_id>
+  <Hit_def>SusC/RagA family TonB-linked outer membrane protein [Chitinophagaceae bacterium]</Hit_def>
+  <Hit_accession>MBP9104591</Hit_accession>
+  <Hit_len>1034</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.117</Hsp_bit-score>
+      <Hsp_score>344</Hsp_score>
+      <Hsp_evalue>7.21446e-35</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>630</Hsp_hit-from>
+      <Hsp_hit-to>728</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>VRGSYAEIGKDTDPYRNNTYYGSYVLTSTSQVLWTRSASSGDRMLKPERTYTFEVGTELRFLQDRLTLDVTYYKLNSKDQIIPVLVSPATGFTSYVTNA</Hsp_qseq>
+      <Hsp_hseq>VRASWAQIGKDYDPYSLNTYYSSYVVSSTGQVLWTRDDQKGDASLQPERTTTLEIGTELRFLKNRLGVDFSWYKLNSRDQIIPVSISPTTGYTSTVINA</Hsp_hseq>
+      <Hsp_midline>VR S+A+IGKD DPY  NTYY SYV++ST QVLWTR    GD  L+PERT T E+GTELRFL++RL +D ++YKLNS+DQIIPV +SP TG+TS V NA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>tpg|HGG31774.1|</Hit_id>
+  <Hit_def>SusC/RagA family TonB-linked outer membrane protein [Chitinophagaceae bacterium]</Hit_def>
+  <Hit_accession>HGG31774</Hit_accession>
+  <Hit_len>1041</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.346</Hsp_bit-score>
+      <Hsp_score>342</Hsp_score>
+      <Hsp_evalue>1.40993e-34</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>637</Hsp_hit-from>
+      <Hsp_hit-to>735</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>VRGSYAEIGKDTDPYRNNTYYGSYVLTSTSQVLWTRSASSGDRMLKPERTYTFEVGTELRFLQDRLTLDVTYYKLNSKDQIIPVLVSPATGFTSYVTNA</Hsp_qseq>
+      <Hsp_hseq>LRGSYAEIGKDTRPYETNTYYNSSVITSTSQVIWTRGDTKGDPALKPERTRTVEAGLEARFLRNRLGIDFTWYKLNSKDQIINVSASPTSGFTSFILNA</Hsp_hseq>
+      <Hsp_midline>+RGSYAEIGKDT PY  NTYY S V+TSTSQV+WTR  + GD  LKPERT T E G E RFL++RL +D T+YKLNSKDQII V  SP +GFTS++ NA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|MBB1283409.1|</Hit_id>
+  <Hit_def>SusC/RagA family TonB-linked outer membrane protein [Flavisolibacter longurius]</Hit_def>
+  <Hit_accession>MBB1283409</Hit_accession>
+  <Hit_len>1039</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.109</Hsp_bit-score>
+      <Hsp_score>331</Hsp_score>
+      <Hsp_evalue>5.21681e-33</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>636</Hsp_hit-from>
+      <Hsp_hit-to>733</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>RGSYAEIGKDTDPYRNNTYYGSYVLTSTSQVLWTRSASSGDRMLKPERTYTFEVGTELRFLQDRLTLDVTYYKLNSKDQIIPVLVSPATGFTSYVTNA</Hsp_qseq>
+      <Hsp_hseq>RASLAEVGKDTDPYQTNAYFTPVVLTSSQQVTWTRANSRGQQTLKPERTSTLELGAELRALNNRIGLDFTWYKLNSRDQIIPVLISPTTGYTSVITNA</Hsp_hseq>
+      <Hsp_midline>R S AE+GKDTDPY+ N Y+   VLTS+ QV WTR+ S G + LKPERT T E+G ELR L +R+ LD T+YKLNS+DQIIPVL+SP TG+TS +TNA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_214448470.1|</Hit_id>
+  <Hit_def>SusC/RagA family TonB-linked outer membrane protein [Flavihumibacter sp. IMCC34838] &gt;gb|MBT1439237.1| SusC/RagA family TonB-linked outer membrane protein [Flavihumibacter sp. IMCC34838] &gt;gb|ULQ56110.1| SusC/RagA family TonB-linked outer membrane protein [Flavihumibacter sp. IMCC34838]</Hit_def>
+  <Hit_accession>WP_214448470</Hit_accession>
+  <Hit_len>1042</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.724</Hsp_bit-score>
+      <Hsp_score>330</Hsp_score>
+      <Hsp_evalue>5.63876e-33</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>638</Hsp_hit-from>
+      <Hsp_hit-to>736</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>VRGSYAEIGKDTDPYRNNTYYGSYVLTSTSQVLWTRSASSGDRMLKPERTYTFEVGTELRFLQDRLTLDVTYYKLNSKDQIIPVLVSPATGFTSYVTNA</Hsp_qseq>
+      <Hsp_hseq>LRASYAEIGKDTDPYRNNSYYTSTQLQSNGQILWTRADSRGDLNLKPERTKTIELGADFRFLKNRLGLEFTWYKLRSVDQIIPVSVSPSTGYTQFFLNA</Hsp_hseq>
+      <Hsp_midline>+R SYAEIGKDTDPYRNN+YY S  L S  Q+LWTR+ S GD  LKPERT T E+G + RFL++RL L+ T+YKL S DQIIPV VSP+TG+T +  NA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|MBA3674284.1|</Hit_id>
+  <Hit_def>SusC/RagA family TonB-linked outer membrane protein [Chitinophagaceae bacterium]</Hit_def>
+  <Hit_accession>MBA3674284</Hit_accession>
+  <Hit_len>1042</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.724</Hsp_bit-score>
+      <Hsp_score>330</Hsp_score>
+      <Hsp_evalue>6.21359e-33</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>638</Hsp_hit-from>
+      <Hsp_hit-to>736</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>VRGSYAEIGKDTDPYRNNTYYGSYVLTSTSQVLWTRSASSGDRMLKPERTYTFEVGTELRFLQDRLTLDVTYYKLNSKDQIIPVLVSPATGFTSYVTNA</Hsp_qseq>
+      <Hsp_hseq>LRVSLAETGKDTDPYETSSIYESSVLQSTSQVLWSRGDARGDALLRPERTSTFEVGTELRFLKNRLGIDFNWYKLNSRDQIIPVSVSPTTGYTNVIINA</Hsp_hseq>
+      <Hsp_midline>+R S AE GKDTDPY  ++ Y S VL STSQVLW+R  + GD +L+PERT TFEVGTELRFL++RL +D  +YKLNS+DQIIPV VSP TG+T+ + NA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|TXH20651.1|</Hit_id>
+  <Hit_def>TonB-dependent receptor [Chitinophagaceae bacterium]</Hit_def>
+  <Hit_accession>TXH20651</Hit_accession>
+  <Hit_len>575</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.183</Hsp_bit-score>
+      <Hsp_score>326</Hsp_score>
+      <Hsp_evalue>1.00169e-32</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>170</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>VRGSYAEIGKDTDPYRNNTYYGSYVLTSTSQVLWTRSASSGDRMLKPERTYTFEVGTELRFLQDRLTLDVTYYKLNSKDQIIPVLVSPATGFTSYVTNA</Hsp_qseq>
+      <Hsp_hseq>LRASFAGVGKDTDPYETNTYYGSYILTSTGQVLWTKGDTRGETALRPEKTTTLEIGTELKFFKNRLGIDFSWYKLNSKELIIPVSLSPTTGFLNSILNA</Hsp_hseq>
+      <Hsp_midline>+R S+A +GKDTDPY  NTYYGSY+LTST QVLWT+  + G+  L+PE+T T E+GTEL+F ++RL +D ++YKLNSK+ IIPV +SP TGF + + NA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|THU41672.1|</Hit_id>
+  <Hit_def>SusC/RagA family TonB-linked outer membrane protein [Niastella caeni]</Hit_def>
+  <Hit_accession>THU41672</Hit_accession>
+  <Hit_len>1180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.954</Hsp_bit-score>
+      <Hsp_score>328</Hsp_score>
+      <Hsp_evalue>1.30549e-32</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>776</Hsp_hit-from>
+      <Hsp_hit-to>873</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>VRGSYAEIGKDTDPYRNNTYYGSYVLTSTSQVLWTRSASSGDRMLKPERTYTFEVGTELRFLQDRLTLDVTYYKLNSKDQIIPVLVSPATGFTSYVTNA</Hsp_qseq>
+      <Hsp_hseq>ARVSVAEVGKDTDPYEINKYYGSGVITSTGQIMWTRSDQAGDALLKPERTSTIEAGVELKLF-NRIGLDFSWYKLNSRDQIIPVSLSPTTGFTSYILNA</Hsp_hseq>
+      <Hsp_midline> R S AE+GKDTDPY  N YYGS V+TST Q++WTRS  +GD +LKPERT T E G EL+   +R+ LD ++YKLNS+DQIIPV +SP TGFTSY+ NA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469982569</Statistics_db-num>
+      <Statistics_db-len>1180272553</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

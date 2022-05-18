@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_42859</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_42859</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|ALA06393.1|</Hit_id>
+  <Hit_def>phosphodiesterase [Thermobifida phage P1312]</Hit_def>
+  <Hit_accession>ALA06393</Hit_accession>
+  <Hit_len>1096</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>199.134</Hsp_bit-score>
+      <Hsp_score>505</Hsp_score>
+      <Hsp_evalue>1.65992e-56</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>319</Hsp_hit-from>
+      <Hsp_hit-to>417</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>HSSDSWWRFRRERAELVDLLGDLGWLGRMVMLQADKHALSMSSGPNNPWGGFPLFMFASLDASYSEHPEGQYDMGQSPGRGRYGTLRVVDSGHTIALHG</Hsp_qseq>
+      <Hsp_hseq>YSNDSWWRFRGERAELVDLLGDLGWLDRMVMLQADKHALSMSSGPNNPWGGFPLFMFASLDASYSEHPEGQYDIGQSPGRGRYGTLRVVDSGHTIALHG</Hsp_hseq>
+      <Hsp_midline>+S+DSWWRFR ERAELVDLLGDLGWL RMVMLQADKHALSMSSGPNNPWGGFPLFMFASLDASYSEHPEGQYD+GQSPGRGRYGTLRVVDSGHTIALHG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_026128263.1|</Hit_id>
+  <Hit_def>alkaline phosphatase D family protein, partial [Nocardiopsis lucentensis]</Hit_def>
+  <Hit_accession>WP_026128263</Hit_accession>
+  <Hit_len>912</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>165.622</Hsp_bit-score>
+      <Hsp_score>418</Hsp_score>
+      <Hsp_evalue>7.31951e-45</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>313</Hsp_hit-from>
+      <Hsp_hit-to>411</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>HSSDSWWRFRRERAELVDLLGDLGWLGRMVMLQADKHALSMSSGPNNPWGGFPLFMFASLDASYSEHPEGQYDMGQSPGRGRYGTLRVVDSGHTIALHG</Hsp_qseq>
+      <Hsp_hseq>ESVDSWGRFRVEREELVQILGDHGWLERMVMLNADKHALSMSSGPANPWGGFPMFMFASLDASFSTSPELQYDIGQSPGRQRYGTLQVVDSGHTIALHG</Hsp_hseq>
+      <Hsp_midline> S DSW RFR ER ELV +LGD GWL RMVML ADKHALSMSSGP NPWGGFP+FMFASLDAS+S  PE QYD+GQSPGR RYGTL+VVDSGHTIALHG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_141921854.1|</Hit_id>
+  <Hit_def>alkaline phosphatase D family protein [Haloactinospora alba] &gt;gb|TQN30622.1| phosphodiesterase/alkaline phosphatase D-like protein [Haloactinospora alba]</Hit_def>
+  <Hit_accession>WP_141921854</Hit_accession>
+  <Hit_len>1097</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>161.384</Hsp_bit-score>
+      <Hsp_score>407</Hsp_score>
+      <Hsp_evalue>2.44215e-43</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>322</Hsp_hit-from>
+      <Hsp_hit-to>420</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>HSSDSWWRFRRERAELVDLLGDLGWLGRMVMLQADKHALSMSSGPNNPWGGFPLFMFASLDASYSEHPEGQYDMGQSPGRGRYGTLRVVDSGHTIALHG</Hsp_qseq>
+      <Hsp_hseq>YSHDSFRRFRQERKELVELLGDHGWLNSMVALQADKHALSMSTGPANPWGGFPLFMFASMDSGFSDTPEGQYDLGQSPGRQRYGTVRVEDSGHTIALHG</Hsp_hseq>
+      <Hsp_midline>+S DS+ RFR+ER ELV+LLGD GWL  MV LQADKHALSMS+GP NPWGGFPLFMFAS+D+ +S+ PEGQYD+GQSPGR RYGT+RV DSGHTIALHG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|QBI56793.1|</Hit_id>
+  <Hit_def>PhoD-like phosphatase [Streptomonospora litoralis]</Hit_def>
+  <Hit_accession>QBI56793</Hit_accession>
+  <Hit_len>1100</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>158.688</Hsp_bit-score>
+      <Hsp_score>400</Hsp_score>
+      <Hsp_evalue>2.436e-42</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>322</Hsp_hit-from>
+      <Hsp_hit-to>420</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>HSSDSWWRFRRERAELVDLLGDLGWLGRMVMLQADKHALSMSSGPNNPWGGFPLFMFASLDASYSEHPEGQYDMGQSPGRGRYGTLRVVDSGHTIALHG</Hsp_qseq>
+      <Hsp_hseq>YSRDSFRMFRRDRQELVELLGDTGWLERMVMLQADKHALSISSGPNNPWGGFPLFMLGSLDAAHAALPEGQYDQGQSTGRDRYGTLRIVDSGHTIALHA</Hsp_hseq>
+      <Hsp_midline>+S DS+  FRR+R ELV+LLGD GWL RMVMLQADKHALS+SSGPNNPWGGFPLFM  SLDA+++  PEGQYD GQS GR RYGTLR+VDSGHTIALH </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_093903971.1|</Hit_id>
+  <Hit_def>alkaline phosphatase D family protein [Streptomyces sp. cf386] &gt;emb|SDM46188.1| Phosphodiesterase/alkaline phosphatase D [Streptomyces sp. cf386]</Hit_def>
+  <Hit_accession>WP_093903971</Hit_accession>
+  <Hit_len>1062</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.405</Hsp_bit-score>
+      <Hsp_score>311</Hsp_score>
+      <Hsp_evalue>2.43492e-30</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>305</Hsp_hit-from>
+      <Hsp_hit-to>401</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>SDSWWRFRRERAELVDLLGDLGWLGRMVMLQADKHALSMSSGPNNPWGGFPLFMFASLDASYSEHPEGQYDMGQSPGRGRYGTLRVVDSGHTIALHG</Hsp_qseq>
+      <Hsp_hseq>TDTWSSFEHERAEMVQMFGDTGWLDRMIFMTADEHALSLCSGPYNPYGHFPMFMFASMDSSYGTNSTEIYDVGQNQGRQQYGTMRVADNGHTLSLTG</Hsp_hseq>
+      <Hsp_midline>+D+W  F  ERAE+V + GD GWL RM+ + AD+HALS+ SGP NP+G FP+FMFAS+D+SY  +    YD+GQ+ GR +YGT+RV D+GHT++L G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_059079737.1|</Hit_id>
+  <Hit_def>alkaline phosphatase D family protein [Streptomyces scabiei] &gt;dbj|GAQ61882.1| PhoD-like phosphatase [Streptomyces scabiei]</Hit_def>
+  <Hit_accession>WP_059079737</Hit_accession>
+  <Hit_len>904</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.168</Hsp_bit-score>
+      <Hsp_score>300</Hsp_score>
+      <Hsp_evalue>7.09395e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>396</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>SDSWWRFRRERAELVDLLGDLGWLGRMVMLQADKHALSMSSGPNNPWGGFPLFMFASLDA-SYSEHPEGQYDMGQSPGRGRYGTLRVVDSGHTIALHG</Hsp_qseq>
+      <Hsp_hseq>TDTWSDFPYERAEMVQLVGDTGWLDRMIFMTADMHALSICTGPNNPHGKFPMFMFASMDAGAWSTGPE--YDLGSVAGRRQYGTMRVTDSGHTIALAG</Hsp_hseq>
+      <Hsp_midline>+D+W  F  ERAE+V L+GD GWL RM+ + AD HALS+ +GPNNP G FP+FMFAS+DA ++S  PE  YD+G   GR +YGT+RV DSGHTIAL G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_125513787.1|</Hit_id>
+  <Hit_def>alkaline phosphatase D family protein [Streptomyces sp. WAC 01529] &gt;gb|AZM54172.1| hypothetical protein DMA15_17665 [Streptomyces sp. WAC 01529]</Hit_def>
+  <Hit_accession>WP_125513787</Hit_accession>
+  <Hit_len>898</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.168</Hsp_bit-score>
+      <Hsp_score>300</Hsp_score>
+      <Hsp_evalue>8.12406e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>301</Hsp_hit-from>
+      <Hsp_hit-to>395</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>DSWWRFRRERAELVDLLGDLGWLGRMVMLQADKHALSMSSGPNNPWGGFPLFMFASLDA-SYSEHPEGQYDMGQSPGRGRYGTLRVVDSGHTIALHG</Hsp_qseq>
+      <Hsp_hseq>DTWNSFPHERAEMIQFLGDTGWLDRMVFMTADMHATSICSGPNNPHGSFPMFMFASLDAGAWSTGPE--YDIGSVAGRRQYGTLRVTDNGHTIALTG</Hsp_hseq>
+      <Hsp_midline>D+W  F  ERAE++  LGD GWL RMV + AD HA S+ SGPNNP G FP+FMFASLDA ++S  PE  YD+G   GR +YGTLRV D+GHTIAL G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_237313510.1|</Hit_id>
+  <Hit_def>alkaline phosphatase D family protein [Streptomyces sp. AMCC400023] &gt;gb|UJV41631.1| hypothetical protein CVT30_18795 [Streptomyces sp. AMCC400023]</Hit_def>
+  <Hit_accession>WP_237313510</Hit_accession>
+  <Hit_len>909</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.087</Hsp_bit-score>
+      <Hsp_score>292</Hsp_score>
+      <Hsp_evalue>8.12198e-28</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>306</Hsp_hit-from>
+      <Hsp_hit-to>401</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>DSWWRFRRERAELVDLLGDLGWLGRMVMLQADKHALSMSSGPNNPWGGFPLFMFASLDASYSEHPEGQYDMGQSPGRGRYGTLRVVDSGHTIALHG</Hsp_qseq>
+      <Hsp_hseq>DTWNDFLYERAEMVTMFGDLGWLDRMILMTADMHALSICSGPRNPHGKFPMFMFAGMDAGAWSTSETDYDIGSVSGRRQYGTMRVADNGHTIALTG</Hsp_hseq>
+      <Hsp_midline>D+W  F  ERAE+V + GDLGWL RM+++ AD HALS+ SGP NP G FP+FMFA +DA      E  YD+G   GR +YGT+RV D+GHTIAL G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_234046762.1|</Hit_id>
+  <Hit_def>alkaline phosphatase D family protein [Streptomyces adelaidensis]</Hit_def>
+  <Hit_accession>WP_234046762</Hit_accession>
+  <Hit_len>782</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.316</Hsp_bit-score>
+      <Hsp_score>290</Hsp_score>
+      <Hsp_evalue>1.81381e-27</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>174</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>SDSWWRFRRERAELVDLLGDLGWLGRMVMLQADKHALSMSSGPNNPWGGFPLFMFASLDA-SYSEHPEGQYDMGQSPGRGRYGTLRVVDSGHTIALHG</Hsp_qseq>
+      <Hsp_hseq>TDTWNSFLHERDEVIDLFGDTGWLDKMIQLTADMHALSICSGPGNPWGGFPIYMFASMDSGSWSEDP--LYDIGSTMGRQQYGTMQVRDRGHTIELGG</Hsp_hseq>
+      <Hsp_midline>+D+W  F  ER E++DL GD GWL +M+ L AD HALS+ SGP NPWGGFP++MFAS+D+ S+SE P   YD+G + GR +YGT++V D GHTI L G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_121517035.1|</Hit_id>
+  <Hit_def>alkaline phosphatase D family protein [Streptomyces sp. Z26] &gt;gb|RLL66998.1| hypothetical protein D7M15_09105 [Streptomyces sp. Z26]</Hit_def>
+  <Hit_accession>WP_121517035</Hit_accession>
+  <Hit_len>904</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.546</Hsp_bit-score>
+      <Hsp_score>288</Hsp_score>
+      <Hsp_evalue>2.70749e-27</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>300</Hsp_hit-from>
+      <Hsp_hit-to>396</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>SSDSWWRFRRERAELVDLLGDLGWLGRMVMLQADKHALSMSSGPNNPWGGFPLFMFASLDASYSEHPEGQYDMGQSPGRGRYGTLRVVDSGHTIALHG</Hsp_qseq>
+      <Hsp_hseq>TDDSWARFRHERDQVTEMLGDTGWLRRMVQLTADRHALAIASGPANPWGNFPIFMFAGLDAVPSDI-DPAYDIGMRAARQQYGTMHVRDHGHTISLTG</Hsp_hseq>
+      <Hsp_midline>+ DSW RFR ER ++ ++LGD GWL RMV L AD+HAL+++SGP NPWG FP+FMFA LDA  S+  +  YD+G    R +YGT+ V D GHTI+L G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469534606</Statistics_db-num>
+      <Statistics_db-len>1070605227</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_46403</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_46403</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|PZM91986.1|</Hit_id>
+  <Hit_def>enoyl-CoA hydratase [Proteobacteria bacterium]</Hit_def>
+  <Hit_accession>PZM91986</Hit_accession>
+  <Hit_len>273</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.54</Hsp_bit-score>
+      <Hsp_score>410</Hsp_score>
+      <Hsp_evalue>3.41847e-47</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>130</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>IARKGAGKIGLPEVALGVLPGTGGTQRLARLLGKSKAIELMVEGTVMDFEKAEAIGLVNQVIEAESAESFVEQVLAFARRFVPPGKAAKAVGAIKRAVH</Hsp_qseq>
+      <Hsp_hseq>VARRGAGKIGLPEVALGVLPGTGGTQRLARLLGKAKALELMVEGRVMDFEEAERIGLVNRVIEASDSAAFLEEVIAFARQFVPPARAAKAVGAIKRAVH</Hsp_hseq>
+      <Hsp_midline>+AR+GAGKIGLPEVALGVLPGTGGTQRLARLLGK+KA+ELMVEG VMDFE+AE IGLVN+VIEA  + +F+E+V+AFAR+FVPP +AAKAVGAIKRAVH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|MBV9923984.1|</Hit_id>
+  <Hit_def>enoyl-CoA hydratase/isomerase family protein [Acidobacteria bacterium]</Hit_def>
+  <Hit_accession>MBV9923984</Hit_accession>
+  <Hit_len>276</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.976</Hsp_bit-score>
+      <Hsp_score>367</Hsp_score>
+      <Hsp_evalue>9.13659e-41</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>133</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>IARKGAGKIGLPEVALGVLPGTGGTQRLARLLGKSKAIELMVEGTVMDFEKAEAIGLVNQVIEAESAESFVEQVLAFARRFVPPGKAAKAVGAIKRAVH</Hsp_qseq>
+      <Hsp_hseq>VARKGAGKMGLPEVSLGVLPGTGGTQRLARVVGKSRAIELMAEGQLFDFERGAELGLVNQIFEADSAASFREQVLAYARRFTAPGRAALAVGRIKRSVQ</Hsp_hseq>
+      <Hsp_midline>+ARKGAGK+GLPEV+LGVLPGTGGTQRLAR++GKS+AIELM EG + DFE+   +GLVNQ+ EA+SA SF EQVLA+ARRF  PG+AA AVG IKR+V </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|MBC7931187.1|</Hit_id>
+  <Hit_def>enoyl-CoA hydratase/isomerase family protein [Rubrivivax sp.]</Hit_def>
+  <Hit_accession>MBC7931187</Hit_accession>
+  <Hit_len>281</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.976</Hsp_bit-score>
+      <Hsp_score>367</Hsp_score>
+      <Hsp_evalue>1.05975e-40</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>138</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>IARKGAGKIGLPEVALGVLPGTGGTQRLARLLGKSKAIELMVEGTVMDFEKAEAIGLVNQVIEAESAESFVEQVLAFARRFVPPGKAAKAVGAIKRAVH</Hsp_qseq>
+      <Hsp_hseq>LARKGAGKMGLPEVSLGVLPGTGGTQRLLRIVGKSRAIELMATGELFDFERAQQLGIVNQLIEADSAAAFLEQVLAYARRFTTPDKAARAVGRIKRSVQ</Hsp_hseq>
+      <Hsp_midline>+ARKGAGK+GLPEV+LGVLPGTGGTQRL R++GKS+AIELM  G + DFE+A+ +G+VNQ+IEA+SA +F+EQVLA+ARRF  P KAA+AVG IKR+V </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_041978500.1|</Hit_id>
+  <Hit_def>enoyl-CoA hydratase/isomerase family protein [Pyrinomonas methylaliphatogenes] &gt;gb|MBX5478430.1| enoyl-CoA hydratase/isomerase family protein [Pyrinomonas methylaliphatogenes] &gt;emb|CDM66965.1| short chain enoyl-CoA hydratase [Pyrinomonas methylaliphatogenes]</Hit_def>
+  <Hit_accession>WP_041978500</Hit_accession>
+  <Hit_len>274</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.821</Hsp_bit-score>
+      <Hsp_score>364</Hsp_score>
+      <Hsp_evalue>2.4534e-40</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>131</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>IARKGAGKIGLPEVALGVLPGTGGTQRLARLLGKSKAIELMVEGTVMDFEKAEAIGLVNQVIEAESAESFVEQVLAFARRFVPPGKAAKAVGAIKRAVH</Hsp_qseq>
+      <Hsp_hseq>IARKGAGKLGLPEVSLGVLPGTGGTQRLARLIGKSRAIELMTTGELFDFEKGLELGIINHIFEAENNEKFMEQVMAYAQQFTPPNKAARAVGRIKRSVQ</Hsp_hseq>
+      <Hsp_midline>IARKGAGK+GLPEV+LGVLPGTGGTQRLARL+GKS+AIELM  G + DFEK   +G++N + EAE+ E F+EQV+A+A++F PP KAA+AVG IKR+V </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|MBX6362383.1|</Hit_id>
+  <Hit_def>enoyl-CoA hydratase/isomerase family protein [Gemmatimonadetes bacterium]</Hit_def>
+  <Hit_accession>MBX6362383</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.436</Hsp_bit-score>
+      <Hsp_score>363</Hsp_score>
+      <Hsp_evalue>3.79414e-40</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>IARKGAGKIGLPEVALGVLPGTGGTQRLARLLGKSKAIELMVEGTVMDFEKAEAIGLVNQVIEAESAESFVEQVLAFARRFVPPGKAAKAVGAIKRAVH</Hsp_qseq>
+      <Hsp_hseq>IARKGAGKIGLPEINLGVLPGTGGTQRLTRLVGKSKAIELMVTGRTFDFEEAQALGIVGDVVEAASRDDFLEKVLDYARRFTPPNAAAKAVGNIKRSVQ</Hsp_hseq>
+      <Hsp_midline>IARKGAGKIGLPE+ LGVLPGTGGTQRL RL+GKSKAIELMV G   DFE+A+A+G+V  V+EA S + F+E+VL +ARRF PP  AAKAVG IKR+V </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|MBV9924403.1|</Hit_id>
+  <Hit_def>enoyl-CoA hydratase/isomerase family protein [Acidobacteria bacterium]</Hit_def>
+  <Hit_accession>MBV9924403</Hit_accession>
+  <Hit_len>276</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.05</Hsp_bit-score>
+      <Hsp_score>362</Hsp_score>
+      <Hsp_evalue>5.27035e-40</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>133</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>IARKGAGKIGLPEVALGVLPGTGGTQRLARLLGKSKAIELMVEGTVMDFEKAEAIGLVNQVIEAESAESFVEQVLAFARRFVPPGKAAKAVGAIKRAVH</Hsp_qseq>
+      <Hsp_hseq>VARRGAGKMGLPEVSLGVLPGTGGTQRLARVVGKSKAIELMAEGQLFDFERGLELGLVNQLLEADAAASFREQVLAYARRFTAPGRAALAVGRIKRSVQ</Hsp_hseq>
+      <Hsp_midline>+AR+GAGK+GLPEV+LGVLPGTGGTQRLAR++GKSKAIELM EG + DFE+   +GLVNQ++EA++A SF EQVLA+ARRF  PG+AA AVG IKR+V </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|MBA3969042.1|</Hit_id>
+  <Hit_def>enoyl-CoA hydratase/isomerase family protein [Gemmatimonadetes bacterium]</Hit_def>
+  <Hit_accession>MBA3969042</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.969</Hsp_bit-score>
+      <Hsp_score>354</Hsp_score>
+      <Hsp_evalue>6.00902e-40</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>IARKGAGKIGLPEVALGVLPGTGGTQRLARLLGKSKAIELMVEGTVMDFEKAEAIGLVNQVIEAESAESFVEQVLAFARRFVPPGKAAKAVGAIKRAVH</Hsp_qseq>
+      <Hsp_hseq>IARRGAGKVGLPEVSLGVLPGTGGTQRLTRLIGHSRAIQLMTEGTNTDFDQAERMGLVNRVMDADSTEDFLAQVMAYARQFVRPAKASLAVGNIKRACQ</Hsp_hseq>
+      <Hsp_midline>IAR+GAGK+GLPEV+LGVLPGTGGTQRL RL+G S+AI+LM EGT  DF++AE +GLVN+V++A+S E F+ QV+A+AR+FV P KA+ AVG IKRA  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|APR81452.1|</Hit_id>
+  <Hit_def>Enoyl-CoA hydratase [Minicystis rosea]</Hit_def>
+  <Hit_accession>APR81452</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.51</Hsp_bit-score>
+      <Hsp_score>358</Hsp_score>
+      <Hsp_evalue>1.40134e-39</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>120</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>IARKGAGKIGLPEVALGVLPGTGGTQRLARLLGKSKAIELMVEGTVMDFEKAEAIGLVNQVIEAESAESFVEQVLAFARRFVPPGKAAKAVGAIKRAVH</Hsp_qseq>
+      <Hsp_hseq>IARKGAGKIGLPEVALGVLPGTGGTQRLARALGKARAIQLMVEGTTFDFETAQGLGLVNEVWEAESHTAFMSAVVTYAKRFTTPGKASLAVGRIKRAVQ</Hsp_hseq>
+      <Hsp_midline>IARKGAGKIGLPEVALGVLPGTGGTQRLAR LGK++AI+LMVEGT  DFE A+ +GLVN+V EAES  +F+  V+ +A+RF  PGKA+ AVG IKRAV </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|MBI3538820.1|</Hit_id>
+  <Hit_def>enoyl-CoA hydratase/isomerase family protein [Candidatus Eisenbacteria bacterium]</Hit_def>
+  <Hit_accession>MBI3538820</Hit_accession>
+  <Hit_len>175</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.813</Hsp_bit-score>
+      <Hsp_score>351</Hsp_score>
+      <Hsp_evalue>1.52909e-39</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>130</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>IARKGAGKIGLPEVALGVLPGTGGTQRLARLLGKSKAIELMVEGTVMDFEKAEAIGLVNQVIEAESAESFVEQVLAFARRFVPPGKAAKAVGAIKRAVH</Hsp_qseq>
+      <Hsp_hseq>IARKGAGKVGLPEVTLGVLPGTGGTQRLARLVNKSTAIELMATGETFDFEKGQAIGIVNQVWETASADEFFEKIQKYAEQFCPPNKAAKAVGRIKRSVQ</Hsp_hseq>
+      <Hsp_midline>IARKGAGK+GLPEV LGVLPGTGGTQRLARL+ KS AIELM  G   DFEK +AIG+VNQV E  SA+ F E++  +A +F PP KAAKAVG IKR+V </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|PYS82885.1|</Hit_id>
+  <Hit_def>enoyl-CoA hydratase [Acidobacteria bacterium]</Hit_def>
+  <Hit_accession>PYS82885</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.51</Hsp_bit-score>
+      <Hsp_score>358</Hsp_score>
+      <Hsp_evalue>2.46376e-39</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>135</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>IARKGAGKIGLPEVALGVLPGTGGTQRLARLLGKSKAIELMVEGTVMDFEKAEAIGLVNQVIEAESAESFVEQVLAFARRFVPPGKAAKAVGAIKRAVH</Hsp_qseq>
+      <Hsp_hseq>VARRGAGKMGLPEVSLGVLPGTGGTQRLARAVGKSRAIELMATGELFDFERAHELGLVNQIIEADTAEAFLEQALAYARRFTTPERAALAVGRIKRSVQ</Hsp_hseq>
+      <Hsp_midline>+AR+GAGK+GLPEV+LGVLPGTGGTQRLAR +GKS+AIELM  G + DFE+A  +GLVNQ+IEA++AE+F+EQ LA+ARRF  P +AA AVG IKR+V </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469534606</Statistics_db-num>
+      <Statistics_db-len>1070605227</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

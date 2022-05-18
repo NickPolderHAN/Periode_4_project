@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_17803</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_17803</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_010526206.1|</Hit_id>
+  <Hit_def>cell surface protein SprA [Thermophagus xiamenensis] &gt;emb|SFE14646.1| protein involved in gliding motility SprA [Thermophagus xiamenensis]</Hit_def>
+  <Hit_accession>WP_010526206</Hit_accession>
+  <Hit_len>2475</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>209.534</Hsp_bit-score>
+      <Hsp_score>532</Hsp_score>
+      <Hsp_evalue>3.74183e-60</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>287</Hsp_hit-from>
+      <Hsp_hit-to>385</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>STLNIEGGAEQQEFEVSATEYDKNRHFFLSHQFRERFNDAMKNLPIINSPFYITKIEVWVTNKTGNYDNSRNIIAFADLGESTEYMANPGLWTGQYGAI</Hsp_qseq>
+      <Hsp_hseq>STLNIEGGAEQQEFEVSATEYDKNRHFFLSHQFRERFNDAMKNLPIINSPFYITKIEVWVTNKTGNYDNSRNIIAFADLGESTEYMANPGLWTGQYGAI</Hsp_hseq>
+      <Hsp_midline>STLNIEGGAEQQEFEVSATEYDKNRHFFLSHQFRERFNDAMKNLPIINSPFYITKIEVWVTNKTGNYDNSRNIIAFADLGESTEYMANPGLWTGQYGAI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_234408650.1|</Hit_id>
+  <Hit_def>cell surface protein SprA [Marinilabilia salmonicolor]</Hit_def>
+  <Hit_accession>WP_234408650</Hit_accession>
+  <Hit_len>2053</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.925</Hsp_bit-score>
+      <Hsp_score>411</Hsp_score>
+      <Hsp_evalue>7.20272e-44</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>289</Hsp_hit-from>
+      <Hsp_hit-to>387</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>STLNIEGGAEQQEFEVSATEYDKNRHFFLSHQFRERFNDAMKNLPIINSPFYITKIEVWVTNKTGNYDNSRNIIAFADLGESTEYMANPGLWTGQYGAI</Hsp_qseq>
+      <Hsp_hseq>STMDIQGGAQQQDFEISADEYDKNRHFFLAHHFRERYNEAMKNLPIINSPFNITKIEVWITNRSNDFNESRNIIAFADLAESANNMANPGLWTAQPGAI</Hsp_hseq>
+      <Hsp_midline>ST++I+GGA+QQ+FE+SA EYDKNRHFFL+H FRER+N+AMKNLPIINSPF ITKIEVW+TN++ +++ SRNIIAFADL ES   MANPGLWT Q GAI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_010665525.1|</Hit_id>
+  <Hit_def>cell surface protein SprA [Marinilabilia salmonicolor]</Hit_def>
+  <Hit_accession>WP_010665525</Hit_accession>
+  <Hit_len>2477</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.925</Hsp_bit-score>
+      <Hsp_score>411</Hsp_score>
+      <Hsp_evalue>7.8846e-44</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>289</Hsp_hit-from>
+      <Hsp_hit-to>387</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>STLNIEGGAEQQEFEVSATEYDKNRHFFLSHQFRERFNDAMKNLPIINSPFYITKIEVWVTNKTGNYDNSRNIIAFADLGESTEYMANPGLWTGQYGAI</Hsp_qseq>
+      <Hsp_hseq>STMDIQGGAQQQDFEISADEYDKNRHFFLAHHFRERYNEAMKNLPIINSPFNITKIEVWITNRSNDFNESRNIIAFADLAESANNMANPGLWTAQPGAI</Hsp_hseq>
+      <Hsp_midline>ST++I+GGA+QQ+FE+SA EYDKNRHFFL+H FRER+N+AMKNLPIINSPF ITKIEVW+TN++ +++ SRNIIAFADL ES   MANPGLWT Q GAI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_109264601.1|</Hit_id>
+  <Hit_def>cell surface protein SprA [Marinilabilia rubra] &gt;gb|PWD99199.1| cell surface protein SprA [Marinilabilia rubra]</Hit_def>
+  <Hit_accession>WP_109264601</Hit_accession>
+  <Hit_len>2477</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.155</Hsp_bit-score>
+      <Hsp_score>409</Hsp_score>
+      <Hsp_evalue>1.74686e-43</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>289</Hsp_hit-from>
+      <Hsp_hit-to>387</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>STLNIEGGAEQQEFEVSATEYDKNRHFFLSHQFRERFNDAMKNLPIINSPFYITKIEVWVTNKTGNYDNSRNIIAFADLGESTEYMANPGLWTGQYGAI</Hsp_qseq>
+      <Hsp_hseq>STMDIQGGAQQQDFEISADEYDKNRHFFLSHHFRERYNEAMKNLPVINSPFNITKIEVWITNRSNDFDESRNIIAFADLAESSNNLTNPGIWSGQPGAL</Hsp_hseq>
+      <Hsp_midline>ST++I+GGA+QQ+FE+SA EYDKNRHFFLSH FRER+N+AMKNLP+INSPF ITKIEVW+TN++ ++D SRNIIAFADL ES+  + NPG+W+GQ GA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_016777355.1|</Hit_id>
+  <Hit_def>cell surface protein SprA [Anaerophaga thermohalophila]</Hit_def>
+  <Hit_accession>WP_016777355</Hit_accession>
+  <Hit_len>2477</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>161.384</Hsp_bit-score>
+      <Hsp_score>407</Hsp_score>
+      <Hsp_evalue>3.03675e-43</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>288</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>STLNIEGGAEQQEFEVSATEYDKNRHFFLSHQFRERFNDAMKNLPIINSPFYITKIEVWVTNKTGNYDNSRNIIAFADLGESTEYMANPGLWTGQYGAI</Hsp_qseq>
+      <Hsp_hseq>STMNIQGGAQQQDFEISVDEYDKNRHFFLSHHFRERYNEAMKHLPVINSPFNITKVEVWVTNRSNNFDESRNIIAFADLAESGDNLTNPGLWTSQPGAL</Hsp_hseq>
+      <Hsp_midline>ST+NI+GGA+QQ+FE+S  EYDKNRHFFLSH FRER+N+AMK+LP+INSPF ITK+EVWVTN++ N+D SRNIIAFADL ES + + NPGLWT Q GA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_114436682.1|</Hit_id>
+  <Hit_def>cell surface protein SprA [Marinilabilia salmonicolor] &gt;gb|RCW37395.1| protein involved in gliding motility SprA [Marinilabilia salmonicolor]</Hit_def>
+  <Hit_accession>WP_114436682</Hit_accession>
+  <Hit_len>2477</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>160.999</Hsp_bit-score>
+      <Hsp_score>406</Hsp_score>
+      <Hsp_evalue>3.94609e-43</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>289</Hsp_hit-from>
+      <Hsp_hit-to>387</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>STLNIEGGAEQQEFEVSATEYDKNRHFFLSHQFRERFNDAMKNLPIINSPFYITKIEVWVTNKTGNYDNSRNIIAFADLGESTEYMANPGLWTGQYGAI</Hsp_qseq>
+      <Hsp_hseq>STMDIQGGAQQQDFEISADEYDKNRHFFLAHQFRERYNEAMQNLPIINSPFNITKIEVWVTNRSNDFNESRNIIAFADLAEGANNLANPGLWTAQPGAI</Hsp_hseq>
+      <Hsp_midline>ST++I+GGA+QQ+FE+SA EYDKNRHFFL+HQFRER+N+AM+NLPIINSPF ITKIEVWVTN++ +++ SRNIIAFADL E    +ANPGLWT Q GAI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_106153170.1|</Hit_id>
+  <Hit_def>cell surface protein SprA [Marinilabilia salmonicolor] &gt;gb|PRY99808.1| protein involved in gliding motility SprA [Marinilabilia salmonicolor]</Hit_def>
+  <Hit_accession>WP_106153170</Hit_accession>
+  <Hit_len>2477</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>160.999</Hsp_bit-score>
+      <Hsp_score>406</Hsp_score>
+      <Hsp_evalue>4.14222e-43</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>289</Hsp_hit-from>
+      <Hsp_hit-to>387</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>STLNIEGGAEQQEFEVSATEYDKNRHFFLSHQFRERFNDAMKNLPIINSPFYITKIEVWVTNKTGNYDNSRNIIAFADLGESTEYMANPGLWTGQYGAI</Hsp_qseq>
+      <Hsp_hseq>STMDIQGGAQQQDFEISADEYDKNRHFFLAHQFRERYNEAMQNLPIINSPFNITKIEVWVTNRSNDFNESRNIIAFADLAEGANNLANPGLWTAQPGAI</Hsp_hseq>
+      <Hsp_midline>ST++I+GGA+QQ+FE+SA EYDKNRHFFL+HQFRER+N+AM+NLPIINSPF ITKIEVWVTN++ +++ SRNIIAFADL E    +ANPGLWT Q GAI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|MBZ4675852.1|</Hit_id>
+  <Hit_def>sprA [Anaerophaga sp.]</Hit_def>
+  <Hit_accession>MBZ4675852</Hit_accession>
+  <Hit_len>2477</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>160.229</Hsp_bit-score>
+      <Hsp_score>404</Hsp_score>
+      <Hsp_evalue>7.27118e-43</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>288</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>STLNIEGGAEQQEFEVSATEYDKNRHFFLSHQFRERFNDAMKNLPIINSPFYITKIEVWVTNKTGNYDNSRNIIAFADLGESTEYMANPGLWTGQYGAI</Hsp_qseq>
+      <Hsp_hseq>STMNIQGGAQQQDFEINVDEYDKNRHFFLSHHFRERYNEAMKHLPVINSPFNITKIEVWVTNRSNNFDESRNIIAFADLAESGDNLTNPGLWTSQPGAL</Hsp_hseq>
+      <Hsp_midline>ST+NI+GGA+QQ+FE++  EYDKNRHFFLSH FRER+N+AMK+LP+INSPF ITKIEVWVTN++ N+D SRNIIAFADL ES + + NPGLWT Q GA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_010421731.1|</Hit_id>
+  <Hit_def>cell surface protein SprA [Anaerophaga thermohalophila]</Hit_def>
+  <Hit_accession>WP_010421731</Hit_accession>
+  <Hit_len>2450</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>160.229</Hsp_bit-score>
+      <Hsp_score>404</Hsp_score>
+      <Hsp_evalue>8.24716e-43</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>288</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>STLNIEGGAEQQEFEVSATEYDKNRHFFLSHQFRERFNDAMKNLPIINSPFYITKIEVWVTNKTGNYDNSRNIIAFADLGESTEYMANPGLWTGQYGAI</Hsp_qseq>
+      <Hsp_hseq>STMNIQGGAQQQDFEINVDEYDKNRHFFLSHHFRERYNEAMKHLPVINSPFNITKIEVWVTNRSNNFDESRNIIAFADLAESGDNLTNPGLWTSQPGAL</Hsp_hseq>
+      <Hsp_midline>ST+NI+GGA+QQ+FE++  EYDKNRHFFLSH FRER+N+AMK+LP+INSPF ITKIEVWVTN++ N+D SRNIIAFADL ES + + NPGLWT Q GA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_026473902.1|</Hit_id>
+  <Hit_def>cell surface protein SprA [Alkaliflexus imshenetskii]</Hit_def>
+  <Hit_accession>WP_026473902</Hit_accession>
+  <Hit_len>2487</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.576</Hsp_bit-score>
+      <Hsp_score>340</Hsp_score>
+      <Hsp_evalue>2.96311e-34</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>293</Hsp_hit-from>
+      <Hsp_hit-to>391</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>STLNIEGGAEQQEFEVSATEYDKNRHFFLSHQFRERFNDAMKNLPIINSPFYITKIEVWVTNKTGNYDNSRNIIAFADLGESTEYMANPGLWTGQYGAI</Hsp_qseq>
+      <Hsp_hseq>SVMNIQGGAQTQEFNIAADQYDRNRHFFLSHYFRDNYNRAMANLPVITSPYTITRVEVWITNRSNDFERARNIVAFTDLGEHPANMANPGLWGGTPNAI</Hsp_hseq>
+      <Hsp_midline>S +NI+GGA+ QEF ++A +YD+NRHFFLSH FR+ +N AM NLP+I SP+ IT++EVW+TN++ +++ +RNI+AF DLGE    MANPGLW G   AI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469534606</Statistics_db-num>
+      <Statistics_db-len>1070605227</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

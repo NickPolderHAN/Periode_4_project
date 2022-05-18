@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_16919</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_16919</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|MCC5868557.1|</Hit_id>
+  <Hit_def>peroxiredoxin [Gammaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>MCC5868557</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.0561</Hsp_bit-score>
+      <Hsp_score>240</Hsp_score>
+      <Hsp_evalue>1.05593e-22</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>132</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>DGIIRFAYVTDLNVGRNPSEVLRVLDALQTDELCPCNWEKGQQTLKVA</Hsp_qseq>
+      <Hsp_hseq>DGIIRFVYVTDLDVGRNPSEVLRVLDALQTDELCPCNWQKGQETLKVA</Hsp_hseq>
+      <Hsp_midline>DGIIRF YVTDL+VGRNPSEVLRVLDALQTDELCPCNW+KGQ+TLKVA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|MCC5861472.1|</Hit_id>
+  <Hit_def>peroxiredoxin [Gammaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>MCC5861472</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.9005</Hsp_bit-score>
+      <Hsp_score>237</Hsp_score>
+      <Hsp_evalue>3.11732e-22</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>132</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>DGIIRFAYVTDLNVGRNPSEVLRVLDALQTDELCPCNWEKGQQTLKVA</Hsp_qseq>
+      <Hsp_hseq>DGIIRFVYVTDLDVGRNPSEVLRVLDALQTDELCPCNWQKGEETLKVA</Hsp_hseq>
+      <Hsp_midline>DGIIRF YVTDL+VGRNPSEVLRVLDALQTDELCPCNW+KG++TLKVA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|TVQ45841.1|</Hit_id>
+  <Hit_def>peroxiredoxin [Gammaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>TVQ45841</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.9005</Hsp_bit-score>
+      <Hsp_score>237</Hsp_score>
+      <Hsp_evalue>3.47365e-22</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>132</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>DGIIRFAYVTDLNVGRNPSEVLRVLDALQTDELCPCNWEKGQQTLKVA</Hsp_qseq>
+      <Hsp_hseq>DGIIRFVYVTDLDVGRNPSEVLRVLDALQTDELCPCNWQKGEETLKVA</Hsp_hseq>
+      <Hsp_midline>DGIIRF YVTDL+VGRNPSEVLRVLDALQTDELCPCNW+KG++TLKVA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|MCA1714551.1|</Hit_id>
+  <Hit_def>redoxin domain-containing protein [Gammaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>MCA1714551</Hit_accession>
+  <Hit_len>94</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.2781</Hsp_bit-score>
+      <Hsp_score>225</Hsp_score>
+      <Hsp_evalue>1.76818e-21</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>94</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>DGIIRFAYVTDLNVGRNPSEVLRVLDALQTDELCPCNWEKGQQTLKVA</Hsp_qseq>
+      <Hsp_hseq>DGIIRFVYVTDGSVGRNPDEVLRVLDALQTDELCPCNWHKGEQTLKVA</Hsp_hseq>
+      <Hsp_midline>DGIIRF YVTD +VGRNP EVLRVLDALQTDELCPCNW KG+QTLKVA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|PZN79605.1|</Hit_id>
+  <Hit_def>alkyl hydroperoxide reductase [Proteobacteria bacterium]</Hit_def>
+  <Hit_accession>PZN79605</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.9745</Hsp_bit-score>
+      <Hsp_score>232</Hsp_score>
+      <Hsp_evalue>1.96148e-21</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>132</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>DGIIRFAYVTDLNVGRNPSEVLRVLDALQTDELCPCNWEKGQQTLKVA</Hsp_qseq>
+      <Hsp_hseq>NGIIRFVYVTDLNVGRNPEEVLRVLDALQTDELCPCGWEKGQETLKVA</Hsp_hseq>
+      <Hsp_midline>+GIIRF YVTDLNVGRNP EVLRVLDALQTDELCPC WEKGQ+TLKVA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>tpg|HHW65141.1|</Hit_id>
+  <Hit_def>peroxiredoxin [Rhodocyclaceae bacterium]</Hit_def>
+  <Hit_accession>HHW65141</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.5893</Hsp_bit-score>
+      <Hsp_score>231</Hsp_score>
+      <Hsp_evalue>2.54278e-21</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>132</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>DGIIRFAYVTDLNVGRNPSEVLRVLDALQTDELCPCNWEKGQQTLKVA</Hsp_qseq>
+      <Hsp_hseq>DGIIRFVYVTDLSVGRNPQEVLRVLDALQTDELCPCNWNKGEETLKVA</Hsp_hseq>
+      <Hsp_midline>DGIIRF YVTDL+VGRNP EVLRVLDALQTDELCPCNW KG++TLKVA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_138379794.1|</Hit_id>
+  <Hit_def>peroxiredoxin [Luteithermobacter gelatinilyticus]</Hit_def>
+  <Hit_accession>WP_138379794</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.8189</Hsp_bit-score>
+      <Hsp_score>229</Hsp_score>
+      <Hsp_evalue>5.02521e-21</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>132</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>DGIIRFAYVTDLNVGRNPSEVLRVLDALQTDELCPCNWEKGQQTLKVA</Hsp_qseq>
+      <Hsp_hseq>DGIVRFVMVTDMNVGRNPKEVLRVLDALQTDELCPCNWEKGQETLKIS</Hsp_hseq>
+      <Hsp_midline>DGI+RF  VTD+NVGRNP EVLRVLDALQTDELCPCNWEKGQ+TLK++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|MBV9989893.1|</Hit_id>
+  <Hit_def>peroxiredoxin [Alphaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>MBV9989893</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.8189</Hsp_bit-score>
+      <Hsp_score>229</Hsp_score>
+      <Hsp_evalue>5.42027e-21</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>132</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>DGIIRFAYVTDLNVGRNPSEVLRVLDALQTDELCPCNWEKGQQTLKVA</Hsp_qseq>
+      <Hsp_hseq>DGIIRFAYVTDMNVGRNPQEVLRVLDALQTDELCPCNWQKGEDVLKAA</Hsp_hseq>
+      <Hsp_midline>DGIIRFAYVTD+NVGRNP EVLRVLDALQTDELCPCNW+KG+  LK A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|MCA1714717.1|</Hit_id>
+  <Hit_def>peroxiredoxin [Gammaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>MCA1714717</Hit_accession>
+  <Hit_len>178</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.0485</Hsp_bit-score>
+      <Hsp_score>227</Hsp_score>
+      <Hsp_evalue>1.00137e-20</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>131</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>DGIIRFAYVTDLNVGRNPSEVLRVLDALQTDELCPCNWEKGQQTLKVA</Hsp_qseq>
+      <Hsp_hseq>DGIIRFVYVTDGSVGRNPDEVLRVLDALQTDELCPCNWHKGEQTLKVA</Hsp_hseq>
+      <Hsp_midline>DGIIRF YVTD +VGRNP EVLRVLDALQTDELCPCNW KG+QTLKVA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|MBM5782349.1|</Hit_id>
+  <Hit_def>peroxiredoxin [Pelagibacterales bacterium]</Hit_def>
+  <Hit_accession>MBM5782349</Hit_accession>
+  <Hit_len>178</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.6633</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>1.24304e-20</Hsp_evalue>
+      <Hsp_query-from>161</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>132</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>DGIIRFAYVTDLNVGRNPSEVLRVLDALQTDELCPCNWEKGQQTLKV</Hsp_qseq>
+      <Hsp_hseq>EGIIRFAYVTDLNVGRNPSEVLRVLDALQTDELCPCNWKKGDEVIKV</Hsp_hseq>
+      <Hsp_midline>+GIIRFAYVTDLNVGRNPSEVLRVLDALQTDELCPCNW+KG + +KV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469534606</Statistics_db-num>
+      <Statistics_db-len>1070605227</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

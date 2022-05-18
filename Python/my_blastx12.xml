@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_35807</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_35807</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_068752909.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Thermobifida cellulosilytica] &gt;gb|KUP96057.1| TetR family transcriptional regulator [Thermobifida cellulosilytica TB100]</Hit_def>
+  <Hit_accession>WP_068752909</Hit_accession>
+  <Hit_len>190</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>160.614</Hsp_bit-score>
+      <Hsp_score>405</Hsp_score>
+      <Hsp_evalue>1.52248e-47</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>ISRHGRELSSVPPEPRHRIRRLRSAYVEQWVAVLARLRPGTAEPVLRTALHAVFGLLNSTPHSAGELDRDRMADLLFRMARTALLTA</Hsp_qseq>
+      <Hsp_hseq>ITVHDRELGSVPPEPRHRIRRLQRAYVEQWVAVLARLRPGTAEPVLRTALHAVFGLLNSTPHSAGELDRDRMADLLFRMARTALLTA</Hsp_hseq>
+      <Hsp_midline>I+ H REL SVPPEPRHRIRRL+ AYVEQWVAVLARLRPGTAEPVLRTALHAVFGLLNSTPHSAGELDRDRMADLLFRMARTALLTA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_248592039.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Thermobifida alba] &gt;gb|UPT19807.1| TetR/AcrR family transcriptional regulator [Thermobifida alba]</Hit_def>
+  <Hit_accession>WP_248592039</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.05</Hsp_bit-score>
+      <Hsp_score>362</Hsp_score>
+      <Hsp_evalue>8.90377e-41</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>104</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>ISRHGRELSSVPPEPRHRIRRLRSAYVEQWVAVLARLRPGTAEPVLRTALHAVFGLLNSTPHSAGELDRDRMADLLFRMARTALLT</Hsp_qseq>
+      <Hsp_hseq>ITVHDRELRNVPPEPRHRIRRLQRAYVEQWVAVLAELRPGVAEPVLRTAVHAMFGLLNSTPHSAGELDRDRMAELLFTMARTAVLA</Hsp_hseq>
+      <Hsp_midline>I+ H REL +VPPEPRHRIRRL+ AYVEQWVAVLA LRPG AEPVLRTA+HA+FGLLNSTPHSAGELDRDRMA+LLF MARTA+L </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_084012701.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Thermobifida halotolerans] &gt;gb|UOE20075.1| TetR family transcriptional regulator [Thermobifida halotolerans]</Hit_def>
+  <Hit_accession>WP_084012701</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.88</Hsp_bit-score>
+      <Hsp_score>333</Hsp_score>
+      <Hsp_evalue>2.73162e-36</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>104</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>ISRHGRELSSVPPEPRHRIRRLRSAYVEQWVAVLARLRPGTAEPVLRTALHAVFGLLNSTPHSAGELDRDRMADLLFRMARTALLTAV</Hsp_qseq>
+      <Hsp_hseq>ITVHDRELHNVPPEPQRRVRRLQRGYVEQWVAVLARLRPDTPEPVLRAALHAMFGLLNSTPHSAGELGRDQMADLLFAMARAALLAPV</Hsp_hseq>
+      <Hsp_midline>I+ H REL +VPPEP+ R+RRL+  YVEQWVAVLARLRP T EPVLR ALHA+FGLLNSTPHSAGEL RD+MADLLF MAR ALL  V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_011291396.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Thermobifida fusca] &gt;gb|MBO2528362.1| TetR/AcrR family transcriptional regulator [Thermobifida sp.] &gt;gb|EOR71956.1| TetR family transcriptional regulator [Thermobifida fusca TM51] &gt;gb|PPS92580.1| TetR family transcriptional regulator [Thermobifida fusca] &gt;gb|PZN65097.1| TetR/AcrR family transcriptional regulator [Thermobifida fusca] &gt;gb|QOS57614.1| TetR family transcriptional regulator [Thermobifida fusca]</Hit_def>
+  <Hit_accession>WP_011291396</Hit_accession>
+  <Hit_len>190</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.02</Hsp_bit-score>
+      <Hsp_score>310</Hsp_score>
+      <Hsp_evalue>3.58914e-33</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>ISRHGRELSSVPPEPRHRIRRLRSAYVEQWVAVLARLRPGTAEPVLRTALHAVFGLLNSTPHSAGELDRDRMADLLFRMARTALLTA</Hsp_qseq>
+      <Hsp_hseq>ITVHDRELLHVPEEPRRKIRRLQRAYLEQWVDVLAAVRPTTPTPVLRTAVHATFGLLNSTPHSAGELDRDHLAELLFTMARTALLAA</Hsp_hseq>
+      <Hsp_midline>I+ H REL  VP EPR +IRRL+ AY+EQWV VLA +RP T  PVLRTA+HA FGLLNSTPHSAGELDRD +A+LLF MARTALL A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_017627250.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Nocardiopsis chromatogenes]</Hit_def>
+  <Hit_accession>WP_017627250</Hit_accession>
+  <Hit_len>192</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.612</Hsp_bit-score>
+      <Hsp_score>270</Hsp_score>
+      <Hsp_evalue>3.96596e-27</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>104</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>ISRHGRELSSVPPEPRHRIRRLRSAYVEQWVAVLARLRPGTAEPVLRTALHAVFGLLNSTPHSAGELDRDRMADLLFRMARTALLT</Hsp_qseq>
+      <Hsp_hseq>ITVHDRELDNVPEPERRRIRQLQRGYAEEWVGVLARLRPGQGRQALRAAVHATFGLLNSTPHSAGELAPDAMAELLFRMGRAALLV</Hsp_hseq>
+      <Hsp_midline>I+ H REL +VP   R RIR+L+  Y E+WV VLARLRPG     LR A+HA FGLLNSTPHSAGEL  D MA+LLFRM R ALL </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_133741508.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Actinorugispora endophytica] &gt;gb|TDQ52424.1| TetR family transcriptional regulator [Actinorugispora endophytica]</Hit_def>
+  <Hit_accession>WP_133741508</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.612</Hsp_bit-score>
+      <Hsp_score>270</Hsp_score>
+      <Hsp_evalue>4.3679e-27</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>103</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>ISRHGRELSSVPPEPRHRIRRLRSAYVEQWVAVLARLRPGTAEPVLRTALHAVFGLLNSTPHSAGELDRDRMADLLFRMARTALLT</Hsp_qseq>
+      <Hsp_hseq>ITVHDRELENVPEPERRRIRRLQRGYVEQWVAVLARLRPDTPEPALRAALHAVFGLLNSTPHSAGELGREEMAGLLFTMARAALLA</Hsp_hseq>
+      <Hsp_midline>I+ H REL +VP   R RIRRL+  YVEQWVAVLARLRP T EP LR ALHAVFGLLNSTPHSAGEL R+ MA LLF MAR ALL </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_182846878.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Actinomadura namibiensis] &gt;gb|MBA8954838.1| AcrR family transcriptional regulator [Actinomadura namibiensis]</Hit_def>
+  <Hit_accession>WP_182846878</Hit_accession>
+  <Hit_len>188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>106.301</Hsp_bit-score>
+      <Hsp_score>264</Hsp_score>
+      <Hsp_evalue>2.71997e-26</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>103</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>ISRHGRELSSVPPEPRHRIRRLRSAYVEQWVAVLARLRPGTAEPVLRTALHAVFGLLNSTPHSAGELDRDRMADLLFRMARTALLT</Hsp_qseq>
+      <Hsp_hseq>ITVHERELDNVPEPQRHRIRRLQRAYVEEWVGVLRRLHPDRPEARLRAAVHACFGLLNSTPHSAAALDRDAMADLLHTMARAALMA</Hsp_hseq>
+      <Hsp_midline>I+ H REL +VP   RHRIRRL+ AYVE+WV VL RL P   E  LR A+HA FGLLNSTPHSA  LDRD MADLL  MAR AL+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_017609070.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Nocardiopsis xinjiangensis]</Hit_def>
+  <Hit_accession>WP_017609070</Hit_accession>
+  <Hit_len>190</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.531</Hsp_bit-score>
+      <Hsp_score>262</Hsp_score>
+      <Hsp_evalue>7.03672e-26</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>103</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>ISRHGRELSSVPPEPRHRIRRLRSAYVEQWVAVLARLRPGTAEPVLRTALHAVFGLLNSTPHSAGELDRDRMADLLFRMARTALL</Hsp_qseq>
+      <Hsp_hseq>ITVHDRELGNLTPEDRGRVRRLQRGYLEQWVGVLARLRPKEARAVLRASVHAAFGLLNSTPHSRGTVGRDAMAELLFAMGRSALV</Hsp_hseq>
+      <Hsp_midline>I+ H REL ++ PE R R+RRL+  Y+EQWV VLARLRP  A  VLR ++HA FGLLNSTPHS G + RD MA+LLF M R+AL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_067480774.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Actinomadura hibisca]</Hit_def>
+  <Hit_accession>WP_067480774</Hit_accession>
+  <Hit_len>188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.145</Hsp_bit-score>
+      <Hsp_score>261</Hsp_score>
+      <Hsp_evalue>1.05459e-25</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>103</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>ISRHGRELSSVPPEPRHRIRRLRSAYVEQWVAVLARLRPGTAEPVLRTALHAVFGLLNSTPHSAGELDRDRMADLLFRMARTALLT</Hsp_qseq>
+      <Hsp_hseq>ITVHERELDNVPQPQRHEIRRLQRAYVEEWVAVLRRLHPGRPEERLRAAVHACFGLLNSTPHSASGLDRAAMADLLHTMARAALMV</Hsp_hseq>
+      <Hsp_midline>I+ H REL +VP   RH IRRL+ AYVE+WVAVL RL PG  E  LR A+HA FGLLNSTPHSA  LDR  MADLL  MAR AL+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_243726192.1|</Hit_id>
+  <Hit_def>TetR/AcrR family transcriptional regulator [Actinomadura rubrisoli]</Hit_def>
+  <Hit_accession>WP_243726192</Hit_accession>
+  <Hit_len>188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.375</Hsp_bit-score>
+      <Hsp_score>259</Hsp_score>
+      <Hsp_evalue>1.71748e-25</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>101</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>ISRHGRELSSVPPEPRHRIRRLRSAYVEQWVAVLARLRPGTAEPVLRTALHAVFGLLNSTPHSAGELDRDRMADLLFRMARTALLTAV</Hsp_qseq>
+      <Hsp_hseq>ITIHERELDNVPEPERHRIRRLQRAYVEEWVAVLRRLRPGTPDDRTRAAVHACFGLLNSTPRSAAGLDRSAMGDLLHAMARSALDAAL</Hsp_hseq>
+      <Hsp_midline>I+ H REL +VP   RHRIRRL+ AYVE+WVAVL RLRPGT +   R A+HA FGLLNSTP SA  LDR  M DLL  MAR+AL  A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469534606</Statistics_db-num>
+      <Statistics_db-len>1070605227</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1503</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1503</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_239328849.1|</Hit_id>
+  <Hit_def>serine hydroxymethyltransferase [Paenibacillus sp. ACRRX]</Hit_def>
+  <Hit_accession>WP_239328849</Hit_accession>
+  <Hit_len>416</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.948</Hsp_bit-score>
+      <Hsp_score>450</Hsp_score>
+      <Hsp_evalue>1.01454e-51</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>230</Hsp_hit-from>
+      <Hsp_hit-to>329</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>RGPRGGMILTRNAWAREIDKAVFPGTQGGPLMHVIAAKGVALGEALQPDFKKYAEQVVKNAKVLAESLMAEGLNLVSGRTDNHLMLVELRNLNITGKDAE</Hsp_qseq>
+      <Hsp_hseq>RGPRGGMILCRKAWAQAIDKAVFPGTQGGPLMHVIASKAVALGEALQPSFKTYAEQVVKNAQVLAESLVAQGLNLVSGGTDNHLMLIDTRNINITGKDAE</Hsp_hseq>
+      <Hsp_midline>RGPRGGMIL R AWA+ IDKAVFPGTQGGPLMHVIA+K VALGEALQP FK YAEQVVKNA+VLAESL+A+GLNLVSG TDNHLML++ RN+NITGKDAE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_195573709.1|</Hit_id>
+  <Hit_def>serine hydroxymethyltransferase [Paenibacillus sp. 1001270B_150601_E10]</Hit_def>
+  <Hit_accession>WP_195573709</Hit_accession>
+  <Hit_len>416</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.178</Hsp_bit-score>
+      <Hsp_score>448</Hsp_score>
+      <Hsp_evalue>1.90961e-51</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>230</Hsp_hit-from>
+      <Hsp_hit-to>329</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>RGPRGGMILTRNAWAREIDKAVFPGTQGGPLMHVIAAKGVALGEALQPDFKKYAEQVVKNAKVLAESLMAEGLNLVSGRTDNHLMLVELRNLNITGKDAE</Hsp_qseq>
+      <Hsp_hseq>RGPRGGLILCRKAWAQAIDKAVFPGTQGGPLMHVIASKAVALGEALQPSFKTYAEQVVKNAQVLAESLQAEGLNLVSGGTDNHLMLIDTRNINITGKDAE</Hsp_hseq>
+      <Hsp_midline>RGPRGG+IL R AWA+ IDKAVFPGTQGGPLMHVIA+K VALGEALQP FK YAEQVVKNA+VLAESL AEGLNLVSG TDNHLML++ RN+NITGKDAE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_028543902.1|</Hit_id>
+  <Hit_def>serine hydroxymethyltransferase [Paenibacillus taiwanensis]</Hit_def>
+  <Hit_accession>WP_028543902</Hit_accession>
+  <Hit_len>416</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.178</Hsp_bit-score>
+      <Hsp_score>448</Hsp_score>
+      <Hsp_evalue>2.29128e-51</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>230</Hsp_hit-from>
+      <Hsp_hit-to>329</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>RGPRGGMILTRNAWAREIDKAVFPGTQGGPLMHVIAAKGVALGEALQPDFKKYAEQVVKNAKVLAESLMAEGLNLVSGRTDNHLMLVELRNLNITGKDAE</Hsp_qseq>
+      <Hsp_hseq>RGPRGGMILCRKSWAQAIDKAVFPGTQGGPLMHVIASKAVALGEALQPSFKTYAEQVVKNAQVLAESLVAQGLNLVSGGTDNHLMLIDTRNINITGKDAE</Hsp_hseq>
+      <Hsp_midline>RGPRGGMIL R +WA+ IDKAVFPGTQGGPLMHVIA+K VALGEALQP FK YAEQVVKNA+VLAESL+A+GLNLVSG TDNHLML++ RN+NITGKDAE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|OUM94738.1|</Hit_id>
+  <Hit_def>serine hydroxymethyltransferase [Thermobacillus sp. ZCTH02-B1]</Hit_def>
+  <Hit_accession>OUM94738</Hit_accession>
+  <Hit_len>415</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.792</Hsp_bit-score>
+      <Hsp_score>447</Hsp_score>
+      <Hsp_evalue>2.68879e-51</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>229</Hsp_hit-from>
+      <Hsp_hit-to>328</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>RGPRGGMILTRNAWAREIDKAVFPGTQGGPLMHVIAAKGVALGEALQPDFKKYAEQVVKNAKVLAESLMAEGLNLVSGRTDNHLMLVELRNLNITGKDAE</Hsp_qseq>
+      <Hsp_hseq>RGPRGGMILCRKAWAQAIDKAVFPGTQGGPLMHIIAAKAVALGEALQPSFKTYAENVVKNAKTLAEALMAEGLNLVSGGTDNHLMLVDTRNLNITGKEAE</Hsp_hseq>
+      <Hsp_midline>RGPRGGMIL R AWA+ IDKAVFPGTQGGPLMH+IAAK VALGEALQP FK YAE VVKNAK LAE+LMAEGLNLVSG TDNHLMLV+ RNLNITGK+AE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_213485564.1|</Hit_id>
+  <Hit_def>serine hydroxymethyltransferase [Thermobacillus xylanilyticus] &gt;gb|REJ21930.1| serine hydroxymethyltransferase [Paenibacillaceae bacterium] &gt;emb|CAG5091387.1| Serine hydroxymethyltransferase [Thermobacillus xylanilyticus]</Hit_def>
+  <Hit_accession>WP_213485564</Hit_accession>
+  <Hit_len>415</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>175.637</Hsp_bit-score>
+      <Hsp_score>444</Hsp_score>
+      <Hsp_evalue>6.83107e-51</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>229</Hsp_hit-from>
+      <Hsp_hit-to>328</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>RGPRGGMILTRNAWAREIDKAVFPGTQGGPLMHVIAAKGVALGEALQPDFKKYAEQVVKNAKVLAESLMAEGLNLVSGRTDNHLMLVELRNLNITGKDAE</Hsp_qseq>
+      <Hsp_hseq>RGPRGGMILCRKSWAQAIDKAVFPGTQGGPLMHIIAAKAVALGEALQPSFKTYAENVVKNAKTLAEALQAEGLNLVSGGTDNHLMLVDTRNLNITGKDAE</Hsp_hseq>
+      <Hsp_midline>RGPRGGMIL R +WA+ IDKAVFPGTQGGPLMH+IAAK VALGEALQP FK YAE VVKNAK LAE+L AEGLNLVSG TDNHLMLV+ RNLNITGKDAE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_015256606.1|</Hit_id>
+  <Hit_def>serine hydroxymethyltransferase [Thermobacillus composti] &gt;gb|AGA59891.1| glycine/serine hydroxymethyltransferase [Thermobacillus composti KWC4]</Hit_def>
+  <Hit_accession>WP_015256606</Hit_accession>
+  <Hit_len>415</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>175.637</Hsp_bit-score>
+      <Hsp_score>444</Hsp_score>
+      <Hsp_evalue>8.74015e-51</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>229</Hsp_hit-from>
+      <Hsp_hit-to>328</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>RGPRGGMILTRNAWAREIDKAVFPGTQGGPLMHVIAAKGVALGEALQPDFKKYAEQVVKNAKVLAESLMAEGLNLVSGRTDNHLMLVELRNLNITGKDAE</Hsp_qseq>
+      <Hsp_hseq>RGPRGGMILCRKSWAQAIDKAVFPGTQGGPLMHIIAAKAVALGEALQPSFKTYAENVVKNAKTLAEALQAEGLNLVSGGTDNHLMLVDTRNLNITGKDAE</Hsp_hseq>
+      <Hsp_midline>RGPRGGMIL R +WA+ IDKAVFPGTQGGPLMH+IAAK VALGEALQP FK YAE VVKNAK LAE+L AEGLNLVSG TDNHLMLV+ RNLNITGKDAE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>emb|SMG45391.1|</Hit_id>
+  <Hit_def>glycine hydroxymethyltransferase [Paenibacillus aquistagni]</Hit_def>
+  <Hit_accession>SMG45391</Hit_accession>
+  <Hit_len>418</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>175.637</Hsp_bit-score>
+      <Hsp_score>444</Hsp_score>
+      <Hsp_evalue>9.53935e-51</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>232</Hsp_hit-from>
+      <Hsp_hit-to>331</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>RGPRGGMILTRNAWAREIDKAVFPGTQGGPLMHVIAAKGVALGEALQPDFKKYAEQVVKNAKVLAESLMAEGLNLVSGRTDNHLMLVELRNLNITGKDAE</Hsp_qseq>
+      <Hsp_hseq>RGPRGGMILCRKAWAQAIDKAVFPGTQGGPLMHVIASKAVALGEALQPSFKAYAEQVVKNAQVLAESLMAQGLNLVSDGTDNHLVLIDTRNINITGKDAE</Hsp_hseq>
+      <Hsp_midline>RGPRGGMIL R AWA+ IDKAVFPGTQGGPLMHVIA+K VALGEALQP FK YAEQVVKNA+VLAESLMA+GLNLVS  TDNHL+L++ RN+NITGKDAE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_009223733.1|</Hit_id>
+  <Hit_def>serine hydroxymethyltransferase [Paenibacillus sp. oral taxon 786] &gt;gb|EES74734.1| glycine hydroxymethyltransferase [Paenibacillus sp. oral taxon 786 str. D14]</Hit_def>
+  <Hit_accession>WP_009223733</Hit_accession>
+  <Hit_len>415</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>175.252</Hsp_bit-score>
+      <Hsp_score>443</Hsp_score>
+      <Hsp_evalue>9.72861e-51</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>229</Hsp_hit-from>
+      <Hsp_hit-to>328</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>RGPRGGMILTRNAWAREIDKAVFPGTQGGPLMHVIAAKGVALGEALQPDFKKYAEQVVKNAKVLAESLMAEGLNLVSGRTDNHLMLVELRNLNITGKDAE</Hsp_qseq>
+      <Hsp_hseq>RGPRGGMILCKQPWAAAIDKAVFPGTQGGPLMHVIASKAVALGEALQPSFKTYAENVVKNAKVLAETLMAEGLNIVSGGTDNHLMLVDTRNLNITGKDAE</Hsp_hseq>
+      <Hsp_midline>RGPRGGMIL +  WA  IDKAVFPGTQGGPLMHVIA+K VALGEALQP FK YAE VVKNAKVLAE+LMAEGLN+VSG TDNHLMLV+ RNLNITGKDAE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_085494908.1|</Hit_id>
+  <Hit_def>serine hydroxymethyltransferase [Paenibacillus aquistagni] &gt;gb|NMM54371.1| serine hydroxymethyltransferase [Paenibacillus aquistagni]</Hit_def>
+  <Hit_accession>WP_085494908</Hit_accession>
+  <Hit_len>416</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>175.252</Hsp_bit-score>
+      <Hsp_score>443</Hsp_score>
+      <Hsp_evalue>9.83961e-51</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>230</Hsp_hit-from>
+      <Hsp_hit-to>329</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>RGPRGGMILTRNAWAREIDKAVFPGTQGGPLMHVIAAKGVALGEALQPDFKKYAEQVVKNAKVLAESLMAEGLNLVSGRTDNHLMLVELRNLNITGKDAE</Hsp_qseq>
+      <Hsp_hseq>RGPRGGMILCRKAWAQAIDKAVFPGTQGGPLMHVIASKAVALGEALQPSFKAYAEQVVKNAQVLAESLMAQGLNLVSDGTDNHLVLIDTRNINITGKDAE</Hsp_hseq>
+      <Hsp_midline>RGPRGGMIL R AWA+ IDKAVFPGTQGGPLMHVIA+K VALGEALQP FK YAEQVVKNA+VLAESLMA+GLNLVS  TDNHL+L++ RN+NITGKDAE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_148453034.1|</Hit_id>
+  <Hit_def>serine hydroxymethyltransferase [Paenibacillus faecis] &gt;gb|TYA11936.1| serine hydroxymethyltransferase [Paenibacillus faecis]</Hit_def>
+  <Hit_accession>WP_148453034</Hit_accession>
+  <Hit_len>416</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>175.252</Hsp_bit-score>
+      <Hsp_score>443</Hsp_score>
+      <Hsp_evalue>1.0381e-50</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>229</Hsp_hit-from>
+      <Hsp_hit-to>328</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>RGPRGGMILTRNAWAREIDKAVFPGTQGGPLMHVIAAKGVALGEALQPDFKKYAEQVVKNAKVLAESLMAEGLNLVSGRTDNHLMLVELRNLNITGKDAE</Hsp_qseq>
+      <Hsp_hseq>RGPRGGLILCRQPWAAAIDKAVFPGTQGGPLMHVIASKAVALGEALQPSFKTYAENVVKNAKVLAETLMAEGLNIVSGGTDNHLMLVDTRNLNITGKDAE</Hsp_hseq>
+      <Hsp_midline>RGPRGG+IL R  WA  IDKAVFPGTQGGPLMHVIA+K VALGEALQP FK YAE VVKNAKVLAE+LMAEGLN+VSG TDNHLMLV+ RNLNITGKDAE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469534606</Statistics_db-num>
+      <Statistics_db-len>1070605227</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

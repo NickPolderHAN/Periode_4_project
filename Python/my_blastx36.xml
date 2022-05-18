@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_19555</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_19555</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|NYT22802.1|</Hit_id>
+  <Hit_def>threonylcarbamoyl-AMP synthase [Alcaligenaceae bacterium]</Hit_def>
+  <Hit_accession>NYT22802</Hit_accession>
+  <Hit_len>358</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.0922</Hsp_bit-score>
+      <Hsp_score>170</Hsp_score>
+      <Hsp_evalue>2.16261e-11</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>317</Hsp_hit-from>
+      <Hsp_hit-to>357</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>41</Hsp_align-len>
+      <Hsp_qseq>YAMLRKLDAENHDRIILEKPPVSPAWQAVNDRLGRAAAAFE</Hsp_qseq>
+      <Hsp_hseq>YALLRELDAGGYDRIVLEQPPRTPAWQAVNDRLGRAAAAFD</Hsp_hseq>
+      <Hsp_midline>YA+LR+LDA  +DRI+LE+PP +PAWQAVNDRLGRAAAAF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|NGR09148.1|</Hit_id>
+  <Hit_def>threonylcarbamoyl-AMP synthase [bacterium SGD-2]</Hit_def>
+  <Hit_accession>NGR09148</Hit_accession>
+  <Hit_len>344</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.707</Hsp_bit-score>
+      <Hsp_score>169</Hsp_score>
+      <Hsp_evalue>2.37637e-11</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>304</Hsp_hit-from>
+      <Hsp_hit-to>344</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>41</Hsp_align-len>
+      <Hsp_qseq>YAMLRKLDAENHDRIILEKPPVSPAWQAVNDRLGRAAAAFE</Hsp_qseq>
+      <Hsp_hseq>YALLRRLDEGGYERIVLERPPVTPVWQAVNDRLGRAAAAFE</Hsp_hseq>
+      <Hsp_midline>YA+LR+LD   ++RI+LE+PPV+P WQAVNDRLGRAAAAFE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|TAN25897.1|</Hit_id>
+  <Hit_def>threonylcarbamoyl-AMP synthase [Castellaniella sp.]</Hit_def>
+  <Hit_accession>TAN25897</Hit_accession>
+  <Hit_len>347</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.9366</Hsp_bit-score>
+      <Hsp_score>167</Hsp_score>
+      <Hsp_evalue>4.98601e-11</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>306</Hsp_hit-from>
+      <Hsp_hit-to>346</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>41</Hsp_align-len>
+      <Hsp_qseq>YAMLRKLDAENHDRIILEKPPVSPAWQAVNDRLGRAAAAFE</Hsp_qseq>
+      <Hsp_hseq>YALLRELDAAGYDRIVLQRPPLEPAWQGVNDRIGRAAAAFE</Hsp_hseq>
+      <Hsp_midline>YA+LR+LDA  +DRI+L++PP+ PAWQ VNDR+GRAAAAFE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|MBV2182838.1|</Hit_id>
+  <Hit_def>threonylcarbamoyl-AMP synthase [Castellaniella sp.]</Hit_def>
+  <Hit_accession>MBV2182838</Hit_accession>
+  <Hit_len>370</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>1.39867e-09</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>326</Hsp_hit-from>
+      <Hsp_hit-to>365</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>YAMLRKLDAENHDRIILEKPPVSPAWQAVNDRLGRAAAAF</Hsp_qseq>
+      <Hsp_hseq>YALLRELDAAGYDRILLQRPPQDPAWQGVNDRIGRAAAAF</Hsp_hseq>
+      <Hsp_midline>YA+LR+LDA  +DRI+L++PP  PAWQ VNDR+GRAAAAF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_151025049.1|</Hit_id>
+  <Hit_def>L-threonylcarbamoyladenylate synthase [Castellaniella defragrans] &gt;gb|KAB0609131.1| threonylcarbamoyl-AMP synthase [Castellaniella defragrans]</Hit_def>
+  <Hit_accession>WP_151025049</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>1.50512e-09</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>290</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>41</Hsp_align-len>
+      <Hsp_qseq>YAMLRKLDAENHDRIILEKPPVSPAWQAVNDRLGRAAAAFE</Hsp_qseq>
+      <Hsp_hseq>YALLRRLDVRGYDGIVLERPPAEPAWQAVNDRIGRAAATFQ</Hsp_hseq>
+      <Hsp_midline>YA+LR+LD   +D I+LE+PP  PAWQAVNDR+GRAAA F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_217964499.1|</Hit_id>
+  <Hit_def>L-threonylcarbamoyladenylate synthase [Candidimonas humi] &gt;gb|MBV6304732.1| threonylcarbamoyl-AMP synthase [Candidimonas humi]</Hit_def>
+  <Hit_accession>WP_217964499</Hit_accession>
+  <Hit_len>334</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>1.62971e-09</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>294</Hsp_hit-from>
+      <Hsp_hit-to>334</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>41</Hsp_align-len>
+      <Hsp_qseq>YAMLRKLDAENHDRIILEKPPVSPAWQAVNDRLGRAAAAFE</Hsp_qseq>
+      <Hsp_hseq>YALLRRLDAGGYDCIVLEQPPSLPAWRAVNDRVGRAAAAFE</Hsp_hseq>
+      <Hsp_midline>YA+LR+LDA  +D I+LE+PP  PAW+AVNDR+GRAAAAFE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>emb|CDM25407.1|</Hit_id>
+  <Hit_def>hypothetical protein BN940_14811 [Castellaniella defragrans 65Phen]</Hit_def>
+  <Hit_accession>CDM25407</Hit_accession>
+  <Hit_len>381</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>1.73501e-09</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>331</Hsp_hit-from>
+      <Hsp_hit-to>371</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>41</Hsp_align-len>
+      <Hsp_qseq>YAMLRKLDAENHDRIILEKPPVSPAWQAVNDRLGRAAAAFE</Hsp_qseq>
+      <Hsp_hseq>YALLRRLDVRGYDGIVLERPPAEPAWQAVNDRIGRAAATFQ</Hsp_hseq>
+      <Hsp_midline>YA+LR+LD   +D I+LE+PP  PAWQAVNDR+GRAAA F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_184142616.1|</Hit_id>
+  <Hit_def>L-threonylcarbamoyladenylate synthase [Castellaniella defragrans] &gt;gb|MBB6083261.1| L-threonylcarbamoyladenylate synthase [Castellaniella defragrans]</Hit_def>
+  <Hit_accession>WP_184142616</Hit_accession>
+  <Hit_len>381</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>1.73501e-09</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>331</Hsp_hit-from>
+      <Hsp_hit-to>371</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>41</Hsp_align-len>
+      <Hsp_qseq>YAMLRKLDAENHDRIILEKPPVSPAWQAVNDRLGRAAAAFE</Hsp_qseq>
+      <Hsp_hseq>YALLRRLDVRGYDGIVLERPPAEPAWQAVNDRIGRAAATFQ</Hsp_hseq>
+      <Hsp_midline>YA+LR+LD   +D I+LE+PP  PAWQAVNDR+GRAAA F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_242404205.1|</Hit_id>
+  <Hit_def>L-threonylcarbamoyladenylate synthase [Castellaniella defragrans]</Hit_def>
+  <Hit_accession>WP_242404205</Hit_accession>
+  <Hit_len>383</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>1.7747e-09</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>333</Hsp_hit-from>
+      <Hsp_hit-to>373</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>41</Hsp_align-len>
+      <Hsp_qseq>YAMLRKLDAENHDRIILEKPPVSPAWQAVNDRLGRAAAAFE</Hsp_qseq>
+      <Hsp_hseq>YALLRRLDVRGYDGIVLERPPAEPAWQAVNDRIGRAAATFQ</Hsp_hseq>
+      <Hsp_midline>YA+LR+LD   +D I+LE+PP  PAWQAVNDR+GRAAA F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_227681979.1|</Hit_id>
+  <Hit_def>L-threonylcarbamoyladenylate synthase [Pusillimonas sp. MFBS29] &gt;gb|MCC2594909.1| threonylcarbamoyl-AMP synthase [Pusillimonas sp. MFBS29]</Hit_def>
+  <Hit_accession>WP_227681979</Hit_accession>
+  <Hit_len>347</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>2.67564e-09</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>307</Hsp_hit-from>
+      <Hsp_hit-to>346</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>YAMLRKLDAENHDRIILEKPPVSPAWQAVNDRLGRAAAAF</Hsp_qseq>
+      <Hsp_hseq>YALLRRLDGQGYDRILLEQPPLDSGWQAVNDRIGRASAAF</Hsp_hseq>
+      <Hsp_midline>YA+LR+LD + +DRI+LE+PP+   WQAVNDR+GRA+AAF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469534606</Statistics_db-num>
+      <Statistics_db-len>1070605227</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

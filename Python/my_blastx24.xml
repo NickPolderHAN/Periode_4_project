@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_31315</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_31315</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|PZM92852.1|</Hit_id>
+  <Hit_def>hypothetical protein DIU72_04865 [Proteobacteria bacterium]</Hit_def>
+  <Hit_accession>PZM92852</Hit_accession>
+  <Hit_len>415</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.288</Hsp_bit-score>
+      <Hsp_score>373</Hsp_score>
+      <Hsp_evalue>3.13178e-40</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>242</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>AYVIAGAASLVLGTFLTHEYEQVHSLLFGDAVAAPLEEIVALAICAAAILAFYAAFFPRLVFASFDPEAARAMGLRVRRYDAALYFLLGLSIAVSTRALG</Hsp_qseq>
+      <Hsp_hseq>AYVLAGAASLVLGTLLPHEYERVHSLLFGDAVAAPIEEIVALALCLLLAVVFFAALFPRLVFASFDPEAAGAMGIRVRRLDAALYFVLGLSIAVATRALG</Hsp_hseq>
+      <Hsp_midline>AYV+AGAASLVLGT L HEYE+VHSLLFGDAVAAP+EEIVALA+C    + F+AA FPRLVFASFDPEAA AMG+RVRR DAALYF+LGLSIAV+TRALG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_050725790.1|</Hit_id>
+  <Hit_def>metal ABC transporter permease [Vulgatibacter incomptus] &gt;gb|AKU91488.1| Zinc ABC transporter, inner membrane permease protein ZnuB [Vulgatibacter incomptus]</Hit_def>
+  <Hit_accession>WP_050725790</Hit_accession>
+  <Hit_len>276</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.806</Hsp_bit-score>
+      <Hsp_score>338</Hsp_score>
+      <Hsp_evalue>2.06763e-36</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>103</Hsp_hit-from>
+      <Hsp_hit-to>202</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>AYVIAGAASLVLGTFLTHEYEQVHSLLFGDAVAAPLEEIVALAICAAAILAFYAAFFPRLVFASFDPEAARAMGLRVRRYDAALYFLLGLSIAVSTRALG</Hsp_qseq>
+      <Hsp_hseq>AYVIAGAASLLLGVFLTHEYEAVHSLLFGDAVAAPPEELLALAVTAVGIALIQLAFGRKLLFVSFDPETARAMGMAVRRYNATLYFSIGLGLAVATRALG</Hsp_hseq>
+      <Hsp_midline>AYVIAGAASL+LG FLTHEYE VHSLLFGDAVAAP EE++ALA+ A  I     AF  +L+F SFDPE ARAMG+ VRRY+A LYF +GL +AV+TRALG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|MBX7101016.1|</Hit_id>
+  <Hit_def>metal ABC transporter permease [Myxococcaceae bacterium]</Hit_def>
+  <Hit_accession>MBX7101016</Hit_accession>
+  <Hit_len>285</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.4185</Hsp_bit-score>
+      <Hsp_score>202</Hsp_score>
+      <Hsp_evalue>3.65884e-16</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>286</Hsp_query-to>
+      <Hsp_hit-from>111</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>GAASLVLGTF----LTHEYEQVHSLLFGDAVAAPLEEIVALAICAAAILAFYAAFFPRLVFASFDPEAARAMGLRVRRYDAALYFLLGLSIAVSTRALG</Hsp_qseq>
+      <Hsp_hseq>GASALVMVVLSSPRIAQEAHEVGDLLFGNAVVVKREDLVQLAIAAAVTLSLHALFFRSFLFASFDPETARVSGVPVRRMDLLLHLTLAMSIAVATRALG</Hsp_hseq>
+      <Hsp_midline>GA++LV+       +  E  +V  LLFG+AV    E++V LAI AA  L+ +A FF   +FASFDPE AR  G+ VRR D  L+  L +SIAV+TRALG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_012525582.1|</Hit_id>
+  <Hit_def>metal ABC transporter permease [Anaeromyxobacter sp. K] &gt;gb|ACG72762.1| ABC-3 protein [Anaeromyxobacter sp. K]</Hit_def>
+  <Hit_accession>WP_012525582</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.8702</Hsp_bit-score>
+      <Hsp_score>185</Hsp_score>
+      <Hsp_evalue>9.8818e-14</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>107</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>AYVIAGAASLVLG-TFLTHEYEQVHSLLFGDAVAAPLEEIVALAICAAAILAFYAAFFPRLVFASFDPEAARAMGLRVRRYDAALYFLLGLSIAVSTRALG</Hsp_qseq>
+      <Hsp_hseq>AWVTA-SALVVLGVSQLVHAAHDLGGMVFGNAVAVPASDLAVIVLVAAVCTAVHLVFAKELAFASFDPETAQALGLKVKLWDAVLFLTIGLAIPVTARALG</Hsp_hseq>
+      <Hsp_midline>A+V A +A +VLG + L H    +  ++FG+AVA P  ++  + + AA   A +  F   L FASFDPE A+A+GL+V+ +DA L+  +GL+I V+ RALG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|MBL6974383.1|</Hit_id>
+  <Hit_def>metal ABC transporter permease [Deltaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>MBL6974383</Hit_accession>
+  <Hit_len>285</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.0998</Hsp_bit-score>
+      <Hsp_score>183</Hsp_score>
+      <Hsp_evalue>1.78541e-13</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>110</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>AYVIAGAASLVLGTFLTHEYEQVHSLLFGDAVAAPLEEIVALAICAAAILAFYAAFFPRLVFASFDPEAARAMGLRVRRYDAALYFLLGLSIAVSTRALG</Hsp_qseq>
+      <Hsp_hseq>AYLLSAAAVLVMGGFIRQDLHDVQSLLFGHAVLVETIQIIYVGSAAFIVLVVHSLFYRRFLSVSYDPDSAGALGIRSLQHDILLYLTLGMMISIATRAIG</Hsp_hseq>
+      <Hsp_midline>AY+++ AA LV+G F+  +   V SLLFG AV     +I+ +   A  +L  ++ F+ R +  S+DP++A A+G+R  ++D  LY  LG+ I+++TRA+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|MBI3071550.1|</Hit_id>
+  <Hit_def>metal ABC transporter permease [Deltaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>MBI3071550</Hit_accession>
+  <Hit_len>376</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.8702</Hsp_bit-score>
+      <Hsp_score>185</Hsp_score>
+      <Hsp_evalue>1.97159e-13</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>202</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>AYVIAGAASLVLGTFLTHEYEQVHSLLFGDAVAAPLEEIVALAICAAAILAFYAAFFPRLVFASFDPEAARAMGLRVRRYDAALYFLLGLSIAVSTRALG</Hsp_qseq>
+      <Hsp_hseq>AYIVASAAVVLLGQYMSQAEHDIKEILFGNPIAIETEALEVLAITAGAVLLLHIYFFKMFVFASFDAEMMGTLGLRPRIWDIILFSTIGVVIAVASRAIG</Hsp_hseq>
+      <Hsp_midline>AY++A AA ++LG +++     +  +LFG+ +A   E +  LAI A A+L  +  FF   VFASFD E    +GLR R +D  L+  +G+ IAV++RA+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_059435681.1|</Hit_id>
+  <Hit_def>metal ABC transporter permease [Anaeromyxobacter sp. PSR-1] &gt;dbj|GAO01235.1| putative membrane protein in ycf23-apcF intergenic region [Anaeromyxobacter sp. PSR-1]</Hit_def>
+  <Hit_accession>WP_059435681</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.0998</Hsp_bit-score>
+      <Hsp_score>183</Hsp_score>
+      <Hsp_evalue>2.10205e-13</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>107</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>AYVIAGAASLVLG-TFLTHEYEQVHSLLFGDAVAAPLEEIVALAICAAAILAFYAAFFPRLVFASFDPEAARAMGLRVRRYDAALYFLLGLSIAVSTRALG</Hsp_qseq>
+      <Hsp_hseq>AWVTA-SALVVLGVSQLVHAAHDLGGMVFGNAVAVPAGDLAVIVLVAAVCTAVHLVFAKELAFASFDPETAQALGLKVKLWDAVLFLTIGLAIPVTARALG</Hsp_hseq>
+      <Hsp_midline>A+V A +A +VLG + L H    +  ++FG+AVA P  ++  + + AA   A +  F   L FASFDPE A+A+GL+V+ +DA L+  +GL+I V+ RALG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|MBS2026947.1|</Hit_id>
+  <Hit_def>metal ABC transporter permease [Deltaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>MBS2026947</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.7146</Hsp_bit-score>
+      <Hsp_score>182</Hsp_score>
+      <Hsp_evalue>2.45747e-13</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>LTHEYEQVHSLLFGDAVAAPLEEIVALAICAAAILAFYAAFFPRLVFASFDPEAARAMGLRVRRYDAALYFLLGLSIAVSTRALG</Hsp_qseq>
+      <Hsp_hseq>IAQEAHEIGDLLFGNAVVVKHEHLVQLGIVAAGVLLLHAVLFKDFLFCSFDPETARAAGYPVRNLDLVLHLSLALTVAVTTRALG</Hsp_hseq>
+      <Hsp_midline>+  E  ++  LLFG+AV    E +V L I AA +L  +A  F   +F SFDPE ARA G  VR  D  L+  L L++AV+TRALG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_235969723.1|</Hit_id>
+  <Hit_def>metal ABC transporter permease [Anaeromyxobacter sp. Red267] &gt;dbj|GEJ59261.1| ABC transporter [Anaeromyxobacter sp. Red267]</Hit_def>
+  <Hit_accession>WP_235969723</Hit_accession>
+  <Hit_len>281</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.1738</Hsp_bit-score>
+      <Hsp_score>178</Hsp_score>
+      <Hsp_evalue>1.00874e-12</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>111</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>YVIAGAASLVLGTFLTHEYEQVHSLLFGDAVAAPLEEIVALAICAAAILAFYAAFFPRLVFASFDPEAARAMGLRVRRYDAALYFLLGLSIAVSTRALG</Hsp_qseq>
+      <Hsp_hseq>YVLAGALVVLGANRLVHAAHDLNAMVFGNAVAVPVADLLILTGVALACAVVHALFAKELVFVSFDGETAAALGYRTGRWNALLFLTLGLAIPVSARALG</Hsp_hseq>
+      <Hsp_midline>YV+AGA  ++    L H    +++++FG+AVA P+ +++ L   A A    +A F   LVF SFD E A A+G R  R++A L+  LGL+I VS RALG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|MBX7117244.1|</Hit_id>
+  <Hit_def>metal ABC transporter permease [Myxococcaceae bacterium]</Hit_def>
+  <Hit_accession>MBX7117244</Hit_accession>
+  <Hit_len>285</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.7886</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>1.3576e-12</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>125</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>LTHEYEQVHSLLFGDAVAAPLEEIVALAICAAAILAFYAAFFPRLVFASFDPEAARAMGLRVRRYDAALYFLLGLSIAVSTRALG</Hsp_qseq>
+      <Hsp_hseq>IAQEAHEVGDLLFGNAVVVRREDLVELAIAAAVTLGLHALFFKEFLFASFDADTANVFGVPVKRMELLLYFSLALCIAVATRAIG</Hsp_hseq>
+      <Hsp_midline>+  E  +V  LLFG+AV    E++V LAI AA  L  +A FF   +FASFD + A   G+ V+R +  LYF L L IAV+TRA+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469534606</Statistics_db-num>
+      <Statistics_db-len>1070605227</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
