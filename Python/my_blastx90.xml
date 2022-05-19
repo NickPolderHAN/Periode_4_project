@@ -279,7 +279,7 @@
 <Hit>
   <Hit_num>10</Hit_num>
   <Hit_id>ref|WP_073702191.1|</Hit_id>
-  <Hit_def>(d)CMP kinase [Nocardiopsis sp. TSRI0078] &gt;gb|OKI20229.1| cytidylate kinase [Nocardiopsis sp. TSRI0078]</Hit_def>
+  <Hit_def>(d)CMP kinase [Nocardiopsis sp. TSRI0078] >gt;gb|OKI20229.1| cytidylate kinase [Nocardiopsis sp. TSRI0078]</Hit_def>
   <Hit_accession>WP_073702191</Hit_accession>
   <Hit_len>231</Hit_len>
   <Hit_hsps>

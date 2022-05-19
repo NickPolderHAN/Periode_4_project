@@ -20,8 +20,9 @@ class DatabaseInsert:
 
 def insert_to_database(file_amount):
     counter = 1
+    hit_id_counter = 1
     file_name = "my_blastx90.xml"
-    bp = process_blast_results.BlastParser(file_name)
+    bp = process_blast_results.BlastParser(file_name, hit_id_counter)
 
 
 def main():

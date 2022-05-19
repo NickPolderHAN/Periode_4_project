@@ -1,5 +1,4 @@
 import Extract_excel_data
-import re
 import Blast_script
 import SQL_connector_script as Scc
 
