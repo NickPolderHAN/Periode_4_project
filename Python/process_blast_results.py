@@ -1,35 +1,41 @@
 from Bio.Blast import NCBIXML
+from Bio import Entrez
 
 
 # used to retrieve the Blast results from a xml file.
 class BlastParser:
     """
     BlastParser processes a .xml file and stores its contents
-    to individual variables.
+    to individual keys in a dictionary. Every hit has its own
+    keys for all attributes.
 
     Required Parameters:
     file -> String -> The filepath to the .xml file.
+    hit_id -> Int -> Contains the id number of the
+                    sequence from which the alignment
+                    results originated.
+
+    returns: attri_dict -> Dict -> Contains all of the hit data per hit.
     """
 
     def __init__(self, file, hit_id):
         self.__file_name = file
         self.__hit_counter = 0
         self.__hit_id = hit_id
+        self.__entrez_mail = ""
         self.__org_prot_list = []
         self.__attri_dict = {}
         self.__attribute_template = {
             "score": 0.00,
             "e_val": 0.00,
             "idpercentage": 0.00,
-            "organisme": "",
+            "organism": "",
             "eiwit": "",
             "accessie_code": "",
             "positives": 0.00,
-            "taxonomie_id": "",
             "seq_id": 0}
 
         self.read_xml_file()
-        print(self.__attri_dict)
 
     # reads the .xml file given to the init and returns its data.
     def read_xml_file(self):
@@ -44,13 +50,20 @@ class BlastParser:
 
                     temp_dict["score"] = float(hsp.score)
                     temp_dict["e_val"] = float(hsp.expect)
-                    temp_dict["idpercentage"] = 0.00
-                    temp_dict["organisme"] = self.__org_prot_list[0]
+                    temp_dict["idpercentage"] = hsp.identities
+                    temp_dict["organism"] = self.__org_prot_list[0]
                     temp_dict["eiwit"] = self.__org_prot_list[1]
                     temp_dict["accessie_code"] = alignment.hit_id
                     temp_dict["positives"] = hsp.positives
-                    temp_dict["taxonomie_id"] = ""
                     temp_dict["seq_id"] = self.__hit_id
+
+                    # calls the function to gather the taxonomy data
+                    # that corresponds to the current hit.
+                    organism = self.__org_prot_list[0]
+                    lineage, rank = self.gather_taxonomy_data(organism)
+
+                    temp_dict["lineage"] = lineage
+                    temp_dict["Rank"] = rank
 
                     # adds the temporary dictionary containing the hit data of
                     # an individual hit to the main hit data dictionary.
@@ -58,6 +71,8 @@ class BlastParser:
                     hit_name = "hit " + str(self.__hit_counter)
                     self.__attri_dict[hit_name] = temp_dict
                     temp_dict = {}
+
+        return self.__attri_dict
 
     def split_organism_protein(self, hit_def):
         """
@@ -94,3 +109,34 @@ class BlastParser:
         # used to return the list to the read function
         self.__org_prot_list.append(organism_list)
         self.__org_prot_list.append(protein_list)
+
+    def gather_taxonomy_data(self, organism_list):
+        self.__entrez_mail = "E.Wissink1@student.han.nl"
+        Entrez.email = self.__entrez_mail
+        lineage_list = []
+        rank_list = []
+
+        for organism in organism_list:
+            split = organism.split(" (")
+
+            # Configures the Entrez settings.
+            handle = Entrez.esearch(db="Taxonomy", term=split[0])
+            record = Entrez.read(handle)
+            term_id = record["IdList"][0]
+            handle = Entrez.efetch(db="Taxonomy", id=term_id, retmode="xml")
+            records = Entrez.read(handle)
+
+            # assigns the lineage_list and rank.
+            lineage_list.append(records[0]["Lineage"])
+            rank_list.append(records[0]["Rank"])
+
+        return lineage_list, rank_list
+
+    def get_attributes(self):
+        """
+        Used to get the full hit data dictionary
+        from outside the object.
+
+        :return: attribute data dictionary
+        """
+        return self.__attri_dict
