@@ -24,56 +24,81 @@ def get_data(e_value_min, e_value_max, percent_identity_min, percent_identity_ma
                 sql = f"select * from hits where e_value > {e_value_min} and " \
                       f"e_value < {e_value_max} and identitypercentage > " \
                       f"{percent_identity_min} and identitypercentage < " \
-                      f"{percent_identity_max} and organism like '%{organism}%'"
+                      f"{percent_identity_max} and organisme like '%{organism}%'"
                 mycursor.execute(sql)
             elif protein != '':
-                sql =
+                sql = f"select * from hits where e_value > {e_value_min} and" \
+                      f"e_value < {e_value_max} and identitypercentage >" \
+                      f"{percent_identity_min} and identitypercentage <" \
+                      f"{percent_identity_max} and eiwit like '%{protein}%'"
                 mycursor.execute(sql)
             elif organism and protein != '':
-                sql =
+                sql = f"select * from hits where e_value > {e_value_min} and" \
+                      f"e_value < {e_value_max} and identitypercentage >" \
+                      f"{percent_identity_min} and identitypercentage <" \
+                      f"{percent_identity_max} and organisme like '%{organism}%'" \
+                      f"and eiwit like '%{protein}%"
                 mycursor.execute(sql)
             else:
-                sql =
+                sql = f"select * from hits where e_value > {e_value_min} and" \
+                      f"e_value < {e_value_max} and identitypercentage >" \
+                      f"{percent_identity_min} and identitypercentage <" \
+                      f"{percent_identity_max}"
                 mycursor.execute(sql)
         elif organism != '':
             if protein != '':
-                sql =
+                sql = f"select * from hits where e_value > {e_value_min} and" \
+                      f"e_value < {e_value_max} and organisme like '%{organism}%'" \
+                      f"and eiwit like '%{protein}%'"
                 mycursor.execute(sql)
             else:
-                sql =
+                sql = f"select * from hits where e_value > {e_value_min} and" \
+                      f"e_value < {e_value_max} and organisme like '%{organism}%'"
                 mycursor.execute(sql)
         elif protein != '':
-            sql =
+            sql = f"select * from hits where e_value > {e_value_min} and" \
+                  f"e_value < {e_value_max} and eiwit like '%{protein}%'"
             mycursor.execute(sql)
         else:
-            sql =
+            sql = f"select * from hits where e_value > {e_value_min} and" \
+                  f"e_value < {e_value_max}"
             mycursor.execute(sql)
     elif percent_identity_min != '' and percent_identity_max != '':
         if organism != '':
             if protein != '':
-                sql =
+                sql = f"select * from hits where identitypercentage > " \
+                      f"{percent_identity_min} and identitypercentage <" \
+                      f"{percent_identity_max} and organisme like '%{organism}%'" \
+                      f"and eiwit like '%{protein}%'"
                 mycursor.execute(sql)
             else:
-                sql =
+                sql = f"select * from hits where identitypercentage >" \
+                      f"{percent_identity_min} and identitypercentage <" \
+                      f"{percent_identity_max} and organisme like '%{organism}%'"
                 mycursor.execute(sql)
         elif protein != '':
-            sql =
+            sql = f"select * from hits where identitypercentage >" \
+                  f"{percent_identity_min} and identitypercentage <" \
+                  f"{percent_identity_max} and eiwit like '%{protein}%'"
             mycursor.execute(sql)
         else:
-            sql =
+            sql = f"select * from hits where identitypercentage >" \
+                  f"{percent_identity_min} and identitypercentage <" \
+                  f"{percent_identity_max}"
             mycursor.execute(sql)
     elif organism != '':
         if protein != '':
-            sql =
+            sql = f"select * from hits where organisme like '%{organism}%'" \
+                  f"and eiwit like '%{protein}%'"
             mycursor.execute(sql)
         else:
-            sql =
+            sql = f"select * from hits where organisme like '%{organism}%'"
             mycursor.execute(sql)
     elif protein != '':
-        sql =
+        sql = f"select * from hits where eiwit like '%{protein}%'"
         mycursor.execute(sql)
     else:
-        sql =
+        sql = f"select * from hits"
         mycursor.execute(sql)
 
     result = mycursor.fetchall()
