@@ -26,7 +26,7 @@ def nummer(organismen):
     for o in organismen:
         num = uniek.get(o)
         nummers_tax.append(num)
-    return uniek
+    return uniek, nummers_tax
 
 
 def taxonomy(uniek):
@@ -71,6 +71,6 @@ def wegschrijven(lineage):
 if __name__ == '__main__':
     file = "organsime"
     organismen = inlezen(file)
-    uniek = nummer(organismen)
+    uniek, nummers_tax = nummer(organismen)
     lineage, rank = taxonomy(uniek)
     wegschrijven(lineage)
