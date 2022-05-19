@@ -35,26 +35,21 @@
     <td class = "tabellinks">
       <b>FILTERS</b><p>
       <div class = "filters">
-        <form action="/action_page.php">
-  <input type="checkbox" >
-  <label > Organisme</label><br>
-  <input type="checkbox" >
-  <label> Eiwit</label><br>
-      <br>
+        <form action="/action_page.php" method = "POST">
 
   <label >E-value tussen</label><br>
-    <input type="text" class = "tekstinvulveldlinks"> <p style = 'display:inline'> en </p>
-          <input type="text" class = 'tekstinvulveldrechts'><br><br>
+    <input type="text" class = "tekstinvulveldlinks" name="e_value_min"> <p style = 'display:inline'> en </p>
+          <input type="text" class = 'tekstinvulveldrechts' name="e_value_max"><br><br>
 
   <label >Percent identity</label><br>
-  <input type="text" class = "tekstinvulveldlinks"> <p style = 'display:inline'> en </p>
-          <input type="text" class = 'tekstinvulveldrechts'><br>
+  <input type="text" class = "tekstinvulveldlinks" name="percent_identity_min"> <p style = 'display:inline'> en </p>
+          <input type="text" class = 'tekstinvulveldrechts' name="percent_identity_max"><br>
 <br>
 
   <label>Zoek op organisme</label><br>
-  <input type="text"><br>
+  <input type="text" name="organism"><br>
   <label>zoek op eiwit</label><br>
-  <input type="text"><br>
+  <input type="text" name="protein"><br>
     </div>
       <br>
       <br>
