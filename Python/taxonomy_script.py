@@ -1,5 +1,5 @@
 from Bio import Entrez
-import time
+
 
 def inlezen(file):
     """Leest het organisme bestand in en voegt deze toe aan een lijst
@@ -15,14 +15,30 @@ def inlezen(file):
     return organismen
 
 
-def taxonomy(organismen):
+def nummer(organismen):
+    uniek = {}
+    counter = 1
+    nummers_tax = []
+    for o in organismen:
+        if o not in uniek:
+            uniek[o] = counter
+            counter += 1
+    for o in organismen:
+        num = uniek.get(o)
+        nummers_tax.append(num)
+    return uniek
+
+
+def taxonomy(uniek):
     """ Met behulp van Entrez wordt de lineage van elk organisme
     bepaald doormiddel van een loop.
 
     :param organismen: lijst -> Staan de organismen in.
     :return: lineage -> lijst -> Staat de lineage per organisme in.
     """
+    organismen = uniek.keys()
     lineage = []
+    rank = []
     for n in organismen:
         print(n)
         Entrez.email = "E.Wissink1@student.han.nl"
@@ -31,9 +47,13 @@ def taxonomy(organismen):
         term_id = record["IdList"][0]
         handle = Entrez.efetch(db="Taxonomy", id=term_id, retmode="xml")
         records = Entrez.read(handle)
-        lineage.append(records[0]["Lineage"])
+        lineage_string = (records[0]["Lineage"])
+        rank_string = (records[0]["Rank"])
+        if lineage_string not in lineage:
+            lineage.append(lineage_string)
+            rank.append(rank_string)
         print("Klaar", n)
-    return lineage
+    return lineage, rank
 
 
 def wegschrijven(lineage):
@@ -51,5 +71,6 @@ def wegschrijven(lineage):
 if __name__ == '__main__':
     file = "organsime"
     organismen = inlezen(file)
-    lineage = taxonomy(organismen)
+    uniek = nummer(organismen)
+    lineage, rank = taxonomy(uniek)
     wegschrijven(lineage)

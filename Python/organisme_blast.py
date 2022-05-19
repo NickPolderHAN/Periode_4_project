@@ -12,6 +12,7 @@ def blast_inlezen(counter, organisme):
     organis = ""
     test = False
     with open("my_blastx" + str(counter) + ".xml", "r") as out_handle:
+        print(counter)
         blast_record = NCBIXML.parse(out_handle)
         blast_record = next(blast_record)
         eval_thresh = 0.04
@@ -24,10 +25,12 @@ def blast_inlezen(counter, organisme):
                     test = False
                     organisme.append(organis)
                     organis = ""
+                    break
                 elif test:
                     organis += letter
 
     counter += 1
+    # print(organisme)
     return counter, organisme
 
 
