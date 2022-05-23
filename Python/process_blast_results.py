@@ -1,3 +1,7 @@
+# The process_blast_results script contains the BlastParser class
+# which is used to gather the hits and their corresponding taxonomy
+# from the given .xml files and by using BioPython.
+
 from Bio.Blast import NCBIXML
 from Bio import Entrez
 
@@ -18,10 +22,11 @@ class BlastParser:
     returns: attri_dict -> Dict -> Contains all of the hit data per hit.
     """
 
-    def __init__(self, file, hit_id):
+    def __init__(self, file, align_id, seq_data):
         self.__file_name = file
+        self.__seq_data_dict = seq_data
         self.__hit_counter = 0
-        self.__hit_id = hit_id
+        self.__hit_id = align_id
         self.__entrez_mail = ""
         self.__org_prot_list = []
         self.__attri_dict = {}
@@ -33,12 +38,14 @@ class BlastParser:
             "eiwit": "",
             "accessie_code": "",
             "positives": 0.00,
-            "seq_id": 0}
+            "seq_id": 0,
+            "lineage": "",
+            "rank": ""}
 
-        self.read_xml_file()
+        self.gather_xml_file_data()
 
     # reads the .xml file given to the init and returns its data.
-    def read_xml_file(self):
+    def gather_xml_file_data(self):
         temp_dict = self.__attribute_template
         with open(self.__file_name, "r") as out_handle:
             blast_record = NCBIXML.parse(out_handle)
@@ -63,10 +70,16 @@ class BlastParser:
                     lineage, rank = self.gather_taxonomy_data(organism)
 
                     temp_dict["lineage"] = lineage
-                    temp_dict["Rank"] = rank
+                    temp_dict["rank"] = rank
 
-                    # adds the temporary dictionary containing the hit data of
-                    # an individual hit to the main hit data dictionary.
+                    # calls the get_sequence function to gather the
+                    # sequence corresponding to the hit and assigns
+                    # it to a key.
+                    temp_dict["seq"] = self.gather_sequences()
+
+                    # adds the temporary dictionary containing the hit
+                    # data of an individual hit to the
+                    # main hit data dictionary.
                     self.__hit_counter += 1
                     hit_name = "hit " + str(self.__hit_counter)
                     self.__attri_dict[hit_name] = temp_dict
@@ -132,11 +145,18 @@ class BlastParser:
 
         return lineage_list, rank_list
 
-    def get_attributes(self):
+    def gather_sequences(self):
+        file_count = self.__hit_id
+        sequence = self.__seq_data_dict[str(file_count)]
+
+        return sequence
+
+    def get_all_attributes(self):
         """
-        Used to get the full hit data dictionary
-        from outside the object.
+        Used to get the hit data dictionary, gets called
+        from outside the class itself.
 
         :return: attribute data dictionary
         """
+
         return self.__attri_dict

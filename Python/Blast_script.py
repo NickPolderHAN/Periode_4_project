@@ -37,11 +37,13 @@ def main(sequence_dictionary):
     # loops through the dictionary containing all sequences
     # and their corresponding headers.
     for key in sequence_dictionary:
-
+        temp_key = ""
+        if len(key) < 4:
+            temp_key = "[" + str(key) + "]"
         # checks if a key is in the check_file contents so that it
         # may skip sequences that have already been aligned.
-        if key not in file_contents and alignment_counter <= 3:
-            sequence = sequence_dictionary[key][0]
+        if temp_key not in file_contents and alignment_counter <= 10:
+            sequence = sequence_dictionary[key]
             blast_dictionary(key, sequence, seq_counter)
             time.sleep(10.0)
 
