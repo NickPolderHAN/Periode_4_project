@@ -1,13 +1,17 @@
 .tabelrechts{
   border:3px solid white;
   height: 700px;
-  width: 70%;
+  width: 80%;
 }
 
 .tabellinks{
   border:3px solid white;
   height: 700px;
   width: 20%;
+}
+
+.tabelresultaat{
+border: 1px solid white;
 }
 
 .filters {
