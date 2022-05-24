@@ -10,8 +10,8 @@
     <meta name="author" content="Ambra Hovenier, Esmay Wissink, Nick van de Polder, Evy Kuenen">
     <title>BLAST</title>
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/cover/">
-    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="cover.css" rel="stylesheet">
+    <link href="../static/bootstrap.min.css" rel="stylesheet">
+    <link href="../static/cover.css" rel="stylesheet">
   </head>
 
 
@@ -22,10 +22,10 @@
     <div>
       <h3 class="float-md-start mb-0">BLAST</h3>
       <nav class="nav nav-masthead justify-content-center float-md-end">
-        <a class="nav-link"  href="index.html">Home</a>
-        <a class="nav-link" href="graphs.html">Graphs</a>
-        <a class="nav-link active" aria-current="page" href="table.html">Table</a>
-        <a class="nav-link" href="learnmore.html">Learn more</a>
+        <a class="nav-link"  href="{{ url_for('index') }}">Home</a>
+        <a class="nav-link" href="{{ url_for('graphs') }}">Graphs</a>
+        <a class="nav-link active" aria-current="page" href="{{ url_for('table') }}">Table</a>
+        <a class="nav-link" href="{{ url_for('learn_more') }}">Learn more</a>
       </nav>
     </div>
   </header>
@@ -96,7 +96,7 @@
           <td>x[5]</td>
           <td>x[6]</td>
         </tr>
-        {% andfor %}
+        {% endfor %}
       </table>
     </td>
 

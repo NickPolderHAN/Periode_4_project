@@ -5,8 +5,8 @@
     <meta name="author" content="Ambra Hovenier, Esmay Wissink, Nick van de Polder, Evy Kuenen">
     <title>BLAST</title>
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/cover/">
-    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="cover.css" rel="stylesheet">
+    <link href="../static/bootstrap.min.css" rel="stylesheet">
+    <link href="../static/cover.css" rel="stylesheet">
   </head>
 
 
@@ -17,10 +17,10 @@
     <div>
       <h3 class="float-md-start mb-0">BLAST</h3>
         <nav class="nav nav-masthead justify-content-center float-md-end">
-        <a class="nav-link" href="index.html">Home</a>
-        <a class="nav-link" href="graphs.html">Graphs</a>
-        <a class="nav-link" href="table.html">Table</a>
-        <a class="nav-link active" aria-current="page" href="learnmore.html">Learn more</a>
+        <a class="nav-link" href="{{ url_for('index') }}">Home</a>
+        <a class="nav-link" href="{{ url_for('graphs') }}">Graphs</a>
+        <a class="nav-link" href="{{ url_for('table') }}">Table</a>
+        <a class="nav-link active" aria-current="page" href="{{ url_for('learn_more') }}">Learn more</a>
       </nav>
     </div>
   </header>
@@ -29,7 +29,7 @@
     <h1>Centrale opdracht</h1>
     <p class="lead">De champignon (Agaricus bisporus) is een schimmel uit de familie Agaricaceae. Bij de productie van champignons wordt speciale compost gebruikt die bestaat uit een mengsel van onder andere paardenmest, kippenmest, stro en gips. Voordat de compost geschikt is voor gebruik ondergaat het verschillende behandelingen. Het bereidingsproces van de compost is er op gericht om een optimale voedingsbodem (o.a. suikers) voor de champignon teelt te verkrijgen en om groei van ongewenste micro-organismen te voorkomen.</p>
     <div class = 'figure'>
-      <p><img src="plaatjes/champion.jpg" alt="champion" width = '90%' ></p>
+      <p><img src="{{ url_for('static',filename='champion.jpg') }}" alt="champion" width = '90%' ></p>
       <p><b>Figuur 1: Champignonteelt.</b> In fase 1 worden de verschillende grondstoffen (paardenmest, stro, kippenmest en gips) gemengd en bevochtigd. Fase 2 vindt plaats in speciale tunnels waarin een pasteurisatie stap (ca. 60 °C) plaatsvindt om ongewenste organismen af te doden. Vervolgens wordt de compost geënt met het mycelium van de champignon (Agaricus bisporus)en doorgroeit het mycelium de compost in ruim 2 weken (fase 3). Nadat de compost is doorgroeid wordt deze bij de champignontelers gevuld in de teeltcellen en afgedekt met een laagje dekaarde, een mengsel van veen en koolzure kalk. De champignons ontstaan bovenop de dekaarde nadat het mycelium vanuit de compost de dekaarde heeft doorgroeit. De dekaarde zorgt ervoor dat de luchtvochtigheid en de temperatuur niet te veel schommelt. Na een oogstperiode van 2-3 weken wordt de resterende compost uit de teeltcellen gehaald en doet vervolgens dienst als bodemverbeteraar en meststof in de land- en tuinbouw.</p>
     </div>
     <br>
