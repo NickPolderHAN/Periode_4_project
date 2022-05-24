@@ -34,6 +34,6 @@ def gather_sequences_from_dict(excel_data_dict):
 
 if __name__ == '__main__':
     excel_data_dictionary = Extract_excel_data.main()
-    #sequence_dict = gather_sequences_from_dict(excel_data_dictionary)
-    # Blast_script.main(sequence_dict)
-    Scc.DatabaseInsert()
+    sequence_dict = gather_sequences_from_dict(excel_data_dictionary)
+    Blast_script.main(sequence_dict)
+    #Scc.DatabaseInsert()
