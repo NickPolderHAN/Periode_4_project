@@ -17,12 +17,14 @@ class DatabaseInsert:
 
         # contains all the sequences with their id.
         self.__seq_dict = {}
+        self.__seq_checker = []
 
         # used to check if a certain taxonomy is already present.
         self.__taxo_check = []
 
         # specifies the amount of files to be read (my_blast[num].xml)
         self.__file_amount = 98
+        self.__hit_counter = 1
 
         connect = mysql.connector.connect(host="145.74.104.145",
                                           user="pwtit",
@@ -109,7 +111,6 @@ class DatabaseInsert:
         hit_list = ["score", "e_val", "idpercentage", "organism",
                     "eiwit", "accessie_code", "positives", "seq_id"]
 
-        hit_counter = 1
         hd = self.__hit_dict
         for key in hd:
             for h_key in hd[key]:
@@ -120,12 +121,15 @@ class DatabaseInsert:
                             string = string.replace("[", "")
                             string = string.replace("]", "")
 
+                            string = string.replace(",", "")
+
                             if i_key == "accessie_code":
                                 hit_string += "'"
                                 string += "'"
 
                             hit_string += string
                             hit_string += ", "
+
                         else:
                             lineage = hd[key][h_key]["lineage"][0]
                             rank = hd[key][h_key]["rank"][0]
@@ -133,16 +137,19 @@ class DatabaseInsert:
                                 self.__taxo_check.append(lineage)
                                 index = len(self.__taxo_check)
 
-                                taxo_string += str(index) + ", "
-                                taxo_string += lineage + ", "
-                                taxo_string += rank + ")"
+                                taxo_string += str(index) + ", '"
+                                taxo_string += lineage + "'" + ", '"
+                                taxo_string += rank + "'" + ");"
 
+                                # taxo_id
                                 hit_string += str(index)
                                 hit_string += ", "
+                                # seq_id
                                 hit_string += str(hd[key][h_key][i_key])
                                 hit_string += ", "
 
-                                seq = hd[key][h_key]["seq"]
+                                seq = "'"
+                                seq += hd[key][h_key]["seq"] + "'"
                                 seq_string += str(hd[key][h_key][i_key])
                                 seq_string += ", " + seq
                                 seq_string += ", "
@@ -156,15 +163,18 @@ class DatabaseInsert:
                                 hit_string += str(hd[key][h_key][i_key])
                                 hit_string += ", "
 
-                                seq = hd[key][h_key]["seq"]
+                                seq = "'"
+                                seq += hd[key][h_key]["seq"] + "'"
                                 seq_string += str(hd[key][h_key][i_key])
                                 seq_string += ", " + seq
                                 seq_string += ", "
                                 seq_string += \
                                     str(hd[key][h_key][i_key]) + ");"
 
-                hit_string += str(hit_counter) + ")"
+                # hit_id
+                hit_string += str(self.__hit_counter) + ");"
                 hit_full = hit_query + hit_string
+
                 seq_full = seq_query + seq_string
                 if taxo_string != "":
                     taxo_full = taxo_query + taxo_string
@@ -176,11 +186,15 @@ class DatabaseInsert:
                 hit_string = ""
                 taxo_string = ""
                 seq_string = ""
-                hit_counter += 1
+                self.__hit_counter += 1
 
     def execute_queries(self, hit_query, taxo_query, seq_query):
         print(hit_query)
-        self.__cursor.execute(hit_query)
-        self.__cursor.execute(seq_query)
+        if seq_query not in self.__seq_checker:
+            self.__seq_checker.append(seq_query)
+            self.__cursor.execute(seq_query)
+
         if taxo_query is not None:
             self.__cursor.execute(taxo_query)
+
+        self.__cursor.execute(hit_query)
