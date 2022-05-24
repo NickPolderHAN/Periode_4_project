@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_18045</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_18045</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>emb|CAG0983471.1|</Hit_id>
+  <Hit_def>hypothetical protein PHYC_01893 [Phycisphaerales bacterium]</Hit_def>
+  <Hit_accession>CAG0983471</Hit_accession>
+  <Hit_len>825</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.0258</Hsp_bit-score>
+      <Hsp_score>188</Hsp_score>
+      <Hsp_evalue>1.00376e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>582</Hsp_hit-from>
+      <Hsp_hit-to>648</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>VNAGYGFGRQEFVYYRVDGAANTVDGYQARFETTTITPIDLGDFQPGQIIIDTSGQGHETDTVLAIY</Hsp_qseq>
+      <Hsp_hseq>VNYWFGFGKNEAVYYKVAGAAATTGLYLATLETTPVVPTNLGDFQPGAITISTGGQGHTNDTHVRVY</Hsp_hseq>
+      <Hsp_midline>VN  +GFG+ E VYY+V GAA T   Y A  ETT + P +LGDFQPG I I T GQGH  DT + +Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|KAA0238031.1|</Hit_id>
+  <Hit_def>PEP-CTERM sorting domain-containing protein [Armatimonadetes bacterium] &gt;gb|NUM38473.1| PEP-CTERM sorting domain-containing protein [Armatimonadetes bacterium]</Hit_def>
+  <Hit_accession>KAA0238031</Hit_accession>
+  <Hit_len>333</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.2554</Hsp_bit-score>
+      <Hsp_score>186</Hsp_score>
+      <Hsp_evalue>1.0493e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>132</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>NAGYGFGRQEFVYYRVDGAANTVDGYQARFETTTITPIDLGDFQPGQIIIDTSGQGHETDTVLAIY</Hsp_qseq>
+      <Hsp_hseq>NQWYGFGKGESLYYRVAGQSSTTDEYRVRLETVAVTPMNLGSYMAGQIVISTMNQNHSTDTDLWVY</Hsp_hseq>
+      <Hsp_midline>N  YGFG+ E +YYRV G ++T D Y+ R ET  +TP++LG +  GQI+I T  Q H TDT L +Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|RIJ99938.1|</Hit_id>
+  <Hit_def>hypothetical protein DCC46_06410 [Armatimonadetes bacterium]</Hit_def>
+  <Hit_accession>RIJ99938</Hit_accession>
+  <Hit_len>333</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.2554</Hsp_bit-score>
+      <Hsp_score>186</Hsp_score>
+      <Hsp_evalue>1.19717e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>132</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>NAGYGFGRQEFVYYRVDGAANTVDGYQARFETTTITPIDLGDFQPGQIIIDTSGQGHETDTVLAIY</Hsp_qseq>
+      <Hsp_hseq>NQWYGFGKGESLYYRVAGQSSTTDEYRVRLETVAVTPMNLGSYMAGQIVISTMNQNHSTDTDLWVY</Hsp_hseq>
+      <Hsp_midline>N  YGFG+ E +YYRV G ++T D Y+ R ET  +TP++LG +  GQI+I T  Q H TDT L +Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|KXK14317.1|</Hit_id>
+  <Hit_def>hypothetical protein UZ18_ATM001001765 [Armatimonadetes bacterium OLB18] &gt;gb|NOG38714.1| PEP-CTERM sorting domain-containing protein [Armatimonadetes bacterium] &gt;dbj|BBO24744.1| conserved hypothetical protein [Candidatus Nitrosymbiomonas proteolyticus]</Hit_def>
+  <Hit_accession>KXK14317</Hit_accession>
+  <Hit_len>333</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.2554</Hsp_bit-score>
+      <Hsp_score>186</Hsp_score>
+      <Hsp_evalue>1.22169e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>132</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>NAGYGFGRQEFVYYRVDGAANTVDGYQARFETTTITPIDLGDFQPGQIIIDTSGQGHETDTVLAIY</Hsp_qseq>
+      <Hsp_hseq>NQWYGFGKGESLYYRVAGQSSTTDEYRVRLETVAVTPMNLGSYMAGQIVISTMNQNHSTDTDLWVY</Hsp_hseq>
+      <Hsp_midline>N  YGFG+ E +YYRV G ++T D Y+ R ET  +TP++LG +  GQI+I T  Q H TDT L +Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|MBV6490238.1|</Hit_id>
+  <Hit_def>hypothetical protein [Fimbriimonadaceae bacterium] &gt;gb|QOJ12832.1| PEP-CTERM sorting domain-containing protein [Chthonomonadaceae bacterium]</Hit_def>
+  <Hit_accession>MBV6490238</Hit_accession>
+  <Hit_len>333</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.2554</Hsp_bit-score>
+      <Hsp_score>186</Hsp_score>
+      <Hsp_evalue>1.23414e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>132</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>NAGYGFGRQEFVYYRVDGAANTVDGYQARFETTTITPIDLGDFQPGQIIIDTSGQGHETDTVLAIY</Hsp_qseq>
+      <Hsp_hseq>NQWYGFGKGESLYYRVAGQSSTTDEYRVRLETVAVTPMNLGSYMAGQIVISTMNQNHSTDTDLWVY</Hsp_hseq>
+      <Hsp_midline>N  YGFG+ E +YYRV G ++T D Y+ R ET  +TP++LG +  GQI+I T  Q H TDT L +Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|MBL1152054.1|</Hit_id>
+  <Hit_def>PEP-CTERM sorting domain-containing protein [Armatimonadetes bacterium]</Hit_def>
+  <Hit_accession>MBL1152054</Hit_accession>
+  <Hit_len>434</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.2554</Hsp_bit-score>
+      <Hsp_score>186</Hsp_score>
+      <Hsp_evalue>1.5209e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>233</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>NAGYGFGRQEFVYYRVDGAANTVDGYQARFETTTITPIDLGDFQPGQIIIDTSGQGHETDTVLAIY</Hsp_qseq>
+      <Hsp_hseq>NQWYGFGKGESLYYRVAGQSSTTDEYRVRLETVAVTPMNLGSYMAGQIVISTMNQNHSTDTDLWVY</Hsp_hseq>
+      <Hsp_midline>N  YGFG+ E +YYRV G ++T D Y+ R ET  +TP++LG +  GQI+I T  Q H TDT L +Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>tpg|HGV44084.1|</Hit_id>
+  <Hit_def>PEP-CTERM sorting domain-containing protein [Phycisphaerae bacterium]</Hit_def>
+  <Hit_accession>HGV44084</Hit_accession>
+  <Hit_len>342</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.559</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>1.22909e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>264</Hsp_query-to>
+      <Hsp_hit-from>115</Hsp_hit-from>
+      <Hsp_hit-to>202</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>PRAFQGCGFIGPEPGAGPRALVNAGYGFGRQEFVYYRVDGAANTVDGYQARFETTTITPIDLGDFQPGQIIIDTSGQGHETDTVLAIY</Hsp_qseq>
+      <Hsp_hseq>PGAFTTDSAVQTSSTATSPARMNQWYGFGKQERFVYRVSGTSTTTADYIATMETLPVTAVDIGNYQPGQIAITTFGQGHTSDTDMWVY</Hsp_hseq>
+      <Hsp_midline>P AF     +     A   A +N  YGFG+QE   YRV G + T   Y A  ET  +T +D+G++QPGQI I T GQGH +DT + +Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|MBL8858303.1|</Hit_id>
+  <Hit_def>hypothetical protein [Planctomycetes bacterium]</Hit_def>
+  <Hit_accession>MBL8858303</Hit_accession>
+  <Hit_len>730</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.0182</Hsp_bit-score>
+      <Hsp_score>175</Hsp_score>
+      <Hsp_evalue>5.32726e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>122</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>RALVNAGYGFGRQEFVYYRVDGAANTVDGYQARFETTTITPIDL-GDFQPGQIIIDTSGQGHETDTVLAIY</Hsp_qseq>
+      <Hsp_hseq>NAGVNKWYGFGKQEEIYYRVTGGAASTAQYAATLSTSTITPIVVAGLFNPGSITVSTQGQGHTTDTEIYLY</Hsp_hseq>
+      <Hsp_midline> A VN  YGFG+QE +YYRV G A +   Y A   T+TITPI + G F PG I + T GQGH TDT + +Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|MBX3403122.1|</Hit_id>
+  <Hit_def>PEP-CTERM sorting domain-containing protein [Phycisphaeraceae bacterium] &gt;gb|MBX3407271.1| PEP-CTERM sorting domain-containing protein [Phycisphaeraceae bacterium]</Hit_def>
+  <Hit_accession>MBX3403122</Hit_accession>
+  <Hit_len>339</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.2478</Hsp_bit-score>
+      <Hsp_score>173</Hsp_score>
+      <Hsp_evalue>6.6101e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>AGPRALVNAGYGFGRQEFVYYRVDGAANTVDGYQARFETTTITPIDLGDFQPGQIIIDTSGQGHETDTVLAIY</Hsp_qseq>
+      <Hsp_hseq>AGTASRENAWYSFGHAYSLNYRVSGTASTTADYSVAFERTVVTPISAGTFQPGAITINSNGQGHTTDTDMWVY</Hsp_hseq>
+      <Hsp_midline>AG  +  NA Y FG    + YRV G A+T   Y   FE T +TPI  G FQPG I I+++GQGH TDT + +Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>dbj|GJQ28733.1|</Hit_id>
+  <Hit_def>hypothetical protein HBSAPP03_06170 [Phycisphaerae bacterium]</Hit_def>
+  <Hit_accession>GJQ28733</Hit_accession>
+  <Hit_len>342</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.0922</Hsp_bit-score>
+      <Hsp_score>170</Hsp_score>
+      <Hsp_evalue>1.97926e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>NAGYGFGRQEFVYYRVDGAANTVDGYQARFETTTITPIDLGDFQPGQIIIDTSGQGHETDTVLAIY</Hsp_qseq>
+      <Hsp_hseq>NQWYGFGQGERFYYRVAGTASTTADYVATLTTSVVTPTFIGSYQPGQISITTFGQGHSTDTDLWVY</Hsp_hseq>
+      <Hsp_midline>N  YGFG+ E  YYRV G A+T   Y A   T+ +TP  +G +QPGQI I T GQGH TDT L +Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469534606</Statistics_db-num>
+      <Statistics_db-len>1070605227</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

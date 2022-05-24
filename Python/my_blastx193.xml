@@ -1,0 +1,322 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_26807</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_26807</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|MBX6386841.1|</Hit_id>
+  <Hit_def>class I SAM-dependent methyltransferase [Microbispora sp.]</Hit_def>
+  <Hit_accession>MBX6386841</Hit_accession>
+  <Hit_len>299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.961</Hsp_bit-score>
+      <Hsp_score>341</Hsp_score>
+      <Hsp_evalue>1.36352e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>273</Hsp_query-to>
+      <Hsp_hit-from>155</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>VLPGLDGGFDYVFTCPPYHNLERYSDDPADLSAMGWEEFLVVLGDIVAAALDLLAPDRFATWGGGDLRANPG*LRRLPGPMHTRPAGRRAR</Hsp_qseq>
+      <Hsp_hseq>VLPDLDGGFDYVFSCPPYHNLERYSDDPADLSAMGWEEFLGALGGIVAAALDLLAPDRFATWVVGDLRDNHGYLRRLPSRVDTMHEAAGAR</Hsp_hseq>
+      <Hsp_midline>VLP LDGGFDYVF+CPPYHNLERYSDDPADLSAMGWEEFL  LG IVAAALDLLAPDRFATW  GDLR N G LRRLP  + T      AR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_046928292.1|</Hit_id>
+  <Hit_def>class I SAM-dependent methyltransferase [Streptomyces lydicus] &gt;gb|AJT67427.1| hypothetical protein T261_5811 [Streptomyces lydicus]</Hit_def>
+  <Hit_accession>WP_046928292</Hit_accession>
+  <Hit_len>309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.2857</Hsp_bit-score>
+      <Hsp_score>238</Hsp_score>
+      <Hsp_evalue>2.93142e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>231</Hsp_query-to>
+      <Hsp_hit-from>163</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>VLPGLD-GGFDYVFTCPPYHNLERYSDDPADLSAMGWEEFLVVLGDIVAAALDLLAPDRFATWGGGDLRANPG*LRRL</Hsp_qseq>
+      <Hsp_hseq>VLPDLEEGAYDYVFTCPPYHNLEKYSDHPADLSAMRWKEFAEVYREIIAASVRCLAEDRFATWVVGEVRNSLGMIRGL</Hsp_hseq>
+      <Hsp_midline>VLP L+ G +DYVFTCPPYHNLE+YSD PADLSAM W+EF  V  +I+AA++  LA DRFATW  G++R + G +R L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_100601401.1|</Hit_id>
+  <Hit_def>class I SAM-dependent methyltransferase [Streptomyces sp. CB02959] &gt;gb|PJN40737.1| chromosome partitioning protein ParB [Streptomyces sp. CB02959]</Hit_def>
+  <Hit_accession>WP_100601401</Hit_accession>
+  <Hit_len>309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.2857</Hsp_bit-score>
+      <Hsp_score>238</Hsp_score>
+      <Hsp_evalue>3.29003e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>231</Hsp_query-to>
+      <Hsp_hit-from>163</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>VLPGLD-GGFDYVFTCPPYHNLERYSDDPADLSAMGWEEFLVVLGDIVAAALDLLAPDRFATWGGGDLRANPG*LRRL</Hsp_qseq>
+      <Hsp_hseq>VLPELEEGAYDYVFTCPPYHNLEKYSDHPADLSAMRWKEFAQAYQEIIAASVRCLAEDRFATWVVGEVRNSLGMIRGL</Hsp_hseq>
+      <Hsp_midline>VLP L+ G +DYVFTCPPYHNLE+YSD PADLSAM W+EF     +I+AA++  LA DRFATW  G++R + G +R L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_017602195.1|</Hit_id>
+  <Hit_def>RsmD family RNA methyltransferase [Nocardiopsis lucentensis]</Hit_def>
+  <Hit_accession>WP_017602195</Hit_accession>
+  <Hit_len>301</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.8189</Hsp_bit-score>
+      <Hsp_score>229</Hsp_score>
+      <Hsp_evalue>5.57205e-20</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>158</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>VLPGLDGGF-DYVFTCPPYHNLERYSDDPADLSAMGWEEFLVVLGDIVAAALDLLAPDRFATWGGGDLRANPG*LRRLPGPM</Hsp_qseq>
+      <Hsp_hseq>ALPCYQTGWADYIFTCPPYHGLERYSDDPRDLSAMDWDEYLHMVNLIAAECARILKQDRFTTWITGDLRDKNGHLRRLPSKV</Hsp_hseq>
+      <Hsp_midline> LP    G+ DY+FTCPPYH LERYSDDP DLSAM W+E+L ++  I A    +L  DRF TW  GDLR   G LRRLP  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_037866935.1|</Hit_id>
+  <Hit_def>MULTISPECIES: class I SAM-dependent methyltransferase [Streptomyces]</Hit_def>
+  <Hit_accession>WP_037866935</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.2781</Hsp_bit-score>
+      <Hsp_score>225</Hsp_score>
+      <Hsp_evalue>1.82065e-19</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>231</Hsp_query-to>
+      <Hsp_hit-from>157</Hsp_hit-from>
+      <Hsp_hit-to>234</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>VLPGLD-GGFDYVFTCPPYHNLERYSDDPADLSAMGWEEFLVVLGDIVAAALDLLAPDRFATWGGGDLRANPG*LRRL</Hsp_qseq>
+      <Hsp_hseq>VLPGLDDGAYDYVFTCPPYHCLERYSDHPADLSAMRWRTFSQTYSRIIAESVRCLADHSFATWVVGEIRNSTGTLRSL</Hsp_hseq>
+      <Hsp_midline>VLPGLD G +DYVFTCPPYH LERYSD PADLSAM W  F      I+A ++  LA   FATW  G++R + G LR L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|MYT30482.1|</Hit_id>
+  <Hit_def>class I SAM-dependent methyltransferase [Streptomyces sp. SID8354]</Hit_def>
+  <Hit_accession>MYT30482</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.0409</Hsp_bit-score>
+      <Hsp_score>214</Hsp_score>
+      <Hsp_evalue>7.99989e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>231</Hsp_query-to>
+      <Hsp_hit-from>152</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>VLPGL-DGGFDYVFTCPPYHNLERYSDDPADLSAMGWEEFLVVLGDIVAAALDLLAPDRFATWGGGDLRANPG*LRRL</Hsp_qseq>
+      <Hsp_hseq>VLPDFATGAYDYVMTCPPYHNLEKYSDHPADLSAMRWKEFTEAYREIIADSVRCLAEDSFATWVVGEVRNSAGIIRGL</Hsp_hseq>
+      <Hsp_midline>VLP    G +DYV TCPPYHNLE+YSD PADLSAM W+EF     +I+A ++  LA D FATW  G++R + G +R L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_235094187.1|</Hit_id>
+  <Hit_def>class I SAM-dependent methyltransferase [Streptomyces sp. A1-5] &gt;gb|UJB43593.1| class I SAM-dependent methyltransferase [Streptomyces sp. A1-5]</Hit_def>
+  <Hit_accession>WP_235094187</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.0409</Hsp_bit-score>
+      <Hsp_score>214</Hsp_score>
+      <Hsp_evalue>9.24178e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>231</Hsp_query-to>
+      <Hsp_hit-from>159</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>VLPGLDGG-FDYVFTCPPYHNLERYSDDPADLSAMGWEEFLVVLGDIVAAALDLLAPDRFATWGGGDLRANPG*LRRL</Hsp_qseq>
+      <Hsp_hseq>VLSSLPGGDFDYVFTCPPYHNLERYSDHPADLSAMRWSAFEEAYRQIIAESVRCLADDSFCTWVVGEVRGSNGMLRGL</Hsp_hseq>
+      <Hsp_midline>VL  L GG FDYVFTCPPYHNLERYSD PADLSAM W  F      I+A ++  LA D F TW  G++R + G LR L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_018542081.1|</Hit_id>
+  <Hit_def>MULTISPECIES: class I SAM-dependent methyltransferase [unclassified Streptomyces]</Hit_def>
+  <Hit_accession>WP_018542081</Hit_accession>
+  <Hit_len>312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.0409</Hsp_bit-score>
+      <Hsp_score>214</Hsp_score>
+      <Hsp_evalue>1.03688e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>231</Hsp_query-to>
+      <Hsp_hit-from>166</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>VLPGL-DGGFDYVFTCPPYHNLERYSDDPADLSAMGWEEFLVVLGDIVAAALDLLAPDRFATWGGGDLRANPG*LRRL</Hsp_qseq>
+      <Hsp_hseq>VLPDFATGAYDYVMTCPPYHNLEKYSDHPADLSAMRWKEFTEAYREIIADSVRCLAEDSFATWVVGEVRNSAGIIRGL</Hsp_hseq>
+      <Hsp_midline>VLP    G +DYV TCPPYHNLE+YSD PADLSAM W+EF     +I+A ++  LA D FATW  G++R + G +R L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_057236829.1|</Hit_id>
+  <Hit_def>MULTISPECIES: class I SAM-dependent methyltransferase [unclassified Kitasatospora] &gt;gb|KQV12514.1| chromosome partitioning protein ParB [Kitasatospora sp. Root107] &gt;gb|KRB73626.1| chromosome partitioning protein ParB [Kitasatospora sp. Root187]</Hit_def>
+  <Hit_accession>WP_057236829</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>84.3445</Hsp_bit-score>
+      <Hsp_score>207</Hsp_score>
+      <Hsp_evalue>3.88142e-17</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>231</Hsp_query-to>
+      <Hsp_hit-from>158</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>DGGFDYVFTCPPYHNLERYSDDPADLSAMGWEEFLVVLGDIVAAALDLLAPDRFATWGGGDLRANPG*LRRL</Hsp_qseq>
+      <Hsp_hseq>DGSADYVFTCPPYHSLERYSQDPADLSNMSWDAFTEAYSEVIRESVRCLANDRFTTWVVGEVRGSTGRLRGL</Hsp_hseq>
+      <Hsp_midline>DG  DYVFTCPPYH+LERYS DPADLS M W+ F     +++  ++  LA DRF TW  G++R + G LR L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_166345067.1|</Hit_id>
+  <Hit_def>class I SAM-dependent methyltransferase [Phytoactinopolyspora limicola]</Hit_def>
+  <Hit_accession>WP_166345067</Hit_accession>
+  <Hit_len>315</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.1149</Hsp_bit-score>
+      <Hsp_score>209</Hsp_score>
+      <Hsp_evalue>4.17272e-17</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>164</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>DGGFDYVFTCPPYHNLERYSDDPADLSAMGWEEFLVVLGDIVAAALDLLAPDRFATWGGGDLRANPG*LRRLP</Hsp_qseq>
+      <Hsp_hseq>DGSYDYVLTCPPYHSAERYSGDPRDLSAMSWADHLDAVAETARQLFRVLAEDRFATWVTGDLRDTSGHLRCLP</Hsp_hseq>
+      <Hsp_midline>DG +DYV TCPPYH+ ERYS DP DLSAM W + L  + +       +LA DRFATW  GDLR   G LR LP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469534606</Statistics_db-num>
+      <Statistics_db-len>1070605227</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

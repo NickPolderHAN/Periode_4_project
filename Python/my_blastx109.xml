@@ -1,0 +1,237 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_42075</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_42075</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_235996616.1|</Hit_id>
+  <Hit_def>antibiotic biosynthesis monooxygenase [Pseudoxanthomonas beigongshangi] &gt;gb|MBB3276256.1| quinol monooxygenase YgiN [Pseudoxanthomonas sp. OG2] &gt;gb|UBB25116.1| antibiotic biosynthesis monooxygenase [Pseudoxanthomonas japonensis]</Hit_def>
+  <Hit_accession>WP_235996616</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.177616</Hsp_evalue>
+      <Hsp_query-from>201</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>47</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>VVSSTFPTDLRRRKAMYGLIGKLKAVTGQREA</Hsp_qseq>
+      <Hsp_hseq>LVSARLPAHIHGEPPMYGLIGKMKAVGGQREA</Hsp_hseq>
+      <Hsp_midline>+VS+  P  +     MYGLIGK+KAV GQREA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_225562372.1|</Hit_id>
+  <Hit_def>antibiotic biosynthesis monooxygenase [Pseudoxanthomonas sp. PXM04]</Hit_def>
+  <Hit_accession>WP_225562372</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.221107</Hsp_evalue>
+      <Hsp_query-from>201</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>47</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>VVSSTFPTDLRRRKAMYGLIGKLKAVTGQREA</Hsp_qseq>
+      <Hsp_hseq>LVSARLPAHIHGETPMYGLIGKMKAVGGQREA</Hsp_hseq>
+      <Hsp_midline>+VS+  P  +     MYGLIGK+KAV GQREA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>emb|VDP76134.1|</Hit_id>
+  <Hit_def>unnamed protein product [Echinostoma caproni]</Hit_def>
+  <Hit_accession>VDP76134</Hit_accession>
+  <Hit_len>988</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>1.08959</Hsp_evalue>
+      <Hsp_query-from>54</Hsp_query-from>
+      <Hsp_query-to>278</Hsp_query-to>
+      <Hsp_hit-from>612</Hsp_hit-from>
+      <Hsp_hit-to>688</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>HCFQLADQPIHRLPPSQISRKRAAHYVSSVGSQARPLVLTVSRMCATLVIAP*SVSGDGRTS--TPVRRALSKRAKS</Hsp_qseq>
+      <Hsp_hseq>NCLNLADKATRRKFISSVACQNSLFYAWSHGTQASPFVFTVTLFCPLLLLSDRFVEFDDKRNIGSGVRRVMDERRPS</Hsp_hseq>
+      <Hsp_midline>+C  LAD+   R   S ++ + +  Y  S G+QA P V TV+  C  L+++   V  D + +  + VRR + +R  S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|KAG4414873.1|</Hit_id>
+  <Hit_def>hypothetical protein IFR04_012011 [Cadophora malorum]</Hit_def>
+  <Hit_accession>KAG4414873</Hit_accession>
+  <Hit_len>718</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>1.81043</Hsp_evalue>
+      <Hsp_query-from>48</Hsp_query-from>
+      <Hsp_query-to>281</Hsp_query-to>
+      <Hsp_hit-from>616</Hsp_hit-from>
+      <Hsp_hit-to>686</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>GSTFGALAQGSTNGRASSTVSGYALRCDHQSGTHARHS*D*GPRLRAHGRDVVSSTFPTDLRRRKAMYGLIGKLKAVT</Hsp_qseq>
+      <Hsp_hseq>GSSFGPLASPSTSPTAPRTVWGTALVAPASPETHAQH-------VEHDGDDGWLSSWEQELRAENAQNDLIAQVQAAS</Hsp_hseq>
+      <Hsp_midline>GS+FG LA  ST+  A  TV G AL       THA+H       +   G D   S++  +LR   A   LI +++A +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|PVH71478.1|</Hit_id>
+  <Hit_def>hypothetical protein DL98DRAFT_521024 [Cadophora sp. DSE1049]</Hit_def>
+  <Hit_accession>PVH71478</Hit_accession>
+  <Hit_len>718</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>2.22134</Hsp_evalue>
+      <Hsp_query-from>48</Hsp_query-from>
+      <Hsp_query-to>281</Hsp_query-to>
+      <Hsp_hit-from>616</Hsp_hit-from>
+      <Hsp_hit-to>686</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>GSTFGALAQGSTNGRASSTVSGYALRCDHQSGTHARHS*D*GPRLRAHGRDVVSSTFPTDLRRRKAMYGLIGKLKAVT</Hsp_qseq>
+      <Hsp_hseq>GSSFGPLASPSTSPTAPRTVWGTALVAPASPETHAQ-------RVEQDGDDGWLSSWEQELRAENAQNDLIAQVQAAS</Hsp_hseq>
+      <Hsp_midline>GS+FG LA  ST+  A  TV G AL       THA+       R+   G D   S++  +LR   A   LI +++A +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|KAH7420260.1|</Hit_id>
+  <Hit_def>hypothetical protein BKA64DRAFT_37237 [Leotiomycetes sp. MPI-SDFR-AT-0126]</Hit_def>
+  <Hit_accession>KAH7420260</Hit_accession>
+  <Hit_len>719</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>3.12396</Hsp_evalue>
+      <Hsp_query-from>48</Hsp_query-from>
+      <Hsp_query-to>281</Hsp_query-to>
+      <Hsp_hit-from>617</Hsp_hit-from>
+      <Hsp_hit-to>687</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>GSTFGALAQGSTNGRASSTVSGYALRCDHQSGTHARHS*D*GPRLRAHGRDVVSSTFPTDLRRRKAMYGLIGKLKAVT</Hsp_qseq>
+      <Hsp_hseq>GSSFGPLASPSTSPTAPRTVWGTALVAPASPETHAE-------RVEQDGDDGWLSSWEQELRAENAQNDLIAQVQAAS</Hsp_hseq>
+      <Hsp_midline>GS+FG LA  ST+  A  TV G AL       THA        R+   G D   S++  +LR   A   LI +++A +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|KAH6713447.1|</Hit_id>
+  <Hit_def>hypothetical protein BKA61DRAFT_74906 [Leptodontidium sp. MPI-SDFR-AT-0119]</Hit_def>
+  <Hit_accession>KAH6713447</Hit_accession>
+  <Hit_len>729</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>5.34236</Hsp_evalue>
+      <Hsp_query-from>48</Hsp_query-from>
+      <Hsp_query-to>281</Hsp_query-to>
+      <Hsp_hit-from>627</Hsp_hit-from>
+      <Hsp_hit-to>697</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>GSTFGALAQGSTNGRASSTVSGYALRCDHQSGTHARHS*D*GPRLRAHGRDVVSSTFPTDLRRRKAMYGLIGKLKAVT</Hsp_qseq>
+      <Hsp_hseq>GSAFGPLASPSTSPTAPRTVWGTALVAPASPETHAQH-------VDHDGDDGWLSSWEQELRAENAQNDLIAQVQAAS</Hsp_hseq>
+      <Hsp_midline>GS FG LA  ST+  A  TV G AL       THA+H       +   G D   S++  +LR   A   LI +++A +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469534606</Statistics_db-num>
+      <Statistics_db-len>1070605227</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_59387</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_59387</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|MCA9587092.1|</Hit_id>
+  <Hit_def>DEAD/DEAH box helicase [Myxococcales bacterium]</Hit_def>
+  <Hit_accession>MCA9587092</Hit_accession>
+  <Hit_len>2157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.0485</Hsp_bit-score>
+      <Hsp_score>227</Hsp_score>
+      <Hsp_evalue>4.86318e-19</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>PYLRLRLPFAPKPPDATVPLEIRPSYDPYLPQPHACRRPSSRAHVPQPTLLPPRPGTGKRECFPYPLLDDRHRALARGDAGIKPIAPAAQRALPRDHRRR</Hsp_qseq>
+      <Hsp_hseq>PYLKIGLPFASAPEGAAMPLEILPPYAPHLHQLEAWQRLSSRARTPQATLITTGTGSGKTECFLYPVLDHAYREHAAGKAGIKAIILYPMNALASDQAQR</Hsp_hseq>
+      <Hsp_midline>PYL++ LPFA  P  A +PLEI P Y P+L Q  A +R SSRA  PQ TL+    G+GK ECF YP+LD  +R  A G AGIK I      AL  D  +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|MBP8760760.1|</Hit_id>
+  <Hit_def>DEAD/DEAH box helicase [Parabacteroides sp.]</Hit_def>
+  <Hit_accession>MBP8760760</Hit_accession>
+  <Hit_len>2082</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>84.7297</Hsp_bit-score>
+      <Hsp_score>208</Hsp_score>
+      <Hsp_evalue>1.77743e-16</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>PYLRLRLPFAPKPPDATVPLEIRPSYDPYLPQPHACRRPSSR-AHVPQPTLLPPRPGTGKRECFPYPLLDDRHRALARGDAGIKPIAPAAQRALPRDHRRR</Hsp_qseq>
+      <Hsp_hseq>PYVSLKTPFVVAETDTDIPLEIKPSFTPYVHQLRSFERLSARKGHIPQPTLLTTGTGSGKTECFLYPVLDYCYK--NRDRKGIKVIILYPMNALASDQAKR</Hsp_hseq>
+      <Hsp_midline>PY+ L+ PF     D  +PLEI+PS+ PY+ Q  +  R S+R  H+PQPTLL    G+GK ECF YP+LD  ++   R   GIK I      AL  D  +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|KYF78234.1|</Hit_id>
+  <Hit_def>hypothetical protein BE11_12325 [Sorangium cellulosum]</Hit_def>
+  <Hit_accession>KYF78234</Hit_accession>
+  <Hit_len>2150</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.9593</Hsp_bit-score>
+      <Hsp_score>206</Hsp_score>
+      <Hsp_evalue>3.65294e-16</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>PYLRLRLPFAPKPPDATVPLEIRPSYDPYLPQPHACRRPSSR-AHVPQPTLLPPRPGTGKRECFPYPLLDDRHRALARGDAGIKPIAPAAQRALPRDHRRR</Hsp_qseq>
+      <Hsp_hseq>PWVRLGLPFALAPEGADIPLDVKPPYRPYLHQLLAWQRLSSRNGHEPEATLVTTGTGSGKTECFLYPILDHALRSLNRREKGIQAILLYPMNALAADQARR</Hsp_hseq>
+      <Hsp_midline>P++RL LPFA  P  A +PL+++P Y PYL Q  A +R SSR  H P+ TL+    G+GK ECF YP+LD   R+L R + GI+ I      AL  D  RR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|MBL9023088.1|</Hit_id>
+  <Hit_def>DEAD/DEAH box helicase [Myxococcales bacterium]</Hit_def>
+  <Hit_accession>MBL9023088</Hit_accession>
+  <Hit_len>2134</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.2629</Hsp_bit-score>
+      <Hsp_score>199</Hsp_score>
+      <Hsp_evalue>3.55618e-15</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>PYLRLRLPFAPKPPDATVPLEIRPSYDPYLPQPHACRRPSSRAHVPQPTLLPPRPGTGKRECFPYPLLDDRHRALARGDAGIKPIAPAAQRALPRDHRRR</Hsp_qseq>
+      <Hsp_hseq>PYLRVGLPFAQAPEGVRLPLDVAPSYRPHLHQLTAWQRLSSRGQEPRATLITTGTGSGKTECFLFPLLDHALREAQAGRGGIKAIVLYPMNALAGDQAGR</Hsp_hseq>
+      <Hsp_midline>PYLR+ LPFA  P    +PL++ PSY P+L Q  A +R SSR   P+ TL+    G+GK ECF +PLLD   R    G  GIK I      AL  D   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|MBL4771894.1|</Hit_id>
+  <Hit_def>DEAD/DEAH box helicase [Planctomycetes bacterium]</Hit_def>
+  <Hit_accession>MBL4771894</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.1814</Hsp_bit-score>
+      <Hsp_score>191</Hsp_score>
+      <Hsp_evalue>6.34634e-15</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>PYLRLRLPFAPKPPDATVPLEIRPSYDPYLPQPHACRRP-SSRAHVPQPTLLPPRPGTGKRECFPYPLLDDRHRALARGDAGIKPIAPAAQRALPRDHRRR</Hsp_qseq>
+      <Hsp_hseq>PYLDVRLPFRQVVDGAKIPLDVRPGFTPYRHQMRSFQRLHSMRGHQPQHTLVTTGTGSGKTECFLYPVLDHCLRERAKGRKGIKAILLYPMNALATDQARR</Hsp_hseq>
+      <Hsp_midline>PYL +RLPF      A +PL++RP + PY  Q  + +R  S R H PQ TL+    G+GK ECF YP+LD   R  A+G  GIK I      AL  D  RR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|MBT4090466.1|</Hit_id>
+  <Hit_def>DEAD/DEAH box helicase [Deltaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>MBT4090466</Hit_accession>
+  <Hit_len>2064</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.1073</Hsp_bit-score>
+      <Hsp_score>196</Hsp_score>
+      <Hsp_evalue>7.44247e-15</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>PYLRLRLPFAPKPPDATVPLEIRPSYDPYLPQPHACRRPSSRA-HVPQPTLLPPRPGTGKRECFPYPLLDDRHRALARGDAGIKPIAPAAQRALPRDHRRR</Hsp_qseq>
+      <Hsp_hseq>PYINLRLPFRKAPEDREIPLEIKPSFRPYVHQTQAFDRLSVRGDHQPEATIVTTGTGSGKTECFLYPVLDYCHT--HRRESGIKAIILYPMNALASDQAAR</Hsp_hseq>
+      <Hsp_midline>PY+ LRLPF   P D  +PLEI+PS+ PY+ Q  A  R S R  H P+ T++    G+GK ECF YP+LD  H    R ++GIK I      AL  D   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|MCD6532902.1|</Hit_id>
+  <Hit_def>DEAD/DEAH box helicase [Deltaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>MCD6532902</Hit_accession>
+  <Hit_len>363</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.9518</Hsp_bit-score>
+      <Hsp_score>193</Hsp_score>
+      <Hsp_evalue>1.39069e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>PYLRLRLPFAPKPPDATVPLEIRPSYDPYLPQPHACRRPSSRAHVPQPTLLPPRPGTGKRECFPYPLLDDRHRALARGDAGIKPIAPAAQRALPRDHRRR</Hsp_qseq>
+      <Hsp_hseq>PWIQLRRPFRPAPEGATFPLDINIPFHPFLHQYLSWKRLSSKNKKPESTIVTTGTGSGKTECFLYPILDHCLRAKEQGQKGIKAIILYPMNALAADQEKR</Hsp_hseq>
+      <Hsp_midline>P+++LR PF P P  AT PL+I   + P+L Q  + +R SS+   P+ T++    G+GK ECF YP+LD   RA  +G  GIK I      AL  D  +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|MCD6224771.1|</Hit_id>
+  <Hit_def>DEAD/DEAH box helicase [Deltaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>MCD6224771</Hit_accession>
+  <Hit_len>259</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.411</Hsp_bit-score>
+      <Hsp_score>189</Hsp_score>
+      <Hsp_evalue>1.89071e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>PYLRLRLPFAPKPPDATVPLEIRPSYDPYLPQPHACRRPSSRAHVPQPTLLPPRPGTGKRECFPYPLLDDRHRALARGDAGIKPIAPAAQRALPRDHRRR</Hsp_qseq>
+      <Hsp_hseq>PWIQLRRPFRPAPEGASFPLDINIPFHPFLHQYLAWKRLSSKNRQPESTIITTGTGSGKTECFLYPILDHCLRARRQGQQGIKAIILYPMNALAADQEKR</Hsp_hseq>
+      <Hsp_midline>P+++LR PF P P  A+ PL+I   + P+L Q  A +R SS+   P+ T++    G+GK ECF YP+LD   RA  +G  GIK I      AL  D  +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|MBK8979633.1|</Hit_id>
+  <Hit_def>DEAD/DEAH box helicase [Planctomycetes bacterium]</Hit_def>
+  <Hit_accession>MBK8979633</Hit_accession>
+  <Hit_len>2114</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.9518</Hsp_bit-score>
+      <Hsp_score>193</Hsp_score>
+      <Hsp_evalue>2.27919e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>PYLRLRLPFAPKPPDATVPLEIRPSYDPYLPQPHACRRPSSR-AHVPQPTLLPPRPGTGKRECFPYPLLDDRHRALARGDAGIKPIAPAAQRALPRDHRRR</Hsp_qseq>
+      <Hsp_hseq>PFLDVRLPFQTAADHATIPLDIRPAFRPYRHQQRAFQRLYSKGGHQPQHTLVVTGTGSGKTECFLYPILD--HCWRSRGELGVKAILLYPMNALASDQARR</Hsp_hseq>
+      <Hsp_midline>P+L +RLPF      AT+PL+IRP++ PY  Q  A +R  S+  H PQ TL+    G+GK ECF YP+LD  H   +RG+ G+K I      AL  D  RR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|MCD6430534.1|</Hit_id>
+  <Hit_def>DEAD/DEAH box helicase [Deltaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>MCD6430534</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.2554</Hsp_bit-score>
+      <Hsp_score>186</Hsp_score>
+      <Hsp_evalue>3.01695e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>PYLRLRLPFAPKPPDATVPLEIRPSYDPYLPQPHACRRPSSRAHVPQPTLLPPRPGTGKRECFPYPLLDDRHRALARGDAGIKPIAPAAQRALPRDHRRR</Hsp_qseq>
+      <Hsp_hseq>PWIQLRRPFRPAPAGAVFPLDINIPFHPFLHQYLAWNRLSSKNRQPESTIITTGTGSGKTECFLYPILDHCLRARRQGQQGIKAIILYPMNALAADQEKR</Hsp_hseq>
+      <Hsp_midline>P+++LR PF P P  A  PL+I   + P+L Q  A  R SS+   P+ T++    G+GK ECF YP+LD   RA  +G  GIK I      AL  D  +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469534606</Statistics_db-num>
+      <Statistics_db-len>1070605227</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

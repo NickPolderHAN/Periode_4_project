@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_20805</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_20805</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|MBO2489953.1|</Hit_id>
+  <Hit_def>hypothetical protein [Gammaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>MBO2489953</Hit_accession>
+  <Hit_len>339</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.155</Hsp_bit-score>
+      <Hsp_score>409</Hsp_score>
+      <Hsp_evalue>2.49416e-46</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>152</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>PTLFVRVFGLQPAEVGGLLAVVGVPSGIVSALASGFIMAWLVKRGRLDAPLIMLLVQAIIWGTLGVAKSLAPSATTSVPLHPITPPAPHSACPAASPGL</Hsp_qseq>
+      <Hsp_hseq>PTLFVRVFGLQPAEVGGLLAVVGVPSGIVSALASGFIMAWLVKRGRLDAPLIMMLVQAIIWGTLGVAKSLAPSVTTSVALHLITSLSANFGLPAAFFGL</Hsp_hseq>
+      <Hsp_midline>PTLFVRVFGLQPAEVGGLLAVVGVPSGIVSALASGFIMAWLVKRGRLDAPLIM+LVQAIIWGTLGVAKSLAPS TTSV LH IT  + +   PAA  GL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|MBU3672273.1|</Hit_id>
+  <Hit_def>MFS transporter [Sinobacteraceae bacterium]</Hit_def>
+  <Hit_accession>MBU3672273</Hit_accession>
+  <Hit_len>456</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.4925</Hsp_bit-score>
+      <Hsp_score>197</Hsp_score>
+      <Hsp_evalue>5.69317e-15</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>285</Hsp_query-to>
+      <Hsp_hit-from>272</Hsp_hit-from>
+      <Hsp_hit-to>366</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>PTLFVRVFGLQPAEVGGLLAVVGVPSGIVSALASGFIMAWLVKRGRLDAPLIMLLVQAIIWGTLGVAKSLAPSATTSVPLHPITPPAPHSACPAA</Hsp_qseq>
+      <Hsp_hseq>PTLFVRVYEWEPQRIALALAVVGVPFGIISAITAGYALTWLAKRGRKDGPILVMMLQCLAWAVFGTAKCFAPTPELALLGHVFTSLFATWAVTAA</Hsp_hseq>
+      <Hsp_midline>PTLFVRV+  +P  +   LAVVGVP GI+SA+ +G+ + WL KRGR D P++++++Q + W   G AK  AP+   ++  H  T      A  AA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|MCC6170672.1|</Hit_id>
+  <Hit_def>MFS transporter [Gammaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>MCC6170672</Hit_accession>
+  <Hit_len>447</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7221</Hsp_bit-score>
+      <Hsp_score>195</Hsp_score>
+      <Hsp_evalue>9.24667e-15</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>252</Hsp_query-to>
+      <Hsp_hit-from>263</Hsp_hit-from>
+      <Hsp_hit-to>346</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>PTLFVRVFGLQPAEVGGLLAVVGVPSGIVSALASGFIMAWLVKRGRLDAPLIMLLVQAIIWGTLGVAKSLAPSATTSVPLHPIT</Hsp_qseq>
+      <Hsp_hseq>PTLFFRVHEWTPARVGNALALVGVPFGLFSAITAGWVLSWLAKRGRDDGPVLVMGLQCVAWAVFGTAKSLAPTPQLALAGHVMT</Hsp_hseq>
+      <Hsp_midline>PTLF RV    PA VG  LA+VGVP G+ SA+ +G++++WL KRGR D P++++ +Q + W   G AKSLAP+   ++  H +T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|NDE00236.1|</Hit_id>
+  <Hit_def>MFS transporter [Gammaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>NDE00236</Hit_accession>
+  <Hit_len>477</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.1814</Hsp_bit-score>
+      <Hsp_score>191</Hsp_score>
+      <Hsp_evalue>3.49241e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>285</Hsp_query-to>
+      <Hsp_hit-from>293</Hsp_hit-from>
+      <Hsp_hit-to>387</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>PTLFVRVFGLQPAEVGGLLAVVGVPSGIVSALASGFIMAWLVKRGRLDAPLIMLLVQAIIWGTLGVAKSLAPSATTSVPLHPITPPAPHSACPAA</Hsp_qseq>
+      <Hsp_hseq>PTLFVRVHEWEPQRIALALAVVGVPFGIISAITAGYALTWLAKRGRKDGPILVMMLQCLAWAVFGTAKCFAPTPELALLGHVFTSLFATWAVTAA</Hsp_hseq>
+      <Hsp_midline>PTLFVRV   +P  +   LAVVGVP GI+SA+ +G+ + WL KRGR D P++++++Q + W   G AK  AP+   ++  H  T      A  AA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|NBS13033.1|</Hit_id>
+  <Hit_def>MFS transporter [Gammaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>NBS13033</Hit_accession>
+  <Hit_len>404</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.411</Hsp_bit-score>
+      <Hsp_score>189</Hsp_score>
+      <Hsp_evalue>5.75459e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>252</Hsp_query-to>
+      <Hsp_hit-from>220</Hsp_hit-from>
+      <Hsp_hit-to>303</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>PTLFVRVFGLQPAEVGGLLAVVGVPSGIVSALASGFIMAWLVKRGRLDAPLIMLLVQAIIWGTLGVAKSLAPSATTSVPLHPIT</Hsp_qseq>
+      <Hsp_hseq>PTLFVRVHEWEPKQIAMALALVGVPFGIVSAITAGWSLSWLAKRGREDGPILVMMLQCLAWAIFGTAKCLVPSPELALAGHICT</Hsp_hseq>
+      <Hsp_midline>PTLFVRV   +P ++   LA+VGVP GIVSA+ +G+ ++WL KRGR D P++++++Q + W   G AK L PS   ++  H  T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|MCE2714152.1|</Hit_id>
+  <Hit_def>hypothetical protein [Acidibacter sp.]</Hit_def>
+  <Hit_accession>MCE2714152</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.0998</Hsp_bit-score>
+      <Hsp_score>183</Hsp_score>
+      <Hsp_evalue>6.24429e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>219</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>PTLFVRVFGLQPAEVGGLLAVVGVPSGIVSALASGFIMAWLVKRGRLDAPLIMLLVQAIIWGTLGVAKSLAPS</Hsp_qseq>
+      <Hsp_hseq>PTLFVRVHEWEPTRIAMALALVGVPFGIISAITAGWSLTWLAKRGRTDGPILVMMLQCAAWAVFGTAKCLVPT</Hsp_hseq>
+      <Hsp_midline>PTLFVRV   +P  +   LA+VGVP GI+SA+ +G+ + WL KRGR D P++++++Q   W   G AK L P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|NBX45309.1|</Hit_id>
+  <Hit_def>MFS transporter [Gammaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>NBX45309</Hit_accession>
+  <Hit_len>424</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.411</Hsp_bit-score>
+      <Hsp_score>189</Hsp_score>
+      <Hsp_evalue>7.18781e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>252</Hsp_query-to>
+      <Hsp_hit-from>240</Hsp_hit-from>
+      <Hsp_hit-to>323</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>PTLFVRVFGLQPAEVGGLLAVVGVPSGIVSALASGFIMAWLVKRGRLDAPLIMLLVQAIIWGTLGVAKSLAPSATTSVPLHPIT</Hsp_qseq>
+      <Hsp_hseq>PTLFVRVHEWEPKQIAMALALVGVPFGIVSAITAGWSLSWLAKRGREDGPILVMMLQCLAWAIFGTAKCLVPSPELALAGHICT</Hsp_hseq>
+      <Hsp_midline>PTLFVRV   +P ++   LA+VGVP GIVSA+ +G+ ++WL KRGR D P++++++Q + W   G AK L PS   ++  H  T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|NDD73456.1|</Hit_id>
+  <Hit_def>MFS transporter [Gammaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>NDD73456</Hit_accession>
+  <Hit_len>449</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.0258</Hsp_bit-score>
+      <Hsp_score>188</Hsp_score>
+      <Hsp_evalue>8.39327e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>263</Hsp_hit-from>
+      <Hsp_hit-to>343</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>PTLFVRVFGLQPAEVGGLLAVVGVPSGIVSALASGFIMAWLVKRGRLDAPLIMLLVQAIIWGTLGVAKSLAPSATTSVPLH</Hsp_qseq>
+      <Hsp_hseq>PTLFVRVHGWEPARIALALSVVGVPFGIISAITAGWVLSALAKRGRTDGPILVMMLQCVAWVLFGTAKCFAPTPELALVLH</Hsp_hseq>
+      <Hsp_midline>PTLFVRV G +PA +   L+VVGVP GI+SA+ +G++++ L KRGR D P++++++Q + W   G AK  AP+   ++ LH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|MCB0765077.1|</Hit_id>
+  <Hit_def>MFS transporter [Flavobacteriales bacterium]</Hit_def>
+  <Hit_accession>MCB0765077</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.2554</Hsp_bit-score>
+      <Hsp_score>186</Hsp_score>
+      <Hsp_evalue>9.91106e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>252</Hsp_query-to>
+      <Hsp_hit-from>249</Hsp_hit-from>
+      <Hsp_hit-to>332</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>PTLFVRVFGLQPAEVGGLLAVVGVPSGIVSALASGFIMAWLVKRGRLDAPLIMLLVQAIIWGTLGVAKSLAPSATTSVPLHPIT</Hsp_qseq>
+      <Hsp_hseq>PTFFERTYGMPAAQVPKLLALVGVPCGLLSAVTAGWVLSWLAKRGRDDGPVLVIMLQLAVWLTFGTLKCFMPTPELALALHVVT</Hsp_hseq>
+      <Hsp_midline>PT F R +G+  A+V  LLA+VGVP G++SA+ +G++++WL KRGR D P++++++Q  +W T G  K   P+   ++ LH +T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|MBM4230739.1|</Hit_id>
+  <Hit_def>MFS transporter [Gammaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>MBM4230739</Hit_accession>
+  <Hit_len>444</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.485</Hsp_bit-score>
+      <Hsp_score>184</Hsp_score>
+      <Hsp_evalue>3.01409e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>252</Hsp_query-to>
+      <Hsp_hit-from>261</Hsp_hit-from>
+      <Hsp_hit-to>344</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>PTLFVRVFGLQPAEVGGLLAVVGVPSGIVSALASGFIMAWLVKRGRLDAPLIMLLVQAIIWGTLGVAKSLAPSATTSVPLHPIT</Hsp_qseq>
+      <Hsp_hseq>PTLFVRVHQWEPARIALALAVVGVPFGILSAITAGSALTWLAKRGREDGPVLVMMLQCTAWALFGTAKCLAPTPELALFGHVLT</Hsp_hseq>
+      <Hsp_midline>PTLFVRV   +PA +   LAVVGVP GI+SA+ +G  + WL KRGR D P++++++Q   W   G AK LAP+   ++  H +T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469534606</Statistics_db-num>
+      <Statistics_db-len>1070605227</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_48359</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_48359</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_068752906.1|</Hit_id>
+  <Hit_def>metal-sensitive transcriptional regulator [Thermobifida cellulosilytica] &gt;gb|KUP96060.1| CopY family transcriptional regulator [Thermobifida cellulosilytica TB100]</Hit_def>
+  <Hit_accession>WP_068752906</Hit_accession>
+  <Hit_len>95</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>175.637</Hsp_bit-score>
+      <Hsp_score>444</Hsp_score>
+      <Hsp_evalue>8.39894e-55</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>MAAYGYHGNKRRHLNRLRRIEGQVRGLQRMVEDDAYCIDILTQTSAVTKALRSFALSLLDEHLKHCVAHALADGGAEADAKVREASE</Hsp_qseq>
+      <Hsp_hseq>MAAYGYHDNKRRHLNRLRRIEGQVRGLQRMVEDDAYCIDILTQTSAVTKALRSFALSLLDEHLKHCVAHALADGGAEADAKVREASE</Hsp_hseq>
+      <Hsp_midline>MAAYGYH NKRRHLNRLRRIEGQVRGLQRMVEDDAYCIDILTQTSAVTKALRSFALSLLDEHLKHCVAHALADGGAEADAKVREASE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_068692576.1|</Hit_id>
+  <Hit_def>metal-sensitive transcriptional regulator [Thermobifida halotolerans] &gt;gb|UOE21807.1| metal-sensitive transcriptional regulator [Thermobifida halotolerans]</Hit_def>
+  <Hit_accession>WP_068692576</Hit_accession>
+  <Hit_len>95</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>169.474</Hsp_bit-score>
+      <Hsp_score>428</Hsp_score>
+      <Hsp_evalue>2.50212e-52</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>MAAYGYHGNKRRHLNRLRRIEGQVRGLQRMVEDDAYCIDILTQTSAVTKALRSFALSLLDEHLKHCVAHALADGGAEADAKVREASE</Hsp_qseq>
+      <Hsp_hseq>MAAYGYHDNKRQHLNRLRRIEGQVRGLQRMVEDDAYCIDVLTQTSAVNKALRSFALSLLDEHLKHCVAHALADGGAEADEKVREASE</Hsp_hseq>
+      <Hsp_midline>MAAYGYH NKR+HLNRLRRIEGQVRGLQRMVEDDAYCID+LTQTSAV KALRSFALSLLDEHLKHCVAHALADGGAEAD KVREASE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_248593715.1|</Hit_id>
+  <Hit_def>metal-sensitive transcriptional regulator [Thermobifida alba] &gt;gb|UPT23267.1| metal-sensitive transcriptional regulator [Thermobifida alba]</Hit_def>
+  <Hit_accession>WP_248593715</Hit_accession>
+  <Hit_len>95</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.851</Hsp_bit-score>
+      <Hsp_score>416</Hsp_score>
+      <Hsp_evalue>1.93137e-50</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>MAAYGYHGNKRRHLNRLRRIEGQVRGLQRMVEDDAYCIDILTQTSAVTKALRSFALSLLDEHLKHCVAHALADGGAEADAKVREASE</Hsp_qseq>
+      <Hsp_hseq>MAVYGYHDNKRQHLNRLRRIEGQVRGLQRMVEDDAYCIDVLTQTSAVNKALRSFALSLLDEHLKHCVAHALAHGGDEADAKVREASE</Hsp_hseq>
+      <Hsp_midline>MA YGYH NKR+HLNRLRRIEGQVRGLQRMVEDDAYCID+LTQTSAV KALRSFALSLLDEHLKHCVAHALA GG EADAKVREASE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_016188425.1|</Hit_id>
+  <Hit_def>metal-sensitive transcriptional regulator [Thermobifida fusca] &gt;gb|MBO2528359.1| metal-sensitive transcriptional regulator [Thermobifida sp.] &gt;gb|EOR71959.1| hypothetical protein TM51_05152 [Thermobifida fusca TM51] &gt;gb|PPS92583.1| CopY family transcriptional regulator [Thermobifida fusca] &gt;gb|PZN65094.1| metal-sensitive transcriptional regulator [Thermobifida fusca] &gt;gb|QOS60482.1| metal-sensitive transcriptional regulator [Thermobifida fusca]</Hit_def>
+  <Hit_accession>WP_016188425</Hit_accession>
+  <Hit_len>95</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>160.999</Hsp_bit-score>
+      <Hsp_score>406</Hsp_score>
+      <Hsp_evalue>6.91242e-49</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>MAAYGYHGNKRRHLNRLRRIEGQVRGLQRMVEDDAYCIDILTQTSAVTKALRSFALSLLDEHLKHCVAHALADGGAEADAKVREASE</Hsp_qseq>
+      <Hsp_hseq>MAAYGYHDNKRQHLNRLRRIEGQVRGLQRMVEDDAYCIDILTQTSAVTKALQSFALSLLEEHLHHCVANALANGGSEAETKVREASE</Hsp_hseq>
+      <Hsp_midline>MAAYGYH NKR+HLNRLRRIEGQVRGLQRMVEDDAYCIDILTQTSAVTKAL+SFALSLL+EHL HCVA+ALA+GG+EA+ KVREASE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>emb|SJZ62740.1|</Hit_id>
+  <Hit_def>DNA-binding transcriptional regulator, FrmR family [Marinactinospora thermotolerans DSM 45154]</Hit_def>
+  <Hit_accession>SJZ62740</Hit_accession>
+  <Hit_len>108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>160.999</Hsp_bit-score>
+      <Hsp_score>406</Hsp_score>
+      <Hsp_evalue>8.02257e-49</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>NTAMAAYGYHGNKRRHLNRLRRIEGQVRGLQRMVEDDAYCIDILTQTSAVTKALRSFALSLLDEHLKHCVAHALADGGAEADAKVREASE</Hsp_qseq>
+      <Hsp_hseq>DAGMATYGYHDNKQKHLNRLRRIEGQVRGLQRMVEDDSYCIDILTQTSAVNKALRSFALSLLDEHLKHCVAHAVANGGDEAEEKVREASE</Hsp_hseq>
+      <Hsp_midline>+  MA YGYH NK++HLNRLRRIEGQVRGLQRMVEDD+YCIDILTQTSAV KALRSFALSLLDEHLKHCVAHA+A+GG EA+ KVREASE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_078760362.1|</Hit_id>
+  <Hit_def>metal-sensitive transcriptional regulator [Marinactinospora thermotolerans]</Hit_def>
+  <Hit_accession>WP_078760362</Hit_accession>
+  <Hit_len>95</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>160.614</Hsp_bit-score>
+      <Hsp_score>405</Hsp_score>
+      <Hsp_evalue>9.71346e-49</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>MAAYGYHGNKRRHLNRLRRIEGQVRGLQRMVEDDAYCIDILTQTSAVTKALRSFALSLLDEHLKHCVAHALADGGAEADAKVREASE</Hsp_qseq>
+      <Hsp_hseq>MATYGYHDNKQKHLNRLRRIEGQVRGLQRMVEDDSYCIDILTQTSAVNKALRSFALSLLDEHLKHCVAHAVANGGDEAEEKVREASE</Hsp_hseq>
+      <Hsp_midline>MA YGYH NK++HLNRLRRIEGQVRGLQRMVEDD+YCIDILTQTSAV KALRSFALSLLDEHLKHCVAHA+A+GG EA+ KVREASE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_067964167.1|</Hit_id>
+  <Hit_def>metal-sensitive transcriptional regulator [Nocardiopsis trehalosi]</Hit_def>
+  <Hit_accession>WP_067964167</Hit_accession>
+  <Hit_len>95</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>160.229</Hsp_bit-score>
+      <Hsp_score>404</Hsp_score>
+      <Hsp_evalue>1.15779e-48</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>MAAYGYHGNKRRHLNRLRRIEGQVRGLQRMVEDDAYCIDILTQTSAVTKALRSFALSLLDEHLKHCVAHALADGGAEADAKVREASE</Hsp_qseq>
+      <Hsp_hseq>MATYGYHDNKQSHLNRLRRIEGQVRGLQRMVEDDAYCIDILTQTAAVNKALRSFALSMLDEHLKHCVGHAVANGGAEADEKVREASE</Hsp_hseq>
+      <Hsp_midline>MA YGYH NK+ HLNRLRRIEGQVRGLQRMVEDDAYCIDILTQT+AV KALRSFALS+LDEHLKHCV HA+A+GGAEAD KVREASE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|MBB6172663.1|</Hit_id>
+  <Hit_def>DNA-binding FrmR family transcriptional regulator [Nocardiopsis mwathae]</Hit_def>
+  <Hit_accession>MBB6172663</Hit_accession>
+  <Hit_len>107</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>160.229</Hsp_bit-score>
+      <Hsp_score>404</Hsp_score>
+      <Hsp_evalue>1.50203e-48</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>99</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>TAMAAYGYHGNKRRHLNRLRRIEGQVRGLQRMVEDDAYCIDILTQTSAVTKALRSFALSLLDEHLKHCVAHALADGGAEADAKVREASE</Hsp_qseq>
+      <Hsp_hseq>TAMETYGYHDDKQSHINRLRRIEGQVRGLQRMVEDDAYCIDILTQTSAVNKALRSFALSMLDEHLKHCVAHAVANGGEEADTKVREASD</Hsp_hseq>
+      <Hsp_midline>TAM  YGYH +K+ H+NRLRRIEGQVRGLQRMVEDDAYCIDILTQTSAV KALRSFALS+LDEHLKHCVAHA+A+GG EAD KVREAS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|NYI95041.1|</Hit_id>
+  <Hit_def>DNA-binding FrmR family transcriptional regulator [Streptomonospora nanhaiensis]</Hit_def>
+  <Hit_accession>NYI95041</Hit_accession>
+  <Hit_len>107</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.844</Hsp_bit-score>
+      <Hsp_score>403</Hsp_score>
+      <Hsp_evalue>2.68649e-48</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>286</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>99</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>PGRRE---NTAMAAYGYHGNKRRHLNRLRRIEGQVRGLQRMVEDDAYCIDILTQTSAVTKALRSFALSLLDEHLKHCVAHALADGGAEADAKVREASE</Hsp_qseq>
+      <Hsp_hseq>AGERETQGSTQMATYGYHDNKQSHLNRLRRIEGQVRGLQRMVEDDAYCIDILTQTAAVNKALRSFALSMLDEHLKHCVGHAVAHGGEEADEKVREASE</Hsp_hseq>
+      <Hsp_midline> G RE   +T MA YGYH NK+ HLNRLRRIEGQVRGLQRMVEDDAYCIDILTQT+AV KALRSFALS+LDEHLKHCV HA+A GG EAD KVREASE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_026125501.1|</Hit_id>
+  <Hit_def>metal-sensitive transcriptional regulator [Nocardiopsis gilva] &gt;gb|ASU86163.1| CopY family transcriptional regulator [Nocardiopsis gilva YIM 90087]</Hit_def>
+  <Hit_accession>WP_026125501</Hit_accession>
+  <Hit_len>95</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>158.688</Hsp_bit-score>
+      <Hsp_score>400</Hsp_score>
+      <Hsp_evalue>5.62219e-48</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>MAAYGYHGNKRRHLNRLRRIEGQVRGLQRMVEDDAYCIDILTQTSAVTKALRSFALSLLDEHLKHCVAHALADGGAEADAKVREASE</Hsp_qseq>
+      <Hsp_hseq>MATYGYHDNKQSHLNRLRRIEGQVRGLQRMVEDDAYCIDILTQTSAVNKALRSFALSMLDEHLKHCVAHAVANGGEEAEIKVREASD</Hsp_hseq>
+      <Hsp_midline>MA YGYH NK+ HLNRLRRIEGQVRGLQRMVEDDAYCIDILTQTSAV KALRSFALS+LDEHLKHCVAHA+A+GG EA+ KVREAS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469534606</Statistics_db-num>
+      <Statistics_db-len>1070605227</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

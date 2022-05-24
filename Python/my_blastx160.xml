@@ -1,0 +1,322 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_40117</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_40117</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|MBI2766117.1|</Hit_id>
+  <Hit_def>LUD domain-containing protein [Chloroflexi bacterium]</Hit_def>
+  <Hit_accession>MBI2766117</Hit_accession>
+  <Hit_len>602</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.54</Hsp_bit-score>
+      <Hsp_score>410</Hsp_score>
+      <Hsp_evalue>1.81903e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>141</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>GECLADLGGGGPGHLTAPALHRNRARIRELLAGRGAELPDDDPVRLSQYVRDVVGAFFRDCDAAITGANAVVASSGRIVIVENEGNVALGVSHPRLHIVI</Hsp_qseq>
+      <Hsp_hseq>GEYIVDIEGRGPSHITAPALHLNRARIREMLARTGAELPDDDPVRLSRYVRDVVGEFFRDCDAGITGANAVVASSGRIMVVENEGNVSLGASHPKLHVAI</Hsp_hseq>
+      <Hsp_midline>GE + D+ G GP H+TAPALH NRARIRE+LA  GAELPDDDPVRLS+YVRDVVG FFRDCDA ITGANAVVASSGRI++VENEGNV+LG SHP+LH+ I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|PWB43742.1|</Hit_id>
+  <Hit_def>(Fe-S)-binding protein [Dehalococcoidia bacterium]</Hit_def>
+  <Hit_accession>PWB43742</Hit_accession>
+  <Hit_len>586</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>161.77</Hsp_bit-score>
+      <Hsp_score>408</Hsp_score>
+      <Hsp_evalue>2.77187e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>GECLADLGGGGPGHLTAPALHRNRARIRELLAGRGAELPDDDPVRLSQYVRDVVGAFFRDCDAAITGANAVVASSGRIVIVENEGNVALGVSHPRLHIVI</Hsp_qseq>
+      <Hsp_hseq>GEYIVDIEGRGPSHITAPALHLNRARIREMLERTGAELPDDDPARLSRYVRDVVGEFFKDCDAGITGANAVVASSGRIVIVENEGNVSLGASHPKLHIVI</Hsp_hseq>
+      <Hsp_midline>GE + D+ G GP H+TAPALH NRARIRE+L   GAELPDDDP RLS+YVRDVVG FF+DCDA ITGANAVVASSGRIVIVENEGNV+LG SHP+LHIVI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|MCC7363744.1|</Hit_id>
+  <Hit_def>LUD domain-containing protein [Dehalococcoidia bacterium]</Hit_def>
+  <Hit_accession>MCC7363744</Hit_accession>
+  <Hit_len>596</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>161.77</Hsp_bit-score>
+      <Hsp_score>408</Hsp_score>
+      <Hsp_evalue>2.84391e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>GECLADLGGGGPGHLTAPALHRNRARIRELLAGRGAELPDDDPVRLSQYVRDVVGAFFRDCDAAITGANAVVASSGRIVIVENEGNVALGVSHPRLHIVI</Hsp_qseq>
+      <Hsp_hseq>GEYIVDKEGRGPSHITAPALHLNRTRIRELLARTGADLPDDDPVRLSRYVRDVVGAYFRDCDAAITGANQVVASTGRVVIVENEGNVSLGVSHPRKHIII</Hsp_hseq>
+      <Hsp_midline>GE + D  G GP H+TAPALH NR RIRELLA  GA+LPDDDPVRLS+YVRDVVGA+FRDCDAAITGAN VVAS+GR+VIVENEGNV+LGVSHPR HI+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|MBE0609766.1|</Hit_id>
+  <Hit_def>LUD domain-containing protein [Dehalococcoidia bacterium]</Hit_def>
+  <Hit_accession>MBE0609766</Hit_accession>
+  <Hit_len>586</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>161.77</Hsp_bit-score>
+      <Hsp_score>408</Hsp_score>
+      <Hsp_evalue>2.91906e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>GECLADLGGGGPGHLTAPALHRNRARIRELLAGRGAELPDDDPVRLSQYVRDVVGAFFRDCDAAITGANAVVASSGRIVIVENEGNVALGVSHPRLHIVI</Hsp_qseq>
+      <Hsp_hseq>GEYIVDIEGRGPSHITAPALHLNRARIREMLARTGADLPDDDPARLSRYVRDVVGEFFKDCDAGITGANAVIASSGRIVIVENEGNVSLGASHPKLHIVI</Hsp_hseq>
+      <Hsp_midline>GE + D+ G GP H+TAPALH NRARIRE+LA  GA+LPDDDP RLS+YVRDVVG FF+DCDA ITGANAV+ASSGRIVIVENEGNV+LG SHP+LHIVI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|NJD66956.1|</Hit_id>
+  <Hit_def>(Fe-S)-binding protein [Chloroflexi bacterium]</Hit_def>
+  <Hit_accession>NJD66956</Hit_accession>
+  <Hit_len>586</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>161.77</Hsp_bit-score>
+      <Hsp_score>408</Hsp_score>
+      <Hsp_evalue>2.91906e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>GECLADLGGGGPGHLTAPALHRNRARIRELLAGRGAELPDDDPVRLSQYVRDVVGAFFRDCDAAITGANAVVASSGRIVIVENEGNVALGVSHPRLHIVI</Hsp_qseq>
+      <Hsp_hseq>GEYIVDIEGRGPSHITAPALHLNRARIREMLERTGAELPDDDPARLSRYVRDVVGEFFKDCDAGITGANAVVASSGRIVIVENEGNVSLGASHPKLHIVI</Hsp_hseq>
+      <Hsp_midline>GE + D+ G GP H+TAPALH NRARIRE+L   GAELPDDDP RLS+YVRDVVG FF+DCDA ITGANAVVASSGRIVIVENEGNV+LG SHP+LHIVI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|MCC7089263.1|</Hit_id>
+  <Hit_def>LUD domain-containing protein [Dehalococcoidia bacterium]</Hit_def>
+  <Hit_accession>MCC7089263</Hit_accession>
+  <Hit_len>586</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>161.77</Hsp_bit-score>
+      <Hsp_score>408</Hsp_score>
+      <Hsp_evalue>3.01111e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>GECLADLGGGGPGHLTAPALHRNRARIRELLAGRGAELPDDDPVRLSQYVRDVVGAFFRDCDAAITGANAVVASSGRIVIVENEGNVALGVSHPRLHIVI</Hsp_qseq>
+      <Hsp_hseq>GEYIVDIEGRGPSHITAPALHLNRARIREMLERTGAELPDDDPARLSRYVRDVVGEFFKDCDAGITGANAVVASSGRIVIVENEGNVSLGASHPKLHIVI</Hsp_hseq>
+      <Hsp_midline>GE + D+ G GP H+TAPALH NRARIRE+L   GAELPDDDP RLS+YVRDVVG FF+DCDA ITGANAVVASSGRIVIVENEGNV+LG SHP+LHIVI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|MBK8560412.1|</Hit_id>
+  <Hit_def>LUD domain-containing protein [Dehalococcoidia bacterium]</Hit_def>
+  <Hit_accession>MBK8560412</Hit_accession>
+  <Hit_len>582</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>160.229</Hsp_bit-score>
+      <Hsp_score>404</Hsp_score>
+      <Hsp_evalue>8.86346e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>GECLADLGGGGPGHLTAPALHRNRARIRELLAGRGAELPDDDPVRLSQYVRDVVGAFFRDCDAAITGANAVVASSGRIVIVENEGNVALGVSHPRLHIVI</Hsp_qseq>
+      <Hsp_hseq>GEYIVDIEGRGPSHITAPALHLNRARIREMLARTGADLPDDDPTRLSRYVRDVVGDFFQDCDAGITGANAVVASSGRITIVENEGNVSLGVSHPKLHIVL</Hsp_hseq>
+      <Hsp_midline>GE + D+ G GP H+TAPALH NRARIRE+LA  GA+LPDDDP RLS+YVRDVVG FF+DCDA ITGANAVVASSGRI IVENEGNV+LGVSHP+LHIV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|MBK9546966.1|</Hit_id>
+  <Hit_def>LUD domain-containing protein [Dehalococcoidia bacterium]</Hit_def>
+  <Hit_accession>MBK9546966</Hit_accession>
+  <Hit_len>582</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>160.229</Hsp_bit-score>
+      <Hsp_score>404</Hsp_score>
+      <Hsp_evalue>9.33406e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>GECLADLGGGGPGHLTAPALHRNRARIRELLAGRGAELPDDDPVRLSQYVRDVVGAFFRDCDAAITGANAVVASSGRIVIVENEGNVALGVSHPRLHIVI</Hsp_qseq>
+      <Hsp_hseq>GEYIVDIEGRGPSHITAPALHLNRARIREMLARTGADLPDDDPTRLSRYVRDVVGDFFQDCDAGITGANAVVASSGRITIVENEGNVSLGVSHPKLHIVL</Hsp_hseq>
+      <Hsp_midline>GE + D+ G GP H+TAPALH NRARIRE+LA  GA+LPDDDP RLS+YVRDVVG FF+DCDA ITGANAVVASSGRI IVENEGNV+LGVSHP+LHIV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|MBK7126274.1|</Hit_id>
+  <Hit_def>LUD domain-containing protein [Dehalococcoidia bacterium]</Hit_def>
+  <Hit_accession>MBK7126274</Hit_accession>
+  <Hit_len>490</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.532</Hsp_bit-score>
+      <Hsp_score>397</Hsp_score>
+      <Hsp_evalue>2.92402e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>GECLADLGGGGPGHLTAPALHRNRARIRELLAGRGAELPDDDPVRLSQYVRDVVGAFFRDCDAAITGANAVVASSGRIVIVENEGNVALGVSHPRLHIVI</Hsp_qseq>
+      <Hsp_hseq>GEYIVDIEGRGPSHITAPALHLNRARIREMLARTGADLPDDDPTRLSRHVRDVVGDFFQDCDAGITGANAVVASSGRITIVENEGNVSLGVSHPKLHIVL</Hsp_hseq>
+      <Hsp_midline>GE + D+ G GP H+TAPALH NRARIRE+LA  GA+LPDDDP RLS++VRDVVG FF+DCDA ITGANAVVASSGRI IVENEGNV+LGVSHP+LHIV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|MBN9493661.1|</Hit_id>
+  <Hit_def>lactate utilization protein [bacterium]</Hit_def>
+  <Hit_accession>MBN9493661</Hit_accession>
+  <Hit_len>422</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.992</Hsp_bit-score>
+      <Hsp_score>393</Hsp_score>
+      <Hsp_evalue>3.10104e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>GECLADLGGGGPGHLTAPALHRNRARIRELLAGRGAELPDDDPVRLSQYVRDVVGAFFRDCDAAITGANAVVASSGRIVIVENEGNVALGVSHPRLHIVI</Hsp_qseq>
+      <Hsp_hseq>GEYIVDIEGRGPSHLTAPALHLNRARIREVLLRTGKEIPDDDPVRLSRFVRDVVGDFFKDCDAAITGANTVIASSGRIGIVENEGNVSLGVSHPRLHIAV</Hsp_hseq>
+      <Hsp_midline>GE + D+ G GP HLTAPALH NRARIRE+L   G E+PDDDPVRLS++VRDVVG FF+DCDAAITGAN V+ASSGRI IVENEGNV+LGVSHPRLHI +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469534606</Statistics_db-num>
+      <Statistics_db-len>1070605227</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

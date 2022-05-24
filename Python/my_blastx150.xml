@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_18411</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_18411</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|PZN79605.1|</Hit_id>
+  <Hit_def>alkyl hydroperoxide reductase [Proteobacteria bacterium]</Hit_def>
+  <Hit_accession>PZN79605</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>166.777</Hsp_bit-score>
+      <Hsp_score>421</Hsp_score>
+      <Hsp_evalue>3.64138e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>270</Hsp_query-to>
+      <Hsp_hit-from>90</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>HDDLKNLPFPMLSDLKRELSTELGILDPAEGVAQRAVYIVDPDGIIRFAYVTDLNVGRNPSEVLRVLDALQTDELCPCNWEKGQQTLTVA</Hsp_qseq>
+      <Hsp_hseq>HEDLKDLPFPMLSDIRRELSTALGILDPAEGVAQRAAYIVDPNGIIRFVYVTDLNVGRNPEEVLRVLDALQTDELCPCGWEKGQETLKVA</Hsp_hseq>
+      <Hsp_midline>H+DLK+LPFPMLSD++RELST LGILDPAEGVAQRA YIVDP+GIIRF YVTDLNVGRNP EVLRVLDALQTDELCPC WEKGQ+TL VA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_011524899.1|</Hit_id>
+  <Hit_def>peroxiredoxin [Candidatus Koribacter versatilis] &gt;gb|ABF43100.1| alkyl hydroperoxide reductase/ Thiol specific antioxidant/ Mal allergen [Candidatus Koribacter versatilis Ellin345]</Hit_def>
+  <Hit_accession>WP_011524899</Hit_accession>
+  <Hit_len>178</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.155</Hsp_bit-score>
+      <Hsp_score>409</Hsp_score>
+      <Hsp_evalue>2.80535e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>90</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>HDDLKNLPFPMLSDLKRELSTELGILDPAEGVAQRAVYIVDPDGIIRFAYVTDLNVGRNPSEVLRVLDALQTDELCPCNWEKGQQTLTV</Hsp_qseq>
+      <Hsp_hseq>HDDLRNLPFPMLADVKRELTSDLGILDPEAGVAQRATYIVDPQGIIRFAYVTDLSVGRSPSEVLRVLDALQTDELCPCNWQKGQETLHV</Hsp_hseq>
+      <Hsp_midline>HDDL+NLPFPML+D+KREL+++LGILDP  GVAQRA YIVDP GIIRFAYVTDL+VGR+PSEVLRVLDALQTDELCPCNW+KGQ+TL V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>tpg|HBY61185.1|</Hit_id>
+  <Hit_def>alkyl hydroperoxide reductase [Bryobacterales bacterium]</Hit_def>
+  <Hit_accession>HBY61185</Hit_accession>
+  <Hit_len>178</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.073</Hsp_bit-score>
+      <Hsp_score>401</Hsp_score>
+      <Hsp_evalue>4.27104e-47</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>90</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>HDDLKNLPFPMLSDLKRELSTELGILDPAEGVAQRAVYIVDPDGIIRFAYVTDLNVGRNPSEVLRVLDALQTDELCPCNWEKGQQTLTV</Hsp_qseq>
+      <Hsp_hseq>HEDLKDLPFPMLADVKRELTEELGILDPKAGVAQRATYIVDPEGVIRFAYVTDLSVGRNPEEVLRVLDALQTDELCPCNWKKGEETLKV</Hsp_hseq>
+      <Hsp_midline>H+DLK+LPFPML+D+KREL+ ELGILDP  GVAQRA YIVDP+G+IRFAYVTDL+VGRNP EVLRVLDALQTDELCPCNW+KG++TL V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|MBA3913938.1|</Hit_id>
+  <Hit_def>peroxiredoxin [Acidobacteriales bacterium]</Hit_def>
+  <Hit_accession>MBA3913938</Hit_accession>
+  <Hit_len>181</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.918</Hsp_bit-score>
+      <Hsp_score>398</Hsp_score>
+      <Hsp_evalue>1.33667e-46</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>270</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>HDDLKNLPFPMLSDLKRELSTELGILDPAEGVAQRAVYIVDPDGIIRFAYVTDLNVGRNPSEVLRVLDALQTDELCPCNWEKGQQTLTVA</Hsp_qseq>
+      <Hsp_hseq>HADLKDLPFPMLADVKRDLTGQLGILDPREGVAQRATFVVDPDGIIRFVYVTDLAVGRNPEEVLRVLDALQTDELCPCNWQKGEETLTVA</Hsp_hseq>
+      <Hsp_midline>H DLK+LPFPML+D+KR+L+ +LGILDP EGVAQRA ++VDPDGIIRF YVTDL VGRNP EVLRVLDALQTDELCPCNW+KG++TLTVA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>tpg|HHW65141.1|</Hit_id>
+  <Hit_def>peroxiredoxin [Rhodocyclaceae bacterium]</Hit_def>
+  <Hit_accession>HHW65141</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.532</Hsp_bit-score>
+      <Hsp_score>397</Hsp_score>
+      <Hsp_evalue>1.72705e-46</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>270</Hsp_query-to>
+      <Hsp_hit-from>90</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>HDDLKNLPFPMLSDLKRELSTELGILDPAEGVAQRAVYIVDPDGIIRFAYVTDLNVGRNPSEVLRVLDALQTDELCPCNWEKGQQTLTVA</Hsp_qseq>
+      <Hsp_hseq>HKDLNNLPFPMLADVKRELTSALGILDKGEGVAQRATFIVDPDGIIRFVYVTDLSVGRNPQEVLRVLDALQTDELCPCNWNKGEETLKVA</Hsp_hseq>
+      <Hsp_midline>H DL NLPFPML+D+KREL++ LGILD  EGVAQRA +IVDPDGIIRF YVTDL+VGRNP EVLRVLDALQTDELCPCNW KG++TL VA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|MBL7664075.1|</Hit_id>
+  <Hit_def>peroxiredoxin [Bacteriovoracaceae bacterium]</Hit_def>
+  <Hit_accession>MBL7664075</Hit_accession>
+  <Hit_len>178</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>156.762</Hsp_bit-score>
+      <Hsp_score>395</Hsp_score>
+      <Hsp_evalue>3.68087e-46</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>90</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>HDDLKNLPFPMLSDLKRELSTELGILDPAEGVAQRAVYIVDPDGIIRFAYVTDLNVGRNPSEVLRVLDALQTDELCPCNWEKGQQTLTV</Hsp_qseq>
+      <Hsp_hseq>HEDLKKLPFPMLADVKRELTSALGILDENEGVAQRATYIVDPDGIIRFVYVTDLSVGRNPKEVLRVLDGLQTDELCPCNWEKGKETIKV</Hsp_hseq>
+      <Hsp_midline>H+DLK LPFPML+D+KREL++ LGILD  EGVAQRA YIVDPDGIIRF YVTDL+VGRNP EVLRVLD LQTDELCPCNWEKG++T+ V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|MBI60402.1|</Hit_id>
+  <Hit_def>alkyl hydroperoxide reductase [bacterium]</Hit_def>
+  <Hit_accession>MBI60402</Hit_accession>
+  <Hit_len>183</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>156.377</Hsp_bit-score>
+      <Hsp_score>394</Hsp_score>
+      <Hsp_evalue>5.56803e-46</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>270</Hsp_query-to>
+      <Hsp_hit-from>97</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>LKNLPFPMLSDLKRELSTELGILDPAEGVAQRAVYIVDPDGIIRFAYVTDLNVGRNPSEVLRVLDALQTDELCPCNWEKGQQTLTVA</Hsp_qseq>
+      <Hsp_hseq>LNKLPFPMLSDVKRELSTELGILDEAEGVAQRATFIIDPDGIVRFIMVTDLNVGRNPKEVLRVLDALQTDELCPCNWEKGEKTLVVA</Hsp_hseq>
+      <Hsp_midline>L  LPFPMLSD+KRELSTELGILD AEGVAQRA +I+DPDGI+RF  VTDLNVGRNP EVLRVLDALQTDELCPCNWEKG++TL VA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|MBX3695025.1|</Hit_id>
+  <Hit_def>redoxin domain-containing protein [Steroidobacteraceae bacterium]</Hit_def>
+  <Hit_accession>MBX3695025</Hit_accession>
+  <Hit_len>122</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.451</Hsp_bit-score>
+      <Hsp_score>389</Hsp_score>
+      <Hsp_evalue>5.70082e-46</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>270</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>HDDLKNLPFPMLSDLKRELSTELGILDPAEGVAQRAVYIVDPDGIIRFAYVTDLNVGRNPSEVLRVLDALQTDELCPCNWEKGQQTLTVA</Hsp_qseq>
+      <Hsp_hseq>KEELKDLPFPMLSDIKRELSNELGILDPAAGVSQRATYIVDPEGVIRFVYVTDLDVGRSPDEVLRVLDALQTDELCPCNWKKGEETLKAA</Hsp_hseq>
+      <Hsp_midline> ++LK+LPFPMLSD+KRELS ELGILDPA GV+QRA YIVDP+G+IRF YVTDL+VGR+P EVLRVLDALQTDELCPCNW+KG++TL  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|MBS1815194.1|</Hit_id>
+  <Hit_def>peroxiredoxin [Acidobacteria bacterium]</Hit_def>
+  <Hit_accession>MBS1815194</Hit_accession>
+  <Hit_len>178</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.992</Hsp_bit-score>
+      <Hsp_score>393</Hsp_score>
+      <Hsp_evalue>8.17592e-46</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>90</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>HDDLKNLPFPMLSDLKRELSTELGILDPAEGVAQRAVYIVDPDGIIRFAYVTDLNVGRNPSEVLRVLDALQTDELCPCNWEKGQQTLTV</Hsp_qseq>
+      <Hsp_hseq>HEALTDLPFPMLSDIKRNLCGELGILDEAEGVAQRATYLVDPQGVIRFAYVTDLNVGRNPQEVLRVLDALQTDELCPCNWQKGQETLSV</Hsp_hseq>
+      <Hsp_midline>H+ L +LPFPMLSD+KR L  ELGILD AEGVAQRA Y+VDP G+IRFAYVTDLNVGRNP EVLRVLDALQTDELCPCNW+KGQ+TL+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|MCD6046902.1|</Hit_id>
+  <Hit_def>ahpC 1 [Gammaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>MCD6046902</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.992</Hsp_bit-score>
+      <Hsp_score>393</Hsp_score>
+      <Hsp_evalue>8.57594e-46</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>90</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>HDDLKNLPFPMLSDLKRELSTELGILDPAEGVAQRAVYIVDPDGIIRFAYVTDLNVGRNPSEVLRVLDALQTDELCPCNWEKGQQTLTV</Hsp_qseq>
+      <Hsp_hseq>HQDLNDLPFPMLSDIKRELSSALGILDPQEGVAQRATLIIDPEGVIRFVMVTDLNVGRNPNEVLRVLDALQTDELCPCNWQKGQQTLDV</Hsp_hseq>
+      <Hsp_midline>H DL +LPFPMLSD+KRELS+ LGILDP EGVAQRA  I+DP+G+IRF  VTDLNVGRNP+EVLRVLDALQTDELCPCNW+KGQQTL V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469534606</Statistics_db-num>
+      <Statistics_db-len>1070605227</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

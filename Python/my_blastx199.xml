@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_51551</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_51551</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|MCA9838341.1|</Hit_id>
+  <Hit_def>ABC transporter ATP-binding protein [Trueperaceae bacterium]</Hit_def>
+  <Hit_accession>MCA9838341</Hit_accession>
+  <Hit_len>362</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.096</Hsp_bit-score>
+      <Hsp_score>440</Hsp_score>
+      <Hsp_evalue>8.34728e-51</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>138</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>QRQRVALGRAIVRHPKVFLMDEPLSNLDAKLRVEMRASISKLHQRLGVTTIYVTHDQVEAMTMGSRIVVMKDGDIQQVDPPINL*DKPQNKFLTRVNGS</Hsp_qseq>
+      <Hsp_hseq>QRQRVALGRAIVREPKVFLMDEPLSNLDAKLRVEMRASISKLHRRLGVTTIYVTHDQVEAMTMGSRIVVMKDGVIQQVDTPINLYDKPVNKFVGGFMGS</Hsp_hseq>
+      <Hsp_midline>QRQRVALGRAIVR PKVFLMDEPLSNLDAKLRVEMRASISKLH+RLGVTTIYVTHDQVEAMTMGSRIVVMKDG IQQVD PINL DKP NKF+    GS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|UCH27426.1|</Hit_id>
+  <Hit_def>MAG: sn-glycerol-3-phosphate ABC transporter ATP-binding protein UgpC [Trueperaceae bacterium]</Hit_def>
+  <Hit_accession>UCH27426</Hit_accession>
+  <Hit_len>365</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>173.326</Hsp_bit-score>
+      <Hsp_score>438</Hsp_score>
+      <Hsp_evalue>2.1957e-50</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>138</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>QRQRVALGRAIVRHPKVFLMDEPLSNLDAKLRVEMRASISKLHQRLGVTTIYVTHDQVEAMTMGSRIVVMKDGDIQQVDPPINL*DKPQNKFLTRVNGS</Hsp_qseq>
+      <Hsp_hseq>QRQRVALGRAIVREPKVFLMDEPLSNLDAKLRVEMRASISKLHRRLGVTTIYVTHDQVEAMTMGTRIVVMKDGLIQQVDSPINLYDKPKNRFVAGFIGS</Hsp_hseq>
+      <Hsp_midline>QRQRVALGRAIVR PKVFLMDEPLSNLDAKLRVEMRASISKLH+RLGVTTIYVTHDQVEAMTMG+RIVVMKDG IQQVD PINL DKP+N+F+    GS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|MBW6455523.1|</Hit_id>
+  <Hit_def>sn-glycerol-3-phosphate ABC transporter ATP-binding protein UgpC [Trueperaceae bacterium]</Hit_def>
+  <Hit_accession>MBW6455523</Hit_accession>
+  <Hit_len>365</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>172.94</Hsp_bit-score>
+      <Hsp_score>437</Hsp_score>
+      <Hsp_evalue>2.5258e-50</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>138</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>QRQRVALGRAIVRHPKVFLMDEPLSNLDAKLRVEMRASISKLHQRLGVTTIYVTHDQVEAMTMGSRIVVMKDGDIQQVDPPINL*DKPQNKFLTRVNGS</Hsp_qseq>
+      <Hsp_hseq>QRQRVALGRAIVREPKVFLMDEPLSNLDAKLRVEMRASISKLHRRLGVTTVYVTHDQVEAMTMGTRIVVMKDGLIQQVDSPINLYDKPVNKFVAGFMGS</Hsp_hseq>
+      <Hsp_midline>QRQRVALGRAIVR PKVFLMDEPLSNLDAKLRVEMRASISKLH+RLGVTT+YVTHDQVEAMTMG+RIVVMKDG IQQVD PINL DKP NKF+    GS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|MBW7916852.1|</Hit_id>
+  <Hit_def>sn-glycerol-3-phosphate ABC transporter ATP-binding protein UgpC [Trueperaceae bacterium]</Hit_def>
+  <Hit_accession>MBW7916852</Hit_accession>
+  <Hit_len>365</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>172.555</Hsp_bit-score>
+      <Hsp_score>436</Hsp_score>
+      <Hsp_evalue>3.30647e-50</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>138</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>QRQRVALGRAIVRHPKVFLMDEPLSNLDAKLRVEMRASISKLHQRLGVTTIYVTHDQVEAMTMGSRIVVMKDGDIQQVDPPINL*DKPQNKFLTRVNGS</Hsp_qseq>
+      <Hsp_hseq>QRQRVALGRAIVREPKVFLMDEPLSNLDAKLRVEMRASITKLHQRLGVTTVYVTHDQVEAMTMGTRIVVMKDGFIQQVDSPINLYDKPVNKFVAGFIGS</Hsp_hseq>
+      <Hsp_midline>QRQRVALGRAIVR PKVFLMDEPLSNLDAKLRVEMRASI+KLHQRLGVTT+YVTHDQVEAMTMG+RIVVMKDG IQQVD PINL DKP NKF+    GS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|MCC6311837.1|</Hit_id>
+  <Hit_def>ABC transporter ATP-binding protein [Trueperaceae bacterium]</Hit_def>
+  <Hit_accession>MCC6311837</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>169.474</Hsp_bit-score>
+      <Hsp_score>428</Hsp_score>
+      <Hsp_evalue>4.35858e-50</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>138</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>QRQRVALGRAIVRHPKVFLMDEPLSNLDAKLRVEMRASISKLHQRLGVTTIYVTHDQVEAMTMGSRIVVMKDGDIQQVDPPINL*DKPQNKFLTRVNGS</Hsp_qseq>
+      <Hsp_hseq>QRQRVALGRAIVREPKVFLMDEPLSNLDAKLRVEMRASITKLHQRLGVTTVYVTHDQVEAMTMGTRIVVMKDGYIQQVDSPIHLYDRPVNKFVAGFIGS</Hsp_hseq>
+      <Hsp_midline>QRQRVALGRAIVR PKVFLMDEPLSNLDAKLRVEMRASI+KLHQRLGVTT+YVTHDQVEAMTMG+RIVVMKDG IQQVD PI+L D+P NKF+    GS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|NLG09070.1|</Hit_id>
+  <Hit_def>ABC transporter ATP-binding protein [Deinococcales bacterium]</Hit_def>
+  <Hit_accession>NLG09070</Hit_accession>
+  <Hit_len>365</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>170.629</Hsp_bit-score>
+      <Hsp_score>431</Hsp_score>
+      <Hsp_evalue>1.85244e-49</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>138</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>QRQRVALGRAIVRHPKVFLMDEPLSNLDAKLRVEMRASISKLHQRLGVTTIYVTHDQVEAMTMGSRIVVMKDGDIQQVDPPINL*DKPQNKFLTRVNGS</Hsp_qseq>
+      <Hsp_hseq>QRQRVALGRAIVREPKVFLMDEPLSNLDAKLRVEMRASITKLHQRLGVTTVYVTHDQVEAMTMGTRIVVMKDGYIQQVDSPINLYDNPVNKFVAGFIGS</Hsp_hseq>
+      <Hsp_midline>QRQRVALGRAIVR PKVFLMDEPLSNLDAKLRVEMRASI+KLHQRLGVTT+YVTHDQVEAMTMG+RIVVMKDG IQQVD PINL D P NKF+    GS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|MBS3966784.1|</Hit_id>
+  <Hit_def>ABC transporter ATP-binding protein [Truepera sp.] &gt;gb|MBS3968020.1| ABC transporter ATP-binding protein [Truepera sp.]</Hit_def>
+  <Hit_accession>MBS3966784</Hit_accession>
+  <Hit_len>365</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>170.629</Hsp_bit-score>
+      <Hsp_score>431</Hsp_score>
+      <Hsp_evalue>2.01908e-49</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>138</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>QRQRVALGRAIVRHPKVFLMDEPLSNLDAKLRVEMRASISKLHQRLGVTTIYVTHDQVEAMTMGSRIVVMKDGDIQQVDPPINL*DKPQNKFLTRVNGS</Hsp_qseq>
+      <Hsp_hseq>QRQRVALGRAIVREPKVFLMDEPLSNLDAKLRVEMRASIAKLHRRLGVTTVYVTHDQVEAMTMGTRIVVMKDGLVQQVDSPINLYDKPINKFVAGFMGS</Hsp_hseq>
+      <Hsp_midline>QRQRVALGRAIVR PKVFLMDEPLSNLDAKLRVEMRASI+KLH+RLGVTT+YVTHDQVEAMTMG+RIVVMKDG +QQVD PINL DKP NKF+    GS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>tpg|HHO56805.1|</Hit_id>
+  <Hit_def>ABC transporter ATP-binding protein [Trueperaceae bacterium]</Hit_def>
+  <Hit_accession>HHO56805</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>170.629</Hsp_bit-score>
+      <Hsp_score>431</Hsp_score>
+      <Hsp_evalue>2.39313e-49</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>138</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>QRQRVALGRAIVRHPKVFLMDEPLSNLDAKLRVEMRASISKLHQRLGVTTIYVTHDQVEAMTMGSRIVVMKDGDIQQVDPPINL*DKPQNKFLTRVNGS</Hsp_qseq>
+      <Hsp_hseq>QRQRVALGRAIVRKPKVFLMDEPLSNLDAKLRVEMRAQISKLHQSLGVTTIYVTHDQVEAMTMGTRIVVMKDGIIQQVDSPINLYDKPVNKFVGGFMGS</Hsp_hseq>
+      <Hsp_midline>QRQRVALGRAIVR PKVFLMDEPLSNLDAKLRVEMRA ISKLHQ LGVTTIYVTHDQVEAMTMG+RIVVMKDG IQQVD PINL DKP NKF+    GS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|MBX3142922.1|</Hit_id>
+  <Hit_def>ABC transporter ATP-binding protein [Trueperaceae bacterium]</Hit_def>
+  <Hit_accession>MBX3142922</Hit_accession>
+  <Hit_len>322</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>169.088</Hsp_bit-score>
+      <Hsp_score>427</Hsp_score>
+      <Hsp_evalue>2.9273e-49</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>138</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>QRQRVALGRAIVRHPKVFLMDEPLSNLDAKLRVEMRASISKLHQRLGVTTIYVTHDQVEAMTMGSRIVVMKDGDIQQVDPPINL*DKPQNKFLTRVNGS</Hsp_qseq>
+      <Hsp_hseq>QRQRVALGRAIVREPKVFLMDEPLSNLDAKLRVEMRAEISKLHQRLGVTTIYVTHDQTEAMTMGTRIVVMKDGFIQQVDSPINLYENPKNKFVAGFIGS</Hsp_hseq>
+      <Hsp_midline>QRQRVALGRAIVR PKVFLMDEPLSNLDAKLRVEMRA ISKLHQRLGVTTIYVTHDQ EAMTMG+RIVVMKDG IQQVD PINL + P+NKF+    GS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|MBX3139887.1|</Hit_id>
+  <Hit_def>ABC transporter ATP-binding protein [Trueperaceae bacterium]</Hit_def>
+  <Hit_accession>MBX3139887</Hit_accession>
+  <Hit_len>365</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>169.474</Hsp_bit-score>
+      <Hsp_score>428</Hsp_score>
+      <Hsp_evalue>5.92516e-49</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>138</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>QRQRVALGRAIVRHPKVFLMDEPLSNLDAKLRVEMRASISKLHQRLGVTTIYVTHDQVEAMTMGSRIVVMKDGDIQQVDPPINL*DKPQNKFLTRVNGS</Hsp_qseq>
+      <Hsp_hseq>QRQRVALGRAIVREPKVFLMDEPLSNLDAKLRVEMRASITKLHQRLGVTTVYVTHDQVEAMTMGTRIVVMKDGYIQQVDSPIHLYDRPVNKFVAGFIGS</Hsp_hseq>
+      <Hsp_midline>QRQRVALGRAIVR PKVFLMDEPLSNLDAKLRVEMRASI+KLHQRLGVTT+YVTHDQVEAMTMG+RIVVMKDG IQQVD PI+L D+P NKF+    GS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469982569</Statistics_db-num>
+      <Statistics_db-len>1180272553</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

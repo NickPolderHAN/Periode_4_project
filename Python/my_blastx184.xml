@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_10427</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_10427</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|MBT9470554.1|</Hit_id>
+  <Hit_def>hypothetical protein [Phenylobacterium sp.]</Hit_def>
+  <Hit_accession>MBT9470554</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.1662</Hsp_bit-score>
+      <Hsp_score>165</Hsp_score>
+      <Hsp_evalue>6.95514e-11</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>241</Hsp_hit-from>
+      <Hsp_hit-to>295</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>KGWTRAILARDGKSLFVVNFLEGRLQRRRISDGAILFEYDVARKCSMCGLVEYMP</Hsp_qseq>
+      <Hsp_hseq>KGWTRVTPSLDGETFFFNNFLEGVIERRRLDDGAVLARHDIKRKCVLCGVAEIGP</Hsp_hseq>
+      <Hsp_midline>KGWTR   + DG++ F  NFLEG ++RRR+ DGA+L  +D+ RKC +CG+ E  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_184098556.1|</Hit_id>
+  <Hit_def>hypothetical protein [Sphingopyxis panaciterrulae] &gt;gb|MBB5707060.1| hypothetical protein [Sphingopyxis panaciterrulae]</Hit_def>
+  <Hit_accession>WP_184098556</Hit_accession>
+  <Hit_len>301</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.781</Hsp_bit-score>
+      <Hsp_score>164</Hsp_score>
+      <Hsp_evalue>1.10535e-10</Hsp_evalue>
+      <Hsp_query-from>60</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>248</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>DKGWTRAILARDGKSLFVVNFLEGRLQRRRISDGAILFEYDVARKCSMCGLVE</Hsp_qseq>
+      <Hsp_hseq>ERGWTRVTPAKNGEEFFVNNFLEGVIERRRVADGQVVARHDIGRKCALCGVAE</Hsp_hseq>
+      <Hsp_midline>++GWTR   A++G+  FV NFLEG ++RRR++DG ++  +D+ RKC++CG+ E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|MCC5870710.1|</Hit_id>
+  <Hit_def>SMP-30/gluconolactonase/LRE family protein [Gammaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>MCC5870710</Hit_accession>
+  <Hit_len>323</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.4698</Hsp_bit-score>
+      <Hsp_score>158</Hsp_score>
+      <Hsp_evalue>7.8492e-10</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>261</Hsp_hit-from>
+      <Hsp_hit-to>315</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>KGWTRAILARDGKSLFVVNFLEGRLQRRRISDGAILFEYDVARKCSMCGLVEYMP</Hsp_qseq>
+      <Hsp_hseq>KGWTRARLAADGKHFFLGNFLDGILQRRRIIDGEITGEMNVGYQGSLTSVVEYFP</Hsp_hseq>
+      <Hsp_midline>KGWTRA LA DGK  F+ NFL+G LQRRRI DG I  E +V  + S+  +VEY P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|MCC5870584.1|</Hit_id>
+  <Hit_def>hypothetical protein [Gammaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>MCC5870584</Hit_accession>
+  <Hit_len>301</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.1586</Hsp_bit-score>
+      <Hsp_score>152</Hsp_score>
+      <Hsp_evalue>4.65432e-09</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>245</Hsp_hit-from>
+      <Hsp_hit-to>297</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>KGWTRAILARDGKSLFVVNFLEGRLQRRRISDGAILFEYDVARKCSMCGLVEY</Hsp_qseq>
+      <Hsp_hseq>PGWSRVTLAADGEHFFLNNFFAGVVEDRRVGDGQVIRRHDIARKYSLCGLVEY</Hsp_hseq>
+      <Hsp_midline> GW+R  LA DG+  F+ NF  G ++ RR+ DG ++  +D+ARK S+CGLVEY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|TVQ46595.1|</Hit_id>
+  <Hit_def>hypothetical protein EA371_10140 [Gammaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>TVQ46595</Hit_accession>
+  <Hit_len>301</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.1586</Hsp_bit-score>
+      <Hsp_score>152</Hsp_score>
+      <Hsp_evalue>4.84502e-09</Hsp_evalue>
+      <Hsp_query-from>66</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>246</Hsp_hit-from>
+      <Hsp_hit-to>297</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>GWTRAILARDGKSLFVVNFLEGRLQRRRISDGAILFEYDVARKCSMCGLVEY</Hsp_qseq>
+      <Hsp_hseq>GWSRVTLAADGEHFFLNNFFAGMVEDRRVEDGRVIRRHDIARKYSLCGLVEY</Hsp_hseq>
+      <Hsp_midline>GW+R  LA DG+  F+ NF  G ++ RR+ DG ++  +D+ARK S+CGLVEY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|MCC5870581.1|</Hit_id>
+  <Hit_def>hypothetical protein [Gammaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>MCC5870581</Hit_accession>
+  <Hit_len>301</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.3882</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>1.05937e-08</Hsp_evalue>
+      <Hsp_query-from>66</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>246</Hsp_hit-from>
+      <Hsp_hit-to>297</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>GWTRAILARDGKSLFVVNFLEGRLQRRRISDGAILFEYDVARKCSMCGLVEY</Hsp_qseq>
+      <Hsp_hseq>GWSRVTLAADGGHFFLNNFFAGMVEDRRVEDGRVIRRHDIARKYSLCGLVEY</Hsp_hseq>
+      <Hsp_midline>GW+R  LA DG   F+ NF  G ++ RR+ DG ++  +D+ARK S+CGLVEY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|MYE49293.1|</Hit_id>
+  <Hit_def>SMP-30/gluconolactonase/LRE family protein [Gammaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>MYE49293</Hit_accession>
+  <Hit_len>309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.003</Hsp_bit-score>
+      <Hsp_score>149</Hsp_score>
+      <Hsp_evalue>1.30122e-08</Hsp_evalue>
+      <Hsp_query-from>60</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>253</Hsp_hit-from>
+      <Hsp_hit-to>307</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>DKGWTRAILARDGKSLFVVNFLEGRLQRRRISDGAILFEYDVARKCSMCGLVEYM</Hsp_qseq>
+      <Hsp_hseq>DKGWTRAKLALDGEHFYLSNFTQGLLQRRNIETGEVVNELNTGLKCSMLSLTEYQ</Hsp_hseq>
+      <Hsp_midline>DKGWTRA LA DG+  ++ NF +G LQRR I  G ++ E +   KCSM  L EY </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|MYF67388.1|</Hit_id>
+  <Hit_def>SMP-30/gluconolactonase/LRE family protein [Gammaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>MYF67388</Hit_accession>
+  <Hit_len>309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.8474</Hsp_bit-score>
+      <Hsp_score>146</Hsp_score>
+      <Hsp_evalue>3.32352e-08</Hsp_evalue>
+      <Hsp_query-from>60</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>253</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>DKGWTRAILARDGKSLFVVNFLEGRLQRRRISDGAILFEYDVARKCSMCGLVEY</Hsp_qseq>
+      <Hsp_hseq>DKGWTRAKLALDGEHFYLSNFTQGLLQRRNIETGEVVNELNTGLKCSMLSLTEY</Hsp_hseq>
+      <Hsp_midline>DKGWTRA LA DG+  ++ NF +G LQRR I  G ++ E +   KCSM  L EY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|MYA30200.1|</Hit_id>
+  <Hit_def>SMP-30/gluconolactonase/LRE family protein [Gammaproteobacteria bacterium] &gt;gb|MYK36821.1| SMP-30/gluconolactonase/LRE family protein [Gammaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>MYA30200</Hit_accession>
+  <Hit_len>309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.8474</Hsp_bit-score>
+      <Hsp_score>146</Hsp_score>
+      <Hsp_evalue>3.32352e-08</Hsp_evalue>
+      <Hsp_query-from>60</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>253</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>DKGWTRAILARDGKSLFVVNFLEGRLQRRRISDGAILFEYDVARKCSMCGLVEY</Hsp_qseq>
+      <Hsp_hseq>DKGWTRAKLALDGEHFYLSNFTQGLLQRRNIETGEVVNELNTGLKCSMLSLTEY</Hsp_hseq>
+      <Hsp_midline>DKGWTRA LA DG+  ++ NF +G LQRR I  G ++ E +   KCSM  L EY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|MBL8630775.1|</Hit_id>
+  <Hit_def>hypothetical protein [Rhodospirillaceae bacterium]</Hit_def>
+  <Hit_accession>MBL8630775</Hit_accession>
+  <Hit_len>135</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.225</Hsp_bit-score>
+      <Hsp_score>134</Hsp_score>
+      <Hsp_evalue>2.80294e-07</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>81</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>KGWTRAILARDGKSLFVVNFLEGRLQRRRISDGAILFEYDVARKCSMCGLVEY</Hsp_qseq>
+      <Hsp_hseq>KGWSRLQRSKDGKTFFISNFFDGIIQRRDLATFNVLAQHDIGRKYSLTGIAEY</Hsp_hseq>
+      <Hsp_midline>KGW+R   ++DGK+ F+ NF +G +QRR ++   +L ++D+ RK S+ G+ EY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469534606</Statistics_db-num>
+      <Statistics_db-len>1070605227</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

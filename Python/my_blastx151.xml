@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_52331</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_52331</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|MBO2512781.1|</Hit_id>
+  <Hit_def>hypothetical protein [Gammaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>MBO2512781</Hit_accession>
+  <Hit_len>1856</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>166.777</Hsp_bit-score>
+      <Hsp_score>421</Hsp_score>
+      <Hsp_evalue>3.09322e-45</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>628</Hsp_hit-from>
+      <Hsp_hit-to>721</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>RIARCKVVVRPLEGGLPDEGTLLVTFEPLSVSAVAAEDAVVDTESELVRELQAELAATREQLNSTIEDLEAANDAPKAAHEEAIPLHEELPSGN</Hsp_qseq>
+      <Hsp_hseq>RIARCKVVVRPLEGGPPDEGTLLVTFEPLSVSAVAAEDAVVDTESELVRELQAELAATREQLNSTIEDLEAANDALKAAHEEAISINEELQSGN</Hsp_hseq>
+      <Hsp_midline>RIARCKVVVRPLEGG PDEGTLLVTFEPLSVSAVAAEDAVVDTESELVRELQAELAATREQLNSTIEDLEAANDA KAAHEEAI ++EEL SGN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|MBN1236942.1|</Hit_id>
+  <Hit_def>response regulator [Gammaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>MBN1236942</Hit_accession>
+  <Hit_len>1886</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.679</Hsp_bit-score>
+      <Hsp_score>252</Hsp_score>
+      <Hsp_evalue>1.93675e-22</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>642</Hsp_hit-from>
+      <Hsp_hit-to>739</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>RIARCKVVVRPLEGGLPDEGTLLVTFEPLSVSAVAAE----DAVVDTESELVRELQAELAATREQLNSTIEDLEAANDAPKAAHEEAIPLHEELPSGN</Hsp_qseq>
+      <Hsp_hseq>RYRKCAVTIRPLEGGPDEEDLLFASFEPLRERVSGAEGLEPEAIGDAEGSIVAELQQELASTREQLNSTIEDLEAANDALRASNEEAISMNEELQSGN</Hsp_hseq>
+      <Hsp_midline>R  +C V +RPLEGG  +E  L  +FEPL      AE    +A+ D E  +V ELQ ELA+TREQLNSTIEDLEAANDA +A++EEAI ++EEL SGN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|QGJ69747.1|</Hit_id>
+  <Hit_def>Hypothetical protein PBC10988_14340 [Planctomycetales bacterium 10988]</Hit_def>
+  <Hit_accession>QGJ69747</Hit_accession>
+  <Hit_len>2221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.411</Hsp_bit-score>
+      <Hsp_score>189</Hsp_score>
+      <Hsp_evalue>8.32149e-14</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>626</Hsp_hit-from>
+      <Hsp_hit-to>724</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>CKVVVRPLEGGLPDEGTLLVTFEP-LSVSAVAAEDAVVD---------TESELVRELQAELAATREQLNSTIEDLEAANDAPKAAHEEAIPLHEELPSGN</Hsp_qseq>
+      <Hsp_hseq>CRIQVRLLEGS-SEEEALLISFDPQTSTESVLVPDRRTQRRKNRKKTVTDQEYIEELEHELATTREQLNATIEDLETANEELKAANEEAISINEELQSGN</Hsp_hseq>
+      <Hsp_midline>C++ VR LEG   +E  LL++F+P  S  +V   D             T+ E + EL+ ELA TREQLN+TIEDLE AN+  KAA+EEAI ++EEL SGN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|REK17740.1|</Hit_id>
+  <Hit_def>response regulator [Planctomycetes bacterium]</Hit_def>
+  <Hit_accession>REK17740</Hit_accession>
+  <Hit_len>1517</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.5514</Hsp_bit-score>
+      <Hsp_score>166</Hsp_score>
+      <Hsp_evalue>8.25795e-11</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>607</Hsp_hit-from>
+      <Hsp_hit-to>701</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>RIARCKVVVRPLEGGLPDEGTLLVTFEPLSV--SAVAAEDAVVDTESELVRELQAELAATREQLNSTIEDLEAANDAPKAAHEEAIPLHEELPSGN</Hsp_qseq>
+      <Hsp_hseq>RYEHCRISMRYL-GGSPEDRTVLVTFAPQPVLQHDGTPEGSSVAVDEVGARELEQELATTREELNSTVEELETANEELKASNEEAMATNEELQSTN</Hsp_hseq>
+      <Hsp_midline>R   C++ +R L GG P++ T+LVTF P  V       E + V  +    REL+ ELA TRE+LNST+E+LE AN+  KA++EEA+  +EEL S N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|MBL6999191.1|</Hit_id>
+  <Hit_def>PAS domain S-box protein [Gammaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>MBL6999191</Hit_accession>
+  <Hit_len>1435</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>2.48858e-09</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>618</Hsp_hit-from>
+      <Hsp_hit-to>712</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>CKVVVRPLEGGLPDEGTLLVTFEPLSVSAV-----AAEDAVVDTESELVRELQAELAATREQLNSTIEDLEAANDAPKAAHEEAIPLHEELPSGN</Hsp_qseq>
+      <Hsp_hseq>CSITVKPIVEPRQAEGLLLVTFHKLQPSTQTNAPESGSNVLAQEDSAIVHQLEYELKATRDDLQTTIEDMESSNEELKASNEEIMSMNEELQSAN</Hsp_hseq>
+      <Hsp_midline>C + V+P+      EG LLVTF  L  S       +  + +   +S +V +L+ EL ATR+ L +TIED+E++N+  KA++EE + ++EEL S N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|MCB1887270.1|</Hit_id>
+  <Hit_def>PAS domain S-box protein [Rhodocyclaceae bacterium]</Hit_def>
+  <Hit_accession>MCB1887270</Hit_accession>
+  <Hit_len>1675</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>2.6507e-09</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>641</Hsp_hit-from>
+      <Hsp_hit-to>728</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>VVVRPLEGGLPDEGTLLVTFE--PLSVSAVAAEDAVVDTESEL---VRELQAELAATREQLNSTIEDLEAANDAPKAAHEEAIPLHEELPSGN</Hsp_qseq>
+      <Hsp_hseq>IKVRPLEMPASAEGLLLVTFEDSPAAPVATAAQ-----TDSPLPEEMRQLEYELTATREDLQSTIEELETSNEELKASNEEVMSMNEELQSTN</Hsp_hseq>
+      <Hsp_midline>+ VRPLE     EG LLVTFE  P +  A AA+     T+S L   +R+L+ EL ATRE L STIE+LE +N+  KA++EE + ++EEL S N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|MBC8212797.1|</Hit_id>
+  <Hit_def>hypothetical protein [Gammaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>MBC8212797</Hit_accession>
+  <Hit_len>746</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>2.98959e-09</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>618</Hsp_hit-from>
+      <Hsp_hit-to>712</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>CKVVVRPLEGGLPDEGTLLVTFEPLSVSAV-----AAEDAVVDTESELVRELQAELAATREQLNSTIEDLEAANDAPKAAHEEAIPLHEELPSGN</Hsp_qseq>
+      <Hsp_hseq>CSITVKPIVEPRQAEGLLLVTFHKLQPSTQTNAPESGSNVLAQEDSAIVHQLEYELKATRDDLQTTIEDMESSNEELKASNEEIMSMNEELQSAN</Hsp_hseq>
+      <Hsp_midline>C + V+P+      EG LLVTF  L  S       +  + +   +S +V +L+ EL ATR+ L +TIED+E++N+  KA++EE + ++EEL S N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_146526647.1|</Hit_id>
+  <Hit_def>PAS domain S-box protein [Novipirellula artificiosorum] &gt;gb|TWU38316.1| Sensor protein FixL [Novipirellula artificiosorum]</Hit_def>
+  <Hit_accession>WP_146526647</Hit_accession>
+  <Hit_len>1356</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>3.63112e-09</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>616</Hsp_hit-from>
+      <Hsp_hit-to>722</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>CKVVVRPLEGGLPDEGTLLVTFEPLS-----------VSAVAAED------AVVDTESELVRELQAELAATREQLNSTIEDLEAANDAPKAAHEEAIPLHEELPSGN</Hsp_qseq>
+      <Hsp_hseq>CTIAVRPLTEPKQAEGLMLVTFEDLRPDPVQTSGDALNSPVPNEDQSTGMRSVFVDETPLVQQLELELKSTREDLQSTIEEMESANEELKASNEEIMSMNEELQSAN</Hsp_hseq>
+      <Hsp_midline>C + VRPL      EG +LVTFE L             S V  ED      +V   E+ LV++L+ EL +TRE L STIE++E+AN+  KA++EE + ++EEL S N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|MCB1954472.1|</Hit_id>
+  <Hit_def>PAS domain-containing protein [Rhodocyclaceae bacterium]</Hit_def>
+  <Hit_accession>MCB1954472</Hit_accession>
+  <Hit_len>1665</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>3.76291e-09</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>640</Hsp_hit-from>
+      <Hsp_hit-to>727</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>VVVRPLEGGLPDEGTLLVTFEPL-SVSAVAAEDAVVDTESELVRELQAELAATREQLNSTIEDLEAANDAPKAAHEEAIPLHEELPSGN</Hsp_qseq>
+      <Hsp_hseq>IKVRPLEMPASAEGLLLVTFEDVPSVPASLPTQSDVQLPEE-VRQLEYELTATREDLQSTIEELETSNEELKASNEEVMSMNEELQSTN</Hsp_hseq>
+      <Hsp_midline>+ VRPLE     EG LLVTFE + SV A     + V    E VR+L+ EL ATRE L STIE+LE +N+  KA++EE + ++EEL S N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_068259946.1|</Hit_id>
+  <Hit_def>PAS domain-containing protein [Rubripirellula obstinata] &gt;gb|KAA1261183.1| Aerobic respiration control sensor protein ArcB [Rubripirellula obstinata]</Hit_def>
+  <Hit_accession>WP_068259946</Hit_accession>
+  <Hit_len>1500</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>3.78795e-09</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>606</Hsp_hit-from>
+      <Hsp_hit-to>697</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>CKVVVRPLEGGLPDEGTLLVTFEPLSVSA-------VAAEDAVVDTESELVRELQAELAATREQLNSTIEDLEAANDAPKAAHEEAIPLHEELPSGN</Hsp_qseq>
+      <Hsp_hseq>CRIRMRKLSAVTGPDRPILITFQPLSVETTPVPERLLSGDEAPVDQE-----ELRHELLTTREQLSTTIAQLETANEELKASNEEAMSMNEQLQSGN</Hsp_hseq>
+      <Hsp_midline>C++ +R L      +  +L+TF+PLSV         ++ ++A VD E     EL+ EL  TREQL++TI  LE AN+  KA++EEA+ ++E+L SGN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469534606</Statistics_db-num>
+      <Statistics_db-len>1070605227</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

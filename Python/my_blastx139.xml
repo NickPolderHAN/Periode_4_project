@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_8437</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_8437</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|MBX6362234.1|</Hit_id>
+  <Hit_def>CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase [Gemmatimonadetes bacterium]</Hit_def>
+  <Hit_accession>MBX6362234</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.5514</Hsp_bit-score>
+      <Hsp_score>166</Hsp_score>
+      <Hsp_evalue>2.49579e-11</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>141</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>WRALARADAGGGIVLWCGTQPEAHAGGWAGPCWVFWQAFHGVVLALVLLVSVALTVLSLVVYLWSWRAMVREAA</Hsp_qseq>
+      <Hsp_hseq>YKALTQNIFIGTTILWYALESAAREGSWTGRLWQAWQVFHGTVLAVTLLAAVALTVYSLGVYLWGWRSLVKQVA</Hsp_hseq>
+      <Hsp_midline>++AL +    G  +LW   +  A  G W G  W  WQ FHG VLA+ LL +VALTV SL VYLW WR++V++ A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|UCF20611.1|</Hit_id>
+  <Hit_def>MAG: hypothetical protein JSU87_04150, partial [Gemmatimonadetes bacterium]</Hit_def>
+  <Hit_accession>UCF20611</Hit_accession>
+  <Hit_len>67</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.8474</Hsp_bit-score>
+      <Hsp_score>146</Hsp_score>
+      <Hsp_evalue>8.35166e-10</Hsp_evalue>
+      <Hsp_query-from>87</Hsp_query-from>
+      <Hsp_query-to>266</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>61</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>GGIVLWCGTQPEAHAGGWAGPCWVFWQAFHGVVLALVLLVSVALTVLSLVVYLWSWRAMV</Hsp_qseq>
+      <Hsp_hseq>GGEILWLGIRSRALERGWDSPFWSFWKVFHGSYVAITLAIAVLLTAYSLAVYLWRYRRLV</Hsp_hseq>
+      <Hsp_midline>GG +LW G +  A   GW  P W FW+ FHG  +A+ L ++V LT  SL VYLW +R +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|PZN90859.1|</Hit_id>
+  <Hit_def>hypothetical protein DIU52_06500 [bacterium]</Hit_def>
+  <Hit_accession>PZN90859</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.7734</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>2.90064e-09</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>142</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>RALARADAGGGIVLWCGTQPEAHAGGWAGPCWVFWQAFHGVVLALVLLVSVALTVLSLVVYLWSWRAMVREA</Hsp_qseq>
+      <Hsp_hseq>KALLQNIFIGSTLAWYAIRTAAVDAQWSGPLWGAWQTFHGVVVATTLVLAVSLTLYSLAVYLWRWRLLIREA</Hsp_hseq>
+      <Hsp_midline>+AL +    G  + W   +  A    W+GP W  WQ FHGVV+A  L+++V+LT+ SL VYLW WR ++REA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|MBM4182600.1|</Hit_id>
+  <Hit_def>CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase [Gemmatimonadetes bacterium]</Hit_def>
+  <Hit_accession>MBM4182600</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.6918</Hsp_bit-score>
+      <Hsp_score>143</Hsp_score>
+      <Hsp_evalue>5.15276e-08</Hsp_evalue>
+      <Hsp_query-from>87</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>160</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>RALARADAGGGIVLWCGTQPEAHAGGWAGPCWVFWQAFHGVVLALVLLVSVALTVLSLVVYLWSWRAMV</Hsp_qseq>
+      <Hsp_hseq>KALFQALFVGGLLLWYPLRMTAQARGWGGPAWGFWAQFHGAWIGVMLALAVVLTVYSMLDYLWSYRAVV</Hsp_hseq>
+      <Hsp_midline>+AL +A   GG++LW   +  A A GW GP W FW  FHG  + ++L ++V LTV S++ YLWS+RA+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|NIR58901.1|</Hit_id>
+  <Hit_def>hypothetical protein [Gammaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>NIR58901</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>7.25841e-08</Hsp_evalue>
+      <Hsp_query-from>90</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>WRALARADAGGGIVLWCGTQPEAHAGGWAGPCWVFWQAFHGVVLALVLLVSVALTVLSLVVYLWSWRAM</Hsp_qseq>
+      <Hsp_hseq>YKALFQNLFIGGEILWLALRARALERDWDSAFWSFWQAFHGSYVAVTLAIAVVLTAYSLVVYLWRYRAL</Hsp_hseq>
+      <Hsp_midline>++AL +    GG +LW   +  A    W    W FWQAFHG  +A+ L ++V LT  SLVVYLW +RA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|UCC49576.1|</Hit_id>
+  <Hit_def>MAG: CDP-alcohol phosphatidyltransferase family protein [Gemmatimonadetes bacterium]</Hit_def>
+  <Hit_accession>UCC49576</Hit_accession>
+  <Hit_len>211</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.3066</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>7.49141e-08</Hsp_evalue>
+      <Hsp_query-from>87</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>137</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>AWRALARADAGGGIVLWCGTQPEAHAGGWAGPCWVFWQAFHGVVLALVLLVSVALTVLSLVVYLWSWRAMV</Hsp_qseq>
+      <Hsp_hseq>KYKALFQNLFIGGEIFWLALRARALERGWDSPFWSFWEVFHGSFVAITLTVAVLLTAYSLVAYVWKYRALV</Hsp_hseq>
+      <Hsp_midline> ++AL +    GG + W   +  A   GW  P W FW+ FHG  +A+ L V+V LT  SLV Y+W +RA+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|MBT4187750.1|</Hit_id>
+  <Hit_def>CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase [Gemmatimonadales bacterium]</Hit_def>
+  <Hit_accession>MBT4187750</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.151</Hsp_bit-score>
+      <Hsp_score>139</Hsp_score>
+      <Hsp_evalue>1.90897e-07</Hsp_evalue>
+      <Hsp_query-from>87</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>142</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>RALARADAGGGIVLWCGTQPEAHAGGWAGPCWVFWQAFHGVVLALVLLVSVALTVLSLVVYLWSWRAMV</Hsp_qseq>
+      <Hsp_hseq>KALLQALFMGGLLLWSPVRMAAEANAWDGPFWTFWEQFHTGWIGVTLVLALILTVYSMLDYLWSYRSLV</Hsp_hseq>
+      <Hsp_midline>+AL +A   GG++LW   +  A A  W GP W FW+ FH   + + L++++ LTV S++ YLWS+R++V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|NIR44815.1|</Hit_id>
+  <Hit_def>hypothetical protein [Gemmatimonadetes bacterium] &gt;gb|NIR74981.1| hypothetical protein [Gemmatimonadetes bacterium] &gt;gb|NIS01564.1| hypothetical protein [Gemmatimonadetes bacterium] &gt;gb|NIT67302.1| hypothetical protein [Gemmatimonadetes bacterium] &gt;gb|NIU52665.1| hypothetical protein [Gemmatimonadetes bacterium]</Hit_def>
+  <Hit_accession>NIR44815</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>2.68396e-07</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>138</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>AWRALARADAGGGIVLWCGTQPEAHAGGWAGPCWVFWQAFHGVVLALVLLVSVALTVLSLVVYLWSWRAMVRE</Hsp_qseq>
+      <Hsp_hseq>KYKALFQSLFIGGEILWLALRSRALERGWDSPFWSFWQVLHGMWVMLTLAIAVVLTVYSLAVYIWRYRNLVHR</Hsp_hseq>
+      <Hsp_midline> ++AL ++   GG +LW   +  A   GW  P W FWQ  HG+ + L L ++V LTV SL VY+W +R +V  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|MBT3326586.1|</Hit_id>
+  <Hit_def>CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase [Gemmatimonadales bacterium] &gt;gb|NCG33993.1| CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase [Proteobacteria bacterium] &gt;gb|MBT3498950.1| CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase [Gemmatimonadales bacterium] &gt;gb|MBT3773005.1| CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase [Gemmatimonadales bacterium] &gt;gb|MBT3957268.1| CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase [Gemmatimonadales bacterium]</Hit_def>
+  <Hit_accession>MBT3326586</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.3806</Hsp_bit-score>
+      <Hsp_score>137</Hsp_score>
+      <Hsp_evalue>2.94697e-07</Hsp_evalue>
+      <Hsp_query-from>87</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>142</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>RALARADAGGGIVLWCGTQPEAHAGGWAGPCWVFWQAFHGVVLALVLLVSVALTVLSLVVYLWSWRAMV</Hsp_qseq>
+      <Hsp_hseq>KALLQALFMGGLLLWYPVRMAAEANAWDGPFWTFWEQFHTGWIGVTLVLALILTVYSMLDYLWSYRSLV</Hsp_hseq>
+      <Hsp_midline>+AL +A   GG++LW   +  A A  W GP W FW+ FH   + + L++++ LTV S++ YLWS+R++V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|MBI4512877.1|</Hit_id>
+  <Hit_def>CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase [Gemmatimonadetes bacterium]</Hit_def>
+  <Hit_accession>MBI4512877</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.6102</Hsp_bit-score>
+      <Hsp_score>135</Hsp_score>
+      <Hsp_evalue>5.58385e-07</Hsp_evalue>
+      <Hsp_query-from>84</Hsp_query-from>
+      <Hsp_query-to>266</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>GGIVLWCGTQPEAHAGGWAGPCWVFWQAFHGVVLALVLLVSVALTVLSLVVYLWSWRAMVR</Hsp_qseq>
+      <Hsp_hseq>GGLILWYALETRAREAGWAGEVWPLWSGFHGAFVSATLILAIVLSVYSLGLYVWQYRRLVR</Hsp_hseq>
+      <Hsp_midline>GG++LW   +  A   GWAG  W  W  FHG  ++  L++++ L+V SL +Y+W +R +VR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469534606</Statistics_db-num>
+      <Statistics_db-len>1070605227</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

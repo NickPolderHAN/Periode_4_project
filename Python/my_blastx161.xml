@@ -1,0 +1,322 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_65079</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_65079</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|MBX3142384.1|</Hit_id>
+  <Hit_def>ABC transporter substrate-binding protein [Trueperaceae bacterium]</Hit_def>
+  <Hit_accession>MBX3142384</Hit_accession>
+  <Hit_len>530</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>156.762</Hsp_bit-score>
+      <Hsp_score>395</Hsp_score>
+      <Hsp_evalue>1.1912e-42</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>255</Hsp_hit-from>
+      <Hsp_hit-to>343</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>SPQNVRGIESTGALEVLRQSQNLFFFVAPNHEDERLADVRVRQAMVMAIDREAMIQAILDGYGEVASGPVAPMLGALFNGAVRQVPSGP</Hsp_qseq>
+      <Hsp_hseq>SPQNVGGIESTGALEVLRQSQNLFFFVAPNHDDERLADVRVRQAMTLAIDRQAMIQAILSGFGEVASGPVAPMLGALFNGDVQTYPYDP</Hsp_hseq>
+      <Hsp_midline>SPQNV GIESTGALEVLRQSQNLFFFVAPNH+DERLADVRVRQAM +AIDR+AMIQAIL G+GEVASGPVAPMLGALFNG V+  P  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|MBX3142470.1|</Hit_id>
+  <Hit_def>ABC transporter substrate-binding protein [Trueperaceae bacterium]</Hit_def>
+  <Hit_accession>MBX3142470</Hit_accession>
+  <Hit_len>519</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.451</Hsp_bit-score>
+      <Hsp_score>389</Hsp_score>
+      <Hsp_evalue>6.14281e-42</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>277</Hsp_query-to>
+      <Hsp_hit-from>244</Hsp_hit-from>
+      <Hsp_hit-to>335</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>SPQNVRGIESTGALEVLRQSQNLFFFVAPNHEDERLADVRVRQAMVMAIDREAMIQAILDGYGEVASGPVAPMLGALFNGAVRQVPSGPRPA</Hsp_qseq>
+      <Hsp_hseq>SPQNVGGIEATGGLEVLRQSQNLFFFVAPNHDDARLADVRVRKAMTLAIDRQAMIQAILSGYGEVASGPVAPMLGALFNGDVTQYPYDPEAA</Hsp_hseq>
+      <Hsp_midline>SPQNV GIE+TG LEVLRQSQNLFFFVAPNH+D RLADVRVR+AM +AIDR+AMIQAIL GYGEVASGPVAPMLGALFNG V Q P  P  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|MBA2666540.1|</Hit_id>
+  <Hit_def>ABC transporter substrate-binding protein [Trueperaceae bacterium]</Hit_def>
+  <Hit_accession>MBA2666540</Hit_accession>
+  <Hit_len>531</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.42</Hsp_bit-score>
+      <Hsp_score>337</Hsp_score>
+      <Hsp_evalue>1.94112e-34</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>257</Hsp_hit-from>
+      <Hsp_hit-to>345</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>SPQNVRGIESTGALEVLRQSQNLFFFVAPNHEDERLADVRVRQAMVMAIDREAMIQAILDGYGEVASGPVAPMLGALFNGAVRQVPSGP</Hsp_qseq>
+      <Hsp_hseq>SPNQAPGIEATGRLEVLRQSQNLFFFVAPNHDDERFADVRVKQALLLAIDRQAMIDALLDGFGEVATGPVAPMLGALYHGDVSTYDYDP</Hsp_hseq>
+      <Hsp_midline>SP    GIE+TG LEVLRQSQNLFFFVAPNH+DER ADVRV+QA+++AIDR+AMI A+LDG+GEVA+GPVAPMLGAL++G V      P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|TVR95221.1|</Hit_id>
+  <Hit_def>ABC transporter substrate-binding protein [Trueperaceae bacterium]</Hit_def>
+  <Hit_accession>TVR95221</Hit_accession>
+  <Hit_len>530</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.494</Hsp_bit-score>
+      <Hsp_score>332</Hsp_score>
+      <Hsp_evalue>1.06341e-33</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>256</Hsp_hit-from>
+      <Hsp_hit-to>354</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>SPQNVRGIESTGALEVLRQSQNLFFFVAPNHEDERLADVRVRQAMVMAIDREAMIQAILDGYGEVASGPVAPMLGALFNGAVRQVPSGPRPAAPPPDAA</Hsp_qseq>
+      <Hsp_hseq>SPNVVASVEGSGRLEVLRQSQNLFFFVAPNHDDERFADVRVKQALLMAIDRQALIDALLDGFGEVATGPVAPMLGALYNDDVQTYAYDPEAAGALLDEA</Hsp_hseq>
+      <Hsp_midline>SP  V  +E +G LEVLRQSQNLFFFVAPNH+DER ADVRV+QA++MAIDR+A+I A+LDG+GEVA+GPVAPMLGAL+N  V+     P  A    D A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|MCA9836548.1|</Hit_id>
+  <Hit_def>ABC transporter substrate-binding protein [Trueperaceae bacterium]</Hit_def>
+  <Hit_accession>MCA9836548</Hit_accession>
+  <Hit_len>525</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.227</Hsp_bit-score>
+      <Hsp_score>269</Hsp_score>
+      <Hsp_evalue>7.50331e-25</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>277</Hsp_query-to>
+      <Hsp_hit-from>251</Hsp_hit-from>
+      <Hsp_hit-to>342</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>SPQNVRGIESTGALEVLRQSQNLFFFVAPNHEDERLADVRVRQAMVMAIDREAMIQAILDGYGEVASGPVAPMLGALFNGAVRQVPSGPRPA</Hsp_qseq>
+      <Hsp_hseq>NPNLLAGVEQAPNLDVLRQSQNLYYWVVLNQQDERFTDARVRQALLMALDRPAMIDAILKGYGTVATGPIAPLLGAIYSSDVAQYPYDPEGA</Hsp_hseq>
+      <Hsp_midline>+P  + G+E    L+VLRQSQNL+++V  N +DER  D RVRQA++MA+DR AMI AIL GYG VA+GP+AP+LGA+++  V Q P  P  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|NLG08626.1|</Hit_id>
+  <Hit_def>ABC transporter substrate-binding protein [Deinococcales bacterium]</Hit_def>
+  <Hit_accession>NLG08626</Hit_accession>
+  <Hit_len>531</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.145</Hsp_bit-score>
+      <Hsp_score>261</Hsp_score>
+      <Hsp_evalue>9.36805e-24</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>277</Hsp_query-to>
+      <Hsp_hit-from>257</Hsp_hit-from>
+      <Hsp_hit-to>348</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>SPQNVRGIESTGALEVLRQSQNLFFFVAPNHEDERLADVRVRQAMVMAIDREAMIQAILDGYGEVASGPVAPMLGALFNGAVRQVPSGPRPA</Hsp_qseq>
+      <Hsp_hseq>NPTALAGVERNPALDVMRQSQNIFYFVALNMDDERFQDVRVRQALLTAIDRQALIDALVQGYGQVATGPIAPLLAALHNPDVEQHAYDPERA</Hsp_hseq>
+      <Hsp_midline>+P  + G+E   AL+V+RQSQN+F+FVA N +DER  DVRVRQA++ AIDR+A+I A++ GYG+VA+GP+AP+L AL N  V Q    P  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|NBC95117.1|</Hit_id>
+  <Hit_def>ABC transporter substrate-binding protein [Deinococcus-Thermus bacterium]</Hit_def>
+  <Hit_accession>NBC95117</Hit_accession>
+  <Hit_len>532</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.375</Hsp_bit-score>
+      <Hsp_score>259</Hsp_score>
+      <Hsp_evalue>1.92192e-23</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>277</Hsp_query-to>
+      <Hsp_hit-from>264</Hsp_hit-from>
+      <Hsp_hit-to>349</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>GIESTGALEVLRQSQNLFFFVAPNHEDERLADVRVRQAMVMAIDREAMIQAILDGYGEVASGPVAPMLGALFNGAVRQVPSGPRPA</Hsp_qseq>
+      <Hsp_hseq>GVEAAPDLEVLRQSQNLYYWIALNQDDPRFTDRRVRQALLAALDKDAMIDAVLEGYGQVATGPIAPLLGALYNPDVETYPYDPERA</Hsp_hseq>
+      <Hsp_midline>G+E+   LEVLRQSQNL++++A N +D R  D RVRQA++ A+D++AMI A+L+GYG+VA+GP+AP+LGAL+N  V   P  P  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_119356432.1|</Hit_id>
+  <Hit_def>ABC transporter substrate-binding protein [Meiothermus granaticius] &gt;gb|RIH93120.1| Oligopeptide-binding protein AppA [Meiothermus granaticius NBRC 107808]</Hit_def>
+  <Hit_accession>WP_119356432</Hit_accession>
+  <Hit_len>530</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.8265</Hsp_bit-score>
+      <Hsp_score>242</Hsp_score>
+      <Hsp_evalue>5.01394e-21</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>277</Hsp_query-to>
+      <Hsp_hit-from>256</Hsp_hit-from>
+      <Hsp_hit-to>347</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>SPQNVRGIESTGALEVLRQSQNLFFFVAPNHEDERLADVRVRQAMVMAIDREAMIQAILDGYGEVASGPVAPMLGALFNGAVRQVPSGPRPA</Hsp_qseq>
+      <Hsp_hseq>NPALLAGVERNPKLQVLRQSQNLYYFVALNQNDPRFRDVRVRQALLYAIDRKAMIDSVVRGYGTIATGPIAPLQKAFYVKDVAQYPYSPEKA</Hsp_hseq>
+      <Hsp_midline>+P  + G+E    L+VLRQSQNL++FVA N  D R  DVRVRQA++ AIDR+AMI +++ GYG +A+GP+AP+  A +   V Q P  P  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>dbj|GEM88011.1|</Hit_id>
+  <Hit_def>peptide-binding protein [Meiothermus granaticius NBRC 107808]</Hit_def>
+  <Hit_accession>GEM88011</Hit_accession>
+  <Hit_len>531</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.4413</Hsp_bit-score>
+      <Hsp_score>241</Hsp_score>
+      <Hsp_evalue>5.12537e-21</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>277</Hsp_query-to>
+      <Hsp_hit-from>257</Hsp_hit-from>
+      <Hsp_hit-to>348</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>SPQNVRGIESTGALEVLRQSQNLFFFVAPNHEDERLADVRVRQAMVMAIDREAMIQAILDGYGEVASGPVAPMLGALFNGAVRQVPSGPRPA</Hsp_qseq>
+      <Hsp_hseq>NPALLAGVERNPKLQVLRQSQNLYYFVALNQNDPRFRDVRVRQALLYAIDRKAMIDSVVRGYGTIATGPIAPLQKAFYVKDVAQYPYSPEKA</Hsp_hseq>
+      <Hsp_midline>+P  + G+E    L+VLRQSQNL++FVA N  D R  DVRVRQA++ AIDR+AMI +++ GYG +A+GP+AP+  A +   V Q P  P  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|MBX3140583.1|</Hit_id>
+  <Hit_def>hypothetical protein [Trueperaceae bacterium]</Hit_def>
+  <Hit_accession>MBX3140583</Hit_accession>
+  <Hit_len>532</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.0561</Hsp_bit-score>
+      <Hsp_score>240</Hsp_score>
+      <Hsp_evalue>7.18142e-21</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>277</Hsp_query-to>
+      <Hsp_hit-from>258</Hsp_hit-from>
+      <Hsp_hit-to>349</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>SPQNVRGIESTGALEVLRQSQNLFFFVAPNHEDERLADVRVRQAMVMAIDREAMIQAILDGYGEVASGPVAPMLGALFNGAVRQVPSGPRPA</Hsp_qseq>
+      <Hsp_hseq>NPALLAGVANNPNLEVIRQSQNIWYFVALNLNDERFQDVRVRQALLSAIDRPAIIDAVLEGYGVVATGPIAPLQQALYDDDVAQWPFDPERA</Hsp_hseq>
+      <Hsp_midline>+P  + G+ +   LEV+RQSQN+++FVA N  DER  DVRVRQA++ AIDR A+I A+L+GYG VA+GP+AP+  AL++  V Q P  P  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469534606</Statistics_db-num>
+      <Statistics_db-len>1070605227</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

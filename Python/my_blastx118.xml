@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_2609</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_2609</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|MBO2490043.1|</Hit_id>
+  <Hit_def>methyltransferase [Gammaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>MBO2490043</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.808</Hsp_bit-score>
+      <Hsp_score>473</Hsp_score>
+      <Hsp_evalue>2.02134e-56</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>ETLQFFGIEPGMTVVDTLPGEIWYTGILMDYLGLEGTVIAADYSPEMWQLFGRIAPKPEEKAKWAANLVAKIDTKRDENDARGIAAPYGSTPNERAGTA</Hsp_qseq>
+      <Hsp_hseq>ETLQFFGIEPGMTVVDTLPGEIWYTGILMDYLGLEGTVIAADYSPEMWQLFGRIAPKPEEKAKWAANFVAKMDAKRDENDARVIAVHYGAIPDELAGTA</Hsp_hseq>
+      <Hsp_midline>ETLQFFGIEPGMTVVDTLPGEIWYTGILMDYLGLEGTVIAADYSPEMWQLFGRIAPKPEEKAKWAAN VAK+D KRDENDAR IA  YG+ P+E AGTA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|PZN28938.1|</Hit_id>
+  <Hit_def>methyltransferase [Proteobacteria bacterium]</Hit_def>
+  <Hit_accession>PZN28938</Hit_accession>
+  <Hit_len>301</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.42</Hsp_bit-score>
+      <Hsp_score>337</Hsp_score>
+      <Hsp_evalue>6.37973e-36</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>ETLQFFGIEPGMTVVDTLPGEIWYTGILMDYLGLEGTVIAADYSPEMWQLFGRIAPKPEEKAKWAANLVAKIDTKRDENDARGIAAPYGSTPNERAGT</Hsp_qseq>
+      <Hsp_hseq>ETLEFFGIEPGMTVVDTYPGEVWYTGILLDYLGAEGKVIGADFAPDMWARFGRFAPDPKEKETWVQDFIAKTEARRDAGDAAVGAIQYGAVPDELAGT</Hsp_hseq>
+      <Hsp_midline>ETL+FFGIEPGMTVVDT PGE+WYTGIL+DYLG EG VI AD++P+MW  FGR AP P+EK  W  + +AK + +RD  DA   A  YG+ P+E AGT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_129649361.1|</Hit_id>
+  <Hit_def>methyltransferase domain-containing protein [Steroidobacter agariperforans]</Hit_def>
+  <Hit_accession>WP_129649361</Hit_accession>
+  <Hit_len>302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.88</Hsp_bit-score>
+      <Hsp_score>333</Hsp_score>
+      <Hsp_evalue>2.34331e-35</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>ETLQFFGIEPGMTVVDTLPGEIWYTGILMDYLGLEGTVIAADYSPEMWQLFGRIAPKPEEKAKWAANLVAKIDTKRDENDARGIAAPYGSTPNERAGTA</Hsp_qseq>
+      <Hsp_hseq>EMLEFFEVKPGMTVVDTLPGDVWFAGILADYLGPQGKVIAADYSKEMWQLFGDYSPKPEEKAKWAAEFTSKMEAKRGADDAAVVAVHFSEIPDDLAGTA</Hsp_hseq>
+      <Hsp_midline>E L+FF ++PGMTVVDTLPG++W+ GIL DYLG +G VIAADYS EMWQLFG  +PKPEEKAKWAA   +K++ KR  +DA  +A  +   P++ AGTA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_184335478.1|</Hit_id>
+  <Hit_def>methyltransferase domain-containing protein [Povalibacter uvarum] &gt;gb|MBB6096107.1| putative methyltransferase [Povalibacter uvarum]</Hit_def>
+  <Hit_accession>WP_184335478</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.568</Hsp_bit-score>
+      <Hsp_score>327</Hsp_score>
+      <Hsp_evalue>1.42083e-34</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>ETLQFFGIEPGMTVVDTLPGEIWYTGILMDYLGLEGTVIAADYSPEMWQLFGRIAPKPEEKAKWAANLVAKIDTKRDENDARGIAAPYGSTPNERAGTA</Hsp_qseq>
+      <Hsp_hseq>ETLQFFGVEPGMTVVDTLPGDVWYTGILLDYLGPNGKVIAADYSAEMWTKFGEYSPDPKTKTNWPADYVAKMEPKRGADDAAIAAFQYGAVPDDMAGTA</Hsp_hseq>
+      <Hsp_midline>ETLQFFG+EPGMTVVDTLPG++WYTGIL+DYLG  G VIAADYS EMW  FG  +P P+ K  W A+ VAK++ KR  +DA   A  YG+ P++ AGTA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|NLG78075.1|</Hit_id>
+  <Hit_def>methyltransferase [Xanthomonadaceae bacterium]</Hit_def>
+  <Hit_accession>NLG78075</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.242</Hsp_bit-score>
+      <Hsp_score>295</Hsp_score>
+      <Hsp_evalue>1.24569e-31</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>65</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>ETLQFFGIEPGMTVVDTLPGEIWYTGILMDYLGLEGTVIAADYSPEMWQLFGRIAPKPEEKAKWAAN</Hsp_qseq>
+      <Hsp_hseq>ETLEFFGIEPGMTVVDTIPGEVWYAGILMDYLGPNGKVIAADYSQEMWQLFGNYAPKPEVKAKWAAE</Hsp_hseq>
+      <Hsp_midline>ETL+FFGIEPGMTVVDT+PGE+WY GILMDYLG  G VIAADYS EMWQLFG  APKPE KAKWAA </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>dbj|GJL93279.1|</Hit_id>
+  <Hit_def>methyltransferase [Marinicaulis sp.]</Hit_def>
+  <Hit_accession>GJL93279</Hit_accession>
+  <Hit_len>305</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.235</Hsp_bit-score>
+      <Hsp_score>282</Hsp_score>
+      <Hsp_evalue>9.55291e-28</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>72</Hsp_hit-from>
+      <Hsp_hit-to>170</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>ETLQFFGIEPGMTVVDTLPGEIWYTGILMDYLGLEGTVIAADYSPEMWQLFGRIAPKPEEKAKWAANLVAKIDTKRDEN-DARGIAAPYGSTPNERAGT</Hsp_qseq>
+      <Hsp_hseq>ETLEFFGVEPGMTVADTLPGNPWYSGILIDYLGPDGKVLGADYSEDMWTKFGQFSPPAGEKATWAADWTADAESWRDDDGDAAVGAFAYGSAPDDMAGT</Hsp_hseq>
+      <Hsp_midline>ETL+FFG+EPGMTV DTLPG  WY+GIL+DYLG +G V+ ADYS +MW  FG+ +P   EKA WAA+  A  ++ RD++ DA   A  YGS P++ AGT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|OFW98632.1|</Hit_id>
+  <Hit_def>hypothetical protein A3E78_13690 [Alphaproteobacteria bacterium RIFCSPHIGHO2_12_FULL_63_12]</Hit_def>
+  <Hit_accession>OFW98632</Hit_accession>
+  <Hit_len>293</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.375</Hsp_bit-score>
+      <Hsp_score>259</Hsp_score>
+      <Hsp_evalue>2.00698e-24</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>ETLQFFGIEPGMTVVDTLPGEIWYTGILMDYLGLEGTVIAADYSPEMWQLFGRIAPKP--EEKAKWAANLVAKIDTKRDENDARGIAAPYGSTPNERAGT</Hsp_qseq>
+      <Hsp_hseq>ETLEFFGAAPGMTIVDTLPGEVWYSGILASYLGPDGEVIGADYSPEMWKLFGAFADEAFLAQKATWAADWVAGSNKWAPADGAKIGGVAYGAVPEEMKGT</Hsp_hseq>
+      <Hsp_midline>ETL+FFG  PGMT+VDTLPGE+WY+GIL  YLG +G VI ADYSPEMW+LFG  A +    +KA WAA+ VA  +     + A+     YG+ P E  GT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|NOX83239.1|</Hit_id>
+  <Hit_def>class I SAM-dependent methyltransferase [Alphaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>NOX83239</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.064</Hsp_bit-score>
+      <Hsp_score>253</Hsp_score>
+      <Hsp_evalue>8.65325e-24</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>ETLQFFGIEPGMTVVDTLPGEIWYTGILMDYLGLEGTVIAADYSPEMWQLFGRIAPKP--EEKAKWAANLVAKIDTKRDENDARGIAAPYGSTPNERAGTA</Hsp_qseq>
+      <Hsp_hseq>QTLEFFGVEPGMTVVDSLPGEIWYSGILAAYLGPDGKVIGADYSVPMWTLFGGFADEEYLAKRPDWAADWVSKAADWPYEDAAEVGAMVYGSVPDELAGTA</Hsp_hseq>
+      <Hsp_midline>+TL+FFG+EPGMTVVD+LPGEIWY+GIL  YLG +G VI ADYS  MW LFG  A +    ++  WAA+ V+K      E+ A   A  YGS P+E AGTA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|NWG70196.1|</Hit_id>
+  <Hit_def>class I SAM-dependent methyltransferase [Parvularculaceae bacterium]</Hit_def>
+  <Hit_accession>NWG70196</Hit_accession>
+  <Hit_len>305</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.293</Hsp_bit-score>
+      <Hsp_score>251</Hsp_score>
+      <Hsp_evalue>2.81122e-23</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>72</Hsp_hit-from>
+      <Hsp_hit-to>170</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>ETLQFFGIEPGMTVVDTLPGEIWYTGILMDYLGLEGTVIAADYSPEMWQLFGRIAPKPEEKAKWAANLVAKIDTKRDENDARGIAAPYGSTPNERAGTA</Hsp_qseq>
+      <Hsp_hseq>ETLQFIGVEPGMTVVEVLPGGGWWTKILMPYLGASGAVIGADYPLEMWALFGEFAPDPEKQKVWAAEWPAQAVGWCEDDCAPAKAVVYGSLPEEMKGTA</Hsp_hseq>
+      <Hsp_midline>ETLQF G+EPGMTVV+ LPG  W+T ILM YLG  G VI ADY  EMW LFG  AP PE++  WAA   A+     +++ A   A  YGS P E  GTA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|NNE41090.1|</Hit_id>
+  <Hit_def>class I SAM-dependent methyltransferase [Marinicaulis sp.] &gt;gb|NNL87856.1| class I SAM-dependent methyltransferase [Marinicaulis sp.]</Hit_def>
+  <Hit_accession>NNE41090</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.908</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>4.92824e-23</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>TLQFFGIEPGMTVVDTLPGEIWYTGILMDYLGLEGTVIAADYSPEMWQLFGRIAPKP--EEKAKWAANLVAKIDTKRDENDARGIAAPYGSTPNERAGTA</Hsp_qseq>
+      <Hsp_hseq>TLEFFGIEPGMTVVDSLPGKVWYAGILSDYLGPKGKVIGVDYSMEMWPLFGGFATEEWLAKRADWKSTWLADMAEGVDADDAPVDAFVYGSLPEDMHGTA</Hsp_hseq>
+      <Hsp_midline>TL+FFGIEPGMTVVD+LPG++WY GIL DYLG +G VI  DYS EMW LFG  A +    ++A W +  +A +    D +DA   A  YGS P +  GTA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469534606</Statistics_db-num>
+      <Statistics_db-len>1070605227</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

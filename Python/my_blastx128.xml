@@ -1,0 +1,322 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_41435</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_41435</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|MBC8027672.1|</Hit_id>
+  <Hit_def>capsule assembly Wzi family protein [Steroidobacteraceae bacterium]</Hit_def>
+  <Hit_accession>MBC8027672</Hit_accession>
+  <Hit_len>395</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.02</Hsp_bit-score>
+      <Hsp_score>310</Hsp_score>
+      <Hsp_evalue>2.74729e-31</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>250</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>RAGGAAPWGSWRLHIEYADPTCTFSRRTPQFGCAYRNRLYPQGYSFRGRAIGHAMDNDSRMYSLGAMLVRPTRESWSLLVRRAELNRD</Hsp_qseq>
+      <Hsp_hseq>EAWGSSAWGGWRLRAEYADTTCNFSRETPQFDCAYRSQIYTQGYQHRGRTIGHSLDNDSQLYSLGATLVRPSGANWSVIYRTAEINRD</Hsp_hseq>
+      <Hsp_midline> A G++ WG WRL  EYAD TC FSR TPQF CAYR+++Y QGY  RGR IGH++DNDS++YSLGA LVRP+  +WS++ R AE+NRD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|MCB1623527.1|</Hit_id>
+  <Hit_def>capsule assembly Wzi family protein [Pseudomonadales bacterium]</Hit_def>
+  <Hit_accession>MCB1623527</Hit_accession>
+  <Hit_len>367</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.094</Hsp_bit-score>
+      <Hsp_score>305</Hsp_score>
+      <Hsp_evalue>9.66041e-31</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>266</Hsp_query-to>
+      <Hsp_hit-from>226</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>GAAPWGSWRLHIEYADPTCTFSRRTPQFGCAYRNRLYPQGYSFRGRAIGHAMDNDSRMYSLGAMLVRPTRESWSLLVRRAELNRDS</Hsp_qseq>
+      <Hsp_hseq>GSVSWGSYRLHAELADTACEFSRSSPQFDCAYRNGLYPQGYTYRGRVIGHSMDQDSRMYSLGATLVRADGDAVNVLVRRSDLNRDN</Hsp_hseq>
+      <Hsp_midline>G+  WGS+RLH E AD  C FSR +PQF CAYRN LYPQGY++RGR IGH+MD DSRMYSLGA LVR   ++ ++LVRR++LNRD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|MBK6597917.1|</Hit_id>
+  <Hit_def>capsule assembly Wzi family protein [Proteobacteria bacterium]</Hit_def>
+  <Hit_accession>MBK6597917</Hit_accession>
+  <Hit_len>509</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.479</Hsp_bit-score>
+      <Hsp_score>306</Hsp_score>
+      <Hsp_evalue>4.19209e-30</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>266</Hsp_query-to>
+      <Hsp_hit-from>368</Hsp_hit-from>
+      <Hsp_hit-to>452</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>GAAPWGSWRLHIEYADPTCTFSRRTPQFGCAYRNRLYPQGYSFRGRAIGHAMDNDSRMYSLGAMLVRPTRESWSLLVRRAELNRD</Hsp_qseq>
+      <Hsp_hseq>GSSAWGSYRVHAEFADTACSFSRATPEFGCAYRNGLYPQGYTYRTRTIGHSMDQDSRMYSLGATLVRPQGDTVNALLRKTNLNRD</Hsp_hseq>
+      <Hsp_midline>G++ WGS+R+H E+AD  C+FSR TP+FGCAYRN LYPQGY++R R IGH+MD DSRMYSLGA LVRP  ++ + L+R+  LNRD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|MBV6422325.1|</Hit_id>
+  <Hit_def>hypothetical protein [Steroidobacteraceae bacterium]</Hit_def>
+  <Hit_accession>MBV6422325</Hit_accession>
+  <Hit_len>494</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.939</Hsp_bit-score>
+      <Hsp_score>302</Hsp_score>
+      <Hsp_evalue>1.44596e-29</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>254</Hsp_query-to>
+      <Hsp_hit-from>352</Hsp_hit-from>
+      <Hsp_hit-to>431</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>WGSWRLHIEYADPTCTFSRRTPQFGCAYRNRLYPQGYSFRGRAIGHAMDNDSRMYSLGAMLVRPTRESWSLLVRRAELNR</Hsp_qseq>
+      <Hsp_hseq>WGALRAHVEYSDTSCNFSRRHPMFDCAYRNQIYPQGYTFRGHSIGHAMDSDGRMYSLGVLLVRPAGDALSVLVRKTELNR</Hsp_hseq>
+      <Hsp_midline>WG+ R H+EY+D +C FSRR P F CAYRN++YPQGY+FRG +IGHAMD+D RMYSLG +LVRP  ++ S+LVR+ ELNR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|MBV6417024.1|</Hit_id>
+  <Hit_def>hypothetical protein [Steroidobacteraceae bacterium]</Hit_def>
+  <Hit_accession>MBV6417024</Hit_accession>
+  <Hit_len>468</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.701</Hsp_bit-score>
+      <Hsp_score>291</Hsp_score>
+      <Hsp_evalue>4.13524e-28</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>326</Hsp_hit-from>
+      <Hsp_hit-to>416</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>QMCVRDRAGGAAPWGSWRLHIEYADPTCTFSRRTPQFGCAYRNRLYPQGYSFRGRAIGHAMDNDSRMYSLGAMLVRPTRESWSLLVRRAELNR</Hsp_qseq>
+      <Hsp_hseq>QLGVESWASSA--WGALRGHLEYADTSCNFTRSQPMFGCAYVNHLYPQGYTFRGHSIGHAMGGDGRMYSLGALLVRPAGDSLSLLVRKVELGR</Hsp_hseq>
+      <Hsp_midline>Q+ V   A  A  WG+ R H+EYAD +C F+R  P FGCAY N LYPQGY+FRG +IGHAM  D RMYSLGA+LVRP  +S SLLVR+ EL R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|NBX40958.1|</Hit_id>
+  <Hit_def>hypothetical protein [Gammaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>NBX40958</Hit_accession>
+  <Hit_len>648</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.849</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>2.10797e-26</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>266</Hsp_query-to>
+      <Hsp_hit-from>559</Hsp_hit-from>
+      <Hsp_hit-to>647</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>GAAPWGSWRLHIEYADPTCTFSRRTPQFGCAYRN-RLYPQGYSFRGRAIGHAMDNDSRMYSLGAMLVRPTRESWSLLVRRAELNRDSFT</Hsp_qseq>
+      <Hsp_hseq>GVNALGNYRLHAEYADTTCAFTRQNPFYDCAYRNPAIFPQGYTFRGRIIGHPLDNDGQMVSVGGILVRPDGDSWNVLLRRAELNRGGHT</Hsp_hseq>
+      <Hsp_midline>G    G++RLH EYAD TC F+R+ P + CAYRN  ++PQGY+FRGR IGH +DND +M S+G +LVRP  +SW++L+RRAELNR   T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|MBA3564958.1|</Hit_id>
+  <Hit_def>hypothetical protein [Gammaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>MBA3564958</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.605</Hsp_bit-score>
+      <Hsp_score>257</Hsp_score>
+      <Hsp_evalue>1.54679e-24</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>266</Hsp_query-to>
+      <Hsp_hit-from>105</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>GAAPWGSWRLHIEYADPTCTFSRRTPQFGCAYRNRLYPQGYSFRGRAIGHAMDNDSRMYSLGAMLVRPTRESWSLLVRRAELNR</Hsp_qseq>
+      <Hsp_hseq>GAQRWGGYRVHLEYADTACGFAGSDPKFNCAYNHGIYQDGYRYRERSIGHSIDNDSRILSLGVSLIRPDGNSWNLLVRGGQLNR</Hsp_hseq>
+      <Hsp_midline>GA  WG +R+H+EYAD  C F+   P+F CAY + +Y  GY +R R+IGH++DNDSR+ SLG  L+RP   SW+LLVR  +LNR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|NDD75692.1|</Hit_id>
+  <Hit_def>capsule assembly Wzi family protein [Gammaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>NDD75692</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.064</Hsp_bit-score>
+      <Hsp_score>253</Hsp_score>
+      <Hsp_evalue>3.12987e-23</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>181</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>RAGGAAPWGSWRLHIEYADPTCTFSRRTPQFGCAYRN-RLYPQGYSFRGRAIGHAMDNDSRMYSLGAMLVRPTRESWSLLVRRAELNRDSFT</Hsp_qseq>
+      <Hsp_hseq>EAWGVSALGDYRVHLEYADTACEFTRKNSAYDCAYRNPGIFPQGYTFRGRIIGHPMDNDGRMLSVGGALVRTGGDSIDLLLRRAELNRGGMS</Hsp_hseq>
+      <Hsp_midline> A G +  G +R+H+EYAD  C F+R+   + CAYRN  ++PQGY+FRGR IGH MDND RM S+G  LVR   +S  LL+RRAELNR   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|TAK56262.1|</Hit_id>
+  <Hit_def>capsule assembly Wzi family protein [Gammaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>TAK56262</Hit_accession>
+  <Hit_len>512</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.6709</Hsp_bit-score>
+      <Hsp_score>239</Hsp_score>
+      <Hsp_evalue>1.07839e-20</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>266</Hsp_query-to>
+      <Hsp_hit-from>360</Hsp_hit-from>
+      <Hsp_hit-to>448</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>GAAPWG-----SWRLHIEYADPTCTFSRRTPQFGCAYRNRLYPQGYSFRGRAIGHAMDNDSRMYSLGAMLVRPTRESWSLLVRRAELNR</Hsp_qseq>
+      <Hsp_hseq>GAESWGGWGARSWRVHAEYADTACIFNGSQPEFGCAYRNIIYSDGYQFREQSVGHAIDGDSRQLAFGVMLVEADGSSWQLAAQNAKINR</Hsp_hseq>
+      <Hsp_midline>GA  WG     SWR+H EYAD  C F+   P+FGCAYRN +Y  GY FR +++GHA+D DSR  + G MLV     SW L  + A++NR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|RPI15816.1|</Hit_id>
+  <Hit_def>capsule assembly Wzi family protein [Xanthomonadales bacterium]</Hit_def>
+  <Hit_accession>RPI15816</Hit_accession>
+  <Hit_len>478</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.3597</Hsp_bit-score>
+      <Hsp_score>233</Hsp_score>
+      <Hsp_evalue>6.12948e-20</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>251</Hsp_query-to>
+      <Hsp_hit-from>336</Hsp_hit-from>
+      <Hsp_hit-to>415</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>GSWRLHIEYADPTCTFSRRTPQFGCAYRNRLYPQGYSFRGRAIGHAMDNDSRMYSLGAMLVRPTRESWSLLVRRAELNRD</Hsp_qseq>
+      <Hsp_hseq>GTWRAHVEYADTACDFLNSSPQFGCAYTNTIYTTGYRYRGRVLGHSMDADGESFGVGALYVDAKARRWEALARRVELNRE</Hsp_hseq>
+      <Hsp_midline>G+WR H+EYAD  C F   +PQFGCAY N +Y  GY +RGR +GH+MD D   + +GA+ V      W  L RR ELNR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469534606</Statistics_db-num>
+      <Statistics_db-len>1070605227</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

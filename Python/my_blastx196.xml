@@ -1,0 +1,322 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_52163</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_52163</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_248072769.1|</Hit_id>
+  <Hit_def>UbiA family prenyltransferase [Chitinophaga sedimenti]</Hit_def>
+  <Hit_accession>WP_248072769</Hit_accession>
+  <Hit_len>209</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.087</Hsp_bit-score>
+      <Hsp_score>292</Hsp_score>
+      <Hsp_evalue>3.27483e-30</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>278</Hsp_query-to>
+      <Hsp_hit-from>113</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>IAVGKTIFLSFVWTYVTTMLPMLISDKVTGQQEIFYTVQRFFLVYAICILFDYRDRKEDKEAGIRTLITNLPEKGIDKLFYGSIMAFAVFSM</Hsp_qseq>
+      <Hsp_hseq>IAIGKTLFLTFVWTYVTTVLPAFVADRTPGLPLVLLTLHRFFLIYAICILFDYRDREQDKREGIRSLITYFDERGVGRLYYVSVLLAVVFAL</Hsp_hseq>
+      <Hsp_midline>IA+GKT+FL+FVWTYVTT+LP  ++D+  G   +  T+ RFFL+YAICILFDYRDR++DK  GIR+LIT   E+G+ +L+Y S++   VF++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>emb|SHF10352.1|</Hit_id>
+  <Hit_def>UbiA prenyltransferase family protein [Flavisolibacter ginsengisoli DSM 18119]</Hit_def>
+  <Hit_accession>SHF10352</Hit_accession>
+  <Hit_len>258</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.242</Hsp_bit-score>
+      <Hsp_score>295</Hsp_score>
+      <Hsp_evalue>4.20727e-30</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>108</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>IAVGKTIFLSFVWTYVTTMLPMLISDKVTGQQEIFYTVQRFFLVYAICILFDYRDRKEDKEAGIRTLITNLPEKGIDKLFYGSIMAFAVFSMLL</Hsp_qseq>
+      <Hsp_hseq>IAVGKTIFLAFSWTHVTALLPMVIEDPVLSDSQIWFVVNRFFFIYAICILFDYRDRESDKNDQIRSLITMLNEKGIDILFWGTIAVFFITLLLL</Hsp_hseq>
+      <Hsp_midline>IAVGKTIFL+F WT+VT +LPM+I D V    +I++ V RFF +YAICILFDYRDR+ DK   IR+LIT L EKGID LF+G+I  F +  +LL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_153664646.1|</Hit_id>
+  <Hit_def>UbiA family prenyltransferase [Chitinophaga sp. SYP-B3965] &gt;gb|MRG48482.1| hypothetical protein [Chitinophaga sp. SYP-B3965]</Hit_def>
+  <Hit_accession>WP_153664646</Hit_accession>
+  <Hit_len>282</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.627</Hsp_bit-score>
+      <Hsp_score>296</Hsp_score>
+      <Hsp_evalue>4.32235e-30</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>254</Hsp_query-to>
+      <Hsp_hit-from>130</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>IAVGKTIFLSFVWTYVTTMLPMLISDKVTGQQEIFYTVQRFFLVYAICILFDYRDRKEDKEAGIRTLITNLPEKGIDKLFYGSI</Hsp_qseq>
+      <Hsp_hseq>IAVGKTIFLTFVWTYVTTVLPALIAGNTDALETLYLTGHRFFLIYAICILFDYRDREQDRQQGIRSLITILPDTQLDKLYYGSI</Hsp_hseq>
+      <Hsp_midline>IAVGKTIFL+FVWTYVTT+LP LI+      + ++ T  RFFL+YAICILFDYRDR++D++ GIR+LIT LP+  +DKL+YGSI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_074237280.1|</Hit_id>
+  <Hit_def>UbiA family prenyltransferase [Chitinophaga niabensis] &gt;emb|SIN65005.1| UbiA prenyltransferase family protein [Chitinophaga niabensis]</Hit_def>
+  <Hit_accession>WP_074237280</Hit_accession>
+  <Hit_len>282</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.242</Hsp_bit-score>
+      <Hsp_score>295</Hsp_score>
+      <Hsp_evalue>6.22241e-30</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>254</Hsp_query-to>
+      <Hsp_hit-from>130</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>IAVGKTIFLSFVWTYVTTMLPMLISDKVTGQQEIFYTVQRFFLVYAICILFDYRDRKEDKEAGIRTLITNLPEKGIDKLFYGSI</Hsp_qseq>
+      <Hsp_hseq>IAIGKTIFLAFVWTYVTTVLPALIAGDTDTLEILYLTCHRFFLIYAICILFDYRDREQDREQGIRSLITLLPDPQLDKLYYGSV</Hsp_hseq>
+      <Hsp_midline>IA+GKTIFL+FVWTYVTT+LP LI+      + ++ T  RFFL+YAICILFDYRDR++D+E GIR+LIT LP+  +DKL+YGS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_072835006.1|</Hit_id>
+  <Hit_def>hypothetical protein [Flavisolibacter ginsengisoli]</Hit_def>
+  <Hit_accession>WP_072835006</Hit_accession>
+  <Hit_len>283</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.857</Hsp_bit-score>
+      <Hsp_score>294</Hsp_score>
+      <Hsp_evalue>8.58016e-30</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>133</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>IAVGKTIFLSFVWTYVTTMLPMLISDKVTGQQEIFYTVQRFFLVYAICILFDYRDRKEDKEAGIRTLITNLPEKGIDKLFYGSIMAFAVFSMLL</Hsp_qseq>
+      <Hsp_hseq>IAVGKTIFLAFSWTHVTALLPMVIEDPVLSDSQIWFVVNRFFFIYAICILFDYRDRESDKNDQIRSLITMLNEKGIDILFWGTIAVFFITLLLL</Hsp_hseq>
+      <Hsp_midline>IAVGKTIFL+F WT+VT +LPM+I D V    +I++ V RFF +YAICILFDYRDR+ DK   IR+LIT L EKGID LF+G+I  F +  +LL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|MBS1597849.1|</Hit_id>
+  <Hit_def>UbiA family prenyltransferase [Bacteroidetes bacterium]</Hit_def>
+  <Hit_accession>MBS1597849</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.316</Hsp_bit-score>
+      <Hsp_score>290</Hsp_score>
+      <Hsp_evalue>9.96257e-30</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>82</Hsp_hit-from>
+      <Hsp_hit-to>170</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>IAVGKTIFLSFVWTYVTTMLPMLISDKVTGQQEIFYTVQRFFLVYAICILFDYRDRKEDKEAGIRTLITNLPEKGIDKLFYGSIMAFAV</Hsp_qseq>
+      <Hsp_hseq>IAVGKTIFLAFVWMYVTTMLPIFVAQKNWQADFTFFSLSRFFLIYAICIIFDYRDREDDKHEGIRSMITYFDEKGINILFYLSILLFAI</Hsp_hseq>
+      <Hsp_midline>IAVGKTIFL+FVW YVTTMLP+ ++ K       F+++ RFFL+YAICI+FDYRDR++DK  GIR++IT   EKGI+ LFY SI+ FA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|MBO9683636.1|</Hit_id>
+  <Hit_def>UbiA family prenyltransferase [Flavisolibacter sp.]</Hit_def>
+  <Hit_accession>MBO9683636</Hit_accession>
+  <Hit_len>258</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.931</Hsp_bit-score>
+      <Hsp_score>289</Hsp_score>
+      <Hsp_evalue>2.67629e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>108</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>IAVGKTIFLSFVWTYVTTMLPMLISDKVTGQQEIFYTVQRFFLVYAICILFDYRDRKEDKEAGIRTLITNLPEKGIDKLFYGSIMAFAVFSMLL</Hsp_qseq>
+      <Hsp_hseq>VAIGKTIFLAFAWMHVTTLLPLVIEVKTLGAEHIWFIINRFFYIYAICILFDYRDVEEDRQAGIKSLITYLSEKGVDALFWVSVLIVFVTSILL</Hsp_hseq>
+      <Hsp_midline>+A+GKTIFL+F W +VTT+LP++I  K  G + I++ + RFF +YAICILFDYRD +ED++AGI++LIT L EKG+D LF+ S++   V S+LL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_244839374.1|</Hit_id>
+  <Hit_def>UbiA family prenyltransferase [Chitinophaga sp. R8]</Hit_def>
+  <Hit_accession>WP_244839374</Hit_accession>
+  <Hit_len>253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.161</Hsp_bit-score>
+      <Hsp_score>287</Hsp_score>
+      <Hsp_evalue>5.53016e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>IAVGKTIFLSFVWTYVTTMLPMLISDKVTGQQEIFYTVQRFFLVYAICILFDYRDRKEDKEAGIRTLITNLPEKGIDKLFYGSIMAFAVFSMLL</Hsp_qseq>
+      <Hsp_hseq>IAIGKTLFLTFVWTYVTTVLPAFIADEVHGLSLAWLTCHRFFLIYAICILFDNRDREQDKAEGIRSLITYFDRNGVSRLYYFSVLLAAVFAGLL</Hsp_hseq>
+      <Hsp_midline>IA+GKT+FL+FVWTYVTT+LP  I+D+V G    + T  RFFL+YAICILFD RDR++DK  GIR+LIT     G+ +L+Y S++  AVF+ LL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|MBS1576696.1|</Hit_id>
+  <Hit_def>UbiA family prenyltransferase [Bacteroidetes bacterium] &gt;gb|MBS1609581.1| UbiA family prenyltransferase [Bacteroidetes bacterium]</Hit_def>
+  <Hit_accession>MBS1576696</Hit_accession>
+  <Hit_len>279</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.775</Hsp_bit-score>
+      <Hsp_score>286</Hsp_score>
+      <Hsp_evalue>1.1591e-28</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>130</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>IAVGKTIFLSFVWTYVTTMLPMLISDKVTGQQEIFYTVQRFFLVYAICILFDYRDRKEDKEAGIRTLITNLPEKGIDKLFYGSIMAFAVFSMLL</Hsp_qseq>
+      <Hsp_hseq>IAIGKTIFLAFVWMYATTVLPVIIAGTSWAADTIFFITGRFFLIYAICILFDYRDRKDDKAAGIRSLITYFSERGINILFAASLVIYAATTLLL</Hsp_hseq>
+      <Hsp_midline>IA+GKTIFL+FVW Y TT+LP++I+        IF+   RFFL+YAICILFDYRDRK+DK AGIR+LIT   E+GI+ LF  S++ +A  ++LL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|MBA2498905.1|</Hit_id>
+  <Hit_def>UbiA family prenyltransferase [Chitinophagaceae bacterium]</Hit_def>
+  <Hit_accession>MBA2498905</Hit_accession>
+  <Hit_len>257</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.005</Hsp_bit-score>
+      <Hsp_score>284</Hsp_score>
+      <Hsp_evalue>1.44573e-28</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>108</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>IAVGKTIFLSFVWTYVTTMLPMLISDKVTGQQEIFYTVQRFFLVYAICILFDYRDRKEDKEAGIRTLITNLPEKGIDKLFYGSIMAFAVFSMLL</Hsp_qseq>
+      <Hsp_hseq>IAIGKTIFLSMVWTYVTTALPLLVTFSTFTISAWLFIVSRFFLIYAICILFDYRDREDDKLDGIRSLITYLDEKGIDKLFFVSLILFVIATLMM</Hsp_hseq>
+      <Hsp_midline>IA+GKTIFLS VWTYVTT LP+L++          + V RFFL+YAICILFDYRDR++DK  GIR+LIT L EKGIDKLF+ S++ F + ++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469534606</Statistics_db-num>
+      <Statistics_db-len>1070605227</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

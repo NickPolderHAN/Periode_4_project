@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_15363</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_15363</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|MBC7904400.1|</Hit_id>
+  <Hit_def>carbohydrate binding family 9 domain-containing protein [Gemmatimonadaceae bacterium]</Hit_def>
+  <Hit_accession>MBC7904400</Hit_accession>
+  <Hit_len>313</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.02</Hsp_bit-score>
+      <Hsp_score>310</Hsp_score>
+      <Hsp_evalue>6.92163e-32</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>287</Hsp_query-to>
+      <Hsp_hit-from>118</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>YDDDQNAYQFLVTSRNVQSDSRVSSTSS-GFALLGDVSWDAVWESQVNYDELGWTVEIRIPFFSLRFSNQSEQKWGIQFGRYIRRETEISYWSPVD</Hsp_qseq>
+      <Hsp_hseq>YNDHQNAFQFLVTTRNVQTDSRVSPTATNGFGQYGDISWDAVWDSKIQMQKDGWTVEIKIPHFSIRFAKKEIQDWGVNFLRFTRRNNETTFWNPVD</Hsp_hseq>
+      <Hsp_midline>Y+D QNA+QFLVT+RNVQ+DSRVS T++ GF   GD+SWDAVW+S++   + GWTVEI+IP FS+RF+ +  Q WG+ F R+ RR  E ++W+PVD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|MBC7851533.1|</Hit_id>
+  <Hit_def>carbohydrate binding family 9 domain-containing protein [Chitinophagaceae bacterium]</Hit_def>
+  <Hit_accession>MBC7851533</Hit_accession>
+  <Hit_len>339</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.02</Hsp_bit-score>
+      <Hsp_score>310</Hsp_score>
+      <Hsp_evalue>1.3222e-31</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>287</Hsp_query-to>
+      <Hsp_hit-from>117</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>YDDDQNAYQFLVTSRNVQSDSRVSSTS-SGFALLGDVSWDAVWESQVNYDELGWTVEIRIPFFSLRFSNQSEQKWGIQFGRYIRRETEISYWSPVD</Hsp_qseq>
+      <Hsp_hseq>YKDRQNAFQFSVTSRNVQSDARVSPQAETGFGVYGDVSWDAVWDSRVSFRTDGWIVEMKIPYFSIRFSKSNEQDWGIQFLRFSRRLNETSFWNPVD</Hsp_hseq>
+      <Hsp_midline>Y D QNA+QF VTSRNVQSD+RVS  + +GF + GDVSWDAVW+S+V++   GW VE++IP+FS+RFS  +EQ WGIQF R+ RR  E S+W+PVD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|MBO9572460.1|</Hit_id>
+  <Hit_def>carbohydrate binding family 9 domain-containing protein [Chitinophagaceae bacterium]</Hit_def>
+  <Hit_accession>MBO9572460</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.783</Hsp_bit-score>
+      <Hsp_score>299</Hsp_score>
+      <Hsp_evalue>1.70094e-30</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>287</Hsp_query-to>
+      <Hsp_hit-from>114</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>YDDDQNAYQFLVTSRNVQSDSRVSSTS-SGFALLGDVSWDAVWESQVNYDELGWTVEIRIPFFSLRFSNQSEQKWGIQFGRYIRRETEISYWSPVD</Hsp_qseq>
+      <Hsp_hseq>YKDRQNAFQFLVTSRNVQTDARISAAVVPANGIYGDISWDAVWDSKVSMRPDGWSVEIRIPLFSLRFSNKKIDEWGIQFMRFARRVNESSFWSPVN</Hsp_hseq>
+      <Hsp_midline>Y D QNA+QFLVTSRNVQ+D+R+S+       + GD+SWDAVW+S+V+    GW+VEIRIP FSLRFSN+   +WGIQF R+ RR  E S+WSPV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>tpg|HAK13038.1|</Hit_id>
+  <Hit_def>hypothetical protein [Chitinophagaceae bacterium]</Hit_def>
+  <Hit_accession>HAK13038</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.857</Hsp_bit-score>
+      <Hsp_score>294</Hsp_score>
+      <Hsp_evalue>3.69686e-30</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>122</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>YDDDQNAYQFLVTSRNVQSDSRVS-STSSGFALLGDVSWDAVWESQVNYDELGWTVEIRIPFFSLRFSNQSEQKWGIQFGRYIRRETEISYWSPVDIKQT</Hsp_qseq>
+      <Hsp_hseq>YNDDQNGFQFVVTSRNVQSDGRVSPAVQSRFGPPSDYSWDAVWESNVHFTEDGWTVEMRIPYISLRFAKTPQQKWGVNFQRFSRRLNESSYWNAVNPNEA</Hsp_hseq>
+      <Hsp_midline>Y+DDQN +QF+VTSRNVQSD RVS +  S F    D SWDAVWES V++ E GWTVE+RIP+ SLRF+   +QKWG+ F R+ RR  E SYW+ V+  + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|MBC7904304.1|</Hit_id>
+  <Hit_def>carbohydrate binding family 9 domain-containing protein [Gemmatimonadaceae bacterium]</Hit_def>
+  <Hit_accession>MBC7904304</Hit_accession>
+  <Hit_len>747</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>123.25</Hsp_bit-score>
+      <Hsp_score>308</Hsp_score>
+      <Hsp_evalue>6.01889e-30</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>287</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>YDDDQNAYQFLVTSRNVQSDSRVSSTSS-GFALLGDVSWDAVWESQVNYDELGWTVEIRIPFFSLRFSNQSEQKWGIQFGRYIRRETEISYWSPVD</Hsp_qseq>
+      <Hsp_hseq>YNDHQNAFQFLVTTRNVQTDSRVSPTATNGFGQYGDISWDAVWDSKIQMQKDGWTVEIKIPHFSIRFAKKEIQDWGVNFLRFTRRNNETTFWNPVD</Hsp_hseq>
+      <Hsp_midline>Y+D QNA+QFLVT+RNVQ+DSRVS T++ GF   GD+SWDAVW+S++   + GWTVEI+IP FS+RF+ +  Q WG+ F R+ RR  E ++W+PVD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|MBM3439886.1|</Hit_id>
+  <Hit_def>carbohydrate binding family 9 domain-containing protein [Bacteroidetes bacterium]</Hit_def>
+  <Hit_accession>MBM3439886</Hit_accession>
+  <Hit_len>818</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.865</Hsp_bit-score>
+      <Hsp_score>307</Hsp_score>
+      <Hsp_evalue>7.23777e-30</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>120</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>YDDDQNAYQFLVTSRNVQSDSRVSST-SSGFALLGDVSWDAVWESQVNYDELGWTVEIRIPFFSLRFSNQSEQKWGIQFGRYIRRETEISYWSPVDIKQT</Hsp_qseq>
+      <Hsp_hseq>YNDDQNGFQFLVTSRNVQTDGRINPNRSSQFGPPSDYSWDAVWESKVSFQNDGWTVEMKIPYFSLRFAQKDMQDWGVNFQRYVRRNNESSYWNPINPNQN</Hsp_hseq>
+      <Hsp_midline>Y+DDQN +QFLVTSRNVQ+D R++   SS F    D SWDAVWES+V++   GWTVE++IP+FSLRF+ +  Q WG+ F RY+RR  E SYW+P++  Q </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>tpg|HGG31741.1|</Hit_id>
+  <Hit_def>hypothetical protein [Chitinophagaceae bacterium]</Hit_def>
+  <Hit_accession>HGG31741</Hit_accession>
+  <Hit_len>885</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.865</Hsp_bit-score>
+      <Hsp_score>307</Hsp_score>
+      <Hsp_evalue>9.39828e-30</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>287</Hsp_query-to>
+      <Hsp_hit-from>167</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>YDDDQNAYQFLVTSRNVQSDSRVSSTS-SGFALLGDVSWDAVWESQVNYDELGWTVEIRIPFFSLRFSNQSEQKWGIQFGRYIRRETEISYWSPVD</Hsp_qseq>
+      <Hsp_hseq>YRDRQNAFQFLVTSRNVQSDARVSPQAETDFGVYGDLSWDAVWDSRVSMKKDGWCVEIKIPYFSIRFSKAADQEWGIQFLRFSRRLNETSFWSPVN</Hsp_hseq>
+      <Hsp_midline>Y D QNA+QFLVTSRNVQSD+RVS  + + F + GD+SWDAVW+S+V+  + GW VEI+IP+FS+RFS  ++Q+WGIQF R+ RR  E S+WSPV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|MBL0134006.1|</Hit_id>
+  <Hit_def>carbohydrate binding family 9 domain-containing protein [Chitinophagaceae bacterium]</Hit_def>
+  <Hit_accession>MBL0134006</Hit_accession>
+  <Hit_len>509</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>121.324</Hsp_bit-score>
+      <Hsp_score>303</Hsp_score>
+      <Hsp_evalue>1.04807e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>287</Hsp_query-to>
+      <Hsp_hit-from>118</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>YDDDQNAYQFLVTSRNVQSDSRVSSTS-SGFALLGDVSWDAVWESQVNYDELGWTVEIRIPFFSLRFSNQSEQKWGIQFGRYIRRETEISYWSPVD</Hsp_qseq>
+      <Hsp_hseq>YKDRQNAYQFLVTSRNVQSDARVSPQAQTDFGVYGDVSWDAVWDSRVSYKADGWVVEMKIPYFSIRFSKETIQDWGIQFLSFSRRLNESCFWNPVD</Hsp_hseq>
+      <Hsp_midline>Y D QNAYQFLVTSRNVQSD+RVS  + + F + GDVSWDAVW+S+V+Y   GW VE++IP+FS+RFS ++ Q WGIQF  + RR  E  +W+PVD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_169426739.1|</Hit_id>
+  <Hit_def>carbohydrate binding family 9 domain-containing protein [Pseudoflavitalea sp. G-6-1-2] &gt;gb|NML22786.1| carbohydrate binding family 9 domain-containing protein [Pseudoflavitalea sp. G-6-1-2]</Hit_def>
+  <Hit_accession>WP_169426739</Hit_accession>
+  <Hit_len>846</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.094</Hsp_bit-score>
+      <Hsp_score>305</Hsp_score>
+      <Hsp_evalue>1.36737e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>132</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>YDDDQNAYQFLVTSRNVQSDSRVS-STSSGFALLGDVSWDAVWESQVNYDELGWTVEIRIPFFSLRFSNQSEQKWGIQFGRYIRRETEISYWSPVDIKQT</Hsp_qseq>
+      <Hsp_hseq>YNDHQNAFQFLVTARNVQSDARVSPNASTGFGVYGDLSWDAVWDSKVSFENDRWVVEMKIPFFAIRFPSKNLQEWGIQFLRFSRRNNESTFWNPVNPNVT</Hsp_hseq>
+      <Hsp_midline>Y+D QNA+QFLVT+RNVQSD+RVS + S+GF + GD+SWDAVW+S+V+++   W VE++IPFF++RF +++ Q+WGIQF R+ RR  E ++W+PV+   T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|MBL0154315.1|</Hit_id>
+  <Hit_def>carbohydrate binding family 9 domain-containing protein [Chitinophagaceae bacterium]</Hit_def>
+  <Hit_accession>MBL0154315</Hit_accession>
+  <Hit_len>799</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>121.709</Hsp_bit-score>
+      <Hsp_score>304</Hsp_score>
+      <Hsp_evalue>1.86846e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>101</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>YDDDQNAYQFLVTSRNVQSDSRVSSTSSGFALLGDVSWDAVWESQVNYDELGWTVEIRIPFFSLRFSNQSEQKWGIQFGRYIRRETEISYWSPVDIK</Hsp_qseq>
+      <Hsp_hseq>YEDHQNGFQFLVTTANVQSDARLGPNLGGMFSSGDKTWDAVWESQVTMNADGWSVEMRIPYISLRFSKKQVQDWGIQFLRFIRRTNENSYWNPVDPK</Hsp_hseq>
+      <Hsp_midline>Y+D QN +QFLVT+ NVQSD+R+     G    GD +WDAVWESQV  +  GW+VE+RIP+ SLRFS +  Q WGIQF R+IRR  E SYW+PVD K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469534606</Statistics_db-num>
+      <Statistics_db-len>1070605227</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

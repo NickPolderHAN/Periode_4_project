@@ -1,0 +1,238 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_50531</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_50531</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|PZM92852.1|</Hit_id>
+  <Hit_def>hypothetical protein DIU72_04865 [Proteobacteria bacterium]</Hit_def>
+  <Hit_accession>PZM92852</Hit_accession>
+  <Hit_len>415</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.716</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>4.1346e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>137</Hsp_hit-from>
+      <Hsp_hit-to>234</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>GVAVSEISFWDAAFLWRDPLIAASLGALVCALAGVFVVLKRSAFVSAAVSQASSLGVVLALPAPHPVRREAPPLAAGSAAGAAAAGRAPPPGRRARPG</Hsp_qseq>
+      <Hsp_hseq>GLPVSEVSFWEAAFLWRDPLIAASLGAVLCALCGVFVVLRRSAFVSAAVAQASSLGVVLALLAPHVIGSEIPPLAAGVVVGAASAGLFALSGRDARIG</Hsp_hseq>
+      <Hsp_midline>G+ VSE+SFW+AAFLWRDPLIAASLGA++CAL GVFVVL+RSAFVSAAV+QASSLGVVLAL APH +  E PPLAAG   GAA+AG     GR AR G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_050725790.1|</Hit_id>
+  <Hit_def>metal ABC transporter permease [Vulgatibacter incomptus] &gt;gb|AKU91488.1| Zinc ABC transporter, inner membrane permease protein ZnuB [Vulgatibacter incomptus]</Hit_def>
+  <Hit_accession>WP_050725790</Hit_accession>
+  <Hit_len>276</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.079</Hsp_bit-score>
+      <Hsp_score>279</Hsp_score>
+      <Hsp_evalue>1.67918e-27</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>VSEISFWDAAFLWRDPLIAASLGALVCALAGVFVVLKRSAFVSAAVSQASSLGVVLALPAPHPVRREAPPLAAGSAAGAAAAGRAPPPGRRARPGAR</Hsp_qseq>
+      <Hsp_hseq>MNGISFWEASFLWRDPLIAVCLGAFLCSLAGVFVVLKRSAFVGAAVSQAAGLGVVLALLAPHVIGLSPPPLAAGILVGASSAGLFSLSRKGGRVGVE</Hsp_hseq>
+      <Hsp_midline>++ ISFW+A+FLWRDPLIA  LGA +C+LAGVFVVLKRSAFV AAVSQA+ LGVVLAL APH +    PPLAAG   GA++AG      +  R G  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|MBS2026947.1|</Hit_id>
+  <Hit_def>metal ABC transporter permease [Deltaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>MBS2026947</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.707</Hsp_bit-score>
+      <Hsp_score>169</Hsp_score>
+      <Hsp_evalue>1.6798e-11</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>55</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>ISFWDAAFLWRDPLIAASLGALVCALAGVFVVLKRSAFVSAAVSQASSLGVVLAL</Hsp_qseq>
+      <Hsp_hseq>MSFWDARFLWQEPMLAAVLGAALCGYLGFFVVLRRIAFMSAALSQVSGLGVAMAF</Hsp_hseq>
+      <Hsp_midline>+SFWDA FLW++P++AA LGA +C   G FVVL+R AF+SAA+SQ S LGV +A </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|MBI5479993.1|</Hit_id>
+  <Hit_def>metal ABC transporter permease [Deltaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>MBI5479993</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>1.80113e-09</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>71</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>VSEISFWDAAFLWRDPLIAASLGALVCALAGVFVVLKRSAFVSAAVSQASSLGV--------VLALPAPHP</Hsp_qseq>
+      <Hsp_hseq>MTDVGFFASYILWRDPMIVALLAASLCAFLGVFIVLKRVVFVSAALSQLSGVGVALFFWLASVIGLDAHHP</Hsp_hseq>
+      <Hsp_midline>++++ F+ +  LWRDP+I A L A +CA  GVF+VLKR  FVSAA+SQ S +GV        V+ L A HP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|MBK7860897.1|</Hit_id>
+  <Hit_def>metal ABC transporter permease [Archangiaceae bacterium]</Hit_def>
+  <Hit_accession>MBK7860897</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.299</Hsp_bit-score>
+      <Hsp_score>129</Hsp_score>
+      <Hsp_evalue>8.37271e-06</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>71</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>ISFWDAAFLWRDPLIAASLGALVCALAGVFVVLKRSAFVSAAVSQASSLGVVLAL-------PAPHPVRREAPPL</Hsp_qseq>
+      <Hsp_hseq>MSFWEARFLWQEPMLAAAIGAALLGYLGFFVVLRRIAFMSAALSQVSGLGVAVAFWVGSFAGVSPH----EATPL</Hsp_hseq>
+      <Hsp_midline>+SFW+A FLW++P++AA++GA +    G FVVL+R AF+SAA+SQ S LGV +A         +PH    EA PL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|MBX7101016.1|</Hit_id>
+  <Hit_def>metal ABC transporter permease [Myxococcaceae bacterium]</Hit_def>
+  <Hit_accession>MBX7101016</Hit_accession>
+  <Hit_len>285</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>0.00032171</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>51</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>ISFWDAAFLWRDPLIAASLGALVCALAGVFVVLKRSAFVSAAVSQASSLGV</Hsp_qseq>
+      <Hsp_hseq>MSFWEARFLWQEPMLAALLGAALLGYLGFFVVLRRIAFMSAALSQLSGLGV</Hsp_hseq>
+      <Hsp_midline>+SFW+A FLW++P++AA LGA +    G FVVL+R AF+SAA+SQ S LGV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|PKN31964.1|</Hit_id>
+  <Hit_def>hypothetical protein CVU63_21220, partial [Deltaproteobacteria bacterium HGW-Deltaproteobacteria-20]</Hit_def>
+  <Hit_accession>PKN31964</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>0.00212605</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>98</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>ISFWDAAFLWRDPLIAASLGALVCALAGVFVVLKRSAFVSAAVSQASSLGVVLALPAPHPVRRE------APPLAAGSAAGAAA--AGRAPPPGRRAR</Hsp_qseq>
+      <Hsp_hseq>MNFWESSFLWLEAVIAASAVGAACAVVGVYMILRRVVFLPAALSQVSGLGVVFAFLLPSLIGSSEGASWASPEIVAGVVTLVASLLLGWMPEPRRLSR</Hsp_hseq>
+      <Hsp_midline>++FW+++FLW + +IAAS     CA+ GV+++L+R  F+ AA+SQ S LGVV A   P  +         +P + AG     A+   G  P P R +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469534606</Statistics_db-num>
+      <Statistics_db-len>1070605227</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

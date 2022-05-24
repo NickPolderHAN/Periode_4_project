@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_32661</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_32661</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_123521535.1|</Hit_id>
+  <Hit_def>aminotransferase class I/II-fold pyridoxal phosphate-dependent enzyme [Pseudofulvimonas gallinarii] &gt;gb|TCS97732.1| L-aspartate aminotransferase [Pseudofulvimonas gallinarii] &gt;gb|THD13365.1| aminotransferase [Pseudofulvimonas gallinarii]</Hit_def>
+  <Hit_accession>WP_123521535</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.043</Hsp_bit-score>
+      <Hsp_score>349</Hsp_score>
+      <Hsp_evalue>6.48009e-37</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>GRARPAGVWVGARKAQARMAAGRAVVNVSLGVPSCVPGPHGYEAVRRALDTDSGQYGSNRGREDLLDAFLAHIRAIGLDGYRRENCAVGIGAKHILYNL</Hsp_qseq>
+      <Hsp_hseq>GRAKPSAIMVVAEKAKALKAAGRDVINFSIGVPNFLPGPHVYDAVRNALDSDSGQYGSNRGRDDLLDAFLAHMAAIGMDGYTRANCAVAVGAKHILYNL</Hsp_hseq>
+      <Hsp_midline>GRA+P+ + V A KA+A  AAGR V+N S+GVP+ +PGPH Y+AVR ALD+DSGQYGSNRGR+DLLDAFLAH+ AIG+DGY R NCAV +GAKHILYNL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|MBX3726944.1|</Hit_id>
+  <Hit_def>aminotransferase class I/II-fold pyridoxal phosphate-dependent enzyme [Xanthomonadales bacterium]</Hit_def>
+  <Hit_accession>MBX3726944</Hit_accession>
+  <Hit_len>400</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.887</Hsp_bit-score>
+      <Hsp_score>346</Hsp_score>
+      <Hsp_evalue>1.98242e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>GRARPAGVWVGARKAQARMAAGRAVVNVSLGVPSCVPGPHGYEAVRRALDTDSGQYGSNRGREDLLDAFLAHIRAIGLDGYRRENCAVGIGAKHILYNL</Hsp_qseq>
+      <Hsp_hseq>GRAKPSAIMVVAEKAKALKAAGRDVVNFSIGVPNFLPGPHVYEAARKALDADSGQYGSNRGRDDLLDAFLAHMSAIGLDGYTRGNCAVAVGAKHMLYNL</Hsp_hseq>
+      <Hsp_midline>GRA+P+ + V A KA+A  AAGR VVN S+GVP+ +PGPH YEA R+ALD DSGQYGSNRGR+DLLDAFLAH+ AIGLDGY R NCAV +GAKH+LYNL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_242112401.1|</Hit_id>
+  <Hit_def>aminotransferase class I/II-fold pyridoxal phosphate-dependent enzyme [Luteimonas aquatica]</Hit_def>
+  <Hit_accession>WP_242112401</Hit_accession>
+  <Hit_len>400</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.88</Hsp_bit-score>
+      <Hsp_score>333</Hsp_score>
+      <Hsp_evalue>1.49024e-34</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>GRARPAGVWVGARKAQARMAAGRAVVNVSLGVPSCVPGPHGYEAVRRALDTDSGQYGSNRGREDLLDAFLAHIRAIGLDGYRRENCAVGIGAKHILYNL</Hsp_qseq>
+      <Hsp_hseq>GRAKPSAIMQVAEKAKQLKAEGRDIISFSIGVPNFLPGPHVYEAARAALDKDSGQYGSNRGADALLDAFLKHIEQIGLSGYTRANCATGIGAKHVLYNI</Hsp_hseq>
+      <Hsp_midline>GRA+P+ +   A KA+   A GR +++ S+GVP+ +PGPH YEA R ALD DSGQYGSNRG + LLDAFL HI  IGL GY R NCA GIGAKH+LYN+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_113063474.1|</Hit_id>
+  <Hit_def>MULTISPECIES: pyridoxal phosphate-dependent aminotransferase [Oleiagrimonas] &gt;gb|NKZ38757.1| pyridoxal phosphate-dependent aminotransferase [Oleiagrimonas citrea] &gt;gb|RAP59250.1| aminotransferase [Oleiagrimonas sp. MCCC 1A03011]</Hit_def>
+  <Hit_accession>WP_113063474</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.109</Hsp_bit-score>
+      <Hsp_score>331</Hsp_score>
+      <Hsp_evalue>3.00221e-34</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>GRARPAGVWVGARKAQARMAAGRAVVNVSLGVPSCVPGPHGYEAVRRALDTDSGQYGSNRGREDLLDAFLAHIRAIGLDGYRRENCAVGIGAKHILYNL</Hsp_qseq>
+      <Hsp_hseq>SRAKPSTIMLIAEKARQLKAEGRDIISFSIGVPNFLPGPHVYQAVRDWLDKDSGSYGSNRGSADLLDAFLEHMKGVGLDGYTRENCAVAVGAKHILYNL</Hsp_hseq>
+      <Hsp_midline> RA+P+ + + A KA+   A GR +++ S+GVP+ +PGPH Y+AVR  LD DSG YGSNRG  DLLDAFL H++ +GLDGY RENCAV +GAKHILYNL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_081128852.1|</Hit_id>
+  <Hit_def>pyridoxal phosphate-dependent aminotransferase [Metallibacterium scheffleri] &gt;gb|THD11605.1| aminotransferase [Metallibacterium scheffleri]</Hit_def>
+  <Hit_accession>WP_081128852</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.339</Hsp_bit-score>
+      <Hsp_score>329</Hsp_score>
+      <Hsp_evalue>6.21303e-34</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>GRARPAGVWVGARKAQARMAAGRAVVNVSLGVPSCVPGPHGYEAVRRALDTDSGQYGSNRGREDLLDAFLAHIRAIGLDGYRRENCAVGIGAKHILYNL</Hsp_qseq>
+      <Hsp_hseq>GRAKPSAIMVIAEKAKALKASGRDVISFSIGVPNFLPGPHVYEAVRKALEHDSGQYGSNRGSNELLDAFLKHLQQAGFSGYARENLSTGVGAKHVLYNL</Hsp_hseq>
+      <Hsp_midline>GRA+P+ + V A KA+A  A+GR V++ S+GVP+ +PGPH YEAVR+AL+ DSGQYGSNRG  +LLDAFL H++  G  GY REN + G+GAKH+LYNL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_122100384.1|</Hit_id>
+  <Hit_def>pyridoxal phosphate-dependent aminotransferase [Lysobacter pythonis] &gt;gb|RMH94389.1| pyridoxal phosphate-dependent aminotransferase [Lysobacter pythonis]</Hit_def>
+  <Hit_accession>WP_122100384</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.954</Hsp_bit-score>
+      <Hsp_score>328</Hsp_score>
+      <Hsp_evalue>7.67056e-34</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>GRARPAGVWVGARKAQARMAAGRAVVNVSLGVPSCVPGPHGYEAVRRALDTDSGQYGSNRGREDLLDAFLAHIRAIGLDGYRRENCAVGIGAKHILYNL</Hsp_qseq>
+      <Hsp_hseq>GRAKPSAIMAVAEKAKQLKAEGRDIISFSIGVPNFLPGPHVYEAARESLAKDSGQYGSNRGSDALLDAFLAHIEKLGLTGYGRANCATGIGAKHILYNL</Hsp_hseq>
+      <Hsp_midline>GRA+P+ +   A KA+   A GR +++ S+GVP+ +PGPH YEA R +L  DSGQYGSNRG + LLDAFLAHI  +GL GY R NCA GIGAKHILYNL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|MCB1560570.1|</Hit_id>
+  <Hit_def>pyridoxal phosphate-dependent aminotransferase [Xanthomonadales bacterium]</Hit_def>
+  <Hit_accession>MCB1560570</Hit_accession>
+  <Hit_len>400</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.954</Hsp_bit-score>
+      <Hsp_score>328</Hsp_score>
+      <Hsp_evalue>8.39383e-34</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>GRARPAGVWVGARKAQARMAAGRAVVNVSLGVPSCVPGPHGYEAVRRALDTDSGQYGSNRGREDLLDAFLAHIRAIGLDGYRRENCAVGIGAKHILYNL</Hsp_qseq>
+      <Hsp_hseq>GRAKPSAIMEIAEKAKRLKAEGRDVISFSIGVPNFLPGAHVYGAARKALDNDSGQYGSNRGMPELLDAFLAHMQGVGMDGYTRENCAVAVGAKHILYNL</Hsp_hseq>
+      <Hsp_midline>GRA+P+ +   A KA+   A GR V++ S+GVP+ +PG H Y A R+ALD DSGQYGSNRG  +LLDAFLAH++ +G+DGY RENCAV +GAKHILYNL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|MBS0432836.1|</Hit_id>
+  <Hit_def>pyridoxal phosphate-dependent aminotransferase [Proteobacteria bacterium]</Hit_def>
+  <Hit_accession>MBS0432836</Hit_accession>
+  <Hit_len>409</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.954</Hsp_bit-score>
+      <Hsp_score>328</Hsp_score>
+      <Hsp_evalue>9.5977e-34</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>GRARPAGVWVGARKAQARMAAGRAVVNVSLGVPSCVPGPHGYEAVRRALDTDSGQYGSNRGREDLLDAFLAHIRAIGLDGYRRENCAVGIGAKHILYNL</Hsp_qseq>
+      <Hsp_hseq>SRAKPSAIMLIADKAKQLKAAGHDIVNFSIGVPNFLPGEHVYAAVREALKHDSGAYGSNRGREDLLDAFLAHLREIGLDGYQRSNVAVGVGAKQVLYNL</Hsp_hseq>
+      <Hsp_midline> RA+P+ + + A KA+   AAG  +VN S+GVP+ +PG H Y AVR AL  DSG YGSNRGREDLLDAFLAH+R IGLDGY+R N AVG+GAK +LYNL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|MBP8098485.1|</Hit_id>
+  <Hit_def>aminotransferase class I/II-fold pyridoxal phosphate-dependent enzyme [Arenimonas sp.]</Hit_def>
+  <Hit_accession>MBP8098485</Hit_accession>
+  <Hit_len>184</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.176</Hsp_bit-score>
+      <Hsp_score>313</Hsp_score>
+      <Hsp_evalue>1.32424e-33</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>GRARPAGVWVGARKAQARMAAGRAVVNVSLGVPSCVPGPHGYEAVRRALDTDSGQYGSNRGREDLLDAFLAHIRAIGLDGYRRENCAVGIGAKHILYNL</Hsp_qseq>
+      <Hsp_hseq>GRAKPSAIMAVAEKAKALKASGRDIISFSIGVPNFLPGDHVYAAARESLGKDSGQYGSNRGADALLDAFLKHIEAVGLTGYSRANCSTGIGAKHVLYNL</Hsp_hseq>
+      <Hsp_midline>GRA+P+ +   A KA+A  A+GR +++ S+GVP+ +PG H Y A R +L  DSGQYGSNRG + LLDAFL HI A+GL GY R NC+ GIGAKH+LYNL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_182825425.1|</Hit_id>
+  <Hit_def>MULTISPECIES: aminotransferase class I/II-fold pyridoxal phosphate-dependent enzyme [unclassified Luteimonas] &gt;gb|MBB1473970.1| aminotransferase class I/II-fold pyridoxal phosphate-dependent enzyme [Luteimonas sp. MC1782] &gt;gb|MBB6600577.1| aminotransferase class I/II-fold pyridoxal phosphate-dependent enzyme [Luteimonas sp. MC1825] &gt;gb|QOC87520.1| aminotransferase class I/II-fold pyridoxal phosphate-dependent enzyme [Luteimonas sp. MC1825]</Hit_def>
+  <Hit_accession>WP_182825425</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.183</Hsp_bit-score>
+      <Hsp_score>326</Hsp_score>
+      <Hsp_evalue>1.45844e-33</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>GRARPAGVWVGARKAQARMAAGRAVVNVSLGVPSCVPGPHGYEAVRRALDTDSGQYGSNRGREDLLDAFLAHIRAIGLDGYRRENCAVGIGAKHILYNL</Hsp_qseq>
+      <Hsp_hseq>GRAKPSAIMVVAEKAKRLKAEGRDIISFSIGVPNFLPGEHVYAAARQALEHDSGQYGSNRGANELLDAFLAHMQALGLDGYTRANCATGVGAKHVLYNL</Hsp_hseq>
+      <Hsp_midline>GRA+P+ + V A KA+   A GR +++ S+GVP+ +PG H Y A R+AL+ DSGQYGSNRG  +LLDAFLAH++A+GLDGY R NCA G+GAKH+LYNL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469534606</Statistics_db-num>
+      <Statistics_db-len>1070605227</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

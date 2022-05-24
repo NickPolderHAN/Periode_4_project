@@ -1,0 +1,322 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_20143</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_20143</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_149104596.1|</Hit_id>
+  <Hit_def>outer membrane protein assembly factor BamB [Luteimonas sp. XBU10] &gt;gb|TYT23897.1| outer membrane protein assembly factor BamB [Luteimonas sp. XBU10]</Hit_def>
+  <Hit_accession>WP_149104596</Hit_accession>
+  <Hit_len>408</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>138.272</Hsp_bit-score>
+      <Hsp_score>347</Hsp_score>
+      <Hsp_evalue>1.55707e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>282</Hsp_query-to>
+      <Hsp_hit-from>293</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>IWASDKGGPNRVGLSIDKVIVTDAEGSVWAIDRSSGSVVWQQPALARRNLTGVAVQGDYAVVGDYDGYLHWLRLDHGQVAARARAGPAAPRRPP</Hsp_qseq>
+      <Hsp_hseq>IWGSDHGGSNRPGLAVDKLVVSDRDGSVWGLDRSSGSASWEQPALARRNLSGVAIQGDYAVVGDYDGYLHWLRLDNGEFAARERVGGSAIKGAP</Hsp_hseq>
+      <Hsp_midline>IW SD GG NR GL++DK++V+D +GSVW +DRSSGS  W+QPALARRNL+GVA+QGDYAVVGDYDGYLHWLRLD+G+ AAR R G +A +  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|PZO64115.1|</Hit_id>
+  <Hit_def>outer membrane protein assembly factor BamB [Pseudoxanthomonas suwonensis]</Hit_def>
+  <Hit_accession>PZO64115</Hit_accession>
+  <Hit_len>395</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.568</Hsp_bit-score>
+      <Hsp_score>327</Hsp_score>
+      <Hsp_evalue>1.21639e-33</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>282</Hsp_query-to>
+      <Hsp_hit-from>279</Hsp_hit-from>
+      <Hsp_hit-to>372</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>IWASDKGGPNRVGLSIDKVIVTDAEGSVWAIDRSSGSVVWQQPALARRNLTGVAVQGDYAVVGDYDGYLHWLRLDHGQVAARARAGPAAPRRPP</Hsp_qseq>
+      <Hsp_hseq>LWESGNGGPGRVGVSADRVITSDRNGTVWGIDKTSGSGSWQQPALARRNLSGVAVQGDYAVVGDYDGYLHWLNLSDGQFAARTRAAKDAIRAAP</Hsp_hseq>
+      <Hsp_midline>+W S  GGP RVG+S D+VI +D  G+VW ID++SGS  WQQPALARRNL+GVAVQGDYAVVGDYDGYLHWL L  GQ AAR RA   A R  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_232115481.1|</Hit_id>
+  <Hit_def>outer membrane protein assembly factor BamB [Luteimonas sp. XNQY3] &gt;gb|MCD9005668.1| outer membrane protein assembly factor BamB [Luteimonas sp. XNQY3]</Hit_def>
+  <Hit_accession>WP_232115481</Hit_accession>
+  <Hit_len>406</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.798</Hsp_bit-score>
+      <Hsp_score>325</Hsp_score>
+      <Hsp_evalue>2.53786e-33</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>290</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>IWASDKGGPNRVGLSIDKVIVTDAEGSVWAIDRSSGSVVWQQPALARRNLTGVAVQGDYAVVGDYDGYLHWLRLDHGQVAARARAGPAAPRRPPGRGA</Hsp_qseq>
+      <Hsp_hseq>LWVSEHGGANRPGLSPQRVVVTDSNGTVWALDKYSGTAVWQQPALARRNLTGAAIQGDYAVVGDLDGYLHWMRLDDGEFVARERAG-----RDPIRGA</Hsp_hseq>
+      <Hsp_midline>+W S+ GG NR GLS  +V+VTD+ G+VWA+D+ SG+ VWQQPALARRNLTG A+QGDYAVVGD DGYLHW+RLD G+  AR RAG     R P RGA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_202844677.1|</Hit_id>
+  <Hit_def>outer membrane protein assembly factor BamB [Luteimonas sp. SJ-9]</Hit_def>
+  <Hit_accession>WP_202844677</Hit_accession>
+  <Hit_len>408</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.413</Hsp_bit-score>
+      <Hsp_score>324</Hsp_score>
+      <Hsp_evalue>3.66521e-33</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>282</Hsp_query-to>
+      <Hsp_hit-from>293</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>IWASDKGGPNRVGLSIDKVIVTDAEGSVWAIDRSSGSVVWQQPALARRNLTGVAVQGDYAVVGDYDGYLHWLRLDHGQVAARARAGPAAPRRPP</Hsp_qseq>
+      <Hsp_hseq>IWGSDRGGSSRPGLAIDKLVVSDRNGSVWGLDRSSGSASWEQPALARRGLGGVAIHGDYAVVGDFEGYLHWLRLDNGEFAARERAGRDAIKGAP</Hsp_hseq>
+      <Hsp_midline>IW SD+GG +R GL+IDK++V+D  GSVW +DRSSGS  W+QPALARR L GVA+ GDYAVVGD++GYLHWLRLD+G+ AAR RAG  A +  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_159681815.1|</Hit_id>
+  <Hit_def>outer membrane protein assembly factor BamB [Luteimonas sp. 9C] &gt;emb|VXB28246.1| Outer membrane protein assembly factor BamB [Luteimonas sp. 9C]</Hit_def>
+  <Hit_accession>WP_159681815</Hit_accession>
+  <Hit_len>406</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.642</Hsp_bit-score>
+      <Hsp_score>322</Hsp_score>
+      <Hsp_evalue>6.39824e-33</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>258</Hsp_query-to>
+      <Hsp_hit-from>290</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>IWASDKGGPNRVGLSIDKVIVTDAEGSVWAIDRSSGSVVWQQPALARRNLTGVAVQGDYAVVGDYDGYLHWLRLDHGQVAARARAG</Hsp_qseq>
+      <Hsp_hseq>LWVSEHGGANRPGLSPQRVVVTDASGTVWALDKYSGTAAWQQPALARRNLTGAVIQGDYAVVGDYDGYLHWMRLDDGEFVARQRAG</Hsp_hseq>
+      <Hsp_midline>+W S+ GG NR GLS  +V+VTDA G+VWA+D+ SG+  WQQPALARRNLTG  +QGDYAVVGDYDGYLHW+RLD G+  AR RAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_242107483.1|</Hit_id>
+  <Hit_def>outer membrane protein assembly factor BamB [Luteimonas aquatica]</Hit_def>
+  <Hit_accession>WP_242107483</Hit_accession>
+  <Hit_len>418</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.642</Hsp_bit-score>
+      <Hsp_score>322</Hsp_score>
+      <Hsp_evalue>8.1755e-33</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>258</Hsp_query-to>
+      <Hsp_hit-from>295</Hsp_hit-from>
+      <Hsp_hit-to>380</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>IWASDKGGPNRVGLSIDKVIVTDAEGSVWAIDRSSGSVVWQQPALARRNLTGVAVQGDYAVVGDYDGYLHWLRLDHGQVAARARAG</Hsp_qseq>
+      <Hsp_hseq>IWAHDNGGPGRVGMASDRVVVSDPAGTVWALDKNSGSALWSQPVLARRNLTSAAVQGDYAVVGDYDGYLHWLRLSDGSLAARERTG</Hsp_hseq>
+      <Hsp_midline>IWA D GGP RVG++ D+V+V+D  G+VWA+D++SGS +W QP LARRNLT  AVQGDYAVVGDYDGYLHWLRL  G +AAR R G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_232135360.1|</Hit_id>
+  <Hit_def>MULTISPECIES: outer membrane protein assembly factor BamB [unclassified Luteimonas] &gt;gb|MCD9096594.1| outer membrane protein assembly factor BamB [Luteimonas sp. A1P009] &gt;gb|MCD9125928.1| outer membrane protein assembly factor BamB [Luteimonas sp. C4P040a] &gt;gb|UHH10000.1| outer membrane protein assembly factor BamB [Luteimonas sp. D4P002]</Hit_def>
+  <Hit_accession>WP_232135360</Hit_accession>
+  <Hit_len>406</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.257</Hsp_bit-score>
+      <Hsp_score>321</Hsp_score>
+      <Hsp_evalue>9.6371e-33</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>290</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>IWASDKGGPNRVGLSIDKVIVTDAEGSVWAIDRSSGSVVWQQPALARRNLTGVAVQGDYAVVGDYDGYLHWLRLDHGQVAARARAGPAAPRRPPGRGA</Hsp_qseq>
+      <Hsp_hseq>LWVSEHGGANRPGLSPQRVVVTDSNGTVWALDKFSGTAAWQQPALARRNLTGAAIQGDYAVVGDLDGYLHWMRLDDGEFVARERAG-----RDPIRGA</Hsp_hseq>
+      <Hsp_midline>+W S+ GG NR GLS  +V+VTD+ G+VWA+D+ SG+  WQQPALARRNLTG A+QGDYAVVGD DGYLHW+RLD G+  AR RAG     R P RGA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|MBP6798410.1|</Hit_id>
+  <Hit_def>outer membrane protein assembly factor BamB [Luteimonas sp.]</Hit_def>
+  <Hit_accession>MBP6798410</Hit_accession>
+  <Hit_len>395</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.872</Hsp_bit-score>
+      <Hsp_score>320</Hsp_score>
+      <Hsp_evalue>1.17092e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>282</Hsp_query-to>
+      <Hsp_hit-from>280</Hsp_hit-from>
+      <Hsp_hit-to>373</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>IWASDKGGPNRVGLSIDKVIVTDAEGSVWAIDRSSGSVVWQQPALARRNLTGVAVQGDYAVVGDYDGYLHWLRLDHGQVAARARAGPAAPRRPP</Hsp_qseq>
+      <Hsp_hseq>VWASDHGGSGRLGLAGDKVVASDRNGSVWGIDRSSGTAAWGQSGLARRDLSGVAVQGDFAVVGDFDGYIHWLRLDNGDFAARERAGRSAIKAPP</Hsp_hseq>
+      <Hsp_midline>+WASD GG  R+GL+ DKV+ +D  GSVW IDRSSG+  W Q  LARR+L+GVAVQGD+AVVGD+DGY+HWLRLD+G  AAR RAG +A + PP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_215499040.1|</Hit_id>
+  <Hit_def>outer membrane protein assembly factor BamB [Lysobacter capsici] &gt;gb|QWF19754.1| outer membrane protein assembly factor BamB [Lysobacter capsici]</Hit_def>
+  <Hit_accession>WP_215499040</Hit_accession>
+  <Hit_len>411</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.487</Hsp_bit-score>
+      <Hsp_score>319</Hsp_score>
+      <Hsp_evalue>2.35709e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>282</Hsp_query-to>
+      <Hsp_hit-from>296</Hsp_hit-from>
+      <Hsp_hit-to>389</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>IWASDKGGPNRVGLSIDKVIVTDAEGSVWAIDRSSGSVVWQQPALARRNLTGVAVQGDYAVVGDYDGYLHWLRLDHGQVAARARAGPAAPRRPP</Hsp_qseq>
+      <Hsp_hseq>IWVSEHGGAGRVGLASDRLIVSDPAGTVYGLDRSSGSALWSQPSLARRNLTGAAVQGDYAVVGDYDGYVHWMKLDTGEFAARARVGGKSLRAAP</Hsp_hseq>
+      <Hsp_midline>IW S+ GG  RVGL+ D++IV+D  G+V+ +DRSSGS +W QP+LARRNLTG AVQGDYAVVGDYDGY+HW++LD G+ AARAR G  + R  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|ASR44521.1|</Hit_id>
+  <Hit_def>outer membrane protein assembly factor BamB [Xanthomonas citri pv. mangiferaeindicae]</Hit_def>
+  <Hit_accession>ASR44521</Hit_accession>
+  <Hit_len>406</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.716</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>3.25611e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>290</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>IWASDKGGPNRVGLSIDKVIVTDAEGSVWAIDRSSGSVVWQQPALARRNLTGVAVQGDYAVVGDYDGYLHWLRLDHGQVAARARAGPAAPRRPPGRGA</Hsp_qseq>
+      <Hsp_hseq>LWVSDHGGSNRPALSPHRVVVTDANGTVWALDKFSGTAAWQQPALARRNLSAAAVQGDYAVVGDLDGYLHWLRLDDGEFAARERAG-----RDPIKGA</Hsp_hseq>
+      <Hsp_midline>+W SD GG NR  LS  +V+VTDA G+VWA+D+ SG+  WQQPALARRNL+  AVQGDYAVVGD DGYLHWLRLD G+ AAR RAG     R P +GA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469534606</Statistics_db-num>
+      <Statistics_db-len>1070605227</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
