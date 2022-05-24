@@ -6,22 +6,22 @@ app = Flask(__name__)
 
 @app.route("/", methods=["POST", "GET"])
 def hoofdpagina():
-    return
+    return render_template('index.html')
 
 
 @app.route("/resultaten", methods=["POST", "GET"])
 def resultaten():
-    return
+    return render_template('graphs.html')
 
 
-@app.route("/blast_pagina", methods=["POST", "GET"])
+@app.route("/infopagina", methods=["POST", "GET"])
 def blast_pagina():
-    return
+    return render_template('learnmore.html')
 
 
 @app.route("/database_inladen", methods=["POST", "GET"])
 def database_inladen():
-    return
+    return render_template('table.html')
 
 @app.route("/table", methods=["POST", "GET"])
 def table():
