@@ -26,11 +26,11 @@ class DatabaseInsert:
         self.__file_amount = 98
         self.__hit_counter = 1
 
-        connect = mysql.connector.connect(host="145.74.104.145",
-                                          user="pwtit",
-                                          password="pwd123",
-                                          database="pwtit")
-        self.__cursor = connect.cursor()
+        self.__connect = mysql.connector.connect(host="145.74.104.145",
+                                                 user="pwtit",
+                                                 password="pwd123",
+                                                 database="pwtit")
+        self.__cursor = self.__connect.cursor()
 
         # calls the functions to get all the needed table data.
         print("Working.....")
@@ -54,7 +54,6 @@ class DatabaseInsert:
         file_counter = 0
 
         while file_counter < self.__file_amount:
-            print(file_counter)
             time.sleep(1.0)
             file_counter += 1
             file_name = "my_blastx" + str(file_counter) + ".xml"
@@ -66,10 +65,14 @@ class DatabaseInsert:
                                                    self.__seq_dict)
 
             hit_data = bp.get_all_attributes()
+            print(hit_data)
             self.__hit_dict[key_name] = hit_data
-            self.insert_data_to_db()
 
         print("Finished getting all hit data from .xml files.")
+        # self.insert_data_to_db()
+        self.__cursor.close()
+        print("Finished inserting all of the hit, taxonomy"
+              " and sequence data.")
 
     def gather_sequences_from_dict(self):
         """
@@ -113,6 +116,7 @@ class DatabaseInsert:
 
         hd = self.__hit_dict
         for key in hd:
+            print(key, hd[key])
             for h_key in hd[key]:
                 for i_key in hd[key][h_key]:
                     if i_key in hit_list:
@@ -142,14 +146,13 @@ class DatabaseInsert:
                                 taxo_string += rank + "'" + ");"
 
                                 # taxo_id
-                                hit_string += str(index)
-                                hit_string += ", "
-                                # seq_id
-                                hit_string += str(hd[key][h_key][i_key])
-                                hit_string += ", "
+                                hit_string += str(index) + ", "
 
-                                seq = "'"
-                                seq += hd[key][h_key]["seq"] + "'"
+                                # seq_id
+                                hit_string += \
+                                    str(hd[key][h_key][i_key]) + ", "
+
+                                seq = "'" + hd[key][h_key]["seq"] + "'"
                                 seq_string += str(hd[key][h_key][i_key])
                                 seq_string += ", " + seq
                                 seq_string += ", "
@@ -181,7 +184,7 @@ class DatabaseInsert:
                 else:
                     taxo_full = None
 
-                self.execute_queries(hit_full, taxo_full, seq_full)
+                # self.execute_queries(hit_full, taxo_full, seq_full)
 
                 hit_string = ""
                 taxo_string = ""
@@ -189,7 +192,6 @@ class DatabaseInsert:
                 self.__hit_counter += 1
 
     def execute_queries(self, hit_query, taxo_query, seq_query):
-        print(hit_query)
         if seq_query not in self.__seq_checker:
             self.__seq_checker.append(seq_query)
             self.__cursor.execute(seq_query)
@@ -198,3 +200,4 @@ class DatabaseInsert:
             self.__cursor.execute(taxo_query)
 
         self.__cursor.execute(hit_query)
+        self.__connect.commit()

@@ -39,3 +39,12 @@ Blast resultaten liep de groep tegen het probleem aan dat één hit
 meerdere organismen en eiwitten terug kan geven. Omdat de hits meer
 eiwitten en organismen kunnen bevatten worden deze meegegeven als een 
 list met bij elke organisme en eiwit combinatie een id(nummer).
+
+Taxonomy filter:
+De taxonomy filter is gebasseerd op het stuk code wat Esmay
+heeft geschreven, deze code is aangepast om in de processing
+class te passen.
+
+Sequence gather:
+De sequence gathering is gedaan met een stuk code van Evy.
+Deze is later verwerkt in de processing class.
