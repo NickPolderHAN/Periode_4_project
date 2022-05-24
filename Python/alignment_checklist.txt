@@ -96,3 +96,8 @@
 @HWI-M02942:21:000000000-ACNW4:1:1101:8253:2961_1, as .xml file #96
 @HWI-M02942:21:000000000-ACNW4:1:1101:21159:2962_1, as .xml file #97
 @HWI-M02942:21:000000000-ACNW4:1:1101:16363:2965_1, as .xml file #98
+Read2: 101, as .xml file #101
+Read2: 102, as .xml file #102
+Read2: 103, as .xml file #103
+Read2: 104, as .xml file #104
+Read2: 105, as .xml file #105
