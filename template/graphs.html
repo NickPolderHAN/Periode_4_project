@@ -7,6 +7,7 @@
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/cover/">
     <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="cover.css" rel="stylesheet">
+
   </head>
 
 
@@ -28,11 +29,94 @@
 
    <br>
       <div class="container_graph" >
-        <p>Hier komt de grafiek!</p>
+        <script>
+    window.onload = function graph1() {
+
+        var chart = new CanvasJS.Chart("chartContainer1", {
+          theme: "dark2", // "light1", "light2", "dark1"
+          animationEnabled: true,
+          title: {
+            text: "Top 10 organismen in sample"
+          },
+          axisX: {
+            margin: 10,
+            labelPlacement: "inside",
+            tickPlacement: "inside"
+          },
+          axisY2: {
+            title: "aantal keer gevonden",
+            titleFontSize: 14,
+            includeZero: true,
+            suffix: "bn"
+          },
+          data: [{
+            type: "bar",
+            axisYType: "secondary",
+            yValueFormatString: "#,###.##bn",
+            indexLabel: "{y}",
+            dataPoints: [
+              { label: "naam organisme", y: 3.25 },
+              { label: "naam organisme", y: 3.32 },
+              { label: "naam organisme", y: 3.63 },
+              { label: "naam organisme", y: 3.72 },
+              { label: "naam organisme", y: 3.90 },
+              { label: "naam organisme", y: 4.32 },
+              { label: "naam organisme", y: 4.66 },
+              { label: "naam organisme", y: 4.91 },
+              { label: "naam organisme", y: 6.13 },
+              { label: "naam organisme", y: 6.88 }
+            ]
+          }]
+        });
+
+        var chart2 = new CanvasJS.Chart("chartContainer2", {
+          theme: "dark2", // "light1", "light2", "dark1"
+          animationEnabled: true,
+          title: {
+            text: "Top 10 eiwitten in sample"
+          },
+          axisX: {
+            margin: 10,
+            labelPlacement: "inside",
+            tickPlacement: "inside"
+          },
+          axisY2: {
+            title: "aantal keer gevonden",
+            titleFontSize: 14,
+            includeZero: true,
+            suffix: "bn"
+          },
+          data: [{
+            type: "bar",
+            axisYType: "secondary",
+            yValueFormatString: "#,###.##bn",
+            indexLabel: "{y}",
+            dataPoints: [
+              { label: "naam eiwit", y: 3.25 },
+              { label: "naam eiwit", y: 3.32 },
+              { label: "naam eiwit", y: 3.63 },
+              { label: "naam eiwit", y: 3.72 },
+              { label: "naam eiwit", y: 3.90 },
+              { label: "naam eiwit", y: 4.32 },
+              { label: "naam eiwit", y: 4.66 },
+              { label: "naam eiwit", y: 4.91 },
+              { label: "naam eiwit", y: 6.13 },
+              { label: "naam eiwit", y: 6.88 }
+            ]
+          }]
+        });
+        chart.render();
+      chart2.render();
+        }
+        </script>
+
+        <div id="chartContainer1" style="height: 300px; width: 100%;"></div>
+        <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
       </div>
     <br>
       <div class="container_graph" >
-        <p>Hier komt de grafiek!</p>
+        <div id="chartContainer2" style="height: 300px; width: 100%;"></div>
+        <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
       </div>
 
 
