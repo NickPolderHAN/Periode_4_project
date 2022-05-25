@@ -24,7 +24,8 @@ class DatabaseInsert:
         self.__taxo_check = []
 
         # specifies the amount of files to be read (my_blast[num].xml)
-        self.__file_amount = 200
+        # not change-able.
+        self.__file_amount = 0
         self.__hit_counter = 1
 
         self.__connect = mysql.connector.connect(host="145.74.104.145",
