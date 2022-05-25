@@ -1,132 +1,144 @@
 <!doctype html>
 <html lang="en" class="h-100">
-  <head>
+<head>
     <meta charset="utf-8">
-    <meta name="author" content="Ambra Hovenier, Esmay Wissink, Nick van de Polder, Evy Kuenen">
+    <meta name="author"
+          content="Ambra Hovenier, Esmay Wissink, Nick van de Polder,
+          Evy Kuenen">
     <title>BLAST</title>
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/cover/">
+    <link rel="canonical"
+          href="https://getbootstrap.com/docs/5.1/examples/cover/">
     <link href="../static/bootstrap.min.css" rel="stylesheet">
     <link href="../static/cover.css" rel="stylesheet">
-            <script>
-window.onload = function () {
+    <script>
+        window.onload = function () {
 
-var chart1 = new CanvasJS.Chart("chartContainer1", {
-  theme: "dark2", // "light1", "light2", "dark1"
-  animationEnabled: true,
-  title: {
-    text: "Top 10 organismen in sample"
-  },
-  axisX: {
-    margin: 10,
-    labelPlacement: "inside",
-    tickPlacement: "inside"
-  },
-  axisY2: {
-    title: "aantal voorkomen in sample",
-    titleFontSize: 14,
-    includeZero: true,
-    suffix: "bn"
-  },
-  data: [{
-    type: "bar",
-    axisYType: "secondary",
-    yValueFormatString: "#,###.##bn",
-    indexLabel: "{y}",
-    dataPoints: [
-      { label: "organisme", y: 3.25 },
-      { label: "organisme", y: 3.32 },
-      { label: "organisme", y: 3.63 },
-      { label: "organisme", y: 3.72 },
-      { label: "organisme", y: 3.90 },
-      { label: "organisme", y: 4.32 },
-      { label: "organisme", y: 4.66 },
-      { label: "organisme", y: 4.91 },
-      { label: "organisme", y: 6.13 },
-      { label: "organisme", y: 6.88 }
-    ]
-  }]
-});
-chart1.render();
-
-
-var chart2 = new CanvasJS.Chart("chartContainer2", {
-  theme: "dark2",
-  animationEnabled: true,
-  title: {
-    text: "Top 10 eiwitten in sample"
-  },
-  axisX: {
-    margin: 10,
-    labelPlacement: "inside",
-    tickPlacement: "inside"
-  },
-  axisY2: {
-    title: "aantal voorkomen in sample",
-    titleFontSize: 14,
-    includeZero: true,
-    suffix: "bn"
-  },
-  data: [{
-    type: "bar",
-    axisYType: "secondary",
-    yValueFormatString: "#,###.##bn",
-    indexLabel: "{y}",
-    dataPoints: [
-      { label: "eiwit", y: 3.25 },
-      { label: "eiwit", y: 3.32 },
-      { label: "eiwit", y: 3.63 },
-      { label: "eiwit", y: 3.72 },
-      { label: "eiwit", y: 3.90 },
-      { label: "eiwit", y: 4.32 },
-      { label: "eiwit", y: 4.66 },
-      { label: "eiwit", y: 4.91 },
-      { label: "eiwit", y: 6.13 },
-      { label: "eiwit", y: 6.88 }
-    ]
-  }]
-});
-chart2.render();
-}
-        </script>
-  </head>
+            var chart1 = new CanvasJS.Chart("chartContainer1", {
+                theme: "dark2", // "light1", "light2", "dark1"
+                animationEnabled: true,
+                title: {
+                    text: "Top 10 organismen in sample"
+                },
+                axisX: {
+                    margin: 10,
+                    labelPlacement: "inside",
+                    tickPlacement: "inside"
+                },
+                axisY2: {
+                    title: "aantal voorkomen in sample",
+                    titleFontSize: 14,
+                    includeZero: true,
+                    suffix: "bn"
+                },
+                data: [{
+                    type: "bar",
+                    axisYType: "secondary",
+                    yValueFormatString: "#,###.##bn",
+                    indexLabel: "{y}",
+                    dataPoints: [
+                        {label: "organisme", y: 3.25},
+                        {label: "organisme", y: 3.32},
+                        {label: "organisme", y: 3.63},
+                        {label: "organisme", y: 3.72},
+                        {label: "organisme", y: 3.90},
+                        {label: "organisme", y: 4.32},
+                        {label: "organisme", y: 4.66},
+                        {label: "organisme", y: 4.91},
+                        {label: "organisme", y: 6.13},
+                        {label: "organisme", y: 6.88}
+                    ]
+                }]
+            });
+            chart1.render();
 
 
-  <body class="d-flex h-100 text-center text-white bg-dark">
+            var chart2 = new CanvasJS.Chart("chartContainer2", {
+                theme: "dark2",
+                animationEnabled: true,
+                title: {
+                    text: "Top 10 eiwitten in sample"
+                },
+                axisX: {
+                    margin: 10,
+                    labelPlacement: "inside",
+                    tickPlacement: "inside"
+                },
+                axisY2: {
+                    title: "aantal voorkomen in sample",
+                    titleFontSize: 14,
+                    includeZero: true,
+                    suffix: "bn"
+                },
+                data: [{
+                    type: "bar",
+                    axisYType: "secondary",
+                    yValueFormatString: "#,###.##bn",
+                    indexLabel: "{y}",
+                    dataPoints: [
+                        {label: "eiwit", y: 3.25},
+                        {label: "eiwit", y: 3.32},
+                        {label: "eiwit", y: 3.63},
+                        {label: "eiwit", y: 3.72},
+                        {label: "eiwit", y: 3.90},
+                        {label: "eiwit", y: 4.32},
+                        {label: "eiwit", y: 4.66},
+                        {label: "eiwit", y: 4.91},
+                        {label: "eiwit", y: 6.13},
+                        {label: "eiwit", y: 6.88}
+                    ]
+                }]
+            });
+            chart2.render();
+        }
+    </script>
+</head>
+
+
+<body class="d-flex h-100 text-center text-white bg-dark">
 
 <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-  <header class="mb-auto">
-    <div>
-      <h3 class="float-md-start mb-0">BLAST</h3>
-      <nav class="nav nav-masthead justify-content-center float-md-end">
-        <a class="nav-link"  href="{{ url_for('index') }}">Home</a>
-        <a class="nav-link active" aria-current="page" href="{{ url_for('graphs') }}">Graphs</a>
-        <a class="nav-link"  href="{{ url_for('table') }}">Table</a>
-        <a class="nav-link" href="{{ url_for('learn_more') }}">Learn more</a>
-      </nav>
-    </div>
-  </header>
+    <header class="mb-auto">
+        <div>
+            <h3 class="float-md-start mb-0">BLAST</h3>
+            <nav class="nav nav-masthead justify-content-center float-md-end">
+                <a class="nav-link"
+                   href="{{ url_for('index') }}">Home</a>
+                <a class="nav-link active" aria-current="page"
+                   href="{{ url_for('graphs') }}">Graphs</a>
+                <a class="nav-link"
+                   href="{{ url_for('table') }}">Table</a>
+                <a class="nav-link" href="{{ url_for('learn_more') }}">Learn
+                    more</a>
+            </nav>
+        </div>
+    </header>
 
 
-   <br>
-      <div class="container_graph" >
-<div id="chartContainer1" style="height: 500px; width: 100%;"></div>
-<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
-        <script>chart1</script>
-      </div>
     <br>
-      <div class="container_graph" >
-<div id="chartContainer2" style="height: 500px; width: 100%;"></div>
-<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
-<script>chart2</script>
-      </div>
+    <div class="container_graph">
+        <div id="chartContainer1"
+             style="height: 500px; width: 100%;"></div>
+        <script src="https://canvasjs.com/assets/script/canvasjs.min.js">
+
+        </script>
+        <script>chart1</script>
+    </div>
+    <br>
+    <div class="container_graph">
+        <div id="chartContainer2"
+             style="height: 500px; width: 100%;"></div>
+        <script src="https://canvasjs.com/assets/script/canvasjs.min.js">
+
+        </script>
+        <script>chart2</script>
+    </div>
 
 
-  <footer class="mt-auto text-white-50">
-    <p>&copy;copyright groepje 3</p>
-  </footer>
+    <footer class="mt-auto text-white-50">
+        <p>&copy;copyright groepje 3</p>
+    </footer>
 </div>
 
 
-
-  </body>
+</body>
 </html>
