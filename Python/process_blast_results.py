@@ -4,6 +4,7 @@
 
 from Bio.Blast import NCBIXML
 from Bio import Entrez
+import time
 
 
 # used to retrieve the Blast results from a xml file.
@@ -130,6 +131,7 @@ class BlastParser:
         rank_list = []
 
         for organism in organism_list:
+            time.sleep(1.0)
             split = organism.split(" (")
 
             # Configures the Entrez settings.

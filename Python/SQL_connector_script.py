@@ -3,6 +3,7 @@ import process_blast_results
 import re
 import Extract_excel_data
 import time
+import json
 
 
 class DatabaseInsert:
@@ -23,7 +24,7 @@ class DatabaseInsert:
         self.__taxo_check = []
 
         # specifies the amount of files to be read (my_blast[num].xml)
-        self.__file_amount = 98
+        self.__file_amount = 200
         self.__hit_counter = 1
 
         self.__connect = mysql.connector.connect(host="145.74.104.145",
@@ -34,11 +35,14 @@ class DatabaseInsert:
 
         # calls the functions to get all the needed table data.
         print("Working.....")
-        self.gather_sequences_from_dict()
-        self.get_all_hits_taxonomy()
-        self.insert_data_to_db()
+        # self.gather_sequences_from_dict()
+        # self.get_all_hits_taxonomy()
 
-        self.__cursor.close()
+        with open("hit_data.json") as json_file:
+            hit_data = json.load(json_file)
+            self.__hit_dict = hit_data
+
+        self.insert_data_to_db()
 
     # gets both the hits and taxonomy.
     def get_all_hits_taxonomy(self):
@@ -65,12 +69,13 @@ class DatabaseInsert:
                                                    self.__seq_dict)
 
             hit_data = bp.get_all_attributes()
-            print(hit_data)
+            print(file_counter, hit_data)
             self.__hit_dict[key_name] = hit_data
 
-        print("Finished getting all hit data from .xml files.")
-        # self.insert_data_to_db()
-        self.__cursor.close()
+        # saves dictionary to json.
+        with open("hit_data.json", "w") as outfile:
+            json.dump(self.__hit_dict, outfile)
+
         print("Finished inserting all of the hit, taxonomy"
               " and sequence data.")
 
@@ -184,7 +189,7 @@ class DatabaseInsert:
                 else:
                     taxo_full = None
 
-                # self.execute_queries(hit_full, taxo_full, seq_full)
+                self.execute_queries(hit_full, taxo_full, seq_full)
 
                 hit_string = ""
                 taxo_string = ""
