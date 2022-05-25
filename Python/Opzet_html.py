@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-from Python.sorteerknoppen import sorteerknoppen
+from Python.sorteerknoppen import SorteerKnoppen
 
 app = Flask(__name__, template_folder='../templates', static_folder='../static')
 
@@ -26,7 +26,8 @@ def table():
 
 @app.route("/table", methods=["POST", "GET"])
 def filter_resultaten():
-    sk = sorteerknoppen()
+    sk = SorteerKnoppen()
+
     if request.method == "POST":
         e_value_min = str(request.form.get("e_value_min").strip().replace('\n', ''))
         e_value_max = str(request.form.get("e_value_max").strip().replace('\n', ''))
@@ -36,6 +37,7 @@ def filter_resultaten():
         protein = str(request.form.get("protein").strip().replace('\n', ''))
         result = sk.get_data(e_value_min, e_value_max, percent_identity_min,
                              percent_identity_max, organism, protein)
+
     return render_template("table.html", data=result)
 
 
