@@ -1,6 +1,10 @@
 import mysql.connector
 
-class sorteerknoppen:
+
+class SorteerKnoppen:
+    def __init__(self):
+        self.__result = ''
+
     def get_data(self, e_value_min, e_value_max, percent_identity_min,
                  percent_identity_max, organism, protein):
         """
@@ -113,5 +117,5 @@ class sorteerknoppen:
             sql = f"select * from hits"
             mycursor.execute(sql)
 
-        result = mycursor.fetchall()
-        return result
+        self.__result = mycursor.fetchall()
+        return self.__result
