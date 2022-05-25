@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1493</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1493</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|QYC96889.1|</Hit_id>
+  <Hit_def>hypothetical protein [Escherichia phage IME267]</Hit_def>
+  <Hit_accession>QYC96889</Hit_accession>
+  <Hit_len>170</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.0182</Hsp_bit-score>
+      <Hsp_score>175</Hsp_score>
+      <Hsp_evalue>4.38782e-13</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>257</Hsp_query-to>
+      <Hsp_hit-from>79</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>VKDDNRLDNLEWTDYSGNAKHAYNMGLSKPPS--NKGRQRLSDDEIKYVLENYCPRVREYGARALGWRFGVDKNCIRWVLKYSGYEE</Hsp_qseq>
+      <Hsp_hseq>IKDDNRIENLEWCTQQENCVHAYETKLSTPRNLEDNPNSKLTKEQVLFCLENYKPRDRQFGARALARKFGVSSSTISLIINGTNWKE</Hsp_hseq>
+      <Hsp_midline>+KDDNR++NLEW     N  HAY   LS P +  +    +L+ +++ + LENY PR R++GARAL  +FGV  + I  ++  + ++E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>tpg|DAE36448.1|</Hit_id>
+  <Hit_def>TPA: MAG TPA: homing endonuclease [Podoviridae sp.]</Hit_def>
+  <Hit_accession>DAE36448</Hit_accession>
+  <Hit_len>177</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.2478</Hsp_bit-score>
+      <Hsp_score>173</Hsp_score>
+      <Hsp_evalue>1.02281e-12</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>79</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>VKDDNRLDNLEWTDYSGNAKHAYNMGLSKPPS--NKGRQRLSDDEIKYVLENYCPRVREYGARALGWRFGVDKNCIRWVL</Hsp_qseq>
+      <Hsp_hseq>VKDDNRLENLEWCTGSENCQHSVDTGLMKVKSLEENPNSKLTKEQVLFCIENYKPRDSEFGARALSRKFGVNKSTISLII</Hsp_hseq>
+      <Hsp_midline>VKDDNRL+NLEW   S N +H+ + GL K  S       +L+ +++ + +ENY PR  E+GARAL  +FGV+K+ I  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|UEN68515.1|</Hit_id>
+  <Hit_def>HNH homing endonuclease [Escherichia phage MLP3]</Hit_def>
+  <Hit_accession>UEN68515</Hit_accession>
+  <Hit_len>170</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.707</Hsp_bit-score>
+      <Hsp_score>169</Hsp_score>
+      <Hsp_evalue>3.3552e-12</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>257</Hsp_query-to>
+      <Hsp_hit-from>79</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>VKDDNRLDNLEWTDYSGNAKHAYNMGLSKPPS--NKGRQRLSDDEIKYVLENYCPRVREYGARALGWRFGVDKNCIRWVLKYSGYEE</Hsp_qseq>
+      <Hsp_hseq>IKDDNRIEKLEWCTQQENCVHAYETKLSTPRNLEDNPNSKLTKEQVLFCLENYKPRDRQFGARALARKFGVSSSTISLIINGTNWKE</Hsp_hseq>
+      <Hsp_midline>+KDDNR++ LEW     N  HAY   LS P +  +    +L+ +++ + LENY PR R++GARAL  +FGV  + I  ++  + ++E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|MBR5913986.1|</Hit_id>
+  <Hit_def>NUMOD4 motif-containing HNH endonuclease [Selenomonadaceae bacterium]</Hit_def>
+  <Hit_accession>MBR5913986</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.4774</Hsp_bit-score>
+      <Hsp_score>171</Hsp_score>
+      <Hsp_evalue>4.69071e-12</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>254</Hsp_query-to>
+      <Hsp_hit-from>144</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>KDDNRLDNLEWTDYSGNAKHAYNMGLSKPPSNKGRQRLSDDEIKYVLENYCPRVREYGARALGWRFGVDKNCIRWVLKYSGYE</Hsp_qseq>
+      <Hsp_hseq>KQNNLVENLEWVTRSENTLHAYRIGLMKSGAKSTIAKLTDEQVKYIREHYIPKDKKFGAKAMSHLFNVSDSTIHHVISYKSYK</Hsp_hseq>
+      <Hsp_midline>K +N ++NLEW   S N  HAY +GL K  +     +L+D+++KY+ E+Y P+ +++GA+A+   F V  + I  V+ Y  Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|NEZ96972.1|</Hit_id>
+  <Hit_def>hypothetical protein [Clostridium botulinum] &gt;gb|NFA10628.1| hypothetical protein [Clostridium botulinum] &gt;gb|NFA26127.1| hypothetical protein [Clostridium botulinum]</Hit_def>
+  <Hit_accession>NEZ96972</Hit_accession>
+  <Hit_len>187</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.4698</Hsp_bit-score>
+      <Hsp_score>158</Hsp_score>
+      <Hsp_evalue>2.02685e-10</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>251</Hsp_query-to>
+      <Hsp_hit-from>101</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>VKDDNRLDNLEWTDYSGNAKHAYNMGLSKPPS---NKGRQRLSDDEIKYVLENYCPRVREYGARALGWRFGVDKNCIRWVLKYSGY</Hsp_qseq>
+      <Hsp_hseq>VKDDNRVENLEWCDNQENQIHAIKNNLKKTSFKGYNNPQAKLTSNQVEEIRKAYIPRSREFGTQALGLKYGVHRKTISRLINYKTY</Hsp_hseq>
+      <Hsp_midline>VKDDNR++NLEW D   N  HA    L K      N  + +L+ ++++ + + Y PR RE+G +ALG ++GV +  I  ++ Y  Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_080283268.1|</Hit_id>
+  <Hit_def>NUMOD4 motif-containing HNH endonuclease [Clostridium botulinum]</Hit_def>
+  <Hit_accession>WP_080283268</Hit_accession>
+  <Hit_len>187</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.4698</Hsp_bit-score>
+      <Hsp_score>158</Hsp_score>
+      <Hsp_evalue>2.40099e-10</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>251</Hsp_query-to>
+      <Hsp_hit-from>101</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>VKDDNRLDNLEWTDYSGNAKHAYNMGLSKPPS---NKGRQRLSDDEIKYVLENYCPRVREYGARALGWRFGVDKNCIRWVLKYSGY</Hsp_qseq>
+      <Hsp_hseq>VKDDNRVENLEWCDNQENQIHAIKNNLKKTSFKGYNNPQAKLTSNQVEEIRKAYIPRSREFGTQALGLKYGVHRKTISRLINYKTY</Hsp_hseq>
+      <Hsp_midline>VKDDNR++NLEW D   N  HA    L K      N  + +L+ ++++ + + Y PR RE+G +ALG ++GV +  I  ++ Y  Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|NFA97998.1|</Hit_id>
+  <Hit_def>HNH endonuclease [Clostridium botulinum]</Hit_def>
+  <Hit_accession>NFA97998</Hit_accession>
+  <Hit_len>184</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>2.51106e-10</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>251</Hsp_query-to>
+      <Hsp_hit-from>98</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>VKDDNRLDNLEWTDYSGNAKHAYNMGLSKPPS---NKGRQRLSDDEIKYVLENYCPRVREYGARALGWRFGVDKNCIRWVLKYSGY</Hsp_qseq>
+      <Hsp_hseq>VKDDNRVENLEWCDNQENQIHAIKNNLKKTSFKGYNNPQAKLTSNQVEEIRKAYIPRSREFGTQALGLKYGVHRKTISRLINYKTY</Hsp_hseq>
+      <Hsp_midline>VKDDNR++NLEW D   N  HA    L K      N  + +L+ ++++ + + Y PR RE+G +ALG ++GV +  I  ++ Y  Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|OSB17320.1|</Hit_id>
+  <Hit_def>hypothetical protein B2H94_11070 [Clostridium sporogenes]</Hit_def>
+  <Hit_accession>OSB17320</Hit_accession>
+  <Hit_len>184</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>2.51106e-10</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>251</Hsp_query-to>
+      <Hsp_hit-from>98</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>VKDDNRLDNLEWTDYSGNAKHAYNMGLSKPPS---NKGRQRLSDDEIKYVLENYCPRVREYGARALGWRFGVDKNCIRWVLKYSGY</Hsp_qseq>
+      <Hsp_hseq>VKDDNRVENLEWCDNQENQIHAVKNNLKKTSFKGYNNPQAKLTSNQVEEIRKAYIPRSREFGTQALGLKYGVHRKTISRLINYKTY</Hsp_hseq>
+      <Hsp_midline>VKDDNR++NLEW D   N  HA    L K      N  + +L+ ++++ + + Y PR RE+G +ALG ++GV +  I  ++ Y  Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_085333630.1|</Hit_id>
+  <Hit_def>NUMOD4 motif-containing HNH endonuclease [Clostridium sporogenes]</Hit_def>
+  <Hit_accession>WP_085333630</Hit_accession>
+  <Hit_len>187</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>2.61317e-10</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>251</Hsp_query-to>
+      <Hsp_hit-from>101</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>VKDDNRLDNLEWTDYSGNAKHAYNMGLSKPPS---NKGRQRLSDDEIKYVLENYCPRVREYGARALGWRFGVDKNCIRWVLKYSGY</Hsp_qseq>
+      <Hsp_hseq>VKDDNRVENLEWCDNQENQIHAVKNNLKKTSFKGYNNPQAKLTSNQVEEIRKAYIPRSREFGTQALGLKYGVHRKTISRLINYKTY</Hsp_hseq>
+      <Hsp_midline>VKDDNR++NLEW D   N  HA    L K      N  + +L+ ++++ + + Y PR RE+G +ALG ++GV +  I  ++ Y  Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_163289253.1|</Hit_id>
+  <Hit_def>NUMOD4 motif-containing HNH endonuclease [Clostridium sporogenes] &gt;gb|NFG95993.1| hypothetical protein [Clostridium sporogenes]</Hit_def>
+  <Hit_accession>WP_163289253</Hit_accession>
+  <Hit_len>184</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>2.64769e-10</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>251</Hsp_query-to>
+      <Hsp_hit-from>98</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>VKDDNRLDNLEWTDYSGNAKHAYNMGLSKPPS---NKGRQRLSDDEIKYVLENYCPRVREYGARALGWRFGVDKNCIRWVLKYSGY</Hsp_qseq>
+      <Hsp_hseq>VKDDNRVENLEWCDNQENQIHAVKNNLKKTSFKGYNNPQAKLTSNQVEEIRKAYIPRSREFGTQALGLKYGVHRKTISRLINYKTY</Hsp_hseq>
+      <Hsp_midline>VKDDNR++NLEW D   N  HA    L K      N  + +L+ ++++ + + Y PR RE+G +ALG ++GV +  I  ++ Y  Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469534606</Statistics_db-num>
+      <Statistics_db-len>1070605227</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

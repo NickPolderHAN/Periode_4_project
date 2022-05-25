@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_39405</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_39405</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_026965570.1|</Hit_id>
+  <Hit_def>glycosyltransferase [Alicyclobacillus pomorum]</Hit_def>
+  <Hit_accession>WP_026965570</Hit_accession>
+  <Hit_len>309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.9821</Hsp_bit-score>
+      <Hsp_score>245</Hsp_score>
+      <Hsp_evalue>2.43045e-22</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>172</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>RQGFARPGPPAYGDIPDDD-PRFFVGRRYAQEINRAKVFLTCGSKWQLPLAKYFEAPACMSCVLAPGGADFPDLGFIDGETFVACTLDDFEQKASELL</Hsp_qseq>
+      <Hsp_hseq>KTGFVYHGHPGYRNFEDHEREHYYVGKKYAQEINRAKMFLTDSSCYNYPVGKYFEVPGSMSLLLAPTFPELEDLGFIPGENFVSVTEDDLEEKAEYYL</Hsp_hseq>
+      <Hsp_midline>+ GF   G P Y +  D +   ++VG++YAQEINRAK+FLT  S +  P+ KYFE P  MS +LAP   +  DLGFI GE FV+ T DD E+KA   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_244834574.1|</Hit_id>
+  <Hit_def>glycosyltransferase [Bacillus paralicheniformis] &gt;dbj|BCE11859.1| hypothetical protein RSC2_03655 [Bacillus paralicheniformis] &gt;dbj|BCE13472.1| hypothetical protein RSC3_00828 [Bacillus paralicheniformis]</Hit_def>
+  <Hit_accession>WP_244834574</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.2041</Hsp_bit-score>
+      <Hsp_score>230</Hsp_score>
+      <Hsp_evalue>1.26094e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>103</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>QGFARPGPPAYGDIPDDDPRF---FVGRRYAQEINRAKVFLTCGSKWQLPLAKYFEAPACMSCVLAPGGADFPDLGFIDGETFVACTLDDFEQKASELLQD</Hsp_qseq>
+      <Hsp_hseq>EGFVHHPHP--GNVITDEEEIKQAFLNEKYAQELNRAKIFFTCGSTLRYPLLKFFEAPACRTLLLAEPNQDIYDLGFKDGTHFIACEVEDFYDKAKYYLQN</Hsp_hseq>
+      <Hsp_midline>+GF     P  G++  D+      F+  +YAQE+NRAK+F TCGS  + PL K+FEAPAC + +LA    D  DLGF DG  F+AC ++DF  KA   LQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_224879450.1|</Hit_id>
+  <Hit_def>glycosyltransferase [Alkalihalobacillus hwajinpoensis] &gt;gb|MCA0990007.1| glycosyltransferase [Alkalihalobacillus hwajinpoensis]</Hit_def>
+  <Hit_accession>WP_224879450</Hit_accession>
+  <Hit_len>310</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.5153</Hsp_bit-score>
+      <Hsp_score>236</Hsp_score>
+      <Hsp_evalue>4.81953e-21</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>172</Hsp_hit-from>
+      <Hsp_hit-to>270</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>GRQGFARPGPPAYGDIPDDDPRFFVGRRYAQEINRAKVFLTCGSKWQLPLAKYFEAPACMSCVLAPGGADFPDLGFIDGETFVACTLDDFEQKASELLQ</Hsp_qseq>
+      <Hsp_hseq>GEKGFYYYQHPGYGTVDDGKKNVLAGEAYAMEINRAKMFLTCDSILHFPLLKYFEVLACNTLLLAPGNNELEDLGFVDEETFVSVDEKNFREKANYYLK</Hsp_hseq>
+      <Hsp_midline>G +GF     P YG + D       G  YA EINRAK+FLTC S    PL KYFE  AC + +LAPG  +  DLGF+D ETFV+    +F +KA+  L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|TWM25068.1|</Hit_id>
+  <Hit_def>hypothetical protein CHCC15087_2792 [Bacillus licheniformis]</Hit_def>
+  <Hit_accession>TWM25068</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.6633</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>6.52573e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>QGFARPGPPAYGDIPDDDPRF---FVGRRYAQEINRAKVFLTCGSKWQLPLAKYFEAPACMSCVLAPGGADFPDLGFIDGETFVACTLDDFEQKASELLQD</Hsp_qseq>
+      <Hsp_hseq>EGFVHHPHP--GNVITDEEEIKQAFLNEKYAQELNRAKIFFTCGSALRYPLLKFYEAPACRTLLLAEPNQDIFDLGFKDGTHFIACEVEDFYDKAKYYLQN</Hsp_hseq>
+      <Hsp_midline>+GF     P  G++  D+      F+  +YAQE+NRAK+F TCGS  + PL K++EAPAC + +LA    D  DLGF DG  F+AC ++DF  KA   LQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_126048704.1|</Hit_id>
+  <Hit_def>glycosyltransferase [Siminovitchia acidinfaciens] &gt;gb|RST76321.1| glycosyltransferase family 1 protein [Siminovitchia acidinfaciens]</Hit_def>
+  <Hit_accession>WP_126048704</Hit_accession>
+  <Hit_len>316</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.1301</Hsp_bit-score>
+      <Hsp_score>235</Hsp_score>
+      <Hsp_evalue>7.3436e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>174</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>QGFARPGPPAYGDIPDDDPRFFVGRRYAQEINRAKVFLTCGSKWQLPLAKYFEAPACMSCVLAPGGADFPDLGFIDGETFVACTLDDFEQKASELLQD</Hsp_qseq>
+      <Hsp_hseq>RGFQYHPHPGYYDEHSIQPGSLIGKDYAQEINRAKMFLTCNSVFEYPLMKYFEVLGCNTLLLAPSSKELTDLGFVDRDTFIAVNKNNFEEKAAYYLRN</Hsp_hseq>
+      <Hsp_midline>+GF     P Y D     P   +G+ YAQEINRAK+FLTC S ++ PL KYFE   C + +LAP   +  DLGF+D +TF+A   ++FE+KA+  L++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_048310934.1|</Hit_id>
+  <Hit_def>glycosyltransferase [Alkalihalobacillus macyae] &gt;gb|KMM39661.1| hypothetical protein AB986_06320 [Alkalihalobacillus macyae]</Hit_def>
+  <Hit_accession>WP_048310934</Hit_accession>
+  <Hit_len>310</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.7449</Hsp_bit-score>
+      <Hsp_score>234</Hsp_score>
+      <Hsp_evalue>1.02493e-20</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>300</Hsp_query-to>
+      <Hsp_hit-from>173</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>GRQGFARPGPPAYGDIPDDDPRFFVGRRYAQEINRAKVFLTCGSKWQLPLAKYFEAPACMSCVLAPGGADFPDLGFIDGETFVACTLDDFEQKASELLQD</Hsp_qseq>
+      <Hsp_hseq>GMKGFTYHTHPGYRNVSHNE---LVGERYAKELNRAKMCLTCDSIHHFPLLKYFETLACNTLLLAPASNELTDLGFIDGETFVAIDESNFIAKANEYLHD</Hsp_hseq>
+      <Hsp_midline>G +GF     P Y ++  ++    VG RYA+E+NRAK+ LTC S    PL KYFE  AC + +LAP   +  DLGFIDGETFVA    +F  KA+E L D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_027725069.1|</Hit_id>
+  <Hit_def>glycosyltransferase [Tuberibacillus calidus]</Hit_def>
+  <Hit_accession>WP_027725069</Hit_accession>
+  <Hit_len>312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.3597</Hsp_bit-score>
+      <Hsp_score>233</Hsp_score>
+      <Hsp_evalue>1.61991e-20</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>174</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>GFARPGPPAYGDIPDDDPRFFVGRRYAQEINRAKVFLTCGSKWQLPLAKYFEAPACMSCVLAPGGADFPDLGFIDGETFVACTLDDFEQKASELLQ</Hsp_qseq>
+      <Hsp_hseq>GFVYVKHPGYKNVDEQTPGVFVGKTYAMLLNRAKIFLTCDSVEKLPVLKYFESLACGALLLASESSELFDLGFIDGETFIAVNQDNFMERAEYYLK</Hsp_hseq>
+      <Hsp_midline>GF     P Y ++ +  P  FVG+ YA  +NRAK+FLTC S  +LP+ KYFE+ AC + +LA   ++  DLGFIDGETF+A   D+F ++A   L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_214706933.1|</Hit_id>
+  <Hit_def>glycosyltransferase [Bacillus sp. ISL-35] &gt;gb|MBT2680365.1| glycosyltransferase [Bacillus sp. ISL-35] &gt;gb|MBT2704343.1| glycosyltransferase [Chryseobacterium sp. ISL-80]</Hit_def>
+  <Hit_accession>WP_214706933</Hit_accession>
+  <Hit_len>334</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.7449</Hsp_bit-score>
+      <Hsp_score>234</Hsp_score>
+      <Hsp_evalue>1.76178e-20</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>202</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>GDIPDDDPRFFVGRRYAQEINRAKVFLTCGSKWQLPLAKYFEAPACMSCVLAPGGADFPDLGFIDGETFVACTLDDFEQKASELLQD</Hsp_qseq>
+      <Hsp_hseq>GHYAKNTSKNYLNEKYAKELNRAKMFFTCGSKFQYPVLKYFEAPACRTLLLAKPVPDLTDLGFVDGENFVACNESNFYEKAMYYLEN</Hsp_hseq>
+      <Hsp_midline>G    +  + ++  +YA+E+NRAK+F TCGSK+Q P+ KYFEAPAC + +LA    D  DLGF+DGE FVAC   +F +KA   L++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|NLX86900.1|</Hit_id>
+  <Hit_def>glycosyltransferase [Clostridiales bacterium]</Hit_def>
+  <Hit_accession>NLX86900</Hit_accession>
+  <Hit_len>316</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.9745</Hsp_bit-score>
+      <Hsp_score>232</Hsp_score>
+      <Hsp_evalue>2.41811e-20</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>258</Hsp_query-to>
+      <Hsp_hit-from>188</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>DIPDDDPRFFVGRRYAQEINRAKVFLTCGSKWQLPLAKYFEAPACMSCVLAPGGADFPDLGFIDGETFVACTLDDFEQKASELLQD</Hsp_qseq>
+      <Hsp_hseq>DMKNKSGRVYTGEEYAKEINRAKIFITSGTKYRYPVAKYFEVPACNTLLMAKGNKDLKELGFISGQNFVECTDDNFYDLAMYYLEN</Hsp_hseq>
+      <Hsp_midline>D+ +   R + G  YA+EINRAK+F+T G+K++ P+AKYFE PAC + ++A G  D  +LGFI G+ FV CT D+F   A   L++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_224066863.1|</Hit_id>
+  <Hit_def>glycosyltransferase [Bacillus paralicheniformis] &gt;gb|UAY70335.1| glycosyltransferase [Bacillus paralicheniformis]</Hit_def>
+  <Hit_accession>WP_224066863</Hit_accession>
+  <Hit_len>325</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.9745</Hsp_bit-score>
+      <Hsp_score>232</Hsp_score>
+      <Hsp_evalue>2.87252e-20</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>270</Hsp_query-to>
+      <Hsp_hit-from>192</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>PAYGDIPDDDPRF---FVGRRYAQEINRAKVFLTCGSKWQLPLAKYFEAPACMSCVLAPGGADFPDLGFIDGETFVACTLDDFEQKASELLQD</Hsp_qseq>
+      <Hsp_hseq>PHPGNVITDEEEIKQAFLNEKYAQELNRAKIFFTCGSTLRYPLLKFFEAPACRTLLLAEPNQDIYDLGFKDGTHFIACEVEDFHDKAKYYLQN</Hsp_hseq>
+      <Hsp_midline>P  G++  D+      F+  +YAQE+NRAK+F TCGS  + PL K+FEAPAC + +LA    D  DLGF DG  F+AC ++DF  KA   LQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469534606</Statistics_db-num>
+      <Statistics_db-len>1070605227</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

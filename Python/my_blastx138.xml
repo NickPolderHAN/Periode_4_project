@@ -1,0 +1,359 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_51585</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_51585</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_116649663.1|</Hit_id>
+  <Hit_def>DUF4010 domain-containing protein [Wenzhouxiangella sediminis] &gt;gb|RFF32005.1| DUF4010 domain-containing protein [Wenzhouxiangella sediminis]</Hit_def>
+  <Hit_accession>WP_116649663</Hit_accession>
+  <Hit_len>427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.0685807</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>130</Hsp_hit-from>
+      <Hsp_hit-to>170</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>41</Hsp_align-len>
+      <Hsp_qseq>FQPRDPRLVPVIRAADLYAALKLLAISVLVLPLLPNRDMGP</Hsp_qseq>
+      <Hsp_hseq>YKERLHGLLDAVRRQELTAGLKFLLISVVLLPILPDRGYGP</Hsp_hseq>
+      <Hsp_midline>++ R   L+  +R  +L A LK L ISV++LP+LP+R  GP</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>0.0685807</Hsp_evalue>
+      <Hsp_query-from>105</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>GIAPSSARLFPIIVALMAGTGLLGLAAISPVAIAIILGSSREIHG</Hsp_qseq>
+      <Hsp_hseq>GITSETAAMATYLFAALAGVGQMALASAAAIVMALLLGYKERLHG</Hsp_hseq>
+      <Hsp_midline>GI   +A +   + A +AG G + LA+ + + +A++LG    +HG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|MAS10962.1|</Hit_id>
+  <Hit_def>hypothetical protein [Salinisphaera sp.]</Hit_def>
+  <Hit_accession>MAS10962</Hit_accession>
+  <Hit_len>427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.964741</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>137</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>44</Hsp_align-len>
+      <Hsp_qseq>HPWFQPRDPRLVPVIRAADLYAALKLLAISVLVLPLLPNRDMGP</Hsp_qseq>
+      <Hsp_hseq>HRWIERLDRD--------ELIAALKLLMISVLVLPLMPDRGLGP</Hsp_hseq>
+      <Hsp_midline>H W +  D          +L AALKLL ISVLVLPL+P+R +GP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_209062098.1|</Hit_id>
+  <Hit_def>DUF4010 domain-containing protein [Endozoicomonas sp. G2_2] &gt;gb|MBO9470372.1| MgtC/SapB family protein [Endozoicomonas sp. G2_2]</Hit_def>
+  <Hit_accession>WP_209062098</Hit_accession>
+  <Hit_len>427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.974182</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>137</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>44</Hsp_align-len>
+      <Hsp_qseq>HPWFQPRDPRLVPVIRAADLYAALKLLAISVLVLPLLPNRDMGP</Hsp_qseq>
+      <Hsp_hseq>HRWIERLDRD--------ELIAALKLLMISVLVLPLMPDRGLGP</Hsp_hseq>
+      <Hsp_midline>H W +  D          +L AALKLL ISVLVLPL+P+R +GP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|MBU1188960.1|</Hit_id>
+  <Hit_def>MgtC/SapB family protein [Gammaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>MBU1188960</Hit_accession>
+  <Hit_len>420</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>1.69376</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>128</Hsp_hit-from>
+      <Hsp_hit-to>170</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>LSRRHRNHPWFQPRDPRLVPVIRAADLYAALKLLAISVLVLPLLPNRDMGP</Hsp_qseq>
+      <Hsp_hseq>LSYKTLLHGWLAK--------LQAAELKAGLKLLLISVVMLPLLPDRGYGP</Hsp_hseq>
+      <Hsp_midline>LS +   H W           ++AA+L A LKLL ISV++LPLLP+R  GP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_201244624.1|</Hit_id>
+  <Hit_def>DUF4010 domain-containing protein [Halochromatium salexigens] &gt;gb|MBK5930204.1| hypothetical protein [Halochromatium salexigens]</Hit_def>
+  <Hit_accession>WP_201244624</Hit_accession>
+  <Hit_len>427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>2.20759</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>137</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>LSRRHRNHPWFQPRDPRLVPVIRAADLYAALKLLAISVLVLPLLPNRDMGP</Hsp_qseq>
+      <Hsp_hseq>LGYKTELHGWLKT--------LKRPELHAAFKLLLISVVVLPLLPNRGFGP</Hsp_hseq>
+      <Hsp_midline>L  +   H W +         ++  +L+AA KLL ISV+VLPLLPNR  GP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|RFF27579.1|</Hit_id>
+  <Hit_def>DUF4010 domain-containing protein [Wenzhouxiangella sp. 15181] &gt;gb|RFP69667.1| DUF4010 domain-containing protein [Wenzhouxiangella sp. 15190]</Hit_def>
+  <Hit_accession>RFF27579</Hit_accession>
+  <Hit_len>423</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>3.83565</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>88</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>GIAPSSARLFPIIVALMAGTGLLGLAAISPVAIAIILGSSREIHGWFRLFGQRTSMRRSSCLPSRSSCCPFFPTGTWG</Hsp_qseq>
+      <Hsp_hseq>GITSETAALATYLLAVLAGVGEIGLASAAAIVMALLLGYKESLHGLLDVLRRRELTAGLKLLLISVVLLPMLPNQGYG</Hsp_hseq>
+      <Hsp_midline>GI   +A L   ++A++AG G +GLA+ + + +A++LG    +HG   +  +R        L       P  P   +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_220337136.1|</Hit_id>
+  <Hit_def>MULTISPECIES: MgtC/SapB family protein [unclassified Wenzhouxiangella]</Hit_def>
+  <Hit_accession>WP_220337136</Hit_accession>
+  <Hit_len>427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>3.83994</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>GIAPSSARLFPIIVALMAGTGLLGLAAISPVAIAIILGSSREIHGWFRLFGQRTSMRRSSCLPSRSSCCPFFPTGTWG</Hsp_qseq>
+      <Hsp_hseq>GITSETAALATYLLAVLAGVGEIGLASAAAIVMALLLGYKESLHGLLDVLRRRELTAGLKLLLISVVLLPMLPNQGYG</Hsp_hseq>
+      <Hsp_midline>GI   +A L   ++A++AG G +GLA+ + + +A++LG    +HG   +  +R        L       P  P   +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>tpg|HFD92677.1|</Hit_id>
+  <Hit_def>MgtC/SapB family protein [Gammaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>HFD92677</Hit_accession>
+  <Hit_len>418</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>3.87324</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>134</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>44</Hsp_align-len>
+      <Hsp_qseq>HPWFQPRDPRLVPVIRAADLYAALKLLAISVLVLPLLPNRDMGP</Hsp_qseq>
+      <Hsp_hseq>HGWLRKLEQQ--------ELHAALKLLLITVVVLPILPNQGYGP</Hsp_hseq>
+      <Hsp_midline>H W +  + +        +L+AALKLL I+V+VLP+LPN+  GP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|TVQ88453.1|</Hit_id>
+  <Hit_def>MgtC/SapB family protein [Chromatiaceae bacterium]</Hit_def>
+  <Hit_accession>TVQ88453</Hit_accession>
+  <Hit_len>431</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>4.76964</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>128</Hsp_hit-from>
+      <Hsp_hit-to>170</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>LSRRHRNHPWFQPRD-PRLVPVIRAADLYAALKLLAISVLVLPLLPNRDMGP</Hsp_qseq>
+      <Hsp_hseq>LGYKTELHGWLEALNRP---------ELHAAFKLLLISVVLLPLLPNRGFGP</Hsp_hseq>
+      <Hsp_midline>L  +   H W +  + P         +L+AA KLL ISV++LPLLPNR  GP</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>6.69772</Hsp_evalue>
+      <Hsp_query-from>96</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>GIAPSSARLFPIIVALMAGTGLLGLAAISPVAIAIILGSSREIHGWFR</Hsp_qseq>
+      <Hsp_hseq>GLTTEVAAMATLLLAVMAGLGQLAIAASGAVVMVLLLGYKTELHGWLE</Hsp_hseq>
+      <Hsp_midline>G+    A +  +++A+MAG G L +AA   V + ++LG   E+HGW  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_164230335.1|</Hit_id>
+  <Hit_def>MgtC/SapB family protein [Wenzhouxiangella sp. XN201] &gt;gb|NEZ03648.1| MgtC/SapB family protein [Wenzhouxiangella sp. XN201]</Hit_def>
+  <Hit_accession>WP_164230335</Hit_accession>
+  <Hit_len>422</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>4.99489</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>137</Hsp_hit-from>
+      <Hsp_hit-to>170</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>LVPVIRAADLYAALKLLAISVLVLPLLPNRDMGP</Hsp_qseq>
+      <Hsp_hseq>LLNTLRREELTAGLKLLLISVVLLPILPNRGFGP</Hsp_hseq>
+      <Hsp_midline>L+  +R  +L A LKLL ISV++LP+LPNR  GP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469534606</Statistics_db-num>
+      <Statistics_db-len>1070605227</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

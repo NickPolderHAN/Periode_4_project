@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_56015</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_56015</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_025030863.1|</Hit_id>
+  <Hit_def>DUF1156 domain-containing protein [Nitratireductor aquibiodomus]</Hit_def>
+  <Hit_accession>WP_025030863</Hit_accession>
+  <Hit_len>731</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.844</Hsp_bit-score>
+      <Hsp_score>403</Hsp_score>
+      <Hsp_evalue>5.50797e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>625</Hsp_hit-from>
+      <Hsp_hit-to>723</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>SAEQLAGIVVRDLAQLSETGRQPTRGDTRCIIFGHLTRMAVWNLRKSWDARLPTAEKLERFAHALRKLADPDQVLDHLASPKQVSVPAGPLFAAAESNE</Hsp_qseq>
+      <Hsp_hseq>SAEQLAVIVARDLAQLTEAGRKPTKGDTRCIIFGHLTRMAVWNLRKGWDAEVPTAEKLERFSQALARLADPEQLLDELETGRQISAPAGPLFVTAESNE</Hsp_hseq>
+      <Hsp_midline>SAEQLA IV RDLAQL+E GR+PT+GDTRCIIFGHLTRMAVWNLRK WDA +PTAEKLERF+ AL +LADP+Q+LD L + +Q+S PAGPLF  AESNE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|RME90372.1|</Hit_id>
+  <Hit_def>DUF1156 domain-containing protein [Verrucomicrobia bacterium]</Hit_def>
+  <Hit_accession>RME90372</Hit_accession>
+  <Hit_len>731</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.206</Hsp_bit-score>
+      <Hsp_score>365</Hsp_score>
+      <Hsp_evalue>8.34724e-38</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>625</Hsp_hit-from>
+      <Hsp_hit-to>723</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>SAEQLAGIVVRDLAQLSETGRQPTRGDTRCIIFGHLTRMAVWNLRKSWDARLPTAEKLERFAHALRKLADPDQVLDHLASPKQVSVPAGPLFAAAESNE</Hsp_qseq>
+      <Hsp_hseq>SAEELAAIVSRDLSQLAEAGRKPSRGDTRCIIFGHLTRMAVWNLRKGWDSALPIGEKLDRFADALGQLADPEEVSACVVCDKRVSAPAGPLFAAAESRE</Hsp_hseq>
+      <Hsp_midline>SAE+LA IV RDL+QL+E GR+P+RGDTRCIIFGHLTRMAVWNLRK WD+ LP  EKL+RFA AL +LADP++V   +   K+VS PAGPLFAAAES E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_147094490.1|</Hit_id>
+  <Hit_def>DNA methylase [Nitrosococcus oceani]</Hit_def>
+  <Hit_accession>WP_147094490</Hit_accession>
+  <Hit_len>655</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.257</Hsp_bit-score>
+      <Hsp_score>321</Hsp_score>
+      <Hsp_evalue>9.84133e-32</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>533</Hsp_hit-from>
+      <Hsp_hit-to>629</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>SAEQLAGIVVRDLAQLSETGRQPTRGDTRCIIFGHLTRMAVWNLRKSWDARLPTAEKLERFAHALRKLADPDQVLDHLASPKQVSVPAGPLFAAAES</Hsp_qseq>
+      <Hsp_hseq>STDQLAAIVAHDLAQVAEGGHKPSMGDTRCIIFGHLTRMAIWNLRLTWEAKLSTDEKLDRFAKAVRALADPDDLLERLQADGRVSAPAEPLFSAATT</Hsp_hseq>
+      <Hsp_midline>S +QLA IV  DLAQ++E G +P+ GDTRCIIFGHLTRMA+WNLR +W+A+L T EKL+RFA A+R LADPD +L+ L +  +VS PA PLF+AA +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_231561803.1|</Hit_id>
+  <Hit_def>DNA methylase [Nitrosococcus oceani]</Hit_def>
+  <Hit_accession>WP_231561803</Hit_accession>
+  <Hit_len>610</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.872</Hsp_bit-score>
+      <Hsp_score>320</Hsp_score>
+      <Hsp_evalue>9.9727e-32</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>488</Hsp_hit-from>
+      <Hsp_hit-to>584</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>SAEQLAGIVVRDLAQLSETGRQPTRGDTRCIIFGHLTRMAVWNLRKSWDARLPTAEKLERFAHALRKLADPDQVLDHLASPKQVSVPAGPLFAAAES</Hsp_qseq>
+      <Hsp_hseq>STDQLAAIVAHDLAQVAEGGHKPSMGDTRCIIFGHLTRMAIWNLRLTWEAKLSTDEKLDRFAKAVRALADPDDLLERLQADGRVSAPAEPLFSAATT</Hsp_hseq>
+      <Hsp_midline>S +QLA IV  DLAQ++E G +P+ GDTRCIIFGHLTRMA+WNLR +W+A+L T EKL+RFA A+R LADPD +L+ L +  +VS PA PLF+AA +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_155814715.1|</Hit_id>
+  <Hit_def>DNA methylase [Nitrosococcus oceani]</Hit_def>
+  <Hit_accession>WP_155814715</Hit_accession>
+  <Hit_len>647</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.872</Hsp_bit-score>
+      <Hsp_score>320</Hsp_score>
+      <Hsp_evalue>1.06917e-31</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>525</Hsp_hit-from>
+      <Hsp_hit-to>621</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>SAEQLAGIVVRDLAQLSETGRQPTRGDTRCIIFGHLTRMAVWNLRKSWDARLPTAEKLERFAHALRKLADPDQVLDHLASPKQVSVPAGPLFAAAES</Hsp_qseq>
+      <Hsp_hseq>STDQLAAIVAHDLAQVAEGGHKPSMGDTRCIIFGHLTRMAIWNLRLTWEAKLSTDEKLDRFAKAVRALADPDDLLERLQADGRVSAPAEPLFSAATT</Hsp_hseq>
+      <Hsp_midline>S +QLA IV  DLAQ++E G +P+ GDTRCIIFGHLTRMA+WNLR +W+A+L T EKL+RFA A+R LADPD +L+ L +  +VS PA PLF+AA +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|ABA58656.1|</Hit_id>
+  <Hit_def>Adenine-specific DNA methylase containing a Zn-ribbon-like protein [Nitrosococcus oceani ATCC 19707] &gt;gb|KFI18956.1| DNA methylase [Nitrosococcus oceani C-27] &gt;dbj|GEM19776.1| DNA methylase [Nitrosococcus oceani]</Hit_def>
+  <Hit_accession>ABA58656</Hit_accession>
+  <Hit_len>747</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.872</Hsp_bit-score>
+      <Hsp_score>320</Hsp_score>
+      <Hsp_evalue>1.24962e-31</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>625</Hsp_hit-from>
+      <Hsp_hit-to>721</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>SAEQLAGIVVRDLAQLSETGRQPTRGDTRCIIFGHLTRMAVWNLRKSWDARLPTAEKLERFAHALRKLADPDQVLDHLASPKQVSVPAGPLFAAAES</Hsp_qseq>
+      <Hsp_hseq>STDQLAAIVAHDLAQVAEGGHKPSMGDTRCIIFGHLTRMAIWNLRLTWEAKLSTDEKLDRFAKAVRALADPDDLLERLQADGRVSAPAEPLFSAATT</Hsp_hseq>
+      <Hsp_midline>S +QLA IV  DLAQ++E G +P+ GDTRCIIFGHLTRMA+WNLR +W+A+L T EKL+RFA A+R LADPD +L+ L +  +VS PA PLF+AA +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|EDZ67806.1|</Hit_id>
+  <Hit_def>hypothetical protein NOC27_1133 [Nitrosococcus oceani AFC27]</Hit_def>
+  <Hit_accession>EDZ67806</Hit_accession>
+  <Hit_len>736</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.872</Hsp_bit-score>
+      <Hsp_score>320</Hsp_score>
+      <Hsp_evalue>1.34809e-31</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>614</Hsp_hit-from>
+      <Hsp_hit-to>710</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>SAEQLAGIVVRDLAQLSETGRQPTRGDTRCIIFGHLTRMAVWNLRKSWDARLPTAEKLERFAHALRKLADPDQVLDHLASPKQVSVPAGPLFAAAES</Hsp_qseq>
+      <Hsp_hseq>STDQLAAIVAHDLAQVAEGGHKPSMGDTRCIIFGHLTRMAIWNLRLTWEAKLSTDEKLDRFAKAVRALADPDDLLERLQADGRVSAPAEPLFSAATT</Hsp_hseq>
+      <Hsp_midline>S +QLA IV  DLAQ++E G +P+ GDTRCIIFGHLTRMA+WNLR +W+A+L T EKL+RFA A+R LADPD +L+ L +  +VS PA PLF+AA +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|KFI22237.1|</Hit_id>
+  <Hit_def>DNA methylase [Nitrosococcus oceani]</Hit_def>
+  <Hit_accession>KFI22237</Hit_accession>
+  <Hit_len>747</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.872</Hsp_bit-score>
+      <Hsp_score>320</Hsp_score>
+      <Hsp_evalue>1.4051e-31</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>625</Hsp_hit-from>
+      <Hsp_hit-to>721</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>97</Hsp_align-len>
+      <Hsp_qseq>SAEQLAGIVVRDLAQLSETGRQPTRGDTRCIIFGHLTRMAVWNLRKSWDARLPTAEKLERFAHALRKLADPDQVLDHLASPKQVSVPAGPLFAAAES</Hsp_qseq>
+      <Hsp_hseq>STDQLAAIVAHDLAQVAEGGHKPSMGDTRCIIFGHLTRMAIWNLRLTWEAKLSTDEKLDRFAKAVRALADPDDLLERLQADGRVSAPAEPLFSAATT</Hsp_hseq>
+      <Hsp_midline>S +QLA IV  DLAQ++E G +P+ GDTRCIIFGHLTRMA+WNLR +W+A+L T EKL+RFA A+R LADPD +L+ L +  +VS PA PLF+AA +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|MCB0219103.1|</Hit_id>
+  <Hit_def>DNA methylase [Chrysiogenetes bacterium]</Hit_def>
+  <Hit_accession>MCB0219103</Hit_accession>
+  <Hit_len>730</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.679</Hsp_bit-score>
+      <Hsp_score>252</Hsp_score>
+      <Hsp_evalue>2.05417e-22</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>626</Hsp_hit-from>
+      <Hsp_hit-to>720</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>AEQLAGIVVRDLAQLSETGRQPTRGDTRCIIFGHLTRMAVWNLRKSWDARLPTAEKLERFAHALRKLADPDQVLDHLASPKQVSVPAGPLFAAAES</Hsp_qseq>
+      <Hsp_hseq>AEGLATVVADDLAQLTEAGRRPSTGDIRCIVYGHLTRMTIWKLRQFWDDSLLTEKKLEIFAEASQKLADPNQTIS-LLDGRPSFESAGPLFSTHKS</Hsp_hseq>
+      <Hsp_midline>AE LA +V  DLAQL+E GR+P+ GD RCI++GHLTRM +W LR+ WD  L T +KLE FA A +KLADP+Q +  L   +     AGPLF+  +S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|MBC7152822.1|</Hit_id>
+  <Hit_def>DUF1156 domain-containing protein [Rhizobium sp.]</Hit_def>
+  <Hit_accession>MBC7152822</Hit_accession>
+  <Hit_len>731</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.908</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>3.71702e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>297</Hsp_query-to>
+      <Hsp_hit-from>625</Hsp_hit-from>
+      <Hsp_hit-to>723</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>SAEQLAGIVVRDLAQLSETGRQPTRGDTRCIIFGHLTRMAVWNLRKSWDARLPTAEKLERFAHALRKLADPDQVLDHLASPKQVSVPAGPLFAAAESNE</Hsp_qseq>
+      <Hsp_hseq>NAAEIAGLVAKELAALTEAGMTPRKGDIRCITFGHLTRLAIWNLRERWDRKKPTRVKLERFRAALMAFGEPDEIIERAAELQVVPTGAGALFEHSKRGE</Hsp_hseq>
+      <Hsp_midline>+A ++AG+V ++LA L+E G  P +GD RCI FGHLTR+A+WNLR+ WD + PT  KLERF  AL    +PD++++  A  + V   AG LF  ++  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469534606</Statistics_db-num>
+      <Statistics_db-len>1070605227</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

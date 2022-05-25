@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_29725</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_29725</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|ALA06431.1|</Hit_id>
+  <Hit_def>transcriptional regulator [Thermobifida phage P1312]</Hit_def>
+  <Hit_accession>ALA06431</Hit_accession>
+  <Hit_len>75</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.191</Hsp_bit-score>
+      <Hsp_score>339</Hsp_score>
+      <Hsp_evalue>5.29361e-39</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>75</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>LAGMGTVTASGATIRALREQRGWTLEDLAQRTKRSRAYLSRVENGQRTPSRITMHRIANALEVPVDDLVTPGEKA</Hsp_qseq>
+      <Hsp_hseq>MAGMNTVTVRGDTIRALREQRGWTLEDLARRTQRSRAYLSRVENGQRTPSRITMHRIANALEVPIDDLVTPREKA</Hsp_hseq>
+      <Hsp_midline>+AGM TVT  G TIRALREQRGWTLEDLA+RT+RSRAYLSRVENGQRTPSRITMHRIANALEVP+DDLVTP EKA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|MBX6385293.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Microbispora sp.]</Hit_def>
+  <Hit_accession>MBX6385293</Hit_accession>
+  <Hit_len>75</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.6406</Hsp_bit-score>
+      <Hsp_score>187</Hsp_score>
+      <Hsp_evalue>7.46712e-16</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>74</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>GATIRALREQRGWTLEDLAQRTKRSRAYLSRVENGQRTPSRITMHRIANALEVPVDDLVTPGEKA*P</Hsp_qseq>
+      <Hsp_hseq>GDKLRRLREERDWSLEQLARRIGRTRSYLCRLENGQRTPSRRTVYQLAQALGVPYEDLLATSEAACP</Hsp_hseq>
+      <Hsp_midline>G  +R LRE+R W+LE LA+R  R+R+YL R+ENGQRTPSR T++++A AL VP +DL+   E A P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_207956096.1|</Hit_id>
+  <Hit_def>XRE family transcriptional regulator [Rubrobacter marinus]</Hit_def>
+  <Hit_accession>WP_207956096</Hit_accession>
+  <Hit_len>200</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.9366</Hsp_bit-score>
+      <Hsp_score>167</Hsp_score>
+      <Hsp_evalue>1.29077e-11</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>81</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>GATIRALREQRGWTLEDLAQRTKRSRAYLSRVENGQRTPSRITMHRIANALEVPVDDLVTPGEKA</Hsp_qseq>
+      <Hsp_hseq>GARLRALRKERGWTLEDLAERTGLSRAYLSRLEAGERQPSLSALSEVAHAYGISFSSLFVPEPEA</Hsp_hseq>
+      <Hsp_midline>GA +RALR++RGWTLEDLA+RT  SRAYLSR+E G+R PS   +  +A+A  +    L  P  +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|QIN77598.1|</Hit_id>
+  <Hit_def>helix-turn-helix domain-containing protein [Rubrobacter marinus]</Hit_def>
+  <Hit_accession>QIN77598</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.9366</Hsp_bit-score>
+      <Hsp_score>167</Hsp_score>
+      <Hsp_evalue>1.35452e-11</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>82</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>GATIRALREQRGWTLEDLAQRTKRSRAYLSRVENGQRTPSRITMHRIANALEVPVDDLVTPGEKA</Hsp_qseq>
+      <Hsp_hseq>GARLRALRKERGWTLEDLAERTGLSRAYLSRLEAGERQPSLSALSEVAHAYGISFSSLFVPEPEA</Hsp_hseq>
+      <Hsp_midline>GA +RALR++RGWTLEDLA+RT  SRAYLSR+E G+R PS   +  +A+A  +    L  P  +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|PYV20144.1|</Hit_id>
+  <Hit_def>hypothetical protein DMG27_23815, partial [Acidobacteria bacterium]</Hit_def>
+  <Hit_accession>PYV20144</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.6254</Hsp_bit-score>
+      <Hsp_score>161</Hsp_score>
+      <Hsp_evalue>5.18969e-11</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>GATIRALREQRGWTLEDLAQRTKRSRAYLSRVENGQRTPSRITMHRIANALEVPVDDLVTPGEKA*PPSLP</Hsp_qseq>
+      <Hsp_hseq>GARIRWLREQKGLSQRDIEERTGLLRCYISRVENGHTIPSLDTLERLTSALEIPLYQLFYEGDE--PPALP</Hsp_hseq>
+      <Hsp_midline>GA IR LREQ+G +  D+ +RT   R Y+SRVENG   PS  T+ R+ +ALE+P+  L   G++  PP+LP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_055364530.1|</Hit_id>
+  <Hit_def>MULTISPECIES: helix-turn-helix domain-containing protein [Deinococcus] &gt;gb|PIG95887.1| XRE family transcriptional regulator [Deinococcus sp. UR1] &gt;dbj|GHG27767.1| hypothetical protein GCM10017784_20530 [Deinococcus indicus]</Hit_def>
+  <Hit_accession>WP_055364530</Hit_accession>
+  <Hit_len>78</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.1586</Hsp_bit-score>
+      <Hsp_score>152</Hsp_score>
+      <Hsp_evalue>1.80053e-10</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>ESGTLAGMGTVTASGATIRALREQRGWTLEDLAQRTKRSRAYLSRVENGQRTPSRITMHRIANALEVPVDDLVTPGEKA</Hsp_qseq>
+      <Hsp_hseq>QSDTLVGIGL------RIRAVREQRGWNQDEFAHRAGVHRSYVTQLENGRKDLRISTLYRLAEALAIPVTDLLTGGPDA</Hsp_hseq>
+      <Hsp_midline>+S TL G+G        IRA+REQRGW  ++ A R    R+Y++++ENG++     T++R+A AL +PV DL+T G  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_093971786.1|</Hit_id>
+  <Hit_def>helix-turn-helix domain-containing protein [Pusillimonas sp. T2] &gt;gb|OXR48025.1| transcriptional regulator [Pusillimonas sp. T2]</Hit_def>
+  <Hit_accession>WP_093971786</Hit_accession>
+  <Hit_len>84</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.7734</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>2.28137e-10</Hsp_evalue>
+      <Hsp_query-from>50</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>GATIRALREQRGWTLEDLAQRTKRSRAYLSRVENGQRTPSRITMHRIANALEVPVDDLVT</Hsp_qseq>
+      <Hsp_hseq>GLTIRKLRQRRRWSQETLAERTQLNRNFLSLIERGQRSPTLNTIARLAKGLEMPIADLIC</Hsp_hseq>
+      <Hsp_midline>G TIR LR++R W+ E LA+RT+ +R +LS +E GQR+P+  T+ R+A  LE+P+ DL+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_011491738.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Paraburkholderia xenovorans] &gt;gb|ABE34410.1| transcriptional regulator, XRE family [Paraburkholderia xenovorans LB400] &gt;gb|AIP37506.1| helix-turn-helix family protein [Paraburkholderia xenovorans LB400]</Hit_def>
+  <Hit_accession>WP_011491738</Hit_accession>
+  <Hit_len>91</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.3882</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>4.05672e-10</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>73</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>GTVTASGATIRALREQRGWTLEDLAQRTKRSRAYLSRVENGQRTPSRITMHRIANALEVPVDDLVTPGEKA</Hsp_qseq>
+      <Hsp_hseq>GLVREFGATVRRLREARGWSQEQLAEYAGLNRSYVGEVERGSAIASIVTVDKLARAFQVPIEHLLTPSSDA</Hsp_hseq>
+      <Hsp_midline>G V   GAT+R LRE RGW+ E LA+    +R+Y+  VE G    S +T+ ++A A +VP++ L+TP   A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_119321369.1|</Hit_id>
+  <Hit_def>helix-turn-helix domain-containing protein [Capsulimonas corticalis] &gt;dbj|GCE53952.1| hypothetical protein CCAX7_24660 [Capsulimonas corticalis]</Hit_def>
+  <Hit_accession>WP_119321369</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>4.92136e-10</Hsp_evalue>
+      <Hsp_query-from>41</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>78</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>VTASGATIRALREQRGWTLEDLAQRTKRSRAYLSRVENGQRTPSRITMHRIANALEVPVDDLVTPGE</Hsp_qseq>
+      <Hsp_hseq>LVSLGARLRALRTQRGWTLDELAQRADLSKSYLSRLEDGDRQPSIAALLSLAQAHRMPLAALFGPPE</Hsp_hseq>
+      <Hsp_midline>+ + GA +RALR QRGWTL++LAQR   S++YLSR+E+G R PS   +  +A A  +P+  L  P E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_171911148.1|</Hit_id>
+  <Hit_def>helix-turn-helix transcriptional regulator [Paraburkholderia xenovorans] &gt;gb|NPT33209.1| helix-turn-helix domain-containing protein [Paraburkholderia xenovorans]</Hit_def>
+  <Hit_accession>WP_171911148</Hit_accession>
+  <Hit_len>91</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.3882</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>5.26491e-10</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>73</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>GTVTASGATIRALREQRGWTLEDLAQRTKRSRAYLSRVENGQRTPSRITMHRIANALEVPVDDLVTPGEKA</Hsp_qseq>
+      <Hsp_hseq>GLVREFGATVRRLREARGWSQEQLAEYAGLNRSYVGEVERGSAIASIVTVDKLARAFQVPIEHLLTPSADA</Hsp_hseq>
+      <Hsp_midline>G V   GAT+R LRE RGW+ E LA+    +R+Y+  VE G    S +T+ ++A A +VP++ L+TP   A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469534606</Statistics_db-num>
+      <Statistics_db-len>1070605227</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

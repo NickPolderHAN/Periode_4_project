@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_57193</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_57193</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|NLG59772.1|</Hit_id>
+  <Hit_def>FAD-dependent oxidoreductase [Gammaproteobacteria bacterium]</Hit_def>
+  <Hit_accession>NLG59772</Hit_accession>
+  <Hit_len>115</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.694</Hsp_bit-score>
+      <Hsp_score>278</Hsp_score>
+      <Hsp_evalue>3.1172e-29</Hsp_evalue>
+      <Hsp_query-from>86</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>72</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>MAEQFDVVVIGAGPAGYHAAIRAAQLGMKVACVDAAPGKDGKPAPGGTGLRGGCPPAKALPASPPPDPNLGH</Hsp_qseq>
+      <Hsp_hseq>MAEQFDVVVIGAGPAGYHAAIRAAQLGMKVACIDAALGKDGKPALGGTCLRVGCIPSKALLDSSRQYWNMEH</Hsp_hseq>
+      <Hsp_midline>MAEQFDVVVIGAGPAGYHAAIRAAQLGMKVAC+DAA GKDGKPA GGT LR GC P+KAL  S     N+ H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_042837983.1|</Hit_id>
+  <Hit_def>FAD-dependent oxidoreductase, partial [Xanthomonas citri]</Hit_def>
+  <Hit_accession>WP_042837983</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.775</Hsp_bit-score>
+      <Hsp_score>286</Hsp_score>
+      <Hsp_evalue>1.62604e-28</Hsp_evalue>
+      <Hsp_query-from>86</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>72</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>MAEQFDVVVIGAGPAGYHAAIRAAQLGMKVACVDAAPGKDGKPAPGGTGLRGGCPPAKALPASPPPDPNLGH</Hsp_qseq>
+      <Hsp_hseq>MSEQFDVVVIGAGPAGYHAAIRAAQLGMKVACIDAALGKDGKPALGGTCLRVGCIPSKALLDSSRQFWNMGH</Hsp_hseq>
+      <Hsp_midline>M+EQFDVVVIGAGPAGYHAAIRAAQLGMKVAC+DAA GKDGKPA GGT LR GC P+KAL  S     N+GH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_031340505.1|</Hit_id>
+  <Hit_def>FAD-dependent oxidoreductase, partial [Xanthomonas maliensis]</Hit_def>
+  <Hit_accession>WP_031340505</Hit_accession>
+  <Hit_len>112</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.768</Hsp_bit-score>
+      <Hsp_score>273</Hsp_score>
+      <Hsp_evalue>1.62704e-28</Hsp_evalue>
+      <Hsp_query-from>86</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>72</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>MAEQFDVVVIGAGPAGYHAAIRAAQLGMKVACVDAAPGKDGKPAPGGTGLRGGCPPAKALPASPPPDPNLGH</Hsp_qseq>
+      <Hsp_hseq>MAENYDVVVIGAGPAGYHAAIRAAQLGMKVACIDAALGKDGKPALGGTCLRVGCIPSKALLDSSRQFWNMGH</Hsp_hseq>
+      <Hsp_midline>MAE +DVVVIGAGPAGYHAAIRAAQLGMKVAC+DAA GKDGKPA GGT LR GC P+KAL  S     N+GH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_143699401.1|</Hit_id>
+  <Hit_def>FAD-dependent oxidoreductase, partial [Xanthomonas oryzae] &gt;gb|OLI64714.1| dihydrolipoamide dehydrogenase, partial [Xanthomonas oryzae pv. oryzae]</Hit_def>
+  <Hit_accession>WP_143699401</Hit_accession>
+  <Hit_len>110</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.768</Hsp_bit-score>
+      <Hsp_score>273</Hsp_score>
+      <Hsp_evalue>1.71299e-28</Hsp_evalue>
+      <Hsp_query-from>86</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>72</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>MAEQFDVVVIGAGPAGYHAAIRAAQLGMKVACVDAAPGKDGKPAPGGTGLRGGCPPAKALPASPPPDPNLGH</Hsp_qseq>
+      <Hsp_hseq>MAENYDVVVIGAGPAGYHAAIRAAQLGMKVACIDAALGKDGKPALGGTCLRVGCIPSKALLDSSRQFWNMGH</Hsp_hseq>
+      <Hsp_midline>MAE +DVVVIGAGPAGYHAAIRAAQLGMKVAC+DAA GKDGKPA GGT LR GC P+KAL  S     N+GH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_143597396.1|</Hit_id>
+  <Hit_def>FAD-dependent oxidoreductase, partial [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_143597396</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.309</Hsp_bit-score>
+      <Hsp_score>277</Hsp_score>
+      <Hsp_evalue>4.4573e-28</Hsp_evalue>
+      <Hsp_query-from>86</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>72</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>MAEQFDVVVIGAGPAGYHAAIRAAQLGMKVACVDAAPGKDGKPAPGGTGLRGGCPPAKALPASPPPDPNLGH</Hsp_qseq>
+      <Hsp_hseq>MAEQFDVVVIGAGPAGYHAAIRAAQLGLKTACIDAALGKDGKPALGGTCLRVGCIPSKALLDSSRQFWNMGH</Hsp_hseq>
+      <Hsp_midline>MAEQFDVVVIGAGPAGYHAAIRAAQLG+K AC+DAA GKDGKPA GGT LR GC P+KAL  S     N+GH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|MBN8798056.1|</Hit_id>
+  <Hit_def>FAD-dependent oxidoreductase [Stenotrophomonas nitritireducens]</Hit_def>
+  <Hit_accession>MBN8798056</Hit_accession>
+  <Hit_len>239</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.079</Hsp_bit-score>
+      <Hsp_score>279</Hsp_score>
+      <Hsp_evalue>5.95869e-28</Hsp_evalue>
+      <Hsp_query-from>86</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>72</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>MAEQFDVVVIGAGPAGYHAAIRAAQLGMKVACVDAAPGKDGKPAPGGTGLRGGCPPAKALPASPPPDPNLGH</Hsp_qseq>
+      <Hsp_hseq>MAEQFDVVVIGAGPAGYHAAIRAAQLGLKTACIDAALGKDGKPALGGTCLRVGCIPSKALLDSSRQYWNMGH</Hsp_hseq>
+      <Hsp_midline>MAEQFDVVVIGAGPAGYHAAIRAAQLG+K AC+DAA GKDGKPA GGT LR GC P+KAL  S     N+GH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_049425746.1|</Hit_id>
+  <Hit_def>FAD-dependent oxidoreductase, partial [Stenotrophomonas maltophilia]</Hit_def>
+  <Hit_accession>WP_049425746</Hit_accession>
+  <Hit_len>246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.079</Hsp_bit-score>
+      <Hsp_score>279</Hsp_score>
+      <Hsp_evalue>6.77348e-28</Hsp_evalue>
+      <Hsp_query-from>86</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>72</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>MAEQFDVVVIGAGPAGYHAAIRAAQLGMKVACVDAAPGKDGKPAPGGTGLRGGCPPAKALPASPPPDPNLGH</Hsp_qseq>
+      <Hsp_hseq>MAEQFDVVVIGAGPAGYHAAIRAAQLGLKTACIDAALGKDGKPALGGTCLRVGCIPSKALLDSSRQFWNMGH</Hsp_hseq>
+      <Hsp_midline>MAEQFDVVVIGAGPAGYHAAIRAAQLG+K AC+DAA GKDGKPA GGT LR GC P+KAL  S     N+GH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|RYZ74712.1|</Hit_id>
+  <Hit_def>dihydrolipoyl dehydrogenase, partial [Xanthomonadaceae bacterium]</Hit_def>
+  <Hit_accession>RYZ74712</Hit_accession>
+  <Hit_len>396</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.161</Hsp_bit-score>
+      <Hsp_score>287</Hsp_score>
+      <Hsp_evalue>8.47236e-28</Hsp_evalue>
+      <Hsp_query-from>86</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>72</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>MAEQFDVVVIGAGPAGYHAAIRAAQLGMKVACVDAAPGKDGKPAPGGTGLRGGCPPAKALPASPPPDPNLGH</Hsp_qseq>
+      <Hsp_hseq>MAEQFDVVVIGAGPAGYHAAIRAAQLGMKVACIDAALGKDGKPALGGTCLRVGCVPSKALLDSSRQFWNMGH</Hsp_hseq>
+      <Hsp_midline>MAEQFDVVVIGAGPAGYHAAIRAAQLGMKVAC+DAA GKDGKPA GGT LR GC P+KAL  S     N+GH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|MBP7917050.1|</Hit_id>
+  <Hit_def>FAD-dependent oxidoreductase [Arenimonas sp.]</Hit_def>
+  <Hit_accession>MBP7917050</Hit_accession>
+  <Hit_len>122</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.227</Hsp_bit-score>
+      <Hsp_score>269</Hsp_score>
+      <Hsp_evalue>1.08323e-27</Hsp_evalue>
+      <Hsp_query-from>86</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>72</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>MAEQFDVVVIGAGPAGYHAAIRAAQLGMKVACVDAAPGKDGKPAPGGTGLRGGCPPAKALPASPPPDPNLGH</Hsp_qseq>
+      <Hsp_hseq>MSTEFDVVVIGAGPAGYHAAIRAAQLGMKVACIDAALGKDGKPALGGTCLRVGCIPSKALLDSSRQYWNLQH</Hsp_hseq>
+      <Hsp_midline>M+ +FDVVVIGAGPAGYHAAIRAAQLGMKVAC+DAA GKDGKPA GGT LR GC P+KAL  S     NL H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_142837564.1|</Hit_id>
+  <Hit_def>FAD-dependent oxidoreductase, partial [Xanthomonas perforans] &gt;gb|TQT10021.1| FAD-binding protein, partial [Xanthomonas perforans]</Hit_def>
+  <Hit_accession>WP_142837564</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.153</Hsp_bit-score>
+      <Hsp_score>274</Hsp_score>
+      <Hsp_evalue>1.44264e-27</Hsp_evalue>
+      <Hsp_query-from>92</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>74</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>EQFDVVVIGAGPAGYHAAIRAAQLGMKVACVDAAPGKDGKPAPGGTGLRGGCPPAKALPASPPPDPNLGH</Hsp_qseq>
+      <Hsp_hseq>EQFDVVVIGAGPAGYHAAIRAAQLGMKVACIDAALGKDGKPALGGTCLRVGCIPSKALLDSSRQFWNMGH</Hsp_hseq>
+      <Hsp_midline>EQFDVVVIGAGPAGYHAAIRAAQLGMKVAC+DAA GKDGKPA GGT LR GC P+KAL  S     N+GH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469534606</Statistics_db-num>
+      <Statistics_db-len>1070605227</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

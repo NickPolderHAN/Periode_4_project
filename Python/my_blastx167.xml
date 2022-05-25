@@ -1,0 +1,322 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_34699</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_34699</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|MBP6216292.1|</Hit_id>
+  <Hit_def>ExeM/NucH family extracellular endonuclease [Luteimonas sp.]</Hit_def>
+  <Hit_accession>MBP6216292</Hit_accession>
+  <Hit_len>301</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.9821</Hsp_bit-score>
+      <Hsp_score>245</Hsp_score>
+      <Hsp_evalue>2.32929e-22</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>249</Hsp_query-to>
+      <Hsp_hit-from>167</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>HAPRSDARNRLFAGLQGDPTGTGSDLVAIVRDFNAYALEAPFRAFHDAGWRDAFGGAS-GEIHSYVYDGQAGRLDHALLSP</Hsp_qseq>
+      <Hsp_hseq>NALRVDSANRLLAWIAGDPTGSGSDLVAIVGDFNAYAKEDPVHVFLEQGWKDALSEANVVEPYSFVYDGQAGRLDHALLSP</Hsp_hseq>
+      <Hsp_midline>+A R D+ NRL A + GDPTG+GSDLVAIV DFNAYA E P   F + GW+DA   A+  E +S+VYDGQAGRLDHALLSP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|TDK23101.1|</Hit_id>
+  <Hit_def>ExeM/NucH family extracellular endonuclease [Luteimonas aestuarii]</Hit_def>
+  <Hit_accession>TDK23101</Hit_accession>
+  <Hit_len>621</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.908</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>4.27295e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>249</Hsp_query-to>
+      <Hsp_hit-from>487</Hsp_hit-from>
+      <Hsp_hit-to>570</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>HAPRSDARNRLFAGLQGDPTGTGSDLVAIVRDFNAYALEAPFRAFHDAGWRDAFGGASGEI-HSYVYDGQAGRLDHALLSPALA</Hsp_qseq>
+      <Hsp_hseq>NALRTDSAQRLMAWLGTNPTGSGSDLVAIVGDLNAYAMEDPVQAFIAAGWVDAFLPAHGPAPHSYVFDGQAGRLDHALLSPALA</Hsp_hseq>
+      <Hsp_midline>+A R+D+  RL A L  +PTG+GSDLVAIV D NAYA+E P +AF  AGW DAF  A G   HSYV+DGQAGRLDHALLSPALA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_165967453.1|</Hit_id>
+  <Hit_def>ExeM/NucH family extracellular endonuclease [Luteimonas aestuarii]</Hit_def>
+  <Hit_accession>WP_165967453</Hit_accession>
+  <Hit_len>560</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.523</Hsp_bit-score>
+      <Hsp_score>249</Hsp_score>
+      <Hsp_evalue>5.70381e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>249</Hsp_query-to>
+      <Hsp_hit-from>426</Hsp_hit-from>
+      <Hsp_hit-to>509</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>HAPRSDARNRLFAGLQGDPTGTGSDLVAIVRDFNAYALEAPFRAFHDAGWRDAFGGASGEI-HSYVYDGQAGRLDHALLSPALA</Hsp_qseq>
+      <Hsp_hseq>NALRTDSAQRLMAWLGTNPTGSGSDLVAIVGDLNAYAMEDPVQAFIAAGWVDAFLPAHGPAPHSYVFDGQAGRLDHALLSPALA</Hsp_hseq>
+      <Hsp_midline>+A R+D+  RL A L  +PTG+GSDLVAIV D NAYA+E P +AF  AGW DAF  A G   HSYV+DGQAGRLDHALLSPALA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_144900639.1|</Hit_id>
+  <Hit_def>ExeM/NucH family extracellular endonuclease [Luteimonas cucumeris] &gt;gb|TWH99167.1| hypothetical protein IP90_03158 [Luteimonas cucumeris]</Hit_def>
+  <Hit_accession>WP_144900639</Hit_accession>
+  <Hit_len>465</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.9821</Hsp_bit-score>
+      <Hsp_score>245</Hsp_score>
+      <Hsp_evalue>1.24828e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>249</Hsp_query-to>
+      <Hsp_hit-from>334</Hsp_hit-from>
+      <Hsp_hit-to>415</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>HAPRSDARNRLFAGLQGDPTGTGSDLVAIVRDFNAYALEAPFRAFHDAGWRDAFGGASGEIHSYVYDGQAGRLDHALLSPALA</Hsp_qseq>
+      <Hsp_hseq>NAVRVDSARRLAQWLQRDPTGIGSDLSVILGDFNAYAQEDPVRVFLDAGWRDALQGTENP-YSFIYDGQAGRLDHALLSPALA</Hsp_hseq>
+      <Hsp_midline>+A R D+  RL   LQ DPTG GSDL  I+ DFNAYA E P R F DAGWRDA  G     +S++YDGQAGRLDHALLSPALA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|MBP6798831.1|</Hit_id>
+  <Hit_def>ExeM/NucH family extracellular endonuclease [Luteimonas sp.]</Hit_def>
+  <Hit_accession>MBP6798831</Hit_accession>
+  <Hit_len>320</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.6709</Hsp_bit-score>
+      <Hsp_score>239</Hsp_score>
+      <Hsp_evalue>2.12312e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>249</Hsp_query-to>
+      <Hsp_hit-from>189</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>HAPRSDARNRLFAGLQGDPTGTGSDLVAIVRDFNAYALEAPFRAFHDAGWRDAFGGAS-GEIHSYVYDGQAGRLDHALLSPALA</Hsp_qseq>
+      <Hsp_hseq>NALRVDSAQRLLAWISGDPTRSGSDLVAIVGDFNAYAKEDPIQVFLEQGWKDALSAANVADPYSFVFDGQAGRLDHALLSPSLA</Hsp_hseq>
+      <Hsp_midline>+A R D+  RL A + GDPT +GSDLVAIV DFNAYA E P + F + GW+DA   A+  + +S+V+DGQAGRLDHALLSP+LA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_149196339.1|</Hit_id>
+  <Hit_def>ExeM/NucH family extracellular endonuclease [Luteimonas sp. LNNU 24178]</Hit_def>
+  <Hit_accession>WP_149196339</Hit_accession>
+  <Hit_len>580</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.8265</Hsp_bit-score>
+      <Hsp_score>242</Hsp_score>
+      <Hsp_evalue>4.78699e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>249</Hsp_query-to>
+      <Hsp_hit-from>448</Hsp_hit-from>
+      <Hsp_hit-to>529</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>HAPRSDARNRLFAGLQGDPTGTGSDLVAIVRDFNAYALEAPFRAFHDAGWRDAFGGASGEIHSYVYDGQAGRLDHALLSPALA</Hsp_qseq>
+      <Hsp_hseq>NAVRRDSARQLLDWLETDPTGSGSDLAAIVGDLNAYAMEDPIRMLRDAGWRDALEGTT-RPYSYVYDGRAGRLDHAFLSPTLA</Hsp_hseq>
+      <Hsp_midline>+A R D+  +L   L+ DPTG+GSDL AIV D NAYA+E P R   DAGWRDA  G +   +SYVYDG+AGRLDHA LSP LA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_191728631.1|</Hit_id>
+  <Hit_def>ExeM/NucH family extracellular endonuclease [Luteimonas sp. Sa2BVA3] &gt;gb|MBD7987376.1| ExeM/NucH family extracellular endonuclease [Luteimonas sp. Sa2BVA3]</Hit_def>
+  <Hit_accession>WP_191728631</Hit_accession>
+  <Hit_len>478</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.5153</Hsp_bit-score>
+      <Hsp_score>236</Hsp_score>
+      <Hsp_evalue>2.19664e-20</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>249</Hsp_query-to>
+      <Hsp_hit-from>343</Hsp_hit-from>
+      <Hsp_hit-to>425</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>HAPRSDARNRLFAGLQGDPTGTGSDLVAIVRDFNAYALEAPFRAFHDAGWRDAFGGAS-GEIHSYVYDGQAGRLDHALLSPAL</Hsp_qseq>
+      <Hsp_hseq>NATRRASGEALRAWLAGDPTGQGSDLVAVLGDLNAYAMEDPVRGFVDAGWTDALADVDGGQPHTYVYDAQAGRLDHALLSPAL</Hsp_hseq>
+      <Hsp_midline>+A R  +   L A L GDPTG GSDLVA++ D NAYA+E P R F DAGW DA      G+ H+YVYD QAGRLDHALLSPAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_146385551.1|</Hit_id>
+  <Hit_def>ExeM/NucH family extracellular endonuclease [Luteimonas marina] &gt;gb|TWT22321.1| ExeM/NucH family extracellular endonuclease [Luteimonas marina]</Hit_def>
+  <Hit_accession>WP_146385551</Hit_accession>
+  <Hit_len>590</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.3597</Hsp_bit-score>
+      <Hsp_score>233</Hsp_score>
+      <Hsp_evalue>6.82e-20</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>249</Hsp_query-to>
+      <Hsp_hit-from>459</Hsp_hit-from>
+      <Hsp_hit-to>539</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>HAPRSDARNRLFAGLQGDPTGTGSDLVAIVRDFNAYALEAPFRAFHDAGWRDAFGGAS-GEIHSYVYDGQAGRLDHALLSP</Hsp_qseq>
+      <Hsp_hseq>NALRVDSARRLLDWVSGDPTGSGSDLVAIVGDFNAYAQEDPVRLFLERGWKDALSAANVVEPYSFVFDGQAGRLDHALLSP</Hsp_hseq>
+      <Hsp_midline>+A R D+  RL   + GDPTG+GSDLVAIV DFNAYA E P R F + GW+DA   A+  E +S+V+DGQAGRLDHALLSP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_133000132.1|</Hit_id>
+  <Hit_def>ExeM/NucH family extracellular endonuclease [Luteimonas arsenica]</Hit_def>
+  <Hit_accession>WP_133000132</Hit_accession>
+  <Hit_len>480</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.3597</Hsp_bit-score>
+      <Hsp_score>233</Hsp_score>
+      <Hsp_evalue>7.01467e-20</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>249</Hsp_query-to>
+      <Hsp_hit-from>345</Hsp_hit-from>
+      <Hsp_hit-to>427</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>HAPRSDARNRLFAGLQGDPTGTGSDLVAIVRDFNAYALEAPFRAFHDAGWRDAFGGA-SGEIHSYVYDGQAGRLDHALLSPAL</Hsp_qseq>
+      <Hsp_hseq>NATRKASGEALRAWLAGDPTGSGSDLVAVLGDLNAYAMEDPVRGFIDAGWHDALAGVDDGQPWTYVYDAQAGRLDHVLLSPAL</Hsp_hseq>
+      <Hsp_midline>+A R  +   L A L GDPTG+GSDLVA++ D NAYA+E P R F DAGW DA  G   G+  +YVYD QAGRLDH LLSPAL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_231806346.1|</Hit_id>
+  <Hit_def>ExeM/NucH family extracellular endonuclease [Stenotrophomonas sp. MMGLT7] &gt;gb|MCD7099632.1| ExeM/NucH family extracellular endonuclease [Stenotrophomonas sp. MMGLT7]</Hit_def>
+  <Hit_accession>WP_231806346</Hit_accession>
+  <Hit_len>572</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.3597</Hsp_bit-score>
+      <Hsp_score>233</Hsp_score>
+      <Hsp_evalue>8.6692e-20</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>249</Hsp_query-to>
+      <Hsp_hit-from>443</Hsp_hit-from>
+      <Hsp_hit-to>528</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>HAPRSDARNRLFAGLQGDPTGTGSD--LVAIVRDFNAYALEAPFRAFHDAGWRDAFGGASGE-IHSYVYDGQAGRLDHALLSPALA</Hsp_qseq>
+      <Hsp_hseq>NATRSESARRLHAWLQGDPTGSGSGSAMTVLLGDFNAYAMESPLRVLHAEGWQDAFAAAGVERPYSYVYNGLSGRLDHALLSPALA</Hsp_hseq>
+      <Hsp_midline>+A RS++  RL A LQGDPTG+GS   +  ++ DFNAYA+E+P R  H  GW+DAF  A  E  +SYVY+G +GRLDHALLSPALA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469534606</Statistics_db-num>
+      <Statistics_db-len>1070605227</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

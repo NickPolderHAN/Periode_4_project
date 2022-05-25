@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Ambra Hovenier, Esmay Wissink, Nick van de Polder, Evy Kuenen">
+    <title>BLAST</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/cover/">
+    <link href="../static/bootstrap.min.css" rel="stylesheet">
+    <link href="../static/cover.css" rel="stylesheet">
+  </head>
+
+
+  <body class="d-flex h-100 text-center text-white bg-dark">
+
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <header class="mb-auto">
+    <div>
+      <h3 class="float-md-start mb-0">BLAST</h3>
+        <nav class="nav nav-masthead justify-content-center float-md-end">
+        <a class="nav-link" href="{{ url_for('index') }}">Home</a>
+        <a class="nav-link" href="{{ url_for('graphs') }}">Graphs</a>
+        <a class="nav-link" href="{{ url_for('table') }}">Table</a>
+        <a class="nav-link active" aria-current="page" href="{{ url_for('learn_more') }}">Learn more</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="px-3">
+    <h1>Centrale opdracht</h1>
+    <p class="lead">De champignon (Agaricus bisporus) is een schimmel uit de familie Agaricaceae. Bij de productie van champignons wordt speciale compost gebruikt die bestaat uit een mengsel van onder andere paardenmest, kippenmest, stro en gips. Voordat de compost geschikt is voor gebruik ondergaat het verschillende behandelingen. Het bereidingsproces van de compost is er op gericht om een optimale voedingsbodem (o.a. suikers) voor de champignon teelt te verkrijgen en om groei van ongewenste micro-organismen te voorkomen.</p>
+    <div class = 'figure'>
+      <p><img src="{{ url_for('static',filename='champion.jpg') }}" alt="champion" width = '90%' ></p>
+      <p><b>Figuur 1: Champignonteelt.</b> In fase 1 worden de verschillende grondstoffen (paardenmest, stro, kippenmest en gips) gemengd en bevochtigd. Fase 2 vindt plaats in speciale tunnels waarin een pasteurisatie stap (ca. 60 °C) plaatsvindt om ongewenste organismen af te doden. Vervolgens wordt de compost geënt met het mycelium van de champignon (Agaricus bisporus)en doorgroeit het mycelium de compost in ruim 2 weken (fase 3). Nadat de compost is doorgroeid wordt deze bij de champignontelers gevuld in de teeltcellen en afgedekt met een laagje dekaarde, een mengsel van veen en koolzure kalk. De champignons ontstaan bovenop de dekaarde nadat het mycelium vanuit de compost de dekaarde heeft doorgroeit. De dekaarde zorgt ervoor dat de luchtvochtigheid en de temperatuur niet te veel schommelt. Na een oogstperiode van 2-3 weken wordt de resterende compost uit de teeltcellen gehaald en doet vervolgens dienst als bodemverbeteraar en meststof in de land- en tuinbouw.</p>
+    </div>
+    <br>
+    <br>
+
+    <p class="lead">Een groot probleem binnen de champignonteelt is echter dat de oogst van champignons sterk kan variëren. Deels kan dit afhankelijk zijn van de bedrijfsvoering op de diverse teelbedrijven en deels is dit afhankelijk van de kwaliteit van de compost. Daarnaast komt, ondanks vele voorzorgsmaatregelen, de schimmel Trichoderma agressivum regelmatig in de compost voor. Deze schimmel kan in korte tijd het bed waarin de champignons geteeld worden overgroeien waardoor de oogst mislukt. Ook micro-organismen die het pasteurisatie proces in de compost overleefd hebben kunnen een negatieve of juist een positieve invloed hebben op de teelt. Deze micro-organismen vormen in de compost een microflora. De microflora in de compost zal gedurende het proces voortdurend wisselen van samenstelling en een grote rol spelen bij de afbraak van de compost (fermentatie) en de opbouw van voor de champignon geschikte structuur en voedingstoffen. Bovendien speelt de microflora een positieve of negatieve rol richting pathogene micro-organismen. Door het ontbreken van methoden om aanwezige micro-organismen in de compost te detecteren, karakteriseren en te kwantificeren bestaat er momenteel weinig inzicht in de aanwezigheid en samenstelling van microflora in de verschillende fases van het proces en de daarbij behorende invloed die de microflora heeft op teeltresultaten.
+    <p class="lead">Champignontelers (vertegenwoordigd door het Productschap Tuinbouw en CNC grondstoffen B.V.) willen een duurzame oplossing waarbij een constante kwaliteit van de compost gegarandeerd kan worden en oogstvariaties als gevolg van met name pathogene micro-organismen vermeden worden. Ter indicatie: wanneer er als gevolg van een betere kwaliteit van de compost 5 % meer champignons geproduceerd zouden kunnen worden dan betekent dit in Nederland een productiviteitsverhoging ter waarde van 12-15 mln. Euro per jaar. De Champignontelers hebben daarom de volgende onderzoeksvragen geformuleerd:</p>
+    <p class="lead">
+      <ul>
+        <li>Is een betere benutting van de compost door de champignon mogelijk door het reguleren en controleren van de microflora die bij het composteringsproces betrokken is?</li>
+        <li>Kan er een effectieve en geaccepteerde bestrijdingsmethode tegen pathogene micro-organismen en onkruidschimmels in de compost ontwikkeld worden?</li>
+      </ul>
+    </p>
+    <p class="lead">Met deze vragen is het HAN Biocentre aan de slag gegaan. Om een betere sturing van de microflora in de compost mogelijk te maken wordt er door het HAN Biocentre een inventarisatie en karakterisatie van de microflora in de compost uitgevoerd gedurende de compostbereiding en gedurende de teelt. Vervolgens is de bedoeling om met deze informatie de invloed te bepalen van de aanwezigheid van verschillende micro-organismen in de microflora op de compost kwaliteit en te onderzoeken wat de correlatie is tussen de samenstelling van de microflora en de oogstopbrengsten. Er kan dan een assay ontwikkeld worden die een voorspellende waarde heeft over de kwaliteit van de compost, waardoor het mogelijk zal worden het composteringsproces aan te passen voordat de compost bij de telers wordt afgeleverd.</p>
+    <p class="lead">Uiteindelijk zal het onderzoek een beeld geven van de optimale samenstelling van de microflora zodat er op de lange termijn toegewerkt kan worden naar een betere en robuuste microbiologische controle van het composteringsproces. De invloed van schadelijke micro-organismen (zowel pathogene micro-organismen die direct gericht zijn tegen de champignon als aanwezige onkruidschimmels) die het proces verstoren zal verkleind worden doordat er naar gestreefd wordt om een optimale samenstelling van de microflora te verkrijgen die de groei van de pathogene micro-organismen en onkruidschimmels zoveel mogelijk voorkomt. Tevens wordt er gezocht naar antimicrobiële stoffen, al dan niet uitgescheiden door micro-organismen, die ingezet kunnen worden tegen deze schadelijke micro-organismen als "groene" milieuvriendelijke bestrijdingsmiddelen.</p>
+  </main>
+
+  <footer class="mt-auto text-white-50">
+    <p>&copy;copyright groepje 3</p>
+  </footer>
+</div>
+
+
+
+  </body>
+</html>

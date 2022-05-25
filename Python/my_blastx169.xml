@@ -1,0 +1,322 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_55827</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_55827</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>tpg|HHU92518.1|</Hit_id>
+  <Hit_def>23S rRNA (guanosine(2251)-2&apos;-O)-methyltransferase RlmB [Halanaerobiaceae bacterium]</Hit_def>
+  <Hit_accession>HHU92518</Hit_accession>
+  <Hit_len>242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.145</Hsp_bit-score>
+      <Hsp_score>261</Hsp_score>
+      <Hsp_evalue>3.38137e-25</Hsp_evalue>
+      <Hsp_query-from>129</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>187</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>KCPICLVIGSEGKRLRRLVKATCDFLVQIPMPGEFSSLNASVAAAILIYEVLRQRQ</Hsp_qseq>
+      <Hsp_hseq>KGPIGLVIGSEGKGLRRLVKENCDFLVQIPMPGEFSSLNASVAAAILIYEVLRQRQ</Hsp_hseq>
+      <Hsp_midline>K PI LVIGSEGK LRRLVK  CDFLVQIPMPGEFSSLNASVAAAILIYEVLRQRQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|NLJ84530.1|</Hit_id>
+  <Hit_def>23S rRNA (guanosine(2251)-2&apos;-O)-methyltransferase RlmB [Halanaerobiaceae bacterium]</Hit_def>
+  <Hit_accession>NLJ84530</Hit_accession>
+  <Hit_len>242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.293</Hsp_bit-score>
+      <Hsp_score>251</Hsp_score>
+      <Hsp_evalue>9.4998e-24</Hsp_evalue>
+      <Hsp_query-from>129</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>187</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>KCPICLVIGSEGKRLRRLVKATCDFLVQIPMPGEFSSLNASVAAAILIYEVLRQRQ</Hsp_qseq>
+      <Hsp_hseq>KGPVGLVIGSEGKGLRRLVRENCDFLVKIPMPGEFSSLNASVAAAILIYEVLRQRQ</Hsp_hseq>
+      <Hsp_midline>K P+ LVIGSEGK LRRLV+  CDFLV+IPMPGEFSSLNASVAAAILIYEVLRQRQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|MBO2493701.1|</Hit_id>
+  <Hit_def>23S rRNA (guanosine(2251)-2&apos;-O)-methyltransferase RlmB [Clostridia bacterium]</Hit_def>
+  <Hit_accession>MBO2493701</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.4261</Hsp_bit-score>
+      <Hsp_score>215</Hsp_score>
+      <Hsp_evalue>2.70256e-18</Hsp_evalue>
+      <Hsp_query-from>132</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>190</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>KCPICLVIGSEGKRLRRLVKATCDFLVQIPMPGEFSSLNASVAAAILIYEVLRQR</Hsp_qseq>
+      <Hsp_hseq>KGPIALVIGSEGKGLRRLVKEKCDYLVGIPMKGKINSLNASVAAAILMYEVLRQR</Hsp_hseq>
+      <Hsp_midline>K PI LVIGSEGK LRRLVK  CD+LV IPM G+ +SLNASVAAAIL+YEVLRQR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|NLM97647.1|</Hit_id>
+  <Hit_def>23S rRNA (guanosine(2251)-2&apos;-O)-methyltransferase RlmB [Halanaerobiaceae bacterium]</Hit_def>
+  <Hit_accession>NLM97647</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.6557</Hsp_bit-score>
+      <Hsp_score>213</Hsp_score>
+      <Hsp_evalue>4.10198e-18</Hsp_evalue>
+      <Hsp_query-from>132</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>187</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>KCPICLVIGSEGKRLRRLVKATCDFLVQIPMPGEFSSLNASVAAAILIYEVLRQR</Hsp_qseq>
+      <Hsp_hseq>KIPLALVIGNEGEGIRRLVKEKCDFLINIPMPGKISSLNASTAAAIIIYEVFRQR</Hsp_hseq>
+      <Hsp_midline>K P+ LVIG+EG+ +RRLVK  CDFL+ IPMPG+ SSLNAS AAAI+IYEV RQR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|NMB96554.1|</Hit_id>
+  <Hit_def>23S rRNA (guanosine(2251)-2&apos;-O)-methyltransferase RlmB [Clostridiaceae bacterium]</Hit_def>
+  <Hit_accession>NMB96554</Hit_accession>
+  <Hit_len>138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.5741</Hsp_bit-score>
+      <Hsp_score>205</Hsp_score>
+      <Hsp_evalue>6.69373e-18</Hsp_evalue>
+      <Hsp_query-from>132</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>79</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>KCPICLVIGSEGKRLRRLVKATCDFLVQIPMPGEFSSLNASVAAAILIYEVLRQR</Hsp_qseq>
+      <Hsp_hseq>KGPIALVIGSEGEGLSRLVKEKCDFTIRIPMKGNISSLNASVAAAIVMYEILRQR</Hsp_hseq>
+      <Hsp_midline>K PI LVIGSEG+ L RLVK  CDF ++IPM G  SSLNASVAAAI++YE+LRQR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|MBQ7137305.1|</Hit_id>
+  <Hit_def>23S rRNA (guanosine(2251)-2&apos;-O)-methyltransferase RlmB [Bacilli bacterium]</Hit_def>
+  <Hit_accession>MBQ7137305</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.8853</Hsp_bit-score>
+      <Hsp_score>211</Hsp_score>
+      <Hsp_evalue>7.00418e-18</Hsp_evalue>
+      <Hsp_query-from>129</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>178</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>KCPICLVIGSEGKRLRRLVKATCDFLVQIPMPGEFSSLNASVAAAILIYEVLRQRQ</Hsp_qseq>
+      <Hsp_hseq>KCPICLVIGSEGNGMSRLVKESCDFIASIPMKGEINSLNASVATGIMIYEVLEKRK</Hsp_hseq>
+      <Hsp_midline>KCPICLVIGSEG  + RLVK +CDF+  IPM GE +SLNASVA  I+IYEVL +R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|NLW00599.1|</Hit_id>
+  <Hit_def>23S rRNA (guanosine(2251)-2&apos;-O)-methyltransferase RlmB [Clostridiales bacterium]</Hit_def>
+  <Hit_accession>NLW00599</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.2705</Hsp_bit-score>
+      <Hsp_score>212</Hsp_score>
+      <Hsp_evalue>7.94396e-18</Hsp_evalue>
+      <Hsp_query-from>132</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>196</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>KCPICLVIGSEGKRLRRLVKATCDFLVQIPMPGEFSSLNASVAAAILIYEVLRQR</Hsp_qseq>
+      <Hsp_hseq>KGPVALVIGSEGKGLRRLVKEKCDFLVGIPMKGKINSLNASVAAAVLMYEIVRQR</Hsp_hseq>
+      <Hsp_midline>K P+ LVIGSEGK LRRLVK  CDFLV IPM G+ +SLNASVAAA+L+YE++RQR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|MBR6729499.1|</Hit_id>
+  <Hit_def>RNA methyltransferase [Clostridia bacterium]</Hit_def>
+  <Hit_accession>MBR6729499</Hit_accession>
+  <Hit_len>84</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.6481</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>8.23083e-18</Hsp_evalue>
+      <Hsp_query-from>129</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>82</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>PICLVIGSEGKRLRRLVKATCDFLVQIPMPGEFSSLNASVAAAILIYEVLRQRQ</Hsp_qseq>
+      <Hsp_hseq>SIALVIGSEGKGISRLLKEACDFLVQIPMLGEIESLNASVAAAIMMYEVVRQRR</Hsp_hseq>
+      <Hsp_midline> I LVIGSEGK + RL+K  CDFLVQIPM GE  SLNASVAAAI++YEV+RQR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_092282850.1|</Hit_id>
+  <Hit_def>23S rRNA (guanosine(2251)-2&apos;-O)-methyltransferase RlmB [Caldicoprobacter faecalis] &gt;emb|SFQ45101.1| 23S rRNA (guanosine2251-2&apos;-O)-methyltransferase [Caldicoprobacter faecalis]</Hit_def>
+  <Hit_accession>WP_092282850</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.8853</Hsp_bit-score>
+      <Hsp_score>211</Hsp_score>
+      <Hsp_evalue>9.8156e-18</Hsp_evalue>
+      <Hsp_query-from>132</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>196</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>KCPICLVIGSEGKRLRRLVKATCDFLVQIPMPGEFSSLNASVAAAILIYEVLRQR</Hsp_qseq>
+      <Hsp_hseq>KGPIALVIGSEGKGLRRLVKEKCDYLVGIPMKGKINSLNASVAAGILMYEVLRQR</Hsp_hseq>
+      <Hsp_midline>K PI LVIGSEGK LRRLVK  CD+LV IPM G+ +SLNASVAA IL+YEVLRQR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|PZN11166.1|</Hit_id>
+  <Hit_def>23S rRNA (guanosine(2251)-2&apos;-O)-methyltransferase RlmB [Caldicoprobacter oshimai]</Hit_def>
+  <Hit_accession>PZN11166</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.8853</Hsp_bit-score>
+      <Hsp_score>211</Hsp_score>
+      <Hsp_evalue>1.03486e-17</Hsp_evalue>
+      <Hsp_query-from>132</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>196</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>-3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>KCPICLVIGSEGKRLRRLVKATCDFLVQIPMPGEFSSLNASVAAAILIYEVLRQR</Hsp_qseq>
+      <Hsp_hseq>KGPIALVIGSEGKGLRRLVKEKCDYLVGIPMKGKINSLNASVAAGILMYEVLRQR</Hsp_hseq>
+      <Hsp_midline>K PI LVIGSEGK LRRLVK  CD+LV IPM G+ +SLNASVAA IL+YEVLRQR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469534606</Statistics_db-num>
+      <Statistics_db-len>1070605227</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

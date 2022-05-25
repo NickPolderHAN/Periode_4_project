@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Ambra Hovenier, Esmay Wissink, Nick van de Polder, Evy Kuenen">
+    <title>BLAST</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/cover/">
+<<<<<<< HEAD:template/graphs.html
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="cover.css" rel="stylesheet">
+
+=======
+    <link href="../static/bootstrap.min.css" rel="stylesheet">
+    <link href="../static/cover.css" rel="stylesheet">
+>>>>>>> 9992a060cc88058d59dd7e493dee0756fa910882:templates/graphs.html
+  </head>
+
+
+  <body class="d-flex h-100 text-center text-white bg-dark">
+
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <header class="mb-auto">
+    <div>
+      <h3 class="float-md-start mb-0">BLAST</h3>
+      <nav class="nav nav-masthead justify-content-center float-md-end">
+        <a class="nav-link"  href="{{ url_for('index') }}">Home</a>
+        <a class="nav-link active" aria-current="page" href="{{ url_for('graphs') }}">Graphs</a>
+        <a class="nav-link"  href="{{ url_for('table') }}">Table</a>
+        <a class="nav-link" href="{{ url_for('learn_more') }}">Learn more</a>
+      </nav>
+    </div>
+  </header>
+
+
+   <br>
+      <div class="container_graph" >
+        <script>
+    window.onload = function graph1() {
+
+        var chart = new CanvasJS.Chart("chartContainer1", {
+          theme: "dark2", // "light1", "light2", "dark1"
+          animationEnabled: true,
+          title: {
+            text: "Top 10 organismen in sample"
+          },
+          axisX: {
+            margin: 10,
+            labelPlacement: "inside",
+            tickPlacement: "inside"
+          },
+          axisY2: {
+            title: "aantal keer gevonden",
+            titleFontSize: 14,
+            includeZero: true,
+            suffix: "bn"
+          },
+          data: [{
+            type: "bar",
+            axisYType: "secondary",
+            yValueFormatString: "#,###.##bn",
+            indexLabel: "{y}",
+            dataPoints: [
+              { label: "naam organisme", y: 3.25 },
+              { label: "naam organisme", y: 3.32 },
+              { label: "naam organisme", y: 3.63 },
+              { label: "naam organisme", y: 3.72 },
+              { label: "naam organisme", y: 3.90 },
+              { label: "naam organisme", y: 4.32 },
+              { label: "naam organisme", y: 4.66 },
+              { label: "naam organisme", y: 4.91 },
+              { label: "naam organisme", y: 6.13 },
+              { label: "naam organisme", y: 6.88 }
+            ]
+          }]
+        });
+var chart2 = new CanvasJS.Chart("chartContainer2", {
+          theme: "dark2", // "light1", "light2", "dark1"
+          animationEnabled: true,
+          title: {
+            text: "Top 10 eiwitten in sample"
+          },
+          axisX: {
+            margin: 10,
+            labelPlacement: "inside",
+            tickPlacement: "inside"
+          },
+          axisY2: {
+            title: "aantal keer gevonden",
+            titleFontSize: 14,
+            includeZero: true,
+            suffix: "bn"
+          },
+          data: [{
+            type: "bar",
+            axisYType: "secondary",
+            yValueFormatString: "#,###.##bn",
+            indexLabel: "{y}",
+            dataPoints: [
+              { label: "naam eiwit", y: 3.25 },
+              { label: "naam eiwit", y: 3.32 },
+              { label: "naam eiwit", y: 3.63 },
+              { label: "naam eiwit", y: 3.72 },
+              { label: "naam eiwit", y: 3.90 },
+              { label: "naam eiwit", y: 4.32 },
+              { label: "naam eiwit", y: 4.66 },
+              { label: "naam eiwit", y: 4.91 },
+              { label: "naam eiwit", y: 6.13 },
+              { label: "naam eiwit", y: 6.88 }
+            ]
+          }]
+        });
+        chart.render();
+      chart2.render();
+        }
+        </script>
+
+        <div id="chartContainer1" style="height: 300px; width: 100%;"></div>
+        <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+      </div>
+    <br>
+      <div class="container_graph" >
+        <div id="chartContainer2" style="height: 300px; width: 100%;"></div>
+        <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+      </div>
+
+
+  <footer class="mt-auto text-white-50">
+    <p>&copy;copyright groepje 3</p>
+  </footer>
+</div>
+
+
+
+  </body>
+</html>

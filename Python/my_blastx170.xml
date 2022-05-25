@@ -1,0 +1,322 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_23731</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_23731</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_225218039.1|</Hit_id>
+  <Hit_def>gamma-glutamyltransferase family protein [Luteimonas sp. Sa2BVA3]</Hit_def>
+  <Hit_accession>WP_225218039</Hit_accession>
+  <Hit_len>583</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>84.7297</Hsp_bit-score>
+      <Hsp_score>208</Hsp_score>
+      <Hsp_evalue>1.98822e-16</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>QPRPAGYVSSAHPLATGAGLEVLRRGGSAIDAAIAIQAMLGLVEPQSSG</Hsp_qseq>
+      <Hsp_hseq>QARDAGMVSSAHPLATGAGLEVLRRGGSAIDAAVAVQAMLGLVEPQSSG</Hsp_hseq>
+      <Hsp_midline>Q R AG VSSAHPLATGAGLEVLRRGGSAIDAA+A+QAMLGLVEPQSSG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|MCA0198902.1|</Hit_id>
+  <Hit_def>gamma-glutamyltransferase family protein [Proteobacteria bacterium]</Hit_def>
+  <Hit_accession>MCA0198902</Hit_accession>
+  <Hit_len>565</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.1889</Hsp_bit-score>
+      <Hsp_score>204</Hsp_score>
+      <Hsp_evalue>5.65869e-16</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>79</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>AGLGAGRLAAWARRAPVAPQATQPRPAGYVSSAHPLATGAGLEVLRRGGSAIDAAIAIQAMLGLVEPQSSG</Hsp_qseq>
+      <Hsp_hseq>AGCGGARNPALAASAPATPAGT-----GFVSSAHPLATEAGLEVLRHGGSAIDAAIAVQAMLGLVEPQSSG</Hsp_hseq>
+      <Hsp_midline>AG G  R  A A  AP  P  T     G+VSSAHPLAT AGLEVLR GGSAIDAAIA+QAMLGLVEPQSSG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|MBE2292753.1|</Hit_id>
+  <Hit_def>gamma-glutamyltransferase family protein [Xanthomonadaceae bacterium]</Hit_def>
+  <Hit_accession>MBE2292753</Hit_accession>
+  <Hit_len>572</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.1889</Hsp_bit-score>
+      <Hsp_score>204</Hsp_score>
+      <Hsp_evalue>6.6275e-16</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>AGLGAGRLAAWARRAPVAPQATQPRPAGYVSSAHPLATGAGLEVLRRGGSAIDAAIAIQAMLGLVEPQSSG</Hsp_qseq>
+      <Hsp_hseq>AGCGGARNPALAASAPATPAGT-----GFVSSAHPLATEAGLEVLRHGGSAIDAAIAVQAMLGLVEPQSSG</Hsp_hseq>
+      <Hsp_midline>AG G  R  A A  AP  P  T     G+VSSAHPLAT AGLEVLR GGSAIDAAIA+QAMLGLVEPQSSG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|MBN8223689.1|</Hit_id>
+  <Hit_def>gamma-glutamyltransferase family protein [Xanthomonadales bacterium]</Hit_def>
+  <Hit_accession>MBN8223689</Hit_accession>
+  <Hit_len>565</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.4185</Hsp_bit-score>
+      <Hsp_score>202</Hsp_score>
+      <Hsp_evalue>1.23325e-15</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>79</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>AGLGAGRLAAWARRAPVAPQATQPRPAGYVSSAHPLATGAGLEVLRRGGSAIDAAIAIQAMLGLVEPQSSG</Hsp_qseq>
+      <Hsp_hseq>AGCGGARNPALAASAPATPAGT-----GFVSSAHPLATEAGLEVLRHGGNAIDAAIAVQAMLGLVEPQSSG</Hsp_hseq>
+      <Hsp_midline>AG G  R  A A  AP  P  T     G+VSSAHPLAT AGLEVLR GG+AIDAAIA+QAMLGLVEPQSSG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_146385905.1|</Hit_id>
+  <Hit_def>gamma-glutamyltransferase family protein [Luteimonas marina] &gt;gb|TWT22498.1| gamma-glutamyltransferase family protein [Luteimonas marina]</Hit_def>
+  <Hit_accession>WP_146385905</Hit_accession>
+  <Hit_len>579</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.8777</Hsp_bit-score>
+      <Hsp_score>198</Hsp_score>
+      <Hsp_evalue>4.26136e-15</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>RPAGYVSSAHPLATGAGLEVLRRGGSAIDAAIAIQAMLGLVEPQSSG</Hsp_qseq>
+      <Hsp_hseq>RDAGLVSSAHPLATEAGLEVLRRGGSAIDAAVAVQAMLGLVEPQSSG</Hsp_hseq>
+      <Hsp_midline>R AG VSSAHPLAT AGLEVLRRGGSAIDAA+A+QAMLGLVEPQSSG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_210412716.1|</Hit_id>
+  <Hit_def>gamma-glutamyltransferase family protein [Luteimonas granuli]</Hit_def>
+  <Hit_accession>WP_210412716</Hit_accession>
+  <Hit_len>576</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.8777</Hsp_bit-score>
+      <Hsp_score>198</Hsp_score>
+      <Hsp_evalue>4.38462e-15</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>90</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>QATQPRPAGYVSSAHPLATGAGLEVLRRGGSAIDAAIAIQAMLGLVEPQSSG</Hsp_qseq>
+      <Hsp_hseq>DAADPPQAGLVSSAHPLATEAGLEVLRRGGSAIDAAVAVQAMLGLVEPQSSG</Hsp_hseq>
+      <Hsp_midline> A  P  AG VSSAHPLAT AGLEVLRRGGSAIDAA+A+QAMLGLVEPQSSG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|QDW66527.1|</Hit_id>
+  <Hit_def>gamma-glutamyltransferase family protein [Luteimonas granuli]</Hit_def>
+  <Hit_accession>QDW66527</Hit_accession>
+  <Hit_len>605</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.4925</Hsp_bit-score>
+      <Hsp_score>197</Hsp_score>
+      <Hsp_evalue>5.20244e-15</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>68</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>QATQPRPAGYVSSAHPLATGAGLEVLRRGGSAIDAAIAIQAMLGLVEPQSSG</Hsp_qseq>
+      <Hsp_hseq>DAADPPQAGLVSSAHPLATEAGLEVLRRGGSAIDAAVAVQAMLGLVEPQSSG</Hsp_hseq>
+      <Hsp_midline> A  P  AG VSSAHPLAT AGLEVLRRGGSAIDAA+A+QAMLGLVEPQSSG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_229823337.1|</Hit_id>
+  <Hit_def>gamma-glutamyltransferase family protein [Luteimonas padinae] &gt;dbj|GHD71748.1| gamma-glutamyltranspeptidase [Luteimonas padinae]</Hit_def>
+  <Hit_accession>WP_229823337</Hit_accession>
+  <Hit_len>583</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.4925</Hsp_bit-score>
+      <Hsp_score>197</Hsp_score>
+      <Hsp_evalue>5.3349e-15</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>TQPRPAGYVSSAHPLATGAGLEVLRRGGSAIDAAIAIQAMLGLVEPQSSG</Hsp_qseq>
+      <Hsp_hseq>TQAPDAGMVSSAHPLATEAGLEVLRRGGSAIDAAVAVQAMLGLVEPQSSG</Hsp_hseq>
+      <Hsp_midline>TQ   AG VSSAHPLAT AGLEVLRRGGSAIDAA+A+QAMLGLVEPQSSG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|MBP6457406.1|</Hit_id>
+  <Hit_def>gamma-glutamyltransferase family protein [Pseudoxanthomonas sp.]</Hit_def>
+  <Hit_accession>MBP6457406</Hit_accession>
+  <Hit_len>579</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.1073</Hsp_bit-score>
+      <Hsp_score>196</Hsp_score>
+      <Hsp_evalue>8.50391e-15</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>ARRAPVAPQATQPR-PAGYVSSAHPLATGAGLEVLRRGGSAIDAAIAIQAMLGLVEPQSSG</Hsp_qseq>
+      <Hsp_hseq>ARHPAVVTAAPEPEAETGFVSSAHPLATEAGLEVLRRGGSAIDAAIAVQTMLGLVEPQSSG</Hsp_hseq>
+      <Hsp_midline>AR   V   A +P    G+VSSAHPLAT AGLEVLRRGGSAIDAAIA+Q MLGLVEPQSSG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|MBP6215976.1|</Hit_id>
+  <Hit_def>gamma-glutamyltransferase family protein [Luteimonas sp.]</Hit_def>
+  <Hit_accession>MBP6215976</Hit_accession>
+  <Hit_len>572</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.337</Hsp_bit-score>
+      <Hsp_score>194</Hsp_score>
+      <Hsp_evalue>1.50773e-14</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>44</Hsp_align-len>
+      <Hsp_qseq>GYVSSAHPLATGAGLEVLRRGGSAIDAAIAIQAMLGLVEPQSSG</Hsp_qseq>
+      <Hsp_hseq>GFVSSAHPLATEAGLDVLRRGGSAIDAAIAVQAMLGLVEPQSSG</Hsp_hseq>
+      <Hsp_midline>G+VSSAHPLAT AGL+VLRRGGSAIDAAIA+QAMLGLVEPQSSG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469534606</Statistics_db-num>
+      <Statistics_db-len>1070605227</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

@@ -1,0 +1,398 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_19801</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_19801</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|MBO2468594.1|</Hit_id>
+  <Hit_def>hypothetical protein [Xanthomonadaceae bacterium]</Hit_def>
+  <Hit_accession>MBO2468594</Hit_accession>
+  <Hit_len>1562</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.117</Hsp_bit-score>
+      <Hsp_score>344</Hsp_score>
+      <Hsp_evalue>8.97899e-35</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>101</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>LLGGTLSVSSDSALGAPSSALHFDGGTLQVTGTEFGATTRAITLGEGGGGFDIADAGHRLTLAQDITGPRALRKDGAGTAAARGAR</Hsp_qseq>
+      <Hsp_hseq>LFGGTLSVSSDSALGAPSSALHFDGGTLQVTGTEFGATTRAITLGEGGGGFDIADAGHRFTLAQDITGDGALVKHGAGTLVLTGSN</Hsp_hseq>
+      <Hsp_midline>L GGTLSVSSDSALGAPSSALHFDGGTLQVTGTEFGATTRAITLGEGGGGFDIADAGHR TLAQDITG  AL K GAGT    G+ </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>111.309</Hsp_bit-score>
+      <Hsp_score>277</Hsp_score>
+      <Hsp_evalue>1.02618e-25</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>276</Hsp_query-to>
+      <Hsp_hit-from>807</Hsp_hit-from>
+      <Hsp_hit-to>898</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>HLLGGTLSVSSDSALGAPSSALHFDGGTLQVTGTEFGATTRAITLGEGGGGFDIADAGHRLTLAQDITGPRALRKDGAGTAAARGARPLQAG</Hsp_qseq>
+      <Hsp_hseq>HLLGGTLSVASDAALGAGAGALHFDGGMLQVTGRDFDATTRAITLGDGGGGFDIADAGHRFTLAQDITGSGALVKHGAGTLVLEGDNAYTGG</Hsp_hseq>
+      <Hsp_midline>HLLGGTLSV+SD+ALGA + ALHFDGG LQVTG +F ATTRAITLG+GGGGFDIADAGHR TLAQDITG  AL K GAGT    G      G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|TWT16803.1|</Hit_id>
+  <Hit_def>hypothetical protein FQY79_15230 [Luteimonas wenzhouensis]</Hit_def>
+  <Hit_accession>TWT16803</Hit_accession>
+  <Hit_len>2264</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.191</Hsp_bit-score>
+      <Hsp_score>339</Hsp_score>
+      <Hsp_evalue>3.95837e-34</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>292</Hsp_hit-from>
+      <Hsp_hit-to>378</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>HLLGGTLSVSSDSALGAPSSALHFDGGTLQVTGTEFGATTRAITLGEGGGGFDIADAGHRLTLAQDITGPRALRKDGAGTAAARGAR</Hsp_qseq>
+      <Hsp_hseq>HLLGGTLSVSSDSALGAPSSALHFDGGTLQVTGRDFGATTRAITLGEGGGGFDIADASHRFTLAQDITGDGALVKHGAGTLVLTGSN</Hsp_hseq>
+      <Hsp_midline>HLLGGTLSVSSDSALGAPSSALHFDGGTLQVTG +FGATTRAITLGEGGGGFDIADA HR TLAQDITG  AL K GAGT    G+ </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>110.538</Hsp_bit-score>
+      <Hsp_score>275</Hsp_score>
+      <Hsp_evalue>1.96529e-25</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>276</Hsp_query-to>
+      <Hsp_hit-from>1084</Hsp_hit-from>
+      <Hsp_hit-to>1175</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>HLLGGTLSVSSDSALGAPSSALHFDGGTLQVTGTEFGATTRAITLGEGGGGFDIADAGHRLTLAQDITGPRALRKDGAGTAAARGARPLQAG</Hsp_qseq>
+      <Hsp_hseq>HLLGGTLSVASDAALGAGAGALHFDGGMLQVTGRVFDATTRAITLGDGGGGFDIADAGHRFTLAQDIAGDGALVKDGAGTLVLEGDNAYTGG</Hsp_hseq>
+      <Hsp_midline>HLLGGTLSV+SD+ALGA + ALHFDGG LQVTG  F ATTRAITLG+GGGGFDIADAGHR TLAQDI G  AL KDGAGT    G      G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.476796</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>276</Hsp_query-to>
+      <Hsp_hit-from>1605</Hsp_hit-from>
+      <Hsp_hit-to>1689</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>GGTLSVSSDSALGAPSSALHFDGGTLQVTGTEFGATTRAITLGEGGGGFDIADAGHRLTLAQDITGPRALRKDGAGTAAARGARPLQAG</Hsp_qseq>
+      <Hsp_hseq>GGTLSVSSDSALGATSGDIVLAGGALHA--AESFDSGRALTLESDGRIATARDA--TLTLSGSIGGDGVLVKDGAGTLVLTGTNRYRGG</Hsp_hseq>
+      <Hsp_midline>GGTLSVSSDSALGA S  +   GG L     E   + RA+TL   G      DA   LTL+  I G   L KDGAGT    G    + G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_198012698.1|</Hit_id>
+  <Hit_def>autotransporter-associated beta strand repeat-containing protein, partial [Luteimonas sp. J29]</Hit_def>
+  <Hit_accession>WP_198012698</Hit_accession>
+  <Hit_len>1108</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.612</Hsp_bit-score>
+      <Hsp_score>270</Hsp_score>
+      <Hsp_evalue>7.35903e-25</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>291</Hsp_hit-from>
+      <Hsp_hit-to>377</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>HLLGGTLSVSSDSALGAPSSALHFDGGTLQVTGTEFGATTRAITLGEGGGGFDIADAGHRLTLAQDITGPRALRKDGAGTAAARGAR</Hsp_qseq>
+      <Hsp_hseq>HLLGGTLSVASDAALGAGAGALHFDGGMLQVTGRXFDATTRAITLGXGGGGFDIADAGHRFTLAQDITGSGALVKHGAGTLVLTGSN</Hsp_hseq>
+      <Hsp_midline>HLLGGTLSV+SD+ALGA + ALHFDGG LQVTG  F ATTRAITLG GGGGFDIADAGHR TLAQDITG  AL K GAGT    G+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_231168949.1|</Hit_id>
+  <Hit_def>autotransporter domain-containing protein [Bradyrhizobium sp. 41S5] &gt;gb|UFX48869.1| autotransporter domain-containing protein [Bradyrhizobium sp. 41S5]</Hit_def>
+  <Hit_accession>WP_231168949</Hit_accession>
+  <Hit_len>1213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.9005</Hsp_bit-score>
+      <Hsp_score>237</Hsp_score>
+      <Hsp_evalue>2.79944e-20</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>276</Hsp_query-to>
+      <Hsp_hit-from>505</Hsp_hit-from>
+      <Hsp_hit-to>595</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>LLGGTLSVSSDSALGAPSSALHFDGGTLQVTGTEFGATTRAITLGEGGGGFDIADAGHRLTLAQDITGPRALRKDGAGTAAARGARPLQAG</Hsp_qseq>
+      <Hsp_hseq>LAGGTLSVSSDANLGLASGALTFTGGMLQVTGTSFTTTSRAVTLAAGGGGFDIADAANTFTLNQAVTGAGGLTKSGAGTLVLAGANTYQGG</Hsp_hseq>
+      <Hsp_midline>L GGTLSVSSD+ LG  S AL F GG LQVTGT F  T+RA+TL  GGGGFDIADA +  TL Q +TG   L K GAGT    GA   Q G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_035638792.1|</Hit_id>
+  <Hit_def>autotransporter domain-containing protein, partial [Bradyrhizobium sp. ORS 375]</Hit_def>
+  <Hit_accession>WP_035638792</Hit_accession>
+  <Hit_len>1500</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.5893</Hsp_bit-score>
+      <Hsp_score>231</Hsp_score>
+      <Hsp_evalue>1.80509e-19</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>276</Hsp_query-to>
+      <Hsp_hit-from>791</Hsp_hit-from>
+      <Hsp_hit-to>882</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>HLLGGTLSVSSDSALGAPSSALHFDGGTLQVTGTEFGATTRAITLGEGGGGFDIADAGHRLTLAQDITGPRALRKDGAGTAAARGARPLQAG</Hsp_qseq>
+      <Hsp_hseq>FLTGGTLSVSSDTNLGLASGALTFSGGTLQVTGTSFSGTSRAITLAAGGGGFDIADVANTFMLNQALSGAGGLTKSGAGTLVLAGVNTYQGG</Hsp_hseq>
+      <Hsp_midline> L GGTLSVSSD+ LG  S AL F GGTLQVTGT F  T+RAITL  GGGGFDIAD  +   L Q ++G   L K GAGT    G    Q G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>emb|CCD91093.1|</Hit_id>
+  <Hit_def>putative Outer membrane autotransporter barrel domain protein precursor [Bradyrhizobium sp. ORS 375]</Hit_def>
+  <Hit_accession>CCD91093</Hit_accession>
+  <Hit_len>1472</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.2041</Hsp_bit-score>
+      <Hsp_score>230</Hsp_score>
+      <Hsp_evalue>2.02725e-19</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>276</Hsp_query-to>
+      <Hsp_hit-from>763</Hsp_hit-from>
+      <Hsp_hit-to>854</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>HLLGGTLSVSSDSALGAPSSALHFDGGTLQVTGTEFGATTRAITLGEGGGGFDIADAGHRLTLAQDITGPRALRKDGAGTAAARGARPLQAG</Hsp_qseq>
+      <Hsp_hseq>FLTGGTLSVSSDTNLGLASGALTFSGGTLQVTGTSFSGTSRAITLAAGGGGFDIADVANTFMLNQALSGAGGLTKSGAGTLVLAGVNTYQGG</Hsp_hseq>
+      <Hsp_midline> L GGTLSVSSD+ LG  S AL F GGTLQVTGT F  T+RAITL  GGGGFDIAD  +   L Q ++G   L K GAGT    G    Q G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|PMR76007.1|</Hit_id>
+  <Hit_def>hypothetical protein C1H69_07920, partial [Halomonas endophytica]</Hit_def>
+  <Hit_accession>PMR76007</Hit_accession>
+  <Hit_len>2248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.2041</Hsp_bit-score>
+      <Hsp_score>230</Hsp_score>
+      <Hsp_evalue>2.02916e-19</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>282</Hsp_query-to>
+      <Hsp_hit-from>462</Hsp_hit-from>
+      <Hsp_hit-to>546</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>LLGGTLSVSSDSALGAPSSALHFDGGTLQVTGTEFGATTRAITLGEGGGGFDIADAGHRLTLAQDITGPRALRKDGAGTAAARGARPLQAGRA</Hsp_qseq>
+      <Hsp_hseq>LTGGTLSVSSDGQLGATSGSLTFDGGTLRVTGTDFASTDRNIVWGNDGGGFDIAEAGHTFTLYQEIDGDGGLTKRGAGT--------LQAGHA</Hsp_hseq>
+      <Hsp_midline>L GGTLSVSSD  LGA S +L FDGGTL+VTGT+F +T R I  G  GGGFDIA+AGH  TL Q+I G   L K GAGT        LQAG A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_207833386.1|</Hit_id>
+  <Hit_def>autotransporter domain-containing protein [Bradyrhizobium quebecense] &gt;gb|UGY05899.1| autotransporter domain-containing protein [Bradyrhizobium quebecense]</Hit_def>
+  <Hit_accession>WP_207833386</Hit_accession>
+  <Hit_len>1529</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.2041</Hsp_bit-score>
+      <Hsp_score>230</Hsp_score>
+      <Hsp_evalue>2.46516e-19</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>276</Hsp_query-to>
+      <Hsp_hit-from>821</Hsp_hit-from>
+      <Hsp_hit-to>911</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>LLGGTLSVSSDSALGAPSSALHFDGGTLQVTGTEFGATTRAITLGEGGGGFDIADAGHRLTLAQDITGPRALRKDGAGTAAARGARPLQAG</Hsp_qseq>
+      <Hsp_hseq>LAGGTLSVSSDANLGLASGALTFTGGMLQVTGTSFTTTSRAVTLAAGGGGFDIADAANTFRLNQAVTGAGGLTKSGAGTLVLAGANTYQGG</Hsp_hseq>
+      <Hsp_midline>L GGTLSVSSD+ LG  S AL F GG LQVTGT F  T+RA+TL  GGGGFDIADA +   L Q +TG   L K GAGT    GA   Q G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_211965857.1|</Hit_id>
+  <Hit_def>MULTISPECIES: autotransporter domain-containing protein [unclassified Bradyrhizobium] &gt;gb|MBR1218088.1| autotransporter domain-containing protein [Bradyrhizobium sp. U87765 SZCCT0131] &gt;gb|MBR1260966.1| autotransporter domain-containing protein [Bradyrhizobium sp. U87765 SZCCT0134] &gt;gb|MBR1303586.1| autotransporter domain-containing protein [Bradyrhizobium sp. U87765 SZCCT0110] &gt;gb|MBR1319192.1| autotransporter domain-containing protein [Bradyrhizobium sp. U87765 SZCCT0109] &gt;gb|MBR1347517.1| autotransporter domain-containing protein [Bradyrhizobium sp. U87765 SZCCT0048]</Hit_def>
+  <Hit_accession>WP_211965857</Hit_accession>
+  <Hit_len>1547</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.6633</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>7.91817e-19</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>276</Hsp_query-to>
+      <Hsp_hit-from>840</Hsp_hit-from>
+      <Hsp_hit-to>930</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>LLGGTLSVSSDSALGAPSSALHFDGGTLQVTGTEFGATTRAITLGEGGGGFDIADAGHRLTLAQDITGPRALRKDGAGTAAARGARPLQAG</Hsp_qseq>
+      <Hsp_hseq>LAGGTLSVSSDANLGLASGALTFTGGMLQVTGTSFTTTSRAVTLAAGGGGFDIADTANTFTLNQTVGGTGGLIKSGAGTLVLTGANTYQGG</Hsp_hseq>
+      <Hsp_midline>L GGTLSVSSD+ LG  S AL F GG LQVTGT F  T+RA+TL  GGGGFDIAD  +  TL Q + G   L K GAGT    GA   Q G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_240147785.1|</Hit_id>
+  <Hit_def>autotransporter-associated beta strand repeat-containing protein [Luteibacter yeojuensis]</Hit_def>
+  <Hit_accession>WP_240147785</Hit_accession>
+  <Hit_len>2076</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.2781</Hsp_bit-score>
+      <Hsp_score>225</Hsp_score>
+      <Hsp_evalue>1.13211e-18</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1407</Hsp_hit-from>
+      <Hsp_hit-to>1489</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>GTLSVSSDSALGAPSSALHFDGGTLQVTGTEFGATTRAITLGEGGGGFDIADAGHRLTLAQDITGPRALRKDGAGTAAARGAR</Hsp_qseq>
+      <Hsp_hseq>GTLSVSSDASLGAPTAGIDIEGGTLQVTGTAFSGTTRAITLGATGGGLDIADAGNTFTLSQALSGSGGVTKLGAGTLVLTGAN</Hsp_hseq>
+      <Hsp_midline>GTLSVSSD++LGAP++ +  +GGTLQVTGT F  TTRAITLG  GGG DIADAG+  TL+Q ++G   + K GAGT    GA </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>78.5666</Hsp_bit-score>
+      <Hsp_score>192</Hsp_score>
+      <Hsp_evalue>2.6362e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>276</Hsp_query-to>
+      <Hsp_hit-from>913</Hsp_hit-from>
+      <Hsp_hit-to>1004</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>HLLGGTLSVSSDSALGAPSSALHFDGGTLQVTGTEFGATTRAITLGEGGGGFDIADAGHRLTLAQDITGPRALRKDGAGTAAARGARPLQAG</Hsp_qseq>
+      <Hsp_hseq>QLAEGTLSLSSDANLGDPGNAIDFEGGILQVSGTAYNGTPRAIVFGPAGGGFDIADAANTFTVTQPLAGTGALTKLGDGTLVLTGTNTYSGG</Hsp_hseq>
+      <Hsp_midline> L  GTLS+SSD+ LG P +A+ F+GG LQV+GT +  T RAI  G  GGGFDIADA +  T+ Q + G  AL K G GT    G      G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469534606</Statistics_db-num>
+      <Statistics_db-len>1070605227</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

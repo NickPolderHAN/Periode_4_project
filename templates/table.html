@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head><!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Ambra Hovenier, Esmay Wissink, Nick van de Polder, Evy Kuenen">
+    <title>BLAST</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/cover/">
+    <link href="../static/bootstrap.min.css" rel="stylesheet">
+    <link href="../static/cover.css" rel="stylesheet">
+  </head>
+
+
+  <body class="d-flex h-100 text-center text-white bg-dark">
+
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <header class="mb-auto">
+    <div>
+      <h3 class="float-md-start mb-0">BLAST</h3>
+      <nav class="nav nav-masthead justify-content-center float-md-end">
+        <a class="nav-link"  href="{{ url_for('index') }}">Home</a>
+        <a class="nav-link" href="{{ url_for('graphs') }}">Graphs</a>
+        <a class="nav-link active" aria-current="page" href="{{ url_for('table') }}">Table</a>
+        <a class="nav-link" href="{{ url_for('learn_more') }}">Learn more</a>
+      </nav>
+    </div>
+  </header>
+
+<table cellpadding="10">
+  <tr valign="top">
+    <td class = "tabellinks">
+      <b>FILTERS</b><p>
+      <div class = "filters">
+
+      <form action="/table" method = "POST">
+
+  <label >E-value tussen</label><br>
+    <input type="text" class = "tekstinvulveldlinks" name="e_value_min"> <p style = 'display:inline'> en </p>
+          <input type="text" class = 'tekstinvulveldrechts' name="e_value_max"><br><br>
+
+  <label >Percent identity</label><br>
+  <input type="text" class = "tekstinvulveldlinks" name="percent_identity_min"> <p style = 'display:inline'> en </p>
+          <input type="text" class = 'tekstinvulveldrechts' name="percent_identity_max"><br>
+<br>
+
+  <label>Zoek op organisme</label><br>
+  <input type="text" name="organism"><br>
+  <label>zoek op eiwit</label><br>
+  <input type="text" name="protein" ><br>
+    </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+  <input type="submit" value="Submit">
+</form>
+    </td>
+
+    <td class = "tabelrechts" >
+      <b>TABEL</b>
+      <p>hier komt de tabel te staan</p>
+      <table class="tabelresultaat">
+        <tr>
+          <th>Score</th>
+          <th>E-value</th>
+          <th>Identity%</th>
+          <th>Organisme</th>
+          <th>Eiwit</th>
+          <th>Accessiecode</th>
+          <th>Positives</th>
+        </tr>
+        {% for x in data %}
+        <tr>
+          <td>x[0]</td>
+          <td>x[1]</td>
+          <td>x[2]</td>
+          <td>x[3]</td>
+          <td>x[4]</td>
+          <td>x[5]</td>
+          <td>x[6]</td>
+        </tr>
+        {% endfor %}
+      </table>
+    </td>
+
+   </tr>
+<table>
+
+  <footer class="mt-auto text-white-50">
+    <p>&copy;copyright groepje 3</p>
+  </footer>
+
+
+</table>
+</div>
+  </body>
+</html>

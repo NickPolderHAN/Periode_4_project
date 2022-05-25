@@ -1,0 +1,322 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_7553</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_7553</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_210420832.1|</Hit_id>
+  <Hit_def>redoxin domain-containing protein [Chitinophaga sp. XS-30]</Hit_def>
+  <Hit_accession>WP_210420832</Hit_accession>
+  <Hit_len>381</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.844</Hsp_bit-score>
+      <Hsp_score>403</Hsp_score>
+      <Hsp_evalue>4.35081e-45</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>252</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>FILPDPNGKNLALSSFKGKYVLVDFWASWCGPCRVENPNIVSAYREFKDKNFTILGVSLDKDRAAWLKAIKADSITWTHVCDLAIGVSKVVALYGVGAV</Hsp_qseq>
+      <Hsp_hseq>FTLPDPNGKQISLSSFKGKYVLVDFWASWCGPCRQENPNVVKAYLKYKDKNFTILGVSLDKTKDAWLKAIADDGLNWSHVSDLKFWESAVVPLYGISGI</Hsp_hseq>
+      <Hsp_midline>F LPDPNGK ++LSSFKGKYVLVDFWASWCGPCR ENPN+V AY ++KDKNFTILGVSLDK + AWLKAI  D + W+HV DL    S VV LYG+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_245950945.1|</Hit_id>
+  <Hit_def>AhpC/TSA family protein [Chitinophaga dinghuensis] &gt;gb|RAJ75488.1| peroxiredoxin [Chitinophaga dinghuensis]</Hit_def>
+  <Hit_accession>WP_245950945</Hit_accession>
+  <Hit_len>387</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.844</Hsp_bit-score>
+      <Hsp_score>403</Hsp_score>
+      <Hsp_evalue>5.51513e-45</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>258</Hsp_hit-from>
+      <Hsp_hit-to>356</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>FILPDPNGKNLALSSFKGKYVLVDFWASWCGPCRVENPNIVSAYREFKDKNFTILGVSLDKDRAAWLKAIKADSITWTHVCDLAIGVSKVVALYGVGAV</Hsp_qseq>
+      <Hsp_hseq>FTLPDPSGKMVSLSSFRGKYVLVDFWASWCGPCRAENPNVVAAYQQFKNKNFTVLGVSLDKEKSNWLEAIKKDKLDWTHVSDLKFWESAVVNMYGINAI</Hsp_hseq>
+      <Hsp_midline>F LPDP+GK ++LSSF+GKYVLVDFWASWCGPCR ENPN+V+AY++FK+KNFT+LGVSLDK+++ WL+AIK D + WTHV DL    S VV +YG+ A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_241237935.1|</Hit_id>
+  <Hit_def>AhpC/TSA family protein [Pseudoflavitalea rhizosphaerae]</Hit_def>
+  <Hit_accession>WP_241237935</Hit_accession>
+  <Hit_len>406</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.458</Hsp_bit-score>
+      <Hsp_score>402</Hsp_score>
+      <Hsp_evalue>1.09743e-44</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>278</Hsp_hit-from>
+      <Hsp_hit-to>370</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>ILPDPNGKNLALSSFKGKYVLVDFWASWCGPCRVENPNIVSAYREFKDKNFTILGVSLDKDRAAWLKAIKADSITWTHVCDLAIGVSKVVALY</Hsp_qseq>
+      <Hsp_hseq>VMPDPNGKNVSLSSFKGKYVLVDFWASWCGPCRAENPNVVNAFNKFKDKNFTVLGVSLDKDKAAWVQAVKADNLNWPQISDLAFWKSKAVELY</Hsp_hseq>
+      <Hsp_midline>++PDPNGKN++LSSFKGKYVLVDFWASWCGPCR ENPN+V+A+ +FKDKNFT+LGVSLDKD+AAW++A+KAD++ W  + DLA   SK V LY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_126244530.1|</Hit_id>
+  <Hit_def>AhpC/TSA family protein [Chitinophaga rhizosphaerae]</Hit_def>
+  <Hit_accession>WP_126244530</Hit_accession>
+  <Hit_len>382</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>158.688</Hsp_bit-score>
+      <Hsp_score>400</Hsp_score>
+      <Hsp_evalue>1.24307e-44</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>253</Hsp_hit-from>
+      <Hsp_hit-to>351</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>FILPDPNGKNLALSSFKGKYVLVDFWASWCGPCRVENPNIVSAYREFKDKNFTILGVSLDKDRAAWLKAIKADSITWTHVCDLAIGVSKVVALYGVGAV</Hsp_qseq>
+      <Hsp_hseq>FVLPDPAGKQIKLSSFKGKFVLVDFWASWCGPCRQENPNVVAAFNQYKDKNFTILGVSLDKEKGAWMKAISDDQLAWTHVSDLKFWESSVVPLYGINAI</Hsp_hseq>
+      <Hsp_midline>F+LPDP GK + LSSFKGK+VLVDFWASWCGPCR ENPN+V+A+ ++KDKNFTILGVSLDK++ AW+KAI  D + WTHV DL    S VV LYG+ A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_145710556.1|</Hit_id>
+  <Hit_def>AhpC/TSA family protein [Chitinophaga japonensis] &gt;gb|TWI91405.1| peroxiredoxin [Chitinophaga japonensis]</Hit_def>
+  <Hit_accession>WP_145710556</Hit_accession>
+  <Hit_len>387</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>158.688</Hsp_bit-score>
+      <Hsp_score>400</Hsp_score>
+      <Hsp_evalue>1.66033e-44</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>258</Hsp_hit-from>
+      <Hsp_hit-to>356</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>FILPDPNGKNLALSSFKGKYVLVDFWASWCGPCRVENPNIVSAYREFKDKNFTILGVSLDKDRAAWLKAIKADSITWTHVCDLAIGVSKVVALYGVGAV</Hsp_qseq>
+      <Hsp_hseq>FTLPDPSGKMVKLSSFRGKYVLVDFWASWCKPCRMENPNVVKAYQQYKDKNFTILGVSLDKKKEAWVQAIQADGLTWNHVSDLKFWDSAVVPLYGINAI</Hsp_hseq>
+      <Hsp_midline>F LPDP+GK + LSSF+GKYVLVDFWASWC PCR+ENPN+V AY+++KDKNFTILGVSLDK + AW++AI+AD +TW HV DL    S VV LYG+ A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_233180386.1|</Hit_id>
+  <Hit_def>AhpC/TSA family protein [Chitinophaga sp. ASV3]</Hit_def>
+  <Hit_accession>WP_233180386</Hit_accession>
+  <Hit_len>387</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>158.303</Hsp_bit-score>
+      <Hsp_score>399</Hsp_score>
+      <Hsp_evalue>1.88775e-44</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>258</Hsp_hit-from>
+      <Hsp_hit-to>356</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>FILPDPNGKNLALSSFKGKYVLVDFWASWCGPCRVENPNIVSAYREFKDKNFTILGVSLDKDRAAWLKAIKADSITWTHVCDLAIGVSKVVALYGVGAV</Hsp_qseq>
+      <Hsp_hseq>FTLPDPSGKMISLSSFRGKYVLVDFWASWCGPCRAENPNVVAAYQQFKNKNFTVLGVSLDKEKSNWVEAIKKDKLDWTHVSDLKFWESAVVNMYGINAI</Hsp_hseq>
+      <Hsp_midline>F LPDP+GK ++LSSF+GKYVLVDFWASWCGPCR ENPN+V+AY++FK+KNFT+LGVSLDK+++ W++AIK D + WTHV DL    S VV +YG+ A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|MBL0133372.1|</Hit_id>
+  <Hit_def>redoxin domain-containing protein [Chitinophagaceae bacterium]</Hit_def>
+  <Hit_accession>MBL0133372</Hit_accession>
+  <Hit_len>299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.992</Hsp_bit-score>
+      <Hsp_score>393</Hsp_score>
+      <Hsp_evalue>2.00799e-44</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>287</Hsp_query-to>
+      <Hsp_hit-from>170</Hsp_hit-from>
+      <Hsp_hit-to>264</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>FILPDPNGKNLALSSFKGKYVLVDFWASWCGPCRVENPNIVSAYREFKDKNFTILGVSLDKDRAAWLKAIKADSITWTHVCDLAIGVSKVVALYG</Hsp_qseq>
+      <Hsp_hseq>LILPDANGKNIALSSFKGKFVLVDFWASWCGPCRMENPNVVAAYQKFKNKNFTILGVSLDKDKAPWLEAITTDNLTWTHVSDLAYWNCAAVKIFG</Hsp_hseq>
+      <Hsp_midline> ILPD NGKN+ALSSFKGK+VLVDFWASWCGPCR+ENPN+V+AY++FK+KNFTILGVSLDKD+A WL+AI  D++TWTHV DLA      V ++G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_220392834.1|</Hit_id>
+  <Hit_def>redoxin domain-containing protein [Chitinophaga lutea]</Hit_def>
+  <Hit_accession>WP_220392834</Hit_accession>
+  <Hit_len>381</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.918</Hsp_bit-score>
+      <Hsp_score>398</Hsp_score>
+      <Hsp_evalue>2.46586e-44</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>252</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>FILPDPNGKNLALSSFKGKYVLVDFWASWCGPCRVENPNIVSAYREFKDKNFTILGVSLDKDRAAWLKAIKADSITWTHVCDLAIGVSKVVALYGVGAV</Hsp_qseq>
+      <Hsp_hseq>FTLPDPNGKNISLSSFKGKYVLVDFWASWCGPCRQENPNVVNAFMKYKDKNFTILGVSLDKTKDAWLKAIADDGLNWNHVSDLKFWESAVVPLYGITGI</Hsp_hseq>
+      <Hsp_midline>F LPDPNGKN++LSSFKGKYVLVDFWASWCGPCR ENPN+V+A+ ++KDKNFTILGVSLDK + AWLKAI  D + W HV DL    S VV LYG+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|QEC45903.1|</Hit_id>
+  <Hit_def>TlpA family protein disulfide reductase [Pseudobacter ginsenosidimutans]</Hit_def>
+  <Hit_accession>QEC45903</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.606</Hsp_bit-score>
+      <Hsp_score>392</Hsp_score>
+      <Hsp_evalue>3.07286e-44</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>175</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>ILPDPNGKNLALSSFKGKYVLVDFWASWCGPCRVENPNIVSAYREFKDKNFTILGVSLDKDRAAWLKAIKADSITWTHVCDLAIGVSKVVALY</Hsp_qseq>
+      <Hsp_hseq>VMPDPNGKNVSLSSFKGKYVLVDFWASWCGPCRAENPNVVNAFNKFKDKNFTVLGVSLDKDKAAWVQAVKADNLNWPQISDLAFWKSKAVELY</Hsp_hseq>
+      <Hsp_midline>++PDPNGKN++LSSFKGKYVLVDFWASWCGPCR ENPN+V+A+ +FKDKNFT+LGVSLDKD+AAW++A+KAD++ W  + DLA   SK V LY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|QEH43956.1|</Hit_id>
+  <Hit_def>redoxin domain-containing protein [Chitinophaga sp. XS-30]</Hit_def>
+  <Hit_accession>QEH43956</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.836</Hsp_bit-score>
+      <Hsp_score>390</Hsp_score>
+      <Hsp_evalue>4.33825e-44</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>157</Hsp_hit-from>
+      <Hsp_hit-to>255</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>FILPDPNGKNLALSSFKGKYVLVDFWASWCGPCRVENPNIVSAYREFKDKNFTILGVSLDKDRAAWLKAIKADSITWTHVCDLAIGVSKVVALYGVGAV</Hsp_qseq>
+      <Hsp_hseq>FTLPDPNGKQISLSSFKGKYVLVDFWASWCGPCRQENPNVVKAYLKYKDKNFTILGVSLDKTKDAWLKAIADDGLNWSHVSDLKFWESAVVPLYGISGI</Hsp_hseq>
+      <Hsp_midline>F LPDPNGK ++LSSFKGKYVLVDFWASWCGPCR ENPN+V AY ++KDKNFTILGVSLDK + AWLKAI  D + W+HV DL    S VV LYG+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469534606</Statistics_db-num>
+      <Statistics_db-len>1070605227</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>Searches from this IP address have consumed a large amount of server CPU time. Future searches may be penalized in fairness to other users. Please consider the BLAST+ binaries: https://www.ncbi.nlm.nih.gov/books/NBK279690/</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

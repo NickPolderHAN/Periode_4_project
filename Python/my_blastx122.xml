@@ -1,0 +1,293 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_54623</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_54623</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|PZN05077.1|</Hit_id>
+  <Hit_def>hypothetical protein DIU66_03035 [Firmicutes bacterium]</Hit_def>
+  <Hit_accession>PZN05077</Hit_accession>
+  <Hit_len>654</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.3521</Hsp_bit-score>
+      <Hsp_score>220</Hsp_score>
+      <Hsp_evalue>5.05219e-18</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>219</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>ERRIPPAWPMTAELRDTWSVKSFTTELLAAIGEEASMERAVEWGIVRPETDYPSHDKPILRREAAHTIARLLERRTGYQALFTTGGH</Hsp_qseq>
+      <Hsp_hseq>QRKVPE---LPVDFSKTLSVKEFTTQLLKALGREATMDYAFERGYVRPSAEYPSYEKPILRREAALTMARIMDDLTGMTALFTSGDN</Hsp_hseq>
+      <Hsp_midline>+R++P    +  +   T SVK FTT+LL A+G EA+M+ A E G VRP  +YPS++KPILRREAA T+AR+++  TG  ALFT+G +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>tpg|HHY78383.1|</Hit_id>
+  <Hit_def>hypothetical protein [Clostridiales bacterium]</Hit_def>
+  <Hit_accession>HHY78383</Hit_accession>
+  <Hit_len>531</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.4261</Hsp_bit-score>
+      <Hsp_score>215</Hsp_score>
+      <Hsp_evalue>1.7883e-17</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>ELRDTWSVKSFTTELLAAIGEEASMERAVEWGIVRPETDYPSHDKPILRREAAHTIARLLERRTGYQALFTTGGHRY</Hsp_qseq>
+      <Hsp_hseq>DFTDTLTVKEFTEMVLKAIGREATMEYAISKEFVRPSADYPSYDKPILRREAALTVARIMDDITGMPALFTSGMNDY</Hsp_hseq>
+      <Hsp_midline>+  DT +VK FT  +L AIG EA+ME A+    VRP  DYPS+DKPILRREAA T+AR+++  TG  ALFT+G + Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_161950364.1|</Hit_id>
+  <Hit_def>S-layer homology domain-containing protein [Pseudoclostridium thermosuccinogenes]</Hit_def>
+  <Hit_accession>WP_161950364</Hit_accession>
+  <Hit_len>657</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.0409</Hsp_bit-score>
+      <Hsp_score>214</Hsp_score>
+      <Hsp_evalue>2.666e-17</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>220</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>ERRIPPAWPMTAELRDTWSVKSFTTELLAAIGEEASMERAVEWGIVRPETDYPSHDKPILRREAAHTIARLLERRTGYQALFTTG</Hsp_qseq>
+      <Hsp_hseq>QRKIPE---LPVDFNNTLTVKEFTTQLLKALGKEANMDYALKMGYVRPSAEYPSYNKPILKREATLTMARIMDELTGVTALFTSG</Hsp_hseq>
+      <Hsp_midline>+R+IP    +  +  +T +VK FTT+LL A+G+EA+M+ A++ G VRP  +YPS++KPIL+REA  T+AR+++  TG  ALFT+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_237661270.1|</Hit_id>
+  <Hit_def>S-layer homology domain-containing protein [Tepidanaerobacter sp. GT38]</Hit_def>
+  <Hit_accession>WP_237661270</Hit_accession>
+  <Hit_len>654</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.8853</Hsp_bit-score>
+      <Hsp_score>211</Hsp_score>
+      <Hsp_evalue>6.77846e-17</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>218</Hsp_hit-from>
+      <Hsp_hit-to>299</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>ERRIPPAWPMTAELRDTWSVKSFTTELLAAIGEEASMERAVEWGIVRPETDYPSHDKPILRREAAHTIARLLERRTGYQALFTTG</Hsp_qseq>
+      <Hsp_hseq>QRKIPQ---LPIDLSNTLSVREFTTQLLKAMGKEATMEYAYEKGYVRSSAEYPSYEKPILRREATLTIARIMDDLTDMPALFTSG</Hsp_hseq>
+      <Hsp_midline>+R+IP    +  +L +T SV+ FTT+LL A+G+EA+ME A E G VR   +YPS++KPILRREA  TIAR+++  T   ALFT+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>tpg|HHW00227.1|</Hit_id>
+  <Hit_def>S-layer homology domain-containing protein [Clostridiaceae bacterium]</Hit_def>
+  <Hit_accession>HHW00227</Hit_accession>
+  <Hit_len>655</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>84.7297</Hsp_bit-score>
+      <Hsp_score>208</Hsp_score>
+      <Hsp_evalue>2.01472e-16</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>218</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>ERRIPPAWPMTAELRDTWSVKSFTTELLAAIGEEASMERAVEWGIVRPETDYPSHDKPILRREAAHTIARLLERRTGYQALFTTG--GH</Hsp_qseq>
+      <Hsp_hseq>DRRKIPELPV--DFSNTLSVEEFTTQLLNAMGKEATMEYAQKMGYVRPSAEYPSYEKPILRREAAKIVAKIMDELIGIKGFFTSGIDGH</Hsp_hseq>
+      <Hsp_midline>+RR  P  P+  +  +T SV+ FTT+LL A+G+EA+ME A + G VRP  +YPS++KPILRREAA  +A++++   G +  FT+G  GH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_129723524.1|</Hit_id>
+  <Hit_def>S-layer homology domain-containing protein [Xylanivirga thermophila]</Hit_def>
+  <Hit_accession>WP_129723524</Hit_accession>
+  <Hit_len>646</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.337</Hsp_bit-score>
+      <Hsp_score>194</Hsp_score>
+      <Hsp_evalue>1.5859e-14</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>210</Hsp_hit-from>
+      <Hsp_hit-to>294</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>ERRIPPAWPMTAELRDTWSVKSFTTELLAAIGEEASMERAVEWGIVRPETDYPSHDKPILRREAAHTIARLLERRTGYQALFTTG</Hsp_qseq>
+      <Hsp_hseq>DRRKIPELPKTVDFSNTLTVKEFTEMALKTVGKEPTMEYAQKMEYVRPSAEYPSYEKPILRREATLTMARIMDDLTDTPALFTSG</Hsp_hseq>
+      <Hsp_midline>+RR  P  P T +  +T +VK FT   L  +G+E +ME A +   VRP  +YPS++KPILRREA  T+AR+++  T   ALFT+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>tpg|HCL01199.1|</Hit_id>
+  <Hit_def>hypothetical protein [Lachnoclostridium phytofermentans]</Hit_def>
+  <Hit_accession>HCL01199</Hit_accession>
+  <Hit_len>671</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.8702</Hsp_bit-score>
+      <Hsp_score>185</Hsp_score>
+      <Hsp_evalue>2.67109e-13</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>271</Hsp_query-to>
+      <Hsp_hit-from>225</Hsp_hit-from>
+      <Hsp_hit-to>316</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>RIPPAWPMTAE-LRDTWSVKSFTTELLAAIGEEAS---MERAVEWGIVRPETDYPSHDKPILRREAAHTIARLLERRTGYQALFTTGGHRYS</Hsp_qseq>
+      <Hsp_hseq>RIVPTVPTTTKNMSNTVTVEEFTTQLLKAVGKFSTSNWMNLANYKEFVRPEADYPSYQKPILRREAAMIVARLMDDITDIERLFTRGGNEVS</Hsp_hseq>
+      <Hsp_midline>RI P  P T + + +T +V+ FTT+LL A+G+ ++   M  A     VRPE DYPS+ KPILRREAA  +ARL++  T  + LFT GG+  S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|NLM44062.1|</Hit_id>
+  <Hit_def>hypothetical protein [Clostridiales bacterium]</Hit_def>
+  <Hit_accession>NLM44062</Hit_accession>
+  <Hit_len>466</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.3066</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>1.75962e-07</Hsp_evalue>
+      <Hsp_query-from>137</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>49</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>44</Hsp_align-len>
+      <Hsp_qseq>VRPETDYPSHDKPILRREAAHTIARLLERRTGYQALFTTGGHRY</Hsp_qseq>
+      <Hsp_hseq>VRPLADYPSYDKPILRREAALIVARVMDDITGMPALFTSGKNDY</Hsp_hseq>
+      <Hsp_midline>VRP  DYPS+DKPILRREAA  +AR+++  TG  ALFT+G + Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_216517913.1|</Hit_id>
+  <Hit_def>peptidoglycan recognition protein family protein [Tissierella simiarum] &gt;gb|MBU5437622.1| peptidoglycan recognition protein family protein [Tissierella simiarum]</Hit_def>
+  <Hit_accession>WP_216517913</Hit_accession>
+  <Hit_len>316</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>0.00645402</Hsp_evalue>
+      <Hsp_query-from>56</Hsp_query-from>
+      <Hsp_query-to>220</Hsp_query-to>
+      <Hsp_hit-from>125</Hsp_hit-from>
+      <Hsp_hit-to>180</Hsp_hit-to>
+      <Hsp_query-frame>2</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>SVKSFTTELLAAIGE-EASMERAVEWGIVRPETDYPSHDKPILRREAAHTIARLLE</Hsp_qseq>
+      <Hsp_hseq>TVREFTEMLLKASGESKTNVEYANEKKYVKSSAEYGSYDKPLLRKEAAQITARVID</Hsp_hseq>
+      <Hsp_midline>+V+ FT  LL A GE + ++E A E   V+   +Y S+DKP+LR+EAA   AR+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469534606</Statistics_db-num>
+      <Statistics_db-len>1070605227</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

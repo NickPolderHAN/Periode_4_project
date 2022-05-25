@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastx</BlastOutput_program>
+  <BlastOutput_version>BLASTX 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_44007</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>301</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_44007</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>301</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_246230946.1|</Hit_id>
+  <Hit_def>TIGR02594 family protein [Rhizobium oryzihabitans]</Hit_def>
+  <Hit_accession>WP_246230946</Hit_accession>
+  <Hit_len>756</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.485</Hsp_bit-score>
+      <Hsp_score>184</Hsp_score>
+      <Hsp_evalue>3.08931e-13</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>ATGEAFGASIGRGLANLGAGVSKIGAALEAVRDLEDESRVREALNHYMREMAARMYDPDTGYLLSPVRTAHCQRSVVVANLRTLR</Hsp_qseq>
+      <Hsp_hseq>ASGDDFGAQIGRGMQSVGQSIGVLGDAVEKVNALKDETGAREARNAYMREKDQLMYDPENGYMNMSGRNALDARQGVVDKLKALR</Hsp_hseq>
+      <Hsp_midline>A+G+ FGA IGRG+ ++G  +  +G A+E V  L+DE+  REA N YMRE    MYDP+ GY+    R A   R  VV  L+ LR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_174373310.1|</Hit_id>
+  <Hit_def>TIGR02594 family protein [Agrobacterium tumefaciens] &gt;gb|NTZ90468.1| TIGR02594 family protein [Agrobacterium tumefaciens]</Hit_def>
+  <Hit_accession>WP_174373310</Hit_accession>
+  <Hit_len>756</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.7886</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>2.8404e-12</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>LAPVATGEAFGASIGRGLANLGAGVSKIGAALEAVRDLEDESRVREALNHYMREMAARMYDPDTGYLLSPVRTAHCQRSVVVANLRTLR</Hsp_qseq>
+      <Hsp_hseq>LTSQASPDDFGAQIGRGMQRVAQGVGALGDAVEKVNALKDETGAREARNAYMREKDQLMYDPENGYMNMAGRNALDARQGVVDKLKALR</Hsp_hseq>
+      <Hsp_midline>L   A+ + FGA IGRG+  +  GV  +G A+E V  L+DE+  REA N YMRE    MYDP+ GY+    R A   R  VV  L+ LR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_247522979.1|</Hit_id>
+  <Hit_def>hypothetical protein [Bradyrhizobium sp. 145]</Hit_def>
+  <Hit_accession>WP_247522979</Hit_accession>
+  <Hit_len>910</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.4034</Hsp_bit-score>
+      <Hsp_score>176</Hsp_score>
+      <Hsp_evalue>4.62502e-12</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>ATGEAFGASIGRGLANLGAGVSKIGAALEAVRDLEDESRVREALNHYMREMAARMYDPDTGYLLSPVRTAHCQRSVVVANLRTLRGQSPQELNP</Hsp_qseq>
+      <Hsp_hseq>ATPESFGADIGKGLEALGKGGESLADSFAKVQALEDETIVRQARNGYLREKDALQYDPEKGYLQKAGQTAMDAFPQYLSDLDTVRKDTASKLTP</Hsp_hseq>
+      <Hsp_midline>AT E+FGA IG+GL  LG G   +  +   V+ LEDE+ VR+A N Y+RE  A  YDP+ GYL    +TA       +++L T+R  +  +L P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_234842779.1|</Hit_id>
+  <Hit_def>TIGR02594 family protein [Sinorhizobium meliloti]</Hit_def>
+  <Hit_accession>WP_234842779</Hit_accession>
+  <Hit_len>820</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.0922</Hsp_bit-score>
+      <Hsp_score>170</Hsp_score>
+      <Hsp_evalue>2.35892e-11</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>ATGEAFGASIGRGLANLGAGVSKIGAALEAVRDLEDESRVREALNHYMREMAARMYDPDTGYL</Hsp_qseq>
+      <Hsp_hseq>ATPEAFGAAIGRGMQSAARGVAQVSDAMAQVQALEDEANVRRARNEYLREKDSLLYDPDKGYL</Hsp_hseq>
+      <Hsp_midline>AT EAFGA+IGRG+ +   GV+++  A+  V+ LEDE+ VR A N Y+RE  + +YDPD GYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_234843318.1|</Hit_id>
+  <Hit_def>TIGR02594 family protein [Sinorhizobium meliloti]</Hit_def>
+  <Hit_accession>WP_234843318</Hit_accession>
+  <Hit_len>820</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.3958</Hsp_bit-score>
+      <Hsp_score>163</Hsp_score>
+      <Hsp_evalue>2.48738e-10</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>ATGEAFGASIGRGLANLGAGVSKIGAALEAVRDLEDESRVREALNHYMREMAARMYDPDTGYL</Hsp_qseq>
+      <Hsp_hseq>ATPEAFGAAIGRGMQSAARGVAHVSDAVAQIQALEDEANVRRARNEYLREKDNLLYDPDKGYL</Hsp_hseq>
+      <Hsp_midline>AT EAFGA+IGRG+ +   GV+ +  A+  ++ LEDE+ VR A N Y+RE    +YDPD GYL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_127850480.1|</Hit_id>
+  <Hit_def>hypothetical protein [Mesorhizobium sp. M00.F.Ca.ET.217.01.1.1] &gt;gb|TGQ15873.1| hypothetical protein EN860_025285 [Mesorhizobium sp. M00.F.Ca.ET.217.01.1.1]</Hit_def>
+  <Hit_accession>WP_127850480</Hit_accession>
+  <Hit_len>299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.2402</Hsp_bit-score>
+      <Hsp_score>160</Hsp_score>
+      <Hsp_evalue>3.71015e-10</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>94</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>LAPVATGEAFGASIGRGLANLGAGVSKIGAALEAVRDLEDESRVREALNHYMREMAARMYDPDTGYLLSPVRTA</Hsp_qseq>
+      <Hsp_hseq>LEPNATPEAFGASIGRGMQGAAAGLDKFADVAAQVKSLEDEAAVRRARNQYIAEADTLKYDPEGGFLQKEGRSA</Hsp_hseq>
+      <Hsp_midline>L P AT EAFGASIGRG+    AG+ K       V+ LEDE+ VR A N Y+ E     YDP+ G+L    R+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_247449653.1|</Hit_id>
+  <Hit_def>hypothetical protein [Bradyrhizobium sp. 180]</Hit_def>
+  <Hit_accession>WP_247449653</Hit_accession>
+  <Hit_len>796</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.6254</Hsp_bit-score>
+      <Hsp_score>161</Hsp_score>
+      <Hsp_evalue>3.92357e-10</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>ATGEAFGASIGRGLANLGAGVSKIGAALEAVRDLEDESRVREALNHYMREMAARMYDPDTGYLLSPVRTAHCQRSVVVANLRTLRGQSPQELNP</Hsp_qseq>
+      <Hsp_hseq>ATPETFGADLGRGLDALGRGGESLVDSLARVQALEDETIVRQARNNYMRDKDVLQYDPESGYLQKQGQAAMDAFPKYLSDLDKLRRDATSKLTP</Hsp_hseq>
+      <Hsp_midline>AT E FGA +GRGL  LG G   +  +L  V+ LEDE+ VR+A N+YMR+     YDP++GYL    + A       +++L  LR  +  +L P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_127850475.1|</Hit_id>
+  <Hit_def>D-alanyl-D-alanine carboxypeptidase family protein [Mesorhizobium sp. M00.F.Ca.ET.217.01.1.1] &gt;gb|TGQ15868.1| hypothetical protein EN860_025255 [Mesorhizobium sp. M00.F.Ca.ET.217.01.1.1]</Hit_def>
+  <Hit_accession>WP_127850475</Hit_accession>
+  <Hit_len>882</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.2402</Hsp_bit-score>
+      <Hsp_score>160</Hsp_score>
+      <Hsp_evalue>6.23673e-10</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>94</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>LAPVATGEAFGASIGRGLANLGAGVSKIGAALEAVRDLEDESRVREALNHYMREMAARMYDPDTGYLLSPVRTA</Hsp_qseq>
+      <Hsp_hseq>LEPNATPEAFGASIGRGMQGAAAGLDKFADVAAQVKSLEDEAAVRRARNQYIAEADTLKYDPEGGFLQKEGRSA</Hsp_hseq>
+      <Hsp_midline>L P AT EAFGASIGRG+    AG+ K       V+ LEDE+ VR A N Y+ E     YDP+ G+L    R+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|TGV90036.1|</Hit_id>
+  <Hit_def>hypothetical protein EN801_020485 [Mesorhizobium sp. M00.F.Ca.ET.158.01.1.1]</Hit_def>
+  <Hit_accession>TGV90036</Hit_accession>
+  <Hit_len>882</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>9.20627e-10</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>ATGEAFGASIGRGLANLGAGVSKIGAALEAVRDLEDESRVREALNHYMREMAARMYDPDTGYLLSPVRTA-----HCQRSVVVANLRT</Hsp_qseq>
+      <Hsp_hseq>ATPEAFGASVGRGMQSAAAGLDKFADVAAQVKSLEDEAAVRRARNQYIAEADTLKYDPDGGFLQKEGRSAIDAFPEYQRN--VGNLRN</Hsp_hseq>
+      <Hsp_midline>AT EAFGAS+GRG+ +  AG+ K       V+ LEDE+ VR A N Y+ E     YDPD G+L    R+A       QR+  V NLR </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_029728023.1|</Hit_id>
+  <Hit_def>M15 family metallopeptidase [Sinorhizobium meliloti] &gt;gb|ARS70117.1| hypothetical protein SMRU11_23995 [Sinorhizobium meliloti RU11/001]</Hit_def>
+  <Hit_accession>WP_029728023</Hit_accession>
+  <Hit_len>818</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>1.5813e-09</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>3</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>94</Hsp_align-len>
+      <Hsp_qseq>ATGEAFGASIGRGLANLGAGVSKIGAALEAVRDLEDESRVREALNHYMREMAARMYDPDTGYLLSPVRTAHCQRSVVVANLRTLRGQSPQELNP</Hsp_qseq>
+      <Hsp_hseq>ATPDAFGASIGRGMQSAGRGIGMAGDAAAQIQALEDEANTRRARNEYLRDKDTLQYDPDKGYLQKQGKDAIDGIGEYERGLKDLRRKHASRLTP</Hsp_hseq>
+      <Hsp_midline>AT +AFGASIGRG+ + G G+   G A   ++ LEDE+  R A N Y+R+     YDPD GYL    + A          L+ LR +    L P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>469534606</Statistics_db-num>
+      <Statistics_db-len>1070605227</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
