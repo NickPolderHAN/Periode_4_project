@@ -25,7 +25,7 @@ def blast_dictionary(key, sequence, name_counter):
         out_handle.write(result_handle.read())
 
 
-def main(sequence_dictionary):
+def get_first_reads(sequence_dictionary):
     seq_counter = 1
     alignment_counter = 0
 
@@ -37,12 +37,10 @@ def main(sequence_dictionary):
     # loops through the dictionary containing all sequences
     # and their corresponding headers.
     for key in sequence_dictionary:
-        temp_key = ""
-        if len(key) < 4:
-            temp_key = "[" + str(key) + "]"
+
         # checks if a key is in the check_file contents so that it
         # may skip sequences that have already been aligned.
-        if temp_key not in file_contents and alignment_counter <= 10:
+        if key not in file_contents and alignment_counter <= 10:
             sequence = sequence_dictionary[key]
             blast_dictionary(key, sequence, seq_counter)
             time.sleep(10.0)
@@ -57,3 +55,31 @@ def main(sequence_dictionary):
 
         else:
             seq_counter += 1
+
+
+def get_second_reads(sequence_dict):
+    counter = 101
+
+    # opens the file containing headers of sequences that have already
+    # been aligned. (used to skip already aligned sequences)
+    with open("alignment_checklist.txt", "r") as check_file:
+        file_contents = check_file.read()
+
+    while counter <= 200:
+        seq = sequence_dict[str(counter)]
+        key_name = "Read2: " + str(counter)
+        if key_name not in file_contents:
+            key_name = "Read2: " + str(counter)
+            blast_dictionary(key_name, seq, counter)
+
+            # adds a sequence header to the check file so that it
+            # will not be aligned when the code runs again.
+            with open("alignment_checklist.txt", "a") as check_file:
+                check_file.write(key_name + ", as .xml file #" +
+                                 str(counter) + '\n')
+
+        counter += 1
+
+
+def main(sequence_dictionary):
+    get_second_reads(sequence_dictionary)
