@@ -74,23 +74,23 @@
                 <p>hier komt de tabel te staan</p>
                 <table class="tabelresultaat">
                     <tr>
-                        <th>Score</th>
-                        <th>E-value</th>
-                        <th>Identity%</th>
-                        <th>Organisme</th>
-                        <th>Eiwit</th>
-                        <th>Accessiecode</th>
-                        <th>Positives</th>
+                        <th class="tabelresultaat">Score</th>
+                        <th class="tabelresultaat">E-value</th>
+                        <th class="tabelresultaat">Identity%</th>
+                        <th class="tabelresultaat">Organisme</th>
+                        <th class="tabelresultaat">Eiwit</th>
+                        <th class="tabelresultaat">Accessiecode</th>
+                        <th class="tabelresultaat">Positives</th>
                     </tr>
                     {% for x in data %}
                     <tr>
-                        <td>{{x[0]}}</td>
-                        <td>{{x[1]}}</td>
-                        <td>{{x[2]}}</td>
-                        <td>{{x[3]}}</td>
-                        <td>{{x[4]}}</td>
-                        <td>{{x[5]}}</td>
-                        <td>{{x[6]}}</td>
+                        <td class="tabelresultaat">{{x[0]}}</td>
+                        <td class="tabelresultaat">{{x[1]}}</td>
+                        <td class="tabelresultaat">{{x[2]}}</td>
+                        <td class="tabelresultaat">{{x[3]}}</td>
+                        <td class="tabelresultaat">{{x[4]}}</td>
+                        <td class="tabelresultaat">{{x[5]}}</td>
+                        <td class="tabelresultaat">{{x[6]}}</td>
                     </tr>
                     {% endfor %}
                 </table>
