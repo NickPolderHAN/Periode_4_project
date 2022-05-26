@@ -7,7 +7,8 @@ class SorteerKnoppen:
 
     def get_data(self, e_value_min, e_value_max, percent_identity_min,
                  percent_identity_max, organism, protein):
-        """
+        """ Checks all parameters to execute specific queries and
+        returns a list containing data from the database.
 
         :param e_value_min: String -> contains a minimum e-value
         :param e_value_max: String -> contains a maximum e-value
@@ -15,9 +16,9 @@ class SorteerKnoppen:
                                                identity percentage
         :param percent_identity_max: String -> contains a maximum
                                                identity percentage
-        :param organism:
-        :param protein:
-        :return:
+        :param organism: String -> contains a organism
+        :param protein: String -> contains a protein
+        :return: result -> List -> contains the data
         """
         # makes a connection to the database.
         mydb = mysql.connector.connect(
@@ -29,6 +30,7 @@ class SorteerKnoppen:
         )
         mycursor = mydb.cursor()
 
+        # checks all parameters and executes specific queries.
         if e_value_min != '' and e_value_max != '':
             if percent_identity_min != '' and percent_identity_max != '':
                 if organism != '':
@@ -117,5 +119,6 @@ class SorteerKnoppen:
             sql = f"select * from hits"
             mycursor.execute(sql)
 
+        # fetches all results from the queries.
         self.__result = mycursor.fetchall()
         return self.__result
