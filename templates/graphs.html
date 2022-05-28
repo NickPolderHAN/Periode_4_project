@@ -30,24 +30,24 @@
                     title: "aantal voorkomen in sample",
                     titleFontSize: 14,
                     includeZero: true,
-                    suffix: "bn"
+
                 },
                 data: [{
                     type: "bar",
                     axisYType: "secondary",
-                    yValueFormatString: "#,###.##bn",
+                    yValueFormatString: "#,###.##",
                     indexLabel: "{y}",
                     dataPoints: [
-                        {label: "organisme", y: 3.25},
-                        {label: "organisme", y: 3.32},
-                        {label: "organisme", y: 3.63},
-                        {label: "organisme", y: 3.72},
-                        {label: "organisme", y: 3.90},
-                        {label: "organisme", y: 4.32},
-                        {label: "organisme", y: 4.66},
-                        {label: "organisme", y: 4.91},
-                        {label: "organisme", y: 6.13},
-                        {label: "organisme", y: 6.88}
+                        {label: "{{ org10 }}", y: {{ corg10 }}},
+                        {label: "{{ org9 }}", y: {{ corg9 }}},
+                        {label: "{{ org8 }}", y: {{ corg8 }}},
+                        {label: "{{ org7 }}", y: {{ corg7 }}},
+                        {label: "{{ org6 }}", y: {{ corg6 }}},
+                        {label: "{{ org5 }}", y: {{ corg5 }}},
+                        {label: "{{ org4 }}", y: {{ corg4 }}},
+                        {label: "{{ org3 }}", y: {{ corg3 }}},
+                        {label: "{{ org2 }}", y: {{ corg2 }}},
+                        {label: "{{ org1 }}", y: {{ corg1 }}}
                     ]
                 }]
             });
@@ -69,24 +69,23 @@
                     title: "aantal voorkomen in sample",
                     titleFontSize: 14,
                     includeZero: true,
-                    suffix: "bn"
                 },
                 data: [{
                     type: "bar",
                     axisYType: "secondary",
-                    yValueFormatString: "#,###.##bn",
+                    yValueFormatString: "#,###.##",
                     indexLabel: "{y}",
                     dataPoints: [
-                        {label: "eiwit", y: 3.25},
-                        {label: "eiwit", y: 3.32},
-                        {label: "eiwit", y: 3.63},
-                        {label: "eiwit", y: 3.72},
-                        {label: "eiwit", y: 3.90},
-                        {label: "eiwit", y: 4.32},
-                        {label: "eiwit", y: 4.66},
-                        {label: "eiwit", y: 4.91},
-                        {label: "eiwit", y: 6.13},
-                        {label: "eiwit", y: 6.88}
+                        {label: "{{ ei10 }}", y: {{ cei10 }}},
+                        {label: "{{ ei9 }}", y: {{ cei9 }}},
+                        {label: "{{ ei8 }}", y: {{ cei8 }}},
+                        {label: "{{ ei7 }}", y: {{ cei7 }}},
+                        {label: "{{ ei6 }}", y: {{ cei6 }}},
+                        {label: "{{ ei5 }}", y: {{ cei5 }}},
+                        {label: "{{ ei4 }}", y: {{ cei4 }}},
+                        {label: "{{ ei3 }}", y: {{ cei3 }}},
+                        {label: "{{ ei2 }}", y: {{ cei2 }}},
+                        {label: "{{ ei1 }}", y: {{ cei1 }}}
                     ]
                 }]
             });
@@ -113,6 +112,7 @@
                     more</a>
             </nav>
         </div>
+
     </header>
 
 
