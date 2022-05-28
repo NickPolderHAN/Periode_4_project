@@ -15,15 +15,14 @@
     <script>
         window.onload = function () {
 
-            var chart1 = new CanvasJS.Chart("chartContainer1", {
-                theme: "dark2", // "light1", "light2", "dark1"
+            var organismetabel = new CanvasJS.Chart("chartContainer1", {
+                theme: "dark2",
                 animationEnabled: true,
                 title: {
                     text: "Top 10 organismen in sample"
                 },
                 axisX: {
                     margin: 10,
-                    labelPlacement: "inside",
                     tickPlacement: "inside"
                 },
                 axisY2: {
@@ -34,6 +33,7 @@
                 },
                 data: [{
                     type: "bar",
+                    name: "test0",
                     axisYType: "secondary",
                     yValueFormatString: "#,###.##",
                     indexLabel: "{y}",
@@ -51,10 +51,10 @@
                     ]
                 }]
             });
-            chart1.render();
+            organismetabel.render();
 
 
-            var chart2 = new CanvasJS.Chart("chartContainer2", {
+            var eiwittabel = new CanvasJS.Chart("chartContainer2", {
                 theme: "dark2",
                 animationEnabled: true,
                 title: {
@@ -62,7 +62,6 @@
                 },
                 axisX: {
                     margin: 10,
-                    labelPlacement: "inside",
                     tickPlacement: "inside"
                 },
                 axisY2: {
@@ -72,6 +71,7 @@
                 },
                 data: [{
                     type: "bar",
+                    name: "test1",
                     axisYType: "secondary",
                     yValueFormatString: "#,###.##",
                     indexLabel: "{y}",
@@ -89,7 +89,7 @@
                     ]
                 }]
             });
-            chart2.render();
+            eiwittabel.render();
         }
     </script>
 </head>
@@ -97,6 +97,7 @@
 
 <body class="d-flex h-100 text-center text-white bg-dark">
 
+<div class=" d-flex w-100 h-100 p-3 mx-auto flex-column">
 <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
     <header class="mb-auto">
         <div>
@@ -114,6 +115,8 @@
         </div>
 
     </header>
+</div>
+
 
 
     <br>
@@ -123,7 +126,7 @@
         <script src="https://canvasjs.com/assets/script/canvasjs.min.js">
 
         </script>
-        <script>chart1</script>
+        <script>organismetabel</script>
     </div>
     <br>
     <div class="container_graph">
@@ -132,7 +135,7 @@
         <script src="https://canvasjs.com/assets/script/canvasjs.min.js">
 
         </script>
-        <script>chart2</script>
+        <script>eiwittabel</script>
     </div>
 
 
