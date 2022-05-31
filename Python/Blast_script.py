@@ -7,8 +7,8 @@ def blast_dictionary(key, sequence, name_counter):
     Takes a sequence as input, runs this sequence through the Blast
     and then stores the Blast results in a .xml file.
 
-    :param key: String ->
     :param sequence: String -> contains a sequence.
+    :param key: String -> contains the id given to that sequence.
     :param name_counter: Int -> counter to skip-
                                 already aligned sequences.
     :output .xml file -> writes the alignment results to a file.
@@ -25,7 +25,17 @@ def blast_dictionary(key, sequence, name_counter):
         out_handle.write(result_handle.read())
 
 
-def get_first_reads(sequence_dictionary):
+def get_first_reads(sequence_dict):
+    """
+    Function to extract the first set of reads from the sequence
+    dictionary and Blast them one by one using the blast_dictionary
+    function.
+
+    :param sequence_dict: Dict -> contains the sequences of the
+                                    first and second set of reads.
+
+    """
+
     seq_counter = 1
     alignment_counter = 0
 
@@ -36,12 +46,12 @@ def get_first_reads(sequence_dictionary):
 
     # loops through the dictionary containing all sequences
     # and their corresponding headers.
-    for key in sequence_dictionary:
+    for key in sequence_dict:
 
         # checks if a key is in the check_file contents so that it
         # may skip sequences that have already been aligned.
         if key not in file_contents and alignment_counter <= 10:
-            sequence = sequence_dictionary[key]
+            sequence = sequence_dict[key]
             blast_dictionary(key, sequence, seq_counter)
             time.sleep(10.0)
 
@@ -58,6 +68,15 @@ def get_first_reads(sequence_dictionary):
 
 
 def get_second_reads(sequence_dict):
+    """
+    Function to extract the second set of reads from the sequence
+    dictionary and Blast them one by one using the blast_dictionary
+    function.
+
+    :param sequence_dict: Dict -> contains the sequences of the
+                                    first and second set of reads.
+
+    """
     counter = 101
 
     # opens the file containing headers of sequences that have already
@@ -82,4 +101,18 @@ def get_second_reads(sequence_dict):
 
 
 def main(sequence_dictionary):
-    get_second_reads(sequence_dictionary)
+    # used to let the user choose the set of reads they want to align.
+    command = input("Enter '1' to blast the first set of reads."
+                    "\nEnter '2'"
+                    "to blast the second set of reads."
+                    "\nawaiting input...\n")
+
+    # condition to check if the first set was chosen.
+    if command == "1":
+        # used to blast the first set of reads.
+        get_first_reads(sequence_dictionary)
+
+    # condition to check if the second set was chosen.
+    elif command == "2":
+        # used to blast the second set of reads.
+        get_second_reads(sequence_dictionary)
