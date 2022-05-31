@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request
 from Python.sorteerknoppen import SorteerKnoppen
-from Python.grafiek_top_10 import top10
+from Python.grafiek_top_10 import TopTen
 
 app = Flask(__name__, template_folder='../templates',
             static_folder='../static')
@@ -13,9 +13,9 @@ def index():
 
 @app.route("/graphs", methods=["POST", "GET"])
 def graphs():
-    grafiek = top10()
-    eiwitten, aantal_eiwit = grafiek.data_top10_eiwitten()
-    organismen, aantal_organisme = grafiek.data_top10_organismen()
+    grafiek = TopTen()
+    eiwitten, aantal_eiwit = grafiek.data_top_ten_proteins()
+    organismen, aantal_organisme = grafiek.data_top_ten_organisms()
     ei1, ei2, ei3, ei4, ei5, ei6, ei7, ei8, ei9, ei10, = eiwitten
     cei1, cei2, cei3, cei4, cei5, cei6, cei7, cei8, cei9, cei10 = aantal_eiwit
     org1, org2, org3, org4, org5, org6, org7, org8, org9, org10 = organismen

@@ -1,21 +1,27 @@
 import mysql.connector as mq
 
 
-class top10():
+class TopTen:
     def __init__(self):
-        self.__eiwit = []
-        self.__aantal_eiwit = []
-        self.__organisme = []
-        self.__aantal_organisme = []
+        self.__protein = []
+        self.__protein_amount = []
+        self.__organism = []
+        self.__organism_amount = []
 
-    def data_top10_eiwitten(self):
+    def data_top_ten_proteins(self):
         """
-        Haalt de top 10 eiwitten met het aantal daarvan uit de database
-        en returnd twee lijsten met de data van de database.
-        :return:
-        eiwit -> list -> De top 10 eiwitten uit de database.
-        aantal_eiwit -> list -> Het aantal van de top 10 eiwitten
-                                uit de database.
+        Haalt de top 10 proteins met de bijbehorende
+        frequenties uit de database en returned deze
+        in twee lists.
+
+        :param self.__protein -> List -> De top 10 eiwitten
+                                        uit de database.
+
+        :param self.__protein_amount -> List -> Het aantal
+                                        van de top 10 eiwitten
+                                        uit de database.
+
+        :return self.__protein, self.__protein_amount
         """
         # Maakt een connectie met de database.
         db = mq.connect(host="145.74.104.145",
@@ -33,22 +39,30 @@ class top10():
         # Zet de resultaten in de goede lijsten
         for results in eiwit_counter:
             counter = 0
+
             for result in results:
                 if counter == 0:
                     counter += 1
-                    self.__eiwit.append(result)
-                elif counter == 1:
-                    self.__aantal_eiwit.append(result)
-        return self.__eiwit, self.__aantal_eiwit
+                    self.__protein.append(result)
 
-    def data_top10_organismen(self):
+                elif counter == 1:
+                    self.__protein_amount.append(result)
+
+        return self.__protein, self.__protein_amount
+
+    def data_top_ten_organisms(self):
         """
-        Haalt de top 10 organismen met het aantal daarvan uit de database
-        en returnd twee lijsten met de data van de database.
-        :return:
-        organisme -> list -> De top 10 organismen uit de database.
-        aantal_organsime -> list -> Het aantal van de top 10 organismen
-                                uit de database.
+        Haalt de top 10 organismen met de bijbehorende
+        frequenties uit de database en returned deze in twee lists.
+
+        :param self.__organism -> list -> De top 10 organismen
+                                            uit de database.
+
+        :param self.__organism_amount -> list -> Het aantal van de
+                                                top 10 organismen
+                                                uit de database.
+
+        :return return self.__organism, self.__organism_amount
         """
         # Maakt een connectie met de database.
         db = mq.connect(host="145.74.104.145",
@@ -69,7 +83,8 @@ class top10():
             for result in results:
                 if counter == 0:
                     counter += 1
-                    self.__organisme.append(result)
+                    self.__organism.append(result)
                 elif counter == 1:
-                    self.__aantal_organisme.append(result)
-        return self.__organisme, self.__aantal_organisme
+                    self.__organism_amount.append(result)
+
+        return self.__organism, self.__organism_amount
