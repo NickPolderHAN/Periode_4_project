@@ -14,14 +14,7 @@ class TopTen:
         frequenties uit de database en returned deze
         in twee lists.
 
-        :param self.__protein -> List -> De top 10 eiwitten
-                                        uit de database.
-
-        :param self.__protein_amount -> List -> Het aantal
-                                        van de top 10 eiwitten
-                                        uit de database.
-
-        :return self.__protein, self.__protein_amount
+        :return __protein, __protein_amount
         """
         # Maakt een connectie met de database.
         db = mq.connect(host="145.74.104.145",
@@ -56,13 +49,6 @@ class TopTen:
         Haalt de top 10 organismen met de bijbehorende
         frequenties uit de database en returned deze in twee lists.
 
-        :param self.__organism -> list -> De top 10 organismen
-                                            uit de database.
-
-        :param self.__organism_amount -> list -> Het aantal van de
-                                                top 10 organismen
-                                                uit de database.
-
         :return return self.__organism, self.__organism_amount
         """
         # Maakt een connectie met de database.
@@ -71,6 +57,7 @@ class TopTen:
                         password="pwd123",
                         database="pwtit",
                         auth_plugin='mysql_native_password')
+
         dbcursor = db.cursor()
         # Haalt de top 10 organismen uit de database.
         organismen = "Select organisme, count(*) From hits Group by " \
