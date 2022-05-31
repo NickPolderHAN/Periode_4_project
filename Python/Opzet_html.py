@@ -43,7 +43,9 @@ def learn_more():
 
 @app.route("/database_inladen", methods=["POST", "GET"])
 def table():
-    return render_template('table.html')
+    sk = SorteerKnoppen()
+    result = sk.load_page()
+    return render_template('table.html', data=result)
 
 
 @app.route("/table", methods=["POST", "GET"])
