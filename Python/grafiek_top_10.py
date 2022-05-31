@@ -6,7 +6,7 @@ class top10():
         self.__eiwit = []
         self.__aantal_eiwit = []
         self.__organisme = []
-        self.__aantal_organsime = []
+        self.__aantal_organisme = []
 
     def data_top10_eiwitten(self):
         """
@@ -71,5 +71,5 @@ class top10():
                     counter += 1
                     self.__organisme.append(result)
                 elif counter == 1:
-                    self.__aantal_organsime.append(result)
-        return self.__organisme, self.__aantal_organsime
+                    self.__aantal_organisme.append(result)
+        return self.__organisme, self.__aantal_organisme
