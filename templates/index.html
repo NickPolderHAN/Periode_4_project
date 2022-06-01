@@ -6,18 +6,20 @@
           content="Ambra Hovenier, Esmay Wissink, Nick van de Polder,
           Evy Kuenen">
     <title>BLAST</title>
+    <link rel="icon" href="{{ url_for('static',filename='toad.gif') }}"
+          type="image/gif" sizes="100%">
+    <!-- hieronder in de head staan alle imports van bootstrap-->
     <link rel="canonical"
           href="https://getbootstrap.com/docs/5.1/examples/cover/">
     <link href="../static/bootstrap.min.css" rel="stylesheet">
     <link href="../static/cover.css" rel="stylesheet">
-    <link rel="icon" href="{{ url_for('static',filename='toad.gif') }}"
-          type="image/gif" sizes="100%">
 </head>
 
 
 <body class="d-flex h-100 text-center text-white bg-dark">
 <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
     <header class="mb-auto">
+        <!-- in de header staat de navigatie-->
         <div>
             <h3 class="float-md-start mb-0">BLAST</h3>
             <nav class="nav nav-masthead justify-content-center float-md-end">
@@ -33,6 +35,8 @@
     </header>
 
     <main class="px-3">
+        <!-- in deze class staat alle tekst die op de pagina staat met een
+        plaatje, ook staat hier een knop naar de learn more pagina-->
         <h1>Blast pagina groepje 3</h1>
         <p><img src="{{ url_for('static',filename='mushroom.png') }}"
                 alt="champion" width='90%'></p>
@@ -46,6 +50,7 @@
         </p>
     </main>
     <footer class="mt-auto text-white-50">
+        <!-- in deze footer staat onze copyright-->
         <p>&copy;copyright groepje 3</p>
     </footer>
 </div>

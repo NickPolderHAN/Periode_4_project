@@ -1,9 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>BLAST</title>
-</head>
 <html lang="en" class="h-100">
 <head>
     <meta charset="utf-8">
@@ -11,12 +6,13 @@
           content="Ambra Hovenier, Esmay Wissink, Nick van de Polder,
           Evy Kuenen">
     <title>BLAST</title>
+    <link rel="icon" href="{{ url_for('static',filename='toad.gif') }}"
+          type="image/gif" sizes="100%">
+    <!-- hieronder in de head staan alle imports van bootstrap-->
     <link rel="canonical"
           href="https://getbootstrap.com/docs/5.1/examples/cover/">
     <link href="../static/bootstrap.min.css" rel="stylesheet">
     <link href="../static/cover.css" rel="stylesheet">
-    <link rel="icon" href="{{ url_for('static',filename='toad.gif') }}"
-          type="image/gif" sizes="100%">
 </head>
 
 
@@ -25,12 +21,15 @@
 <div class=" d-flex w-100 h-100 p-3 mx-auto flex-column">
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
         <header class="mb-auto">
+            <!-- in de header staat de navigatie-->
             <div>
                 <h3 class="float-md-start mb-0">BLAST</h3>
-                <nav class="nav nav-masthead justify-content-center float-md-end">
+                <nav class="nav nav-masthead justify-content-center
+                float-md-end">
                     <a class="nav-link"
                        href="{{ url_for('index') }}">Home</a>
-                    <a class="nav-link" href="{{ url_for('graphs') }}">Graphs</a>
+                    <a class="nav-link" href="{{ url_for('graphs') }}">Graphs
+                    </a>
                     <a class="nav-link active" aria-current="page"
                        href="{{ url_for('table') }}">Table</a>
                     <a class="nav-link"
@@ -46,6 +45,7 @@
                 <b>FILTERS</b>
                 <p>
                 <div class="filters">
+                <!-- hier in de class filters staan alle filters-->
                     <form action="/table" method="POST">
                         <label>E-value tussen</label><br>
                         <input type="text" class="tekstinvulveldlinks"
@@ -75,6 +75,8 @@
 
             <td class="tabelrechts">
                 <b>TABLE</b>
+                <!-- in dit deel van de tabel staan alle resultaten die uit de
+                 database opgehaald worden.-->
                 <table class="tabelresultaat">
                     <tr>
                         <th class="tabelresultaat">Score</th>
@@ -103,10 +105,9 @@
         <table>
 
             <footer class="mt-auto text-white-50">
+                <!-- in deze footer staat onze copyright-->
                 <p>&copy;copyright groepje 3</p>
             </footer>
-
-
         </table>
     </table>
 </div>
