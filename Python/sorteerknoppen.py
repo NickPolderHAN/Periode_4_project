@@ -51,6 +51,7 @@ class SorteerKnoppen:
         try:
             if e_value_min != '' and e_value_max != '':
                 if percent_identity_min != '' and percent_identity_max != '':
+                    # filter op e_value, percent_identity en organisme
                     if organism != '':
                         sql = f"select * from hits where e_value >= " \
                               f"{e_value_min} and e_value <= {e_value_max} " \
@@ -59,6 +60,7 @@ class SorteerKnoppen:
                               f"identitypercentage <= {percent_identity_max} "\
                               f"and organisme like '%{organism}%'"
                         mycursor.execute(sql)
+                    # filter op e_value, percent_identity en eiwit
                     elif protein != '':
                         sql = f"select * from hits where e_value >= " \
                               f"{e_value_min} and e_value <= {e_value_max} " \
@@ -67,6 +69,8 @@ class SorteerKnoppen:
                               f"identitypercentage <= {percent_identity_max} "\
                               f"and eiwit like '%{protein}%'"
                         mycursor.execute(sql)
+                    # filter op e_value, percent_identity, organisme en
+                    # eiwit
                     elif organism and protein != '':
                         sql = f"select * from hits where e_value >= " \
                               f"{e_value_min} and e_value <= {e_value_max} " \
@@ -76,6 +80,7 @@ class SorteerKnoppen:
                               f"and organisme like '%{organism}%' and eiwit " \
                               f"like '%{protein}%'"
                         mycursor.execute(sql)
+                    # filter op e_value en percent_identity
                     else:
                         sql = f"select * from hits where e_value >= " \
                               f"{e_value_min} and e_value <= {e_value_max} " \
@@ -84,28 +89,33 @@ class SorteerKnoppen:
                               f"identitypercentage <= {percent_identity_max}"
                         mycursor.execute(sql)
                 elif organism != '':
+                    # filter op e_value, organisme en eiwit
                     if protein != '':
                         sql = f"select * from hits where e_value >= " \
                               f"{e_value_min} and e_value <= {e_value_max} " \
                               f"and organisme like '%{organism}%' and eiwit " \
                               f"like '%{protein}%'"
                         mycursor.execute(sql)
+                    # filter op e_value en organisme
                     else:
                         sql = f"select * from hits where e_value >= " \
                               f"{e_value_min} and e_value <= {e_value_max} " \
                               f"and organisme like '%{organism}%'"
                         mycursor.execute(sql)
+                # filter op e_value en eiwit
                 elif protein != '':
                     sql = f"select * from hits where e_value >= " \
                           f"{e_value_min} and e_value <= {e_value_max} and " \
                           f"eiwit like '%{protein}%'"
                     mycursor.execute(sql)
+                # filter op e_value
                 else:
                     sql = f"select * from hits where e_value >= " \
                           f"{e_value_min} and e_value <= {e_value_max}"
                     mycursor.execute(sql)
             elif percent_identity_min != '' and percent_identity_max != '':
                 if organism != '':
+                    # filter op identity_percentage, organisme en eiwit
                     if protein != '':
                         sql = f"select * from hits where " \
                               f"identitypercentage >= {percent_identity_min} "\
@@ -113,35 +123,42 @@ class SorteerKnoppen:
                               f"{percent_identity_max} and organisme like " \
                               f"'%{organism}%' and eiwit like '%{protein}%'"
                         mycursor.execute(sql)
+                    # filter op identity_percentage en organisme
                     else:
                         sql = f"select * from hits where identitypercentage " \
                               f">= {percent_identity_min} and " \
                               f"identitypercentage <= {percent_identity_max} "\
                               f"and organisme like '%{organism}%'"
                         mycursor.execute(sql)
+                # filter op identity_percentage en eiwit
                 elif protein != '':
                     sql = f"select * from hits where identitypercentage >=" \
                           f"{percent_identity_min} and identitypercentage <=" \
                           f"{percent_identity_max} and eiwit like " \
                           f"'%{protein}%'"
                     mycursor.execute(sql)
+                # filter op identity_percentage
                 else:
                     sql = f"select * from hits where identitypercentage >=" \
                           f"{percent_identity_min} and identitypercentage <=" \
                           f"{percent_identity_max}"
                     mycursor.execute(sql)
             elif organism != '':
+                # filter op organisme en eiwit
                 if protein != '':
                     sql = f"select * from hits where organisme like " \
                           f"'%{organism}%' and eiwit like '%{protein}%'"
                     mycursor.execute(sql)
+                # filter op organisme
                 else:
                     sql = f"select * from hits where organisme like " \
                           f"'%{organism}%'"
                     mycursor.execute(sql)
+            # filter op eiwit
             elif protein != '':
                 sql = f"select * from hits where eiwit like '%{protein}%'"
                 mycursor.execute(sql)
+            # filter op alles leeg
             else:
                 sql = f"select * from hits"
                 mycursor.execute(sql)
