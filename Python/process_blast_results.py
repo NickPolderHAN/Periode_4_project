@@ -31,6 +31,8 @@ class BlastParser:
         self.__entrez_mail = ""
         self.__org_prot_list = []
         self.__attri_dict = {}
+
+        # template dictionary which is later copied.
         self.__attribute_template = {
             "score": 0.00,
             "e_val": 0.00,
@@ -47,6 +49,12 @@ class BlastParser:
 
     # reads the .xml file given to the init and returns its data.
     def gather_xml_file_data(self):
+        """
+        Gathers multiple values from the given xml file path
+        
+
+        :return:
+        """
         temp_dict = self.__attribute_template
         with open(self.__file_name, "r") as out_handle:
             blast_record = NCBIXML.parse(out_handle)

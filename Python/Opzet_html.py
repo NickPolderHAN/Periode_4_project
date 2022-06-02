@@ -6,11 +6,13 @@ app = Flask(__name__, template_folder='../templates',
             static_folder='../static')
 
 
+# used to render the main page.
 @app.route("/")
 def index():
     return render_template('index.html')
 
 
+# used to render the graphs page. Passes needed variables.
 @app.route("/graphs", methods=["POST", "GET"])
 def graphs():
     grafiek = TopTen()
@@ -36,11 +38,13 @@ def graphs():
                            )
 
 
+# renders the info page.
 @app.route("/infopagina", methods=["POST", "GET"])
 def learn_more():
     return render_template('learnmore.html')
 
 
+# renders the table page.
 @app.route("/database_inladen", methods=["POST", "GET"])
 def table():
     sk = SorteerKnoppen()

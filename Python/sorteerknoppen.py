@@ -21,7 +21,6 @@ class SorteerKnoppen:
         self.__result = mycursor.fetchall()
         return self.__result
 
-
     def get_data(self, e_value_min, e_value_max, percent_identity_min,
                  percent_identity_max, organism, protein):
         """ Checks all parameters to execute specific queries and
@@ -167,5 +166,5 @@ class SorteerKnoppen:
             self.__result = mycursor.fetchall()
             return self.__result
 
-        except:
+        except mysql.connector.Error as err:
             return self.__result
