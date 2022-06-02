@@ -11,7 +11,7 @@ def blast_dictionary(key, sequence, name_counter):
     :param key: String -> contains the id given to that sequence.
     :param name_counter: Int -> counter to skip-
                                 already aligned sequences.
-    :output .xml file -> writes the alignment results to a file.
+    :output .xml file -> writes the alignment results to a xml file.
     """
     # runs Blast on the given sequence.
     print("Started BLAST on: " + key + " " + str(name_counter))

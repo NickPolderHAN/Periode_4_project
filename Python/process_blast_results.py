@@ -7,7 +7,7 @@ from Bio import Entrez
 import time
 
 
-# used to retrieve the Blast results from a xml file.
+# used to retrieve the Blast results from a .xml file.
 class BlastParser:
     """
     BlastParser processes a .xml file and stores its contents

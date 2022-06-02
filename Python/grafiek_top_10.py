@@ -23,10 +23,12 @@ class TopTen:
                         database="pwtit",
                         auth_plugin='mysql_native_password')
         dbcursor = db.cursor()
+
         # Haalt de top 10 eiwitten uit de database
         eiwitten = "Select eiwit, count(*) From hits Group by eiwit " \
                    "Order by count(* ) desc limit 10"
 
+        # execute de select query en fetched de resultaten hiervan.
         dbcursor.execute(eiwitten)
         eiwit_counter = dbcursor.fetchall()
 
