@@ -51,9 +51,10 @@ class BlastParser:
     def gather_xml_file_data(self):
         """
         Gathers multiple values from the given xml file path
-        
+        and assigns them to keys in the temp_dict dictionary.
 
-        :return:
+        :return: __attri_dict -> Dict -> contains all the hit data
+                                        with keys per read and per hit.
         """
         temp_dict = self.__attribute_template
         with open(self.__file_name, "r") as out_handle:
@@ -133,6 +134,18 @@ class BlastParser:
         self.__org_prot_list.append(protein_list)
 
     def gather_taxonomy_data(self, organism_list):
+        """
+        Uses BioPythons Entrez to gather the taxonomy data of the given
+        organisms in the full organism_list.
+
+        :param organism_list: List -> contains all of the organisms
+        :return:
+            lineage_list -> List -> contains all the lineages gotten
+                                    from Entrez.
+
+            rank_list -> List -> contains all the ranks gotten
+                                from Entrez.
+        """
         self.__entrez_mail = "E.Wissink1@student.han.nl"
         Entrez.email = self.__entrez_mail
         lineage_list = []
@@ -156,6 +169,12 @@ class BlastParser:
         return lineage_list, rank_list
 
     def gather_sequences(self):
+        """
+        Gets the sequence from the full sequence dictionary
+        at the given file_count key.
+
+        :return sequence -> String -> contains a sequence.
+        """
         file_count = self.__hit_id
         sequence = self.__seq_data_dict[str(file_count)]
 
